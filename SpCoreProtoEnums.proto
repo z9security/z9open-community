@@ -212,8 +212,8 @@ enum DevMod {
 	DevMod_RESERVED161 = 161;
 	DevMod_RESERVED162 = 162;
 	DevMod_RESERVED163 = 163;
-	DevMod_RESERVED164 = 164;
-	DevMod_RESERVED165 = 165;
+	DevMod_IO_CONTROLLER_COMMUNITY = 164; // IO_CONTROLLER model: Community.
+	DevMod_IO_CONTROLLER_COMMUNITY_SUB = 165; // IO_CONTROLLER model: Community sub-controller.
 	DevMod_RESERVED166 = 166;
 	DevMod_RESERVED167 = 167;
 	DevMod_RESERVED168 = 168;
@@ -307,6 +307,7 @@ enum DevMod {
 	DevMod_RESERVED256 = 256;
 	DevMod_RESERVED257 = 257;
 	DevMod_RESERVED258 = 258;
+	DevMod_DOOR_COMMUNITY = 259; // DOOR model: Community.
 }
 // Types for subclasses of DevModConfig.
 enum DevModConfigType {
@@ -355,7 +356,7 @@ enum DevPlatform {
 	DevPlatform_RESERVED14 = 14;
 	DevPlatform_RESERVED15 = 15;
 	DevPlatform_RESERVED16 = 16;
-	DevPlatform_RESERVED17 = 17;
+	DevPlatform_COMMUNITY = 17; // Community
 	DevPlatform_RESERVED18 = 18;
 	DevPlatform_RESERVED19 = 19;
 	DevPlatform_RESERVED20 = 20;
@@ -982,6 +983,11 @@ enum EvtCode {
 	EvtCode_RESERVED274 = 274;
 	EvtCode_RESERVED275 = 275;
 	EvtCode_RESERVED276 = 276;
+	EvtCode_RESERVED277 = 277;
+	EvtCode_RESERVED278 = 278;
+	EvtCode_RESERVED279 = 279;
+	EvtCode_RESERVED280 = 280;
+	EvtCode_RESERVED281 = 281;
 }
 // An Evt sub-code, to provide further granularity than EvtCode.
 enum EvtSubCode {
