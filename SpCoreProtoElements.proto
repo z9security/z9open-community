@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+package z9.spcore.proto;
+
+message BigIntegerData {
+	/*required*/ oneof bytes_ { bytes bytes = 1;}
+}
+message SqlDateData {
+	/*required*/ oneof year_ { int32 year = 1;}
+	/*required*/ oneof month_ { int32 month = 2;}
+	/*required*/ oneof day_ { int32 day = 3;}
+}
+message SqlTimeData {
+	/*required*/ oneof hour_ { int32 hour = 1;}
+	/*required*/ oneof minute_ { int32 minute = 2;}
+	/*required*/ oneof second_ { int32 second = 3;}
+}
+message DateTimeData {
+	/*required*/ oneof millis_ { int64 millis = 1;}
+}

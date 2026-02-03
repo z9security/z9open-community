@@ -1,0 +1,213 @@
+// Copyright (C) 2011-Infinity Z9 Security. All rights reserved.
+
+syntax = "proto3";
+
+package z9.spcore.proto;
+
+option optimize_for = LITE_RUNTIME;
+
+import "SpCoreProtoElements.proto";
+import "SpCoreProtoEnums.proto";
+import "SpCoreProtoData.proto";
+
+message SpCoreMessage {
+	enum Type {
+		RFU_0 = 0;
+		IDENTIFICATION = 1;		// Bidirectional
+		PING = 2;				// Bidirectional
+		DB_CHANGE = 3;			// Host->Panel
+		DB_CHANGE_RESP = 4;		// Panel->Host
+		EVT = 5;				// Panel->Host most commonly, can go Host->Panel for architecture where events are sent the other way 
+		RFU_6 = 6;
+		DEV_ACTION_REQ = 7;		// Host->Panel
+		DEV_ACTION_RESP = 8;	// Panel->Host
+		EVT_CONTROL = 9;		// Host->Panel: control flow of evts, consume evts
+		RFU_10 = 10;
+		RFU_11 = 11;
+		RFU_12 = 12;
+		MULTI = 13;				// Panel->Host: can include EVT, DEV_STATE_RECORD, DEV_ACTION_RESP, CRED_STATE_RECORD, HOST_GRANT_REQ, DB_CHANGE_RESP, DB_QUERY_RESP
+		TERMINATE = 14;			// When sent Host->Panel: generally for tests, tells the process to exit.  But when sent from Panel-Host, indicates that the connection is being terminated, with terminationReason being set to the reason why.
+		RFU_15 = 15;
+		RFU_16 = 16;
+		RFU_17 = 17;
+		RFU_18 = 18;
+		RFU_19 = 19;
+		RFU_20 = 20;
+		RFU_21 = 21;
+		RFU_22 = 22;
+		RFU_23 = 23;
+		RFU_24 = 24;
+		RFU_25 = 25;
+		RFU_26 = 26;
+		RFU_27 = 27;
+		RFU_28 = 28;
+		RFU_29 = 29;
+		RFU_30 = 30;
+		RFU_31 = 31;
+		RFU_32 = 32;
+		RFU_33 = 33;
+		RFU_34 = 34;
+		RFU_35 = 35;
+		RFU_36 = 36;
+		RFU_37 = 37;
+		RFU_38 = 38;
+		RFU_39 = 39;
+		RFU_40 = 40;
+		RFU_41 = 41;
+		RFU_42 = 42;
+		RFU_43 = 43;
+		RFU_44 = 44;
+		RFU_45 = 45;
+		RFU_46 = 46;
+		RFU_47 = 47;
+		RFU_48 = 48;
+		RFU_49 = 49;
+		RFU_50 = 50;
+		RFU_51 = 51;
+		RFU_52 = 52;
+		RFU_53 = 53;
+		RFU_54 = 54;
+		RFU_55 = 55;
+		RFU_56 = 56;
+		RFU_57 = 57;
+		RFU_58 = 58;
+		RFU_59 = 59;
+		RFU_60 = 60;
+	}
+	/*required*/ oneof type_ { Type type = 1;}
+	
+	/*optional*/ Identification identification = 2;
+	/*optional*/ DbChange dbChange = 3;
+	/*optional*/ DbChangeResp dbChangeResp = 4;
+	repeated Evt evt = 5;
+	/*optional*/ DevActionReq devActionReq = 7;
+	/*optional*/ DevActionResp devActionResp = 8;
+	/*optional*/ EvtControl evtControl = 9;
+	/*optional*/ oneof terminationReason_ { TerminationReason terminationReason = 53;}
+}
+
+// range of allowed values
+message ProtocolCapabilities {
+	/*optional*/ oneof maxEnum_DevMod_ { int32 maxEnum_DevMod = 2;}
+	/*optional*/ oneof maxEnum_DevUse_ { int32 maxEnum_DevUse = 3;}
+	/*optional*/ oneof maxEnum_DevActionParamsType_ { int32 maxEnum_DevActionParamsType = 4;}
+	/*optional*/ oneof maxEnum_DevActionType_ { int32 maxEnum_DevActionType = 5;}
+	/*optional*/ oneof maxEnum_EvtCode_ { int32 maxEnum_EvtCode = 7;}
+	/*optional*/ oneof maxEnum_EvtSubCode_ { int32 maxEnum_EvtSubCode = 9;}
+	/*optional*/ oneof supportsIdentificationPassword_ { bool supportsIdentificationPassword = 22;} // for sending password in Identification, from Host down to panel, regardless of socket connection direction.
+	/*optional*/ oneof supportsIdentificationPasswordUpstream_ { bool supportsIdentificationPasswordUpstream = 23;} // for sending password in Identification, from panel up to host, regardless of socket connection direction.
+	/*optional*/ oneof maxEnum_DevPlatform_ { int32 maxEnum_DevPlatform = 28;}
+	/*optional*/ oneof maxEnum_TerminationReason_ { int32 maxEnum_TerminationReason = 32;}
+}
+
+message Identification {
+	/*required*/ oneof id_ { string id = 1;} // Generally MAC address
+	/*optional*/ oneof spCoreDevMod_ { DevMod spCoreDevMod = 2;} // Which DevMod, Panel->Host
+	/*optional*/ oneof spCoreDevUse_ { DevUse spCoreDevUse = 3;} // Which DevUse, Panel->Host
+	/*optional*/ oneof protocolVersion_ { string protocolVersion = 4;} // Bidirectional
+	/*optional*/ oneof softwareVersion_ { string softwareVersion = 5;} // Bidirectional
+	/*optional*/ oneof maxBodyLength_ { int32 maxBodyLength = 7;} // Bidirectional - because different models and versions of panels can be built for and run on platforms with varying degrees of power, this indicates the maximum body length that the sender of this message can send or receive.
+	/*optional*/ oneof bootId_ { int64 bootId = 8;} // Bidirectional - this is a value that changes every time the sender starts up or internally restarts; can be used to see if the sender restarted in between disconnection 
+	/*optional*/ oneof softwareVersionTimestamp_ { string softwareVersionTimestamp = 9;} // Bidirectional
+	/*optional*/ oneof softwareVersionBrand_ { string softwareVersionBrand = 10;} // Bidirectional
+	/*optional*/ oneof softwareVersionProduct_ { string softwareVersionProduct = 11;} // Bidirectional
+	/*optional*/ oneof serialNumber_ { string serialNumber = 12;} // Bidirectional
+	/*optional*/ oneof softwareVersionBranch_ { string softwareVersionBranch = 13;} // Bidirectional
+	/*optional*/ ProtocolCapabilities protocolCapabilities = 14; // Bidirectional
+	/*optional*/ oneof password_ { string password = 16;} // Host->panel when host initiates socket connection.
+	/*optional*/ EvtDevRef evtDevRef = 19; // Bidirectional - the sender's EvtDevRef for itself.
+}
+
+// reason for termination
+enum TerminationReason {
+	TerminationReason_NONE = 0; // no specific reason/unknown/not applicable
+	TerminationReason_EXITING_OR_RESTARTING = 1; // Bidirectional: sender is exiting or restarting
+	TerminationReason_PASSWORD_MISMATCH = 2; // Bidirectional: password did not match
+}
+
+message DbChange {
+	/*required*/ oneof requestId_ { int64 requestId = 1;}
+
+	/*optional*/ oneof credDeleteAll_ { bool credDeleteAll = 2;}
+	repeated int32 credDelete = 3;
+	repeated Cred cred = 4;
+	
+	/*optional*/ oneof credTemplateDeleteAll_ { bool credTemplateDeleteAll = 5;}
+	repeated int32 credTemplateDelete = 6;
+	repeated CredTemplate credTemplate = 7;
+
+	/*optional*/ oneof dataLayoutDeleteAll_ { bool dataLayoutDeleteAll = 8;}
+	repeated int32 dataLayoutDelete = 9;
+	repeated DataLayout dataLayout = 10;
+
+	/*optional*/ oneof dataFormatDeleteAll_ { bool dataFormatDeleteAll = 11;}
+	repeated int32 dataFormatDelete = 12;
+	repeated DataFormat dataFormat = 13;
+	
+	/*optional*/ oneof devDeleteAll_ { bool devDeleteAll = 14;}
+	repeated int32 devDelete = 15;
+	repeated Dev dev = 16;
+	
+	/*optional*/ oneof privDeleteAll_ { bool privDeleteAll = 35;}
+	repeated int32 privDelete = 36;
+	repeated Priv priv = 37;
+	
+	/*optional*/ oneof holCalDeleteAll_ { bool holCalDeleteAll = 38;}
+	repeated int32 holCalDelete = 39;
+	repeated HolCal holCal = 40;
+	
+	/*optional*/ oneof holTypeDeleteAll_ { bool holTypeDeleteAll = 41;}
+	repeated int32 holTypeDelete = 42;
+	repeated HolType holType = 43;
+	
+	/*optional*/ oneof schedDeleteAll_ { bool schedDeleteAll = 44;}
+	repeated int32 schedDelete = 45;
+	repeated Sched sched = 46;
+	
+
+}
+
+message DbChangeResp {
+	/*required*/ oneof requestId_ { int64 requestId = 1;}
+	/*optional*/ oneof exception_ { string exception = 2;}
+	
+	// filled in for all inserts/updates.  If insert/update unid was specified, it will be simply returned.  Otherwise, this will be auto-assigned unid.  Same order as in DbChange.
+	repeated int32 credUnids = 3;
+	repeated int32 credTemplateUnids = 4;
+	repeated int32 dataLayoutUnids = 5;
+	repeated int32 dataFormatUnids = 6;
+	repeated int32 devUnids = 7;
+	repeated int32 privUnids = 14;
+	repeated int32 holCalUnids = 15;
+	repeated int32 holTypeUnids = 16;
+	repeated int32 schedUnids = 17;
+	repeated int32 encryptionKeyRefUnids = 48;
+	repeated int32 holUnids = 54;
+	repeated int32 encryptionKeyUnids = 71;	
+}
+
+// control the flow of evt (Host->Panel)
+enum EvtFlowControl {
+	EvtFlowControl_START_CONTINUOUS = 0; // start sending continously (keep sending until EvtFlowControl_STOP_CONTINUOUS)
+	EvtFlowControl_STOP_CONTINUOUS = 1; // stop sending continuously (opposite of EvtFlowControl_START_CONTINUOUS)
+	EvtFlowControl_SEND_ONE_BATCH = 2; // send a single batch of EVT.  This is the simplest mechanism to avoid the host being flooded with events faster than it can process them
+}
+
+message EvtControl {
+	/*optional*/ oneof evtFlowControl_ { EvtFlowControl evtFlowControl = 1;}
+	repeated int64 consumeEvt = 2; // consume these evts (by unid)
+}
+
+// control the flow of DB_CHANGE_MONITOR (DbChangeMonitor) (Host->Panel)
+
+message DevActionReq {
+	/*required*/ oneof requestId_ { int64 requestId = 1;}
+	/*required*/ oneof devActionType_ { DevActionType devActionType = 2;}
+	/*required*/ oneof devUnid_ { int32 devUnid = 3;}
+	/*optional*/ DevActionParams devActionParams = 4; // for DOOR_MODE_CHANGE or others that use params
+}
+
+message DevActionResp {
+	/*required*/ oneof requestId_ { int64 requestId = 1;}
+	/*optional*/ oneof exception_ { string exception = 2;}
+}
