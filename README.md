@@ -33,3 +33,10 @@ Apache 2.0 - see [LICENSE](LICENSE) for details.
 
 The .proto files can be used with Google Protobuf tools (protoc) to:
 - Generate serialization/deserialization code in various languages, for either side of the communications (host, panel)
+
+## .NET SDK
+
+The `dotnet/` folder contains a C# SDK for Z9/Open Community Profile:
+
+- `Z9.Protobuf.Community` - .NET Standard 2.0 library with protobuf-generated classes and host-side connection management
+- `Z9.Protobuf.Community.Test` - Unit tests
