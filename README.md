@@ -40,3 +40,14 @@ The `dotnet/` folder contains a C# SDK for Z9/Open Community Profile:
 
 - `Z9.Protobuf.Community` - .NET Standard 2.0 library with protobuf-generated classes and host-side connection management
 - `Z9.Protobuf.Community.Test` - Unit tests
+
+### Publishing to NuGet
+
+Pushing a version tag triggers the CI pipeline to build, test, and publish the `Z9.Protobuf.Community` package to nuget.org:
+
+```bash
+git tag v1.0.1
+git push origin v1.0.1
+```
+
+Note: This is done by the repo owner and requires a `NUGET_API_KEY` secret configured in the repository's GitHub Actions settings.
