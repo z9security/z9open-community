@@ -26,7 +26,7 @@ namespace Z9.Spcore.Proto {
             "b3JlUHJvdG9FbGVtZW50cy5wcm90bxoWU3BDb3JlUHJvdG9FbnVtcy5wcm90",
             "byKeAQoHQ2FyZFBpbhIwCgdjcmVkTnVtGAEgASgLMh8uejkuc3Bjb3JlLnBy",
             "b3RvLkJpZ0ludGVnZXJEYXRhEhYKDGZhY2lsaXR5Q29kZRgCIAEoBUgAEg0K",
-            "A3BpbhgDIAEoCUgBEhMKCXBpblVuaXF1ZRgEIAEoCEgCQg8KDWZhY2lsaXR5",
+            "A3BpbhgEIAEoCUgBEhMKCXBpblVuaXF1ZRgFIAEoCEgCQg8KDWZhY2lsaXR5",
             "Q29kZV9CBgoEcGluX0IMCgpwaW5VbmlxdWVfIpAECg9DYXJkUGluVGVtcGxh",
             "dGUSRwoVY3JlZENvbXBvbmVudFByZXNlbmNlGAEgASgOMiYuejkuc3Bjb3Jl",
             "LnByb3RvLkNyZWRDb21wb25lbnRQcmVzZW5jZUgAEkEKD2NyZWROdW1QcmVz",
@@ -35,29 +35,29 @@ namespace Z9.Spcore.Proto {
             "by5DcmVkQ29tcG9uZW50UHJlc2VuY2VIAhITCglwaW5VbmlxdWUYBCABKAhI",
             "AxIWCgxtaW5QaW5MZW5ndGgYBSABKAVIBBIWCgxtYXhQaW5MZW5ndGgYBiAB",
             "KAVIBRIWCgxmYWNpbGl0eUNvZGUYByABKAVIBhIYCg5kYXRhTGF5b3V0VW5p",
-            "ZBgIIAEoBUgHEhcKDWFueURhdGFMYXlvdXQYCSABKAhICEIYChZjcmVkQ29t",
+            "ZBgIIAEoBUgHEhcKDWFueURhdGFMYXlvdXQYDyABKAhICEIYChZjcmVkQ29t",
             "cG9uZW50UHJlc2VuY2VfQhIKEGNyZWROdW1QcmVzZW5jZV9CDgoMcGluUHJl",
             "c2VuY2VfQgwKCnBpblVuaXF1ZV9CDwoNbWluUGluTGVuZ3RoX0IPCg1tYXhQ",
             "aW5MZW5ndGhfQg8KDWZhY2lsaXR5Q29kZV9CEQoPZGF0YUxheW91dFVuaWRf",
             "QhAKDmFueURhdGFMYXlvdXRfIt8DCgRDcmVkEhEKB3ZlcnNpb24YASABKAVI",
-            "ABINCgN0YWcYAiABKAlIARIOCgR1dWlkGAMgASgJSAISDgoEdW5pZBgEIAEo",
-            "BUgDEg4KBG5hbWUYBSABKAlIBBIRCgdlbmFibGVkGAYgASgISAUSMAoJZWZm",
-            "ZWN0aXZlGAcgASgLMh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0YRIu",
-            "CgdleHBpcmVzGAggASgLMh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0",
-            "YRIaChBjcmVkVGVtcGxhdGVVbmlkGAkgASgFSAYSKQoHY2FyZFBpbhgKIAEo",
+            "ABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEdW5pZBgLIAEo",
+            "BUgDEg4KBG5hbWUYDCABKAlIBBIRCgdlbmFibGVkGBIgASgISAUSMAoJZWZm",
+            "ZWN0aXZlGBQgASgLMh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0YRIu",
+            "CgdleHBpcmVzGBUgASgLMh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0",
+            "YRIaChBjcmVkVGVtcGxhdGVVbmlkGBcgASgFSAYSKQoHY2FyZFBpbhgeIAEo",
             "CzIYLno5LnNwY29yZS5wcm90by5DYXJkUGluEkEKE2Rvb3JBY2Nlc3NNb2Rp",
-            "ZmllcnMYCyABKAsyJC56OS5zcGNvcmUucHJvdG8uRG9vckFjY2Vzc01vZGlm",
-            "aWVycxI2Cgxwcml2QmluZGluZ3MYDCADKAsyIC56OS5zcGNvcmUucHJvdG8u",
+            "ZmllcnMYIiABKAsyJC56OS5zcGNvcmUucHJvdG8uRG9vckFjY2Vzc01vZGlm",
+            "aWVycxI2Cgxwcml2QmluZGluZ3MYJCADKAsyIC56OS5zcGNvcmUucHJvdG8u",
             "Q3JlZFByaXZCaW5kaW5nQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9C",
             "BwoFdW5pZF9CBwoFbmFtZV9CCgoIZW5hYmxlZF9CEwoRY3JlZFRlbXBsYXRl",
             "VW5pZF8i6wEKDENyZWRUZW1wbGF0ZRIRCgd2ZXJzaW9uGAEgASgFSAASDQoD",
-            "dGFnGAIgASgJSAESDgoEdXVpZBgDIAEoCUgCEg4KBG5hbWUYBCABKAlIAxIO",
-            "CgR1bmlkGAUgASgFSAQSOQoPY2FyZFBpblRlbXBsYXRlGAYgASgLMiAuejku",
-            "c3Bjb3JlLnByb3RvLkNhcmRQaW5UZW1wbGF0ZRISCghwcmlvcml0eRgHIAEo",
+            "dGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgCEg4KBG5hbWUYCiABKAlIAxIO",
+            "CgR1bmlkGAwgASgFSAQSOQoPY2FyZFBpblRlbXBsYXRlGA8gASgLMiAuejku",
+            "c3Bjb3JlLnByb3RvLkNhcmRQaW5UZW1wbGF0ZRISCghwcmlvcml0eRgSIAEo",
             "BUgFQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9CBwoF",
             "dW5pZF9CCwoJcHJpb3JpdHlfIqICCgpEYXRhRm9ybWF0EhEKB3ZlcnNpb24Y",
-            "ASABKAVIABINCgN0YWcYAiABKAlIARIOCgR1dWlkGAMgASgJSAISDgoEbmFt",
-            "ZRgEIAEoCUgDEg4KBHVuaWQYBSABKAVIBBI5Cg5kYXRhRm9ybWF0VHlwZRgG",
+            "ASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFt",
+            "ZRgKIAEoCUgDEg4KBHVuaWQYDCABKAVIBBI5Cg5kYXRhRm9ybWF0VHlwZRgO",
             "IAEoDjIfLno5LnNwY29yZS5wcm90by5EYXRhRm9ybWF0VHlwZUgFEjgKD2V4",
             "dEJpbmFyeUZvcm1hdBhlIAEoCzIdLno5LnNwY29yZS5wcm90by5CaW5hcnlG",
             "b3JtYXRIBkIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1aWRfQgcKBW5hbWVf",
@@ -76,17 +76,17 @@ namespace Z9.Spcore.Proto {
             "YXJ5RWxlbWVudBIcChJzdXBwb3J0UmV2ZXJzZVJlYWQYBCABKAhIAkIKCght",
             "aW5CaXRzX0IKCghtYXhCaXRzX0IVChNzdXBwb3J0UmV2ZXJzZVJlYWRfIocB",
             "ChJGaWVsZEJpbmFyeUVsZW1lbnQSMQoFZmllbGQYASABKA4yIC56OS5zcGNv",
-            "cmUucHJvdG8uRGF0YUZvcm1hdEZpZWxkSAASNAoLc3RhdGljVmFsdWUYAiAB",
+            "cmUucHJvdG8uRGF0YUZvcm1hdEZpZWxkSAASNAoLc3RhdGljVmFsdWUYBSAB",
             "KAsyHy56OS5zcGNvcmUucHJvdG8uQmlnSW50ZWdlckRhdGFCCAoGZmllbGRf",
             "IoMBChNQYXJpdHlCaW5hcnlFbGVtZW50Eg0KA29kZBgBIAEoCEgAEhIKCHNy",
             "Y1N0YXJ0GAIgASgFSAESEAoGc3JjTGVuGAMgASgFSAISDgoEbWFzaxgEIAEo",
             "CUgDQgYKBG9kZF9CCwoJc3JjU3RhcnRfQgkKB3NyY0xlbl9CBwoFbWFza18i",
             "RQoTU3RhdGljQmluYXJ5RWxlbWVudBIuCgV2YWx1ZRgBIAEoCzIfLno5LnNw",
             "Y29yZS5wcm90by5CaWdJbnRlZ2VyRGF0YSLgAgoKRGF0YUxheW91dBIRCgd2",
-            "ZXJzaW9uGAEgASgFSAASDQoDdGFnGAIgASgJSAESDgoEdXVpZBgDIAEoCUgC",
-            "Eg4KBG5hbWUYBCABKAlIAxIOCgR1bmlkGAUgASgFSAQSNQoKbGF5b3V0VHlw",
-            "ZRgGIAEoDjIfLno5LnNwY29yZS5wcm90by5EYXRhTGF5b3V0VHlwZUgFEhIK",
-            "CHByaW9yaXR5GAcgASgFSAYSEQoHZW5hYmxlZBgIIAEoCEgHEj4KEmV4dEJh",
+            "ZXJzaW9uGAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgC",
+            "Eg4KBG5hbWUYCiABKAlIAxIOCgR1bmlkGAwgASgFSAQSNQoKbGF5b3V0VHlw",
+            "ZRgOIAEoDjIfLno5LnNwY29yZS5wcm90by5EYXRhTGF5b3V0VHlwZUgFEhIK",
+            "CHByaW9yaXR5GA8gASgFSAYSEQoHZW5hYmxlZBgRIAEoCEgHEj4KEmV4dEJh",
             "c2ljRGF0YUxheW91dBhkIAEoCzIgLno5LnNwY29yZS5wcm90by5CYXNpY0Rh",
             "dGFMYXlvdXRICEIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1aWRfQgcKBW5h",
             "bWVfQgcKBXVuaWRfQg0KC2xheW91dFR5cGVfQgsKCXByaW9yaXR5X0IKCghl",
@@ -104,39 +104,39 @@ namespace Z9.Spcore.Proto {
             "ZXlJZGVudGlmaWVyGAggASgJSAdCBwoFdW5pZF9CBgoEdGFnX0IHCgV1dWlk",
             "X0IKCgh2ZXJzaW9uX0IMCgphbGdvcml0aG1fQgcKBXNpemVfQhUKE2tleXN0",
             "b3JlSWRlbnRpZmllcl9CEAoOa2V5SWRlbnRpZmllcl8ipgEKD0NyZWRQcml2",
-            "QmluZGluZxI7ChBzY2hlZFJlc3RyaWN0aW9uGAEgASgLMiEuejkuc3Bjb3Jl",
+            "QmluZGluZxI7ChBzY2hlZFJlc3RyaWN0aW9uGAcgASgLMiEuejkuc3Bjb3Jl",
             "LnByb3RvLlNjaGVkUmVzdHJpY3Rpb24SIQoXZGV2QXNEb29yQWNjZXNzUHJp",
-            "dlVuaWQYAiABKAVIABIOCgR1bmlkGAMgASgFSAFCGgoYZGV2QXNEb29yQWNj",
+            "dlVuaWQYCSABKAVIABIOCgR1bmlkGAwgASgFSAFCGgoYZGV2QXNEb29yQWNj",
             "ZXNzUHJpdlVuaWRfQgcKBXVuaWRfIjwKE0Rvb3JBY2Nlc3NNb2RpZmllcnMS",
-            "FQoLZXh0RG9vclRpbWUYASABKAhIAEIOCgxleHREb29yVGltZV8iSgoORG9v",
+            "FQoLZXh0RG9vclRpbWUYAyABKAhIAEIOCgxleHREb29yVGltZV8iSgoORG9v",
             "ckFjY2Vzc1ByaXYSOAoIZWxlbWVudHMYASADKAsyJi56OS5zcGNvcmUucHJv",
             "dG8uRG9vckFjY2Vzc1ByaXZFbGVtZW50Io4BChVEb29yQWNjZXNzUHJpdkVs",
-            "ZW1lbnQSDgoEdW5pZBgBIAEoBUgAEhIKCGRvb3JVbmlkGAIgASgFSAESOwoQ",
-            "c2NoZWRSZXN0cmljdGlvbhgDIAEoCzIhLno5LnNwY29yZS5wcm90by5TY2hl",
+            "ZW1lbnQSDgoEdW5pZBgBIAEoBUgAEhIKCGRvb3JVbmlkGAQgASgFSAESOwoQ",
+            "c2NoZWRSZXN0cmljdGlvbhgHIAEoCzIhLno5LnNwY29yZS5wcm90by5TY2hl",
             "ZFJlc3RyaWN0aW9uQgcKBXVuaWRfQgsKCWRvb3JVbmlkXyLSAgoEUHJpdhIR",
-            "Cgd2ZXJzaW9uGAEgASgFSAASDQoDdGFnGAIgASgJSAESDgoEdXVpZBgDIAEo",
-            "CUgCEg4KBG5hbWUYBCABKAlIAxIOCgR1bmlkGAUgASgFSAQSEQoHZW5hYmxl",
-            "ZBgGIAEoCEgFEi0KCHByaXZUeXBlGAcgASgOMhkuejkuc3Bjb3JlLnByb3Rv",
-            "LlByaXZUeXBlSAYSFAoKZXh0ZXJuYWxJZBgIIAEoCUgHEjwKEWV4dERvb3JB",
+            "Cgd2ZXJzaW9uGAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEo",
+            "CUgCEg4KBG5hbWUYCiABKAlIAxIOCgR1bmlkGAwgASgFSAQSEQoHZW5hYmxl",
+            "ZBgOIAEoCEgFEi0KCHByaXZUeXBlGBIgASgOMhkuejkuc3Bjb3JlLnByb3Rv",
+            "LlByaXZUeXBlSAYSFAoKZXh0ZXJuYWxJZBgUIAEoCUgHEjwKEWV4dERvb3JB",
             "Y2Nlc3NQcml2GGUgASgLMh8uejkuc3Bjb3JlLnByb3RvLkRvb3JBY2Nlc3NQ",
             "cml2SAhCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0IH",
             "CgV1bmlkX0IKCghlbmFibGVkX0ILCglwcml2VHlwZV9CDQoLZXh0ZXJuYWxJ",
             "ZF9CCwoJZXh0ZW5zaW9uItIJCgNEZXYSEQoHdmVyc2lvbhgBIAEoBUgAEg0K",
-            "A3RhZxgCIAEoCUgBEg4KBHV1aWQYAyABKAlIAhIOCgRuYW1lGAQgASgJSAMS",
-            "FAoKZXh0ZXJuYWxJZBgFIAEoCUgEEg4KBHVuaWQYBiABKAVIBRIRCgdhZGRy",
-            "ZXNzGAcgASgJSAYSGAoObG9naWNhbEFkZHJlc3MYCCABKAVIBxIUCgptYWNB",
-            "ZGRyZXNzGAkgASgJSAgSEQoHZW5hYmxlZBgKIAEoCEgJEg4KBHBvcnQYCyAB",
-            "KAVIChIPCgVzcGVlZBgMIAEoBUgLEisKB2RldlR5cGUYDSABKA4yGC56OS5z",
-            "cGNvcmUucHJvdG8uRGV2VHlwZUgMEjEKCmRldlN1YlR5cGUYDiABKA4yGy56",
-            "OS5zcGNvcmUucHJvdG8uRGV2U3ViVHlwZUgNEikKBmRldk1vZBgPIAEoDjIX",
-            "Lno5LnNwY29yZS5wcm90by5EZXZNb2RIDhIzCgtkZXZQbGF0Zm9ybRgQIAEo",
+            "A3RhZxgGIAEoCUgBEg4KBHV1aWQYByABKAlIAhIOCgRuYW1lGAogASgJSAMS",
+            "FAoKZXh0ZXJuYWxJZBgNIAEoCUgEEg4KBHVuaWQYDiABKAVIBRIRCgdhZGRy",
+            "ZXNzGBUgASgJSAYSGAoObG9naWNhbEFkZHJlc3MYFiABKAVIBxIUCgptYWNB",
+            "ZGRyZXNzGBcgASgJSAgSEQoHZW5hYmxlZBgZIAEoCEgJEg4KBHBvcnQYGiAB",
+            "KAVIChIPCgVzcGVlZBgbIAEoBUgLEisKB2RldlR5cGUYHCABKA4yGC56OS5z",
+            "cGNvcmUucHJvdG8uRGV2VHlwZUgMEjEKCmRldlN1YlR5cGUYHyABKA4yGy56",
+            "OS5zcGNvcmUucHJvdG8uRGV2U3ViVHlwZUgNEikKBmRldk1vZBggIAEoDjIX",
+            "Lno5LnNwY29yZS5wcm90by5EZXZNb2RIDhIzCgtkZXZQbGF0Zm9ybRgjIAEo",
             "DjIcLno5LnNwY29yZS5wcm90by5EZXZQbGF0Zm9ybUgPEjMKDGRldk1vZENv",
-            "bmZpZxgRIAEoCzIdLno5LnNwY29yZS5wcm90by5EZXZNb2RDb25maWcSKQoG",
-            "ZGV2VXNlGBIgASgOMhcuejkuc3Bjb3JlLnByb3RvLkRldlVzZUgQEhwKEnBo",
-            "eXNpY2FsUGFyZW50VW5pZBgTIAEoBUgREhsKEWxvZ2ljYWxQYXJlbnRVbmlk",
-            "GBQgASgFSBISEgoIdGltZVpvbmUYFSABKAlIExIfChVpZ25vcmVEYXlsaWdo",
-            "dFNhdmluZ3MYFiABKAhIFBIbChNsb2dpY2FsQ2hpbGRyZW5VbmlkGBcgAygF",
-            "EhwKFHBoeXNpY2FsQ2hpbGRyZW5VbmlkGBggAygFEjAKC2V4dEFjdHVhdG9y",
+            "bmZpZxgmIAEoCzIdLno5LnNwY29yZS5wcm90by5EZXZNb2RDb25maWcSKQoG",
+            "ZGV2VXNlGCcgASgOMhcuejkuc3Bjb3JlLnByb3RvLkRldlVzZUgQEhwKEnBo",
+            "eXNpY2FsUGFyZW50VW5pZBgpIAEoBUgREhsKEWxvZ2ljYWxQYXJlbnRVbmlk",
+            "GCogASgFSBISEgoIdGltZVpvbmUYMSABKAlIExIfChVpZ25vcmVEYXlsaWdo",
+            "dFNhdmluZ3MYMiABKAhIFBIbChNsb2dpY2FsQ2hpbGRyZW5VbmlkGDQgAygF",
+            "EhwKFHBoeXNpY2FsQ2hpbGRyZW5VbmlkGDUgAygFEjAKC2V4dEFjdHVhdG9y",
             "GGQgASgLMhkuejkuc3Bjb3JlLnByb3RvLkFjdHVhdG9ySBUSNAoNZXh0Q29u",
             "dHJvbGxlchhnIAEoCzIbLno5LnNwY29yZS5wcm90by5Db250cm9sbGVySBUS",
             "NAoNZXh0Q3JlZFJlYWRlchhoIAEoCzIbLno5LnNwY29yZS5wcm90by5DcmVk",
@@ -169,10 +169,10 @@ namespace Z9.Spcore.Proto {
             "ZXZUeXBlUmVzdHJpY3Rpb24YAyABKAsyIy56OS5zcGNvcmUucHJvdG8uRGV2",
             "VHlwZVJlc3RyaWN0aW9uEj0KEWRldlVzZVJlc3RyaWN0aW9uGAQgASgLMiIu",
             "ejkuc3Bjb3JlLnByb3RvLkRldlVzZVJlc3RyaWN0aW9uEj8KEmVuYWJsZWRS",
-            "ZXN0cmljdGlvbhgFIAEoCzIjLno5LnNwY29yZS5wcm90by5FbmFibGVkUmVz",
+            "ZXN0cmljdGlvbhgOIAEoCzIjLno5LnNwY29yZS5wcm90by5FbmFibGVkUmVz",
             "dHJpY3Rpb24iRwoWU3BlY2lmaWNEZXZSZXN0cmljdGlvbhIQCghkZXZzVW5p",
             "ZBgBIAMoBRIQCgZpbnZlcnQYAiABKAhIAEIJCgdpbnZlcnRfIqwCCg9EZXZB",
-            "Y3Rpb25QYXJhbXMSDgoEdW5pZBgBIAEoBUgAEjQKBHR5cGUYAiABKA4yJC56",
+            "Y3Rpb25QYXJhbXMSDgoEdW5pZBgBIAEoBUgAEjQKBHR5cGUYAyABKA4yJC56",
             "OS5zcGNvcmUucHJvdG8uRGV2QWN0aW9uUGFyYW1zVHlwZUgBEk4KGmV4dERv",
             "b3JNb2RlRGV2QWN0aW9uUGFyYW1zGGogASgLMiguejkuc3Bjb3JlLnByb3Rv",
             "LkRvb3JNb2RlRGV2QWN0aW9uUGFyYW1zSAISZAolZXh0RG9vck1vbWVudGFy",
@@ -187,8 +187,8 @@ namespace Z9.Spcore.Proto {
             "B3ZlcnNpb24YASABKAVIABISCgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3",
             "b3JkGAMgASgJSAISIAoWZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgD",
             "Eg4KBHVuaWQYBSABKAVIBBIQCgZpbnZlcnQYBiABKAhIBRIeChRlbmNyeXB0",
-            "aW9uS2V5UmVmVW5pZBgHIAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0",
-            "VW5pZBgIIAEoBUgHEhsKEWRpc2FibGVFbmNyeXB0aW9uGAkgASgISAhCCgoI",
+            "aW9uS2V5UmVmVW5pZBgOIAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0",
+            "VW5pZBgPIAEoBUgHEhsKEWRpc2FibGVFbmNyeXB0aW9uGBAgASgISAhCCgoI",
             "dmVyc2lvbl9CCwoJdXNlcm5hbWVfQgsKCXBhc3N3b3JkX0IZChdkZXZJbml0",
             "aWF0ZXNDb25uZWN0aW9uX0IHCgV1bmlkX0IJCgdpbnZlcnRfQhcKFWVuY3J5",
             "cHRpb25LZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRf",
@@ -197,9 +197,9 @@ namespace Z9.Spcore.Proto {
             "ckNvbmZpZyL2AgoQQ29udHJvbGxlckNvbmZpZxIRCgd2ZXJzaW9uGAEgASgF",
             "SAASEgoIdXNlcm5hbWUYAiABKAlIARISCghwYXNzd29yZBgDIAEoCUgCEiAK",
             "FmRldkluaXRpYXRlc0Nvbm5lY3Rpb24YBCABKAhIAxIOCgR1bmlkGAUgASgF",
-            "SAQSHgoUZW5jcnlwdGlvbktleVJlZlVuaWQYBiABKAVIBRIiChhlbmNyeXB0",
-            "aW9uS2V5UmVmTmV4dFVuaWQYByABKAVIBhIbChFkaXNhYmxlRW5jcnlwdGlv",
-            "bhgIIAEoCEgHQgoKCHZlcnNpb25fQgsKCXVzZXJuYW1lX0ILCglwYXNzd29y",
+            "SAQSHgoUZW5jcnlwdGlvbktleVJlZlVuaWQYCyABKAVIBRIiChhlbmNyeXB0",
+            "aW9uS2V5UmVmTmV4dFVuaWQYDCABKAVIBhIbChFkaXNhYmxlRW5jcnlwdGlv",
+            "bhgNIAEoCEgHQgoKCHZlcnNpb25fQgsKCXVzZXJuYW1lX0ILCglwYXNzd29y",
             "ZF9CGQoXZGV2SW5pdGlhdGVzQ29ubmVjdGlvbl9CBwoFdW5pZF9CFwoVZW5j",
             "cnlwdGlvbktleVJlZlVuaWRfQhsKGWVuY3J5cHRpb25LZXlSZWZOZXh0VW5p",
             "ZF9CFAoSZGlzYWJsZUVuY3J5cHRpb25fIkkKCkNyZWRSZWFkZXISOwoQY3Jl",
@@ -209,11 +209,11 @@ namespace Z9.Spcore.Proto {
             "IAoWZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVuaWQYBSAB",
             "KAVIBBI3Cghjb21tVHlwZRgGIAEoDjIjLno5LnNwY29yZS5wcm90by5DcmVk",
             "UmVhZGVyQ29tbVR5cGVIBRI7Cgp0YW1wZXJUeXBlGAcgASgOMiUuejkuc3Bj",
-            "b3JlLnByb3RvLkNyZWRSZWFkZXJUYW1wZXJUeXBlSAYSNQoHbGVkVHlwZRgI",
+            "b3JlLnByb3RvLkNyZWRSZWFkZXJUYW1wZXJUeXBlSAYSNQoHbGVkVHlwZRgL",
             "IAEoDjIiLno5LnNwY29yZS5wcm90by5DcmVkUmVhZGVyTGVkVHlwZUgHEh4K",
-            "FGVuY3J5cHRpb25LZXlSZWZVbmlkGAkgASgFSAgSIgoYZW5jcnlwdGlvbktl",
-            "eVJlZk5leHRVbmlkGAogASgFSAkSGwoRc2VyaWFsUG9ydEFkZHJlc3MYCyAB",
-            "KAlIChIbChFkaXNhYmxlRW5jcnlwdGlvbhgMIAEoCEgLQgoKCHZlcnNpb25f",
+            "FGVuY3J5cHRpb25LZXlSZWZVbmlkGBMgASgFSAgSIgoYZW5jcnlwdGlvbktl",
+            "eVJlZk5leHRVbmlkGBQgASgFSAkSGwoRc2VyaWFsUG9ydEFkZHJlc3MYFSAB",
+            "KAlIChIbChFkaXNhYmxlRW5jcnlwdGlvbhgWIAEoCEgLQgoKCHZlcnNpb25f",
             "QgsKCXVzZXJuYW1lX0ILCglwYXNzd29yZF9CGQoXZGV2SW5pdGlhdGVzQ29u",
             "bmVjdGlvbl9CBwoFdW5pZF9CCwoJY29tbVR5cGVfQg0KC3RhbXBlclR5cGVf",
             "QgoKCGxlZFR5cGVfQhcKFWVuY3J5cHRpb25LZXlSZWZVbmlkX0IbChllbmNy",
@@ -228,28 +228,28 @@ namespace Z9.Spcore.Proto {
             "LnByb3RvLlNlbnNvckNvbmZpZyKPAwoMU2Vuc29yQ29uZmlnEhEKB3ZlcnNp",
             "b24YASABKAVIABISCgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3b3JkGAMg",
             "ASgJSAISIAoWZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVu",
-            "aWQYBSABKAVIBBIQCgZpbnZlcnQYBiABKAhIBRIeChRlbmNyeXB0aW9uS2V5",
-            "UmVmVW5pZBgHIAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZBgI",
-            "IAEoBUgHEhsKEWRpc2FibGVFbmNyeXB0aW9uGAkgASgISAhCCgoIdmVyc2lv",
+            "aWQYBSABKAVIBBIQCgZpbnZlcnQYCCABKAhIBRIeChRlbmNyeXB0aW9uS2V5",
+            "UmVmVW5pZBgWIAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZBgX",
+            "IAEoBUgHEhsKEWRpc2FibGVFbmNyeXB0aW9uGBggASgISAhCCgoIdmVyc2lv",
             "bl9CCwoJdXNlcm5hbWVfQgsKCXBhc3N3b3JkX0IZChdkZXZJbml0aWF0ZXND",
             "b25uZWN0aW9uX0IHCgV1bmlkX0IJCgdpbnZlcnRfQhcKFWVuY3J5cHRpb25L",
             "ZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRp",
             "c2FibGVFbmNyeXB0aW9uXyLiBgoDRXZ0Eg4KBHVuaWQYASABKANIABItCgZo",
             "d1RpbWUYAiABKAsyHS56OS5zcGNvcmUucHJvdG8uRGF0ZVRpbWVEYXRhEi0K",
             "BmRiVGltZRgDIAEoCzIdLno5LnNwY29yZS5wcm90by5EYXRlVGltZURhdGES",
-            "FAoKaHdUaW1lWm9uZRgEIAEoCUgBEisKB2V2dENvZGUYBSABKA4yGC56OS5z",
+            "FAoKaHdUaW1lWm9uZRgGIAEoCUgBEisKB2V2dENvZGUYByABKA4yGC56OS5z",
             "cGNvcmUucHJvdG8uRXZ0Q29kZUgCEh0KE2V4dGVybmFsRXZ0Q29kZVRleHQY",
-            "BiABKAlIAxIbChFleHRlcm5hbEV2dENvZGVJZBgHIAEoCUgEEjEKCmV2dFN1",
-            "YkNvZGUYCCABKA4yGy56OS5zcGNvcmUucHJvdG8uRXZ0U3ViQ29kZUgFEh0K",
-            "E2V4dGVybmFsU3ViQ29kZVRleHQYCSABKAlIBhIbChFleHRlcm5hbFN1YkNv",
-            "ZGVJZBgKIAEoCUgHEjMKDGV2dE1vZGlmaWVycxgLIAEoCzIdLno5LnNwY29y",
-            "ZS5wcm90by5FdnRNb2RpZmllcnMSEgoIcHJpb3JpdHkYDCABKAVICBIOCgRk",
-            "YXRhGA0gASgJSAkSLQoJZXZ0RGV2UmVmGA4gASgLMhouejkuc3Bjb3JlLnBy",
-            "b3RvLkV2dERldlJlZhI0ChBldnRDb250cm9sbGVyUmVmGA8gASgLMhouejku",
-            "c3Bjb3JlLnByb3RvLkV2dERldlJlZhIvCgpldnRDcmVkUmVmGBAgASgLMhsu",
-            "ejkuc3Bjb3JlLnByb3RvLkV2dENyZWRSZWYSMQoLZXZ0U2NoZWRSZWYYESAB",
+            "CCABKAlIAxIbChFleHRlcm5hbEV2dENvZGVJZBgJIAEoCUgEEjEKCmV2dFN1",
+            "YkNvZGUYCiABKA4yGy56OS5zcGNvcmUucHJvdG8uRXZ0U3ViQ29kZUgFEh0K",
+            "E2V4dGVybmFsU3ViQ29kZVRleHQYCyABKAlIBhIbChFleHRlcm5hbFN1YkNv",
+            "ZGVJZBgMIAEoCUgHEjMKDGV2dE1vZGlmaWVycxgNIAEoCzIdLno5LnNwY29y",
+            "ZS5wcm90by5FdnRNb2RpZmllcnMSEgoIcHJpb3JpdHkYDiABKAVICBIOCgRk",
+            "YXRhGBQgASgJSAkSLQoJZXZ0RGV2UmVmGBkgASgLMhouejkuc3Bjb3JlLnBy",
+            "b3RvLkV2dERldlJlZhI0ChBldnRDb250cm9sbGVyUmVmGBogASgLMhouejku",
+            "c3Bjb3JlLnByb3RvLkV2dERldlJlZhIvCgpldnRDcmVkUmVmGB4gASgLMhsu",
+            "ejkuc3Bjb3JlLnByb3RvLkV2dENyZWRSZWYSMQoLZXZ0U2NoZWRSZWYYIiAB",
             "KAsyHC56OS5zcGNvcmUucHJvdG8uRXZ0U2NoZWRSZWYSEgoIY29uc3VtZWQY",
-            "EiABKAhIChIOCgR1dWlkGBMgASgJSAtCBwoFdW5pZF9CDQoLaHdUaW1lWm9u",
+            "LiABKAhIChIOCgR1dWlkGDIgASgJSAtCBwoFdW5pZF9CDQoLaHdUaW1lWm9u",
             "ZV9CCgoIZXZ0Q29kZV9CFgoUZXh0ZXJuYWxFdnRDb2RlVGV4dF9CFAoSZXh0",
             "ZXJuYWxFdnRDb2RlSWRfQg0KC2V2dFN1YkNvZGVfQhYKFGV4dGVybmFsU3Vi",
             "Q29kZVRleHRfQhQKEmV4dGVybmFsU3ViQ29kZUlkX0ILCglwcmlvcml0eV9C",
@@ -258,10 +258,10 @@ namespace Z9.Spcore.Proto {
             "RXZ0Q29kZRIQCgZpbnZlcnQYAiABKAhIABIVCgtlbXB0eUlzTm9uZRgDIAEo",
             "CEgBQgkKB2ludmVydF9CDgoMZW1wdHlJc05vbmVfIocCCgpFdnRDcmVkUmVm",
             "Eg4KBHVuaWQYASABKAVIABI8Cg9jcmVkVGVtcGxhdGVSZWYYAiABKAsyIy56",
-            "OS5zcGNvcmUucHJvdG8uRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBG5hbWUYAyAB",
-            "KAlIARIwCgdjcmVkTnVtGAQgASgLMh8uejkuc3Bjb3JlLnByb3RvLkJpZ0lu",
-            "dGVnZXJEYXRhEhYKDGZhY2lsaXR5Q29kZRgFIAEoBUgCEg0KA3RhZxgGIAEo",
-            "CUgDEg4KBHV1aWQYByABKAlIBEIHCgV1bmlkX0IHCgVuYW1lX0IPCg1mYWNp",
+            "OS5zcGNvcmUucHJvdG8uRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBG5hbWUYBiAB",
+            "KAlIARIwCgdjcmVkTnVtGAcgASgLMh8uejkuc3Bjb3JlLnByb3RvLkJpZ0lu",
+            "dGVnZXJEYXRhEhYKDGZhY2lsaXR5Q29kZRgIIAEoBUgCEg0KA3RhZxgLIAEo",
+            "CUgDEg4KBHV1aWQYDCABKAlIBEIHCgV1bmlkX0IHCgVuYW1lX0IPCg1mYWNp",
             "bGl0eUNvZGVfQgYKBHRhZ19CBwoFdXVpZF8idgoSRXZ0Q3JlZFRlbXBsYXRl",
             "UmVmEg4KBHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAESDQoDdGFnGAMg",
             "ASgJSAISDgoEdXVpZBgEIAEoCUgDQgcKBXVuaWRfQgcKBW5hbWVfQgYKBHRh",
@@ -273,44 +273,44 @@ namespace Z9.Spcore.Proto {
             "IAEoCUgGEhsKEWV4dGVybmFsRGV2VHlwZUlkGAggASgJSAcSMQoKZGV2U3Vi",
             "VHlwZRgJIAEoDjIbLno5LnNwY29yZS5wcm90by5EZXZTdWJUeXBlSAgSKQoG",
             "ZGV2TW9kGAogASgOMhcuejkuc3Bjb3JlLnByb3RvLkRldk1vZEgJEhwKEmV4",
-            "dGVybmFsRGV2TW9kVGV4dBgLIAEoCUgKEhoKEGV4dGVybmFsRGV2TW9kSWQY",
-            "DCABKAlICxIpCgZkZXZVc2UYDSABKA4yFy56OS5zcGNvcmUucHJvdG8uRGV2",
-            "VXNlSAwSDQoDdGFnGA4gASgJSA0SDgoEdXVpZBgPIAEoCUgOEhQKCmV4dGVy",
-            "bmFsSWQYECABKAlID0IHCgV1bmlkX0IHCgVuYW1lX0IKCghhZGRyZXNzX0IR",
+            "dGVybmFsRGV2TW9kVGV4dBgMIAEoCUgKEhoKEGV4dGVybmFsRGV2TW9kSWQY",
+            "DSABKAlICxIpCgZkZXZVc2UYDiABKA4yFy56OS5zcGNvcmUucHJvdG8uRGV2",
+            "VXNlSAwSDQoDdGFnGBAgASgJSA0SDgoEdXVpZBgRIAEoCUgOEhQKCmV4dGVy",
+            "bmFsSWQYEiABKAlID0IHCgV1bmlkX0IHCgVuYW1lX0IKCghhZGRyZXNzX0IR",
             "Cg9sb2dpY2FsQWRkcmVzc19CDgoMZGV2UGxhdGZvcm1fQgoKCGRldlR5cGVf",
             "QhYKFGV4dGVybmFsRGV2VHlwZVRleHRfQhQKEmV4dGVybmFsRGV2VHlwZUlk",
             "X0INCgtkZXZTdWJUeXBlX0IJCgdkZXZNb2RfQhUKE2V4dGVybmFsRGV2TW9k",
             "VGV4dF9CEwoRZXh0ZXJuYWxEZXZNb2RJZF9CCQoHZGV2VXNlX0IGCgR0YWdf",
             "QgcKBXV1aWRfQg0KC2V4dGVybmFsSWRfIn8KDEV2dE1vZGlmaWVycxIaChBp",
-            "bmFjY3VyYXRlSHdUaW1lGAEgASgISAASEgoIdXNlZENhcmQYAiABKAhIARIR",
-            "Cgd1c2VkUGluGAMgASgISAJCEwoRaW5hY2N1cmF0ZUh3VGltZV9CCwoJdXNl",
+            "bmFjY3VyYXRlSHdUaW1lGAsgASgISAASEgoIdXNlZENhcmQYDSABKAhIARIR",
+            "Cgd1c2VkUGluGA4gASgISAJCEwoRaW5hY2N1cmF0ZUh3VGltZV9CCwoJdXNl",
             "ZENhcmRfQgoKCHVzZWRQaW5fIpgBCg5FdnRSZXN0cmljdGlvbhI/ChJldnRD",
             "b2RlUmVzdHJpY3Rpb24YASABKAsyIy56OS5zcGNvcmUucHJvdG8uRXZ0Q29k",
-            "ZVJlc3RyaWN0aW9uEkUKFWdlbmVyYWxEZXZSZXN0cmljdGlvbhgCIAEoCzIm",
+            "ZVJlc3RyaWN0aW9uEkUKFWdlbmVyYWxEZXZSZXN0cmljdGlvbhgHIAEoCzIm",
             "Lno5LnNwY29yZS5wcm90by5HZW5lcmFsRGV2UmVzdHJpY3Rpb24ijAEKC0V2",
             "dFNjaGVkUmVmEg4KBHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAESEAoG",
             "aW52ZXJ0GAMgASgISAISDQoDdGFnGAQgASgJSAMSDgoEdXVpZBgFIAEoCUgE",
             "QgcKBXVuaWRfQgcKBW5hbWVfQgkKB2ludmVydF9CBgoEdGFnX0IHCgV1dWlk",
-            "XyKuAwoDSG9sEhEKB3ZlcnNpb24YASABKAVIABINCgN0YWcYAiABKAlIARIO",
-            "CgR1dWlkGAMgASgJSAISDgoEbmFtZRgEIAEoCUgDEg4KBHVuaWQYBSABKAVI",
-            "BBIUCgxob2xUeXBlc1VuaWQYBiADKAUSFQoLYWxsSG9sVHlwZXMYByABKAhI",
-            "BRIqCgRkYXRlGAggASgLMhwuejkuc3Bjb3JlLnByb3RvLlNxbERhdGVEYXRh",
-            "EhEKB251bURheXMYCSABKAVIBhIQCgZyZXBlYXQYCiABKAhIBxIYCg5udW1Z",
-            "ZWFyc1JlcGVhdBgLIAEoBUgIEhoKEHByZXNlcnZlU2NoZWREYXkYDCABKAhI",
-            "CRIUCgpob2xDYWxVbmlkGA0gASgFSApCCgoIdmVyc2lvbl9CBgoEdGFnX0IH",
+            "XyKuAwoDSG9sEhEKB3ZlcnNpb24YASABKAVIABINCgN0YWcYBiABKAlIARIO",
+            "CgR1dWlkGAcgASgJSAISDgoEbmFtZRgKIAEoCUgDEg4KBHVuaWQYDCABKAVI",
+            "BBIUCgxob2xUeXBlc1VuaWQYDiADKAUSFQoLYWxsSG9sVHlwZXMYDyABKAhI",
+            "BRIqCgRkYXRlGBAgASgLMhwuejkuc3Bjb3JlLnByb3RvLlNxbERhdGVEYXRh",
+            "EhEKB251bURheXMYESABKAVIBhIQCgZyZXBlYXQYEiABKAhIBxIYCg5udW1Z",
+            "ZWFyc1JlcGVhdBgTIAEoBUgIEhoKEHByZXNlcnZlU2NoZWREYXkYFCABKAhI",
+            "CRIUCgpob2xDYWxVbmlkGBUgASgFSApCCgoIdmVyc2lvbl9CBgoEdGFnX0IH",
             "CgV1dWlkX0IHCgVuYW1lX0IHCgV1bmlkX0IOCgxhbGxIb2xUeXBlc19CCgoI",
             "bnVtRGF5c19CCQoHcmVwZWF0X0IRCg9udW1ZZWFyc1JlcGVhdF9CEwoRcHJl",
             "c2VydmVTY2hlZERheV9CDQoLaG9sQ2FsVW5pZF8iiQEKBkhvbENhbBIRCgd2",
-            "ZXJzaW9uGAEgASgFSAASDQoDdGFnGAIgASgJSAESDgoEdXVpZBgDIAEoCUgC",
-            "Eg4KBG5hbWUYBCABKAlIAxIOCgR1bmlkGAUgASgFSARCCgoIdmVyc2lvbl9C",
+            "ZXJzaW9uGAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgC",
+            "Eg4KBG5hbWUYCiABKAlIAxIOCgR1bmlkGAwgASgFSARCCgoIdmVyc2lvbl9C",
             "BgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0IHCgV1bmlkXyKvAQoHSG9sVHlw",
-            "ZRIRCgd2ZXJzaW9uGAEgASgFSAASDQoDdGFnGAIgASgJSAESDgoEdXVpZBgD",
-            "IAEoCUgCEg4KBG5hbWUYBCABKAlIAxIUCgpleHRlcm5hbElkGAUgASgJSAQS",
-            "DgoEdW5pZBgGIAEoBUgFQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9C",
+            "ZRIRCgd2ZXJzaW9uGAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgH",
+            "IAEoCUgCEg4KBG5hbWUYCiABKAlIAxIUCgpleHRlcm5hbElkGA0gASgJSAQS",
+            "DgoEdW5pZBgOIAEoBUgFQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9C",
             "BwoFbmFtZV9CDQoLZXh0ZXJuYWxJZF9CBwoFdW5pZF8i3gEKBVNjaGVkEhEK",
-            "B3ZlcnNpb24YASABKAVIABINCgN0YWcYAiABKAlIARIOCgR1dWlkGAMgASgJ",
-            "SAISDgoEbmFtZRgEIAEoCUgDEhQKCmV4dGVybmFsSWQYBSABKAlIBBIOCgR1",
-            "bmlkGAYgASgFSAUSLwoIZWxlbWVudHMYByADKAsyHS56OS5zcGNvcmUucHJv",
+            "B3ZlcnNpb24YASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJ",
+            "SAISDgoEbmFtZRgKIAEoCUgDEhQKCmV4dGVybmFsSWQYDSABKAlIBBIOCgR1",
+            "bmlkGA4gASgFSAUSLwoIZWxlbWVudHMYECADKAsyHS56OS5zcGNvcmUucHJv",
             "dG8uU2NoZWRFbGVtZW50QgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9C",
             "BwoFbmFtZV9CDQoLZXh0ZXJuYWxJZF9CBwoFdW5pZF8ihgIKDFNjaGVkRWxl",
             "bWVudBIOCgR1bmlkGAEgASgFSAASLAoJc2NoZWREYXlzGAIgAygOMhkuejku",
@@ -464,7 +464,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "pin" field.</summary>
-    public const int PinFieldNumber = 3;
+    public const int PinFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Pin {
       get { return pinCase_ == PinOneofCase.Pin ? (string) pin_ : ""; }
@@ -475,7 +475,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "pinUnique" field.</summary>
-    public const int PinUniqueFieldNumber = 4;
+    public const int PinUniqueFieldNumber = 5;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool PinUnique {
       get { return pinUniqueCase_ == PinUniqueOneofCase.PinUnique ? (bool) pinUnique_ : false; }
@@ -507,7 +507,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "pin_" oneof.</summary>
     public enum PinOneofCase {
       None = 0,
-      Pin = 3,
+      Pin = 4,
     }
     private PinOneofCase pinCase_ = PinOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -525,7 +525,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "pinUnique_" oneof.</summary>
     public enum PinUniqueOneofCase {
       None = 0,
-      PinUnique = 4,
+      PinUnique = 5,
     }
     private PinUniqueOneofCase pinUniqueCase_ = PinUniqueOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -591,11 +591,11 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(FacilityCode);
       }
       if (pinCase_ == PinOneofCase.Pin) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Pin);
       }
       if (pinUniqueCase_ == PinUniqueOneofCase.PinUnique) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(40);
         output.WriteBool(PinUnique);
       }
     }
@@ -668,11 +668,11 @@ namespace Z9.Spcore.Proto {
             FacilityCode = input.ReadInt32();
             break;
           }
-          case 26: {
+          case 34: {
             Pin = input.ReadString();
             break;
           }
-          case 32: {
+          case 40: {
             PinUnique = input.ReadBool();
             break;
           }
@@ -859,7 +859,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "anyDataLayout" field.</summary>
-    public const int AnyDataLayoutFieldNumber = 9;
+    public const int AnyDataLayoutFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool AnyDataLayout {
       get { return anyDataLayoutCase_ == AnyDataLayoutOneofCase.AnyDataLayout ? (bool) anyDataLayout_ : false; }
@@ -1017,7 +1017,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "anyDataLayout_" oneof.</summary>
     public enum AnyDataLayoutOneofCase {
       None = 0,
-      AnyDataLayout = 9,
+      AnyDataLayout = 15,
     }
     private AnyDataLayoutOneofCase anyDataLayoutCase_ = AnyDataLayoutOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1129,7 +1129,7 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(DataLayoutUnid);
       }
       if (anyDataLayoutCase_ == AnyDataLayoutOneofCase.AnyDataLayout) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(120);
         output.WriteBool(AnyDataLayout);
       }
     }
@@ -1271,7 +1271,7 @@ namespace Z9.Spcore.Proto {
             DataLayoutUnid = input.ReadInt32();
             break;
           }
-          case 72: {
+          case 120: {
             AnyDataLayout = input.ReadBool();
             break;
           }
@@ -1374,7 +1374,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -1385,7 +1385,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -1396,7 +1396,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 4;
+    public const int UnidFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -1407,7 +1407,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 5;
+    public const int NameFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -1418,7 +1418,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "enabled" field.</summary>
-    public const int EnabledFieldNumber = 6;
+    public const int EnabledFieldNumber = 18;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Enabled {
       get { return enabledCase_ == EnabledOneofCase.Enabled ? (bool) enabled_ : false; }
@@ -1429,7 +1429,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "effective" field.</summary>
-    public const int EffectiveFieldNumber = 7;
+    public const int EffectiveFieldNumber = 20;
     private global::Z9.Spcore.Proto.DateTimeData effective_;
     /// <summary>
     ///optional
@@ -1443,7 +1443,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "expires" field.</summary>
-    public const int ExpiresFieldNumber = 8;
+    public const int ExpiresFieldNumber = 21;
     private global::Z9.Spcore.Proto.DateTimeData expires_;
     /// <summary>
     ///optional
@@ -1457,7 +1457,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "credTemplateUnid" field.</summary>
-    public const int CredTemplateUnidFieldNumber = 9;
+    public const int CredTemplateUnidFieldNumber = 23;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CredTemplateUnid {
       get { return credTemplateUnidCase_ == CredTemplateUnidOneofCase.CredTemplateUnid ? (int) credTemplateUnid_ : 0; }
@@ -1468,7 +1468,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "cardPin" field.</summary>
-    public const int CardPinFieldNumber = 10;
+    public const int CardPinFieldNumber = 30;
     private global::Z9.Spcore.Proto.CardPin cardPin_;
     /// <summary>
     ///optional
@@ -1482,7 +1482,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "doorAccessModifiers" field.</summary>
-    public const int DoorAccessModifiersFieldNumber = 11;
+    public const int DoorAccessModifiersFieldNumber = 34;
     private global::Z9.Spcore.Proto.DoorAccessModifiers doorAccessModifiers_;
     /// <summary>
     ///optional
@@ -1496,9 +1496,9 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "privBindings" field.</summary>
-    public const int PrivBindingsFieldNumber = 12;
+    public const int PrivBindingsFieldNumber = 36;
     private static readonly pb::FieldCodec<global::Z9.Spcore.Proto.CredPrivBinding> _repeated_privBindings_codec
-        = pb::FieldCodec.ForMessage(98, global::Z9.Spcore.Proto.CredPrivBinding.Parser);
+        = pb::FieldCodec.ForMessage(290, global::Z9.Spcore.Proto.CredPrivBinding.Parser);
     private readonly pbc::RepeatedField<global::Z9.Spcore.Proto.CredPrivBinding> privBindings_ = new pbc::RepeatedField<global::Z9.Spcore.Proto.CredPrivBinding>();
     /// <summary>
     /// Privilege bindings.
@@ -1530,7 +1530,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1548,7 +1548,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1566,7 +1566,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 4,
+      Unid = 11,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1584,7 +1584,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 5,
+      Name = 12,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1602,7 +1602,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "enabled_" oneof.</summary>
     public enum EnabledOneofCase {
       None = 0,
-      Enabled = 6,
+      Enabled = 18,
     }
     private EnabledOneofCase enabledCase_ = EnabledOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1620,7 +1620,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "credTemplateUnid_" oneof.</summary>
     public enum CredTemplateUnidOneofCase {
       None = 0,
-      CredTemplateUnid = 9,
+      CredTemplateUnid = 23,
     }
     private CredTemplateUnidOneofCase credTemplateUnidCase_ = CredTemplateUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1706,43 +1706,43 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(88);
         output.WriteInt32(Unid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(98);
         output.WriteString(Name);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(144, 1);
         output.WriteBool(Enabled);
       }
       if (effective_ != null) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(162, 1);
         output.WriteMessage(Effective);
       }
       if (expires_ != null) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(170, 1);
         output.WriteMessage(Expires);
       }
       if (credTemplateUnidCase_ == CredTemplateUnidOneofCase.CredTemplateUnid) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(184, 1);
         output.WriteInt32(CredTemplateUnid);
       }
       if (cardPin_ != null) {
-        output.WriteRawTag(82);
+        output.WriteRawTag(242, 1);
         output.WriteMessage(CardPin);
       }
       if (doorAccessModifiers_ != null) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(146, 2);
         output.WriteMessage(DoorAccessModifiers);
       }
       privBindings_.WriteTo(output, _repeated_privBindings_codec);
@@ -1767,22 +1767,22 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       if (effective_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Effective);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Effective);
       }
       if (expires_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Expires);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Expires);
       }
       if (credTemplateUnidCase_ == CredTemplateUnidOneofCase.CredTemplateUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CredTemplateUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(CredTemplateUnid);
       }
       if (cardPin_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardPin);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(CardPin);
       }
       if (doorAccessModifiers_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DoorAccessModifiers);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DoorAccessModifiers);
       }
       size += privBindings_.CalculateSize(_repeated_privBindings_codec);
       return size;
@@ -1874,59 +1874,59 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 32: {
+          case 88: {
             Unid = input.ReadInt32();
             break;
           }
-          case 42: {
+          case 98: {
             Name = input.ReadString();
             break;
           }
-          case 48: {
+          case 144: {
             Enabled = input.ReadBool();
             break;
           }
-          case 58: {
+          case 162: {
             if (effective_ == null) {
               effective_ = new global::Z9.Spcore.Proto.DateTimeData();
             }
             input.ReadMessage(effective_);
             break;
           }
-          case 66: {
+          case 170: {
             if (expires_ == null) {
               expires_ = new global::Z9.Spcore.Proto.DateTimeData();
             }
             input.ReadMessage(expires_);
             break;
           }
-          case 72: {
+          case 184: {
             CredTemplateUnid = input.ReadInt32();
             break;
           }
-          case 82: {
+          case 242: {
             if (cardPin_ == null) {
               cardPin_ = new global::Z9.Spcore.Proto.CardPin();
             }
             input.ReadMessage(cardPin_);
             break;
           }
-          case 90: {
+          case 274: {
             if (doorAccessModifiers_ == null) {
               doorAccessModifiers_ = new global::Z9.Spcore.Proto.DoorAccessModifiers();
             }
             input.ReadMessage(doorAccessModifiers_);
             break;
           }
-          case 98: {
+          case 290: {
             privBindings_.AddEntriesFrom(input, _repeated_privBindings_codec);
             break;
           }
@@ -2019,7 +2019,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -2030,7 +2030,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -2041,7 +2041,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -2052,7 +2052,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -2063,7 +2063,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "cardPinTemplate" field.</summary>
-    public const int CardPinTemplateFieldNumber = 6;
+    public const int CardPinTemplateFieldNumber = 15;
     private global::Z9.Spcore.Proto.CardPinTemplate cardPinTemplate_;
     /// <summary>
     ///optional
@@ -2077,7 +2077,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "priority" field.</summary>
-    public const int PriorityFieldNumber = 7;
+    public const int PriorityFieldNumber = 18;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Priority {
       get { return priorityCase_ == PriorityOneofCase.Priority ? (int) priority_ : 0; }
@@ -2109,7 +2109,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2127,7 +2127,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2145,7 +2145,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2163,7 +2163,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2181,7 +2181,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "priority_" oneof.</summary>
     public enum PriorityOneofCase {
       None = 0,
-      Priority = 7,
+      Priority = 18,
     }
     private PriorityOneofCase priorityCase_ = PriorityOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2255,27 +2255,27 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
       if (cardPinTemplate_ != null) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(122);
         output.WriteMessage(CardPinTemplate);
       }
       if (priorityCase_ == PriorityOneofCase.Priority) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(144, 1);
         output.WriteInt32(Priority);
       }
     }
@@ -2302,7 +2302,7 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CardPinTemplate);
       }
       if (priorityCase_ == PriorityOneofCase.Priority) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Priority);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Priority);
       }
       return size;
     }
@@ -2368,30 +2368,30 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
-          case 50: {
+          case 122: {
             if (cardPinTemplate_ == null) {
               cardPinTemplate_ = new global::Z9.Spcore.Proto.CardPinTemplate();
             }
             input.ReadMessage(cardPinTemplate_);
             break;
           }
-          case 56: {
+          case 144: {
             Priority = input.ReadInt32();
             break;
           }
@@ -2489,7 +2489,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -2500,7 +2500,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -2511,7 +2511,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -2522,7 +2522,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -2533,7 +2533,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "dataFormatType" field.</summary>
-    public const int DataFormatTypeFieldNumber = 6;
+    public const int DataFormatTypeFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DataFormatType DataFormatType {
       get { return dataFormatTypeCase_ == DataFormatTypeOneofCase.DataFormatType ? (global::Z9.Spcore.Proto.DataFormatType) dataFormatType_ : 0; }
@@ -2576,7 +2576,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2594,7 +2594,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2612,7 +2612,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2630,7 +2630,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2648,7 +2648,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "dataFormatType_" oneof.</summary>
     public enum DataFormatTypeOneofCase {
       None = 0,
-      DataFormatType = 6,
+      DataFormatType = 14,
     }
     private DataFormatTypeOneofCase dataFormatTypeCase_ = DataFormatTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2742,23 +2742,23 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
       if (dataFormatTypeCase_ == DataFormatTypeOneofCase.DataFormatType) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteEnum((int) DataFormatType);
       }
       if (extensionCase_ == ExtensionOneofCase.ExtBinaryFormat) {
@@ -2858,23 +2858,23 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
-          case 48: {
+          case 112: {
             dataFormatType_ = input.ReadEnum();
             dataFormatTypeCase_ = DataFormatTypeOneofCase.DataFormatType;
             break;
@@ -3745,7 +3745,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "staticValue" field.</summary>
-    public const int StaticValueFieldNumber = 2;
+    public const int StaticValueFieldNumber = 5;
     private global::Z9.Spcore.Proto.BigIntegerData staticValue_;
     /// <summary>
     ///optional
@@ -3816,7 +3816,7 @@ namespace Z9.Spcore.Proto {
         output.WriteEnum((int) Field);
       }
       if (staticValue_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(42);
         output.WriteMessage(StaticValue);
       }
     }
@@ -3865,7 +3865,7 @@ namespace Z9.Spcore.Proto {
             fieldCase_ = FieldOneofCase.Field;
             break;
           }
-          case 18: {
+          case 42: {
             if (staticValue_ == null) {
               staticValue_ = new global::Z9.Spcore.Proto.BigIntegerData();
             }
@@ -4423,7 +4423,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -4434,7 +4434,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -4445,7 +4445,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -4456,7 +4456,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -4467,7 +4467,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "layoutType" field.</summary>
-    public const int LayoutTypeFieldNumber = 6;
+    public const int LayoutTypeFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DataLayoutType LayoutType {
       get { return layoutTypeCase_ == LayoutTypeOneofCase.LayoutType ? (global::Z9.Spcore.Proto.DataLayoutType) layoutType_ : 0; }
@@ -4478,7 +4478,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "priority" field.</summary>
-    public const int PriorityFieldNumber = 7;
+    public const int PriorityFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Priority {
       get { return priorityCase_ == PriorityOneofCase.Priority ? (int) priority_ : 0; }
@@ -4489,7 +4489,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "enabled" field.</summary>
-    public const int EnabledFieldNumber = 8;
+    public const int EnabledFieldNumber = 17;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Enabled {
       get { return enabledCase_ == EnabledOneofCase.Enabled ? (bool) enabled_ : false; }
@@ -4532,7 +4532,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4550,7 +4550,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4568,7 +4568,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4586,7 +4586,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4604,7 +4604,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "layoutType_" oneof.</summary>
     public enum LayoutTypeOneofCase {
       None = 0,
-      LayoutType = 6,
+      LayoutType = 14,
     }
     private LayoutTypeOneofCase layoutTypeCase_ = LayoutTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4622,7 +4622,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "priority_" oneof.</summary>
     public enum PriorityOneofCase {
       None = 0,
-      Priority = 7,
+      Priority = 15,
     }
     private PriorityOneofCase priorityCase_ = PriorityOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4640,7 +4640,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "enabled_" oneof.</summary>
     public enum EnabledOneofCase {
       None = 0,
-      Enabled = 8,
+      Enabled = 17,
     }
     private EnabledOneofCase enabledCase_ = EnabledOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4742,31 +4742,31 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
       if (layoutTypeCase_ == LayoutTypeOneofCase.LayoutType) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteEnum((int) LayoutType);
       }
       if (priorityCase_ == PriorityOneofCase.Priority) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(120);
         output.WriteInt32(Priority);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(136, 1);
         output.WriteBool(Enabled);
       }
       if (extensionCase_ == ExtensionOneofCase.ExtBasicDataLayout) {
@@ -4800,7 +4800,7 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Priority);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       if (extensionCase_ == ExtensionOneofCase.ExtBasicDataLayout) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(ExtBasicDataLayout);
@@ -4884,32 +4884,32 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
-          case 48: {
+          case 112: {
             layoutType_ = input.ReadEnum();
             layoutTypeCase_ = LayoutTypeOneofCase.LayoutType;
             break;
           }
-          case 56: {
+          case 120: {
             Priority = input.ReadInt32();
             break;
           }
-          case 64: {
+          case 136: {
             Enabled = input.ReadBool();
             break;
           }
@@ -6201,7 +6201,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "schedRestriction" field.</summary>
-    public const int SchedRestrictionFieldNumber = 1;
+    public const int SchedRestrictionFieldNumber = 7;
     private global::Z9.Spcore.Proto.SchedRestriction schedRestriction_;
     /// <summary>
     ///optional
@@ -6215,7 +6215,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devAsDoorAccessPrivUnid" field.</summary>
-    public const int DevAsDoorAccessPrivUnidFieldNumber = 2;
+    public const int DevAsDoorAccessPrivUnidFieldNumber = 9;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int DevAsDoorAccessPrivUnid {
       get { return devAsDoorAccessPrivUnidCase_ == DevAsDoorAccessPrivUnidOneofCase.DevAsDoorAccessPrivUnid ? (int) devAsDoorAccessPrivUnid_ : 0; }
@@ -6226,7 +6226,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 3;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -6240,7 +6240,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devAsDoorAccessPrivUnid_" oneof.</summary>
     public enum DevAsDoorAccessPrivUnidOneofCase {
       None = 0,
-      DevAsDoorAccessPrivUnid = 2,
+      DevAsDoorAccessPrivUnid = 9,
     }
     private DevAsDoorAccessPrivUnidOneofCase devAsDoorAccessPrivUnidCase_ = DevAsDoorAccessPrivUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6258,7 +6258,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 3,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6312,15 +6312,15 @@ namespace Z9.Spcore.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       if (schedRestriction_ != null) {
-        output.WriteRawTag(10);
+        output.WriteRawTag(58);
         output.WriteMessage(SchedRestriction);
       }
       if (devAsDoorAccessPrivUnidCase_ == DevAsDoorAccessPrivUnidOneofCase.DevAsDoorAccessPrivUnid) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(72);
         output.WriteInt32(DevAsDoorAccessPrivUnid);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
     }
@@ -6373,18 +6373,18 @@ namespace Z9.Spcore.Proto {
           default:
             input.SkipLastField();
             break;
-          case 10: {
+          case 58: {
             if (schedRestriction_ == null) {
               schedRestriction_ = new global::Z9.Spcore.Proto.SchedRestriction();
             }
             input.ReadMessage(schedRestriction_);
             break;
           }
-          case 16: {
+          case 72: {
             DevAsDoorAccessPrivUnid = input.ReadInt32();
             break;
           }
-          case 24: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
@@ -6435,7 +6435,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "extDoorTime" field.</summary>
-    public const int ExtDoorTimeFieldNumber = 1;
+    public const int ExtDoorTimeFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool ExtDoorTime {
       get { return extDoorTimeCase_ == ExtDoorTimeOneofCase.ExtDoorTime ? (bool) extDoorTime_ : false; }
@@ -6449,7 +6449,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "extDoorTime_" oneof.</summary>
     public enum ExtDoorTimeOneofCase {
       None = 0,
-      ExtDoorTime = 1,
+      ExtDoorTime = 3,
     }
     private ExtDoorTimeOneofCase extDoorTimeCase_ = ExtDoorTimeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6497,7 +6497,7 @@ namespace Z9.Spcore.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       if (extDoorTimeCase_ == ExtDoorTimeOneofCase.ExtDoorTime) {
-        output.WriteRawTag(8);
+        output.WriteRawTag(24);
         output.WriteBool(ExtDoorTime);
       }
     }
@@ -6532,7 +6532,7 @@ namespace Z9.Spcore.Proto {
           default:
             input.SkipLastField();
             break;
-          case 8: {
+          case 24: {
             ExtDoorTime = input.ReadBool();
             break;
           }
@@ -6716,7 +6716,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "doorUnid" field.</summary>
-    public const int DoorUnidFieldNumber = 2;
+    public const int DoorUnidFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int DoorUnid {
       get { return doorUnidCase_ == DoorUnidOneofCase.DoorUnid ? (int) doorUnid_ : 0; }
@@ -6727,7 +6727,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "schedRestriction" field.</summary>
-    public const int SchedRestrictionFieldNumber = 3;
+    public const int SchedRestrictionFieldNumber = 7;
     private global::Z9.Spcore.Proto.SchedRestriction schedRestriction_;
     /// <summary>
     ///optional
@@ -6762,7 +6762,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "doorUnid_" oneof.</summary>
     public enum DoorUnidOneofCase {
       None = 0,
-      DoorUnid = 2,
+      DoorUnid = 4,
     }
     private DoorUnidOneofCase doorUnidCase_ = DoorUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6820,11 +6820,11 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Unid);
       }
       if (doorUnidCase_ == DoorUnidOneofCase.DoorUnid) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(32);
         output.WriteInt32(DoorUnid);
       }
       if (schedRestriction_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteMessage(SchedRestriction);
       }
     }
@@ -6881,11 +6881,11 @@ namespace Z9.Spcore.Proto {
             Unid = input.ReadInt32();
             break;
           }
-          case 16: {
+          case 32: {
             DoorUnid = input.ReadInt32();
             break;
           }
-          case 26: {
+          case 58: {
             if (schedRestriction_ == null) {
               schedRestriction_ = new global::Z9.Spcore.Proto.SchedRestriction();
             }
@@ -6998,7 +6998,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -7009,7 +7009,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -7020,7 +7020,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -7031,7 +7031,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -7042,7 +7042,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "enabled" field.</summary>
-    public const int EnabledFieldNumber = 6;
+    public const int EnabledFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Enabled {
       get { return enabledCase_ == EnabledOneofCase.Enabled ? (bool) enabled_ : false; }
@@ -7053,7 +7053,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "privType" field.</summary>
-    public const int PrivTypeFieldNumber = 7;
+    public const int PrivTypeFieldNumber = 18;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.PrivType PrivType {
       get { return privTypeCase_ == PrivTypeOneofCase.PrivType ? (global::Z9.Spcore.Proto.PrivType) privType_ : 0; }
@@ -7064,7 +7064,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalId" field.</summary>
-    public const int ExternalIdFieldNumber = 8;
+    public const int ExternalIdFieldNumber = 20;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalId {
       get { return externalIdCase_ == ExternalIdOneofCase.ExternalId ? (string) externalId_ : ""; }
@@ -7107,7 +7107,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7125,7 +7125,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7143,7 +7143,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7161,7 +7161,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7179,7 +7179,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "enabled_" oneof.</summary>
     public enum EnabledOneofCase {
       None = 0,
-      Enabled = 6,
+      Enabled = 14,
     }
     private EnabledOneofCase enabledCase_ = EnabledOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7197,7 +7197,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "privType_" oneof.</summary>
     public enum PrivTypeOneofCase {
       None = 0,
-      PrivType = 7,
+      PrivType = 18,
     }
     private PrivTypeOneofCase privTypeCase_ = PrivTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7215,7 +7215,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalId_" oneof.</summary>
     public enum ExternalIdOneofCase {
       None = 0,
-      ExternalId = 8,
+      ExternalId = 20,
     }
     private ExternalIdOneofCase externalIdCase_ = ExternalIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7317,31 +7317,31 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteBool(Enabled);
       }
       if (privTypeCase_ == PrivTypeOneofCase.PrivType) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(144, 1);
         output.WriteEnum((int) PrivType);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(162, 1);
         output.WriteString(ExternalId);
       }
       if (extensionCase_ == ExtensionOneofCase.ExtDoorAccessPriv) {
@@ -7372,10 +7372,10 @@ namespace Z9.Spcore.Proto {
         size += 1 + 1;
       }
       if (privTypeCase_ == PrivTypeOneofCase.PrivType) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) PrivType);
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) PrivType);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ExternalId);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ExternalId);
       }
       if (extensionCase_ == ExtensionOneofCase.ExtDoorAccessPriv) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(ExtDoorAccessPriv);
@@ -7459,32 +7459,32 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
-          case 48: {
+          case 112: {
             Enabled = input.ReadBool();
             break;
           }
-          case 56: {
+          case 144: {
             privType_ = input.ReadEnum();
             privTypeCase_ = PrivTypeOneofCase.PrivType;
             break;
           }
-          case 66: {
+          case 162: {
             ExternalId = input.ReadString();
             break;
           }
@@ -7696,7 +7696,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -7707,7 +7707,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -7718,7 +7718,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -7729,7 +7729,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalId" field.</summary>
-    public const int ExternalIdFieldNumber = 5;
+    public const int ExternalIdFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalId {
       get { return externalIdCase_ == ExternalIdOneofCase.ExternalId ? (string) externalId_ : ""; }
@@ -7740,7 +7740,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 6;
+    public const int UnidFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -7751,7 +7751,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "address" field.</summary>
-    public const int AddressFieldNumber = 7;
+    public const int AddressFieldNumber = 21;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Address {
       get { return addressCase_ == AddressOneofCase.Address ? (string) address_ : ""; }
@@ -7762,7 +7762,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "logicalAddress" field.</summary>
-    public const int LogicalAddressFieldNumber = 8;
+    public const int LogicalAddressFieldNumber = 22;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int LogicalAddress {
       get { return logicalAddressCase_ == LogicalAddressOneofCase.LogicalAddress ? (int) logicalAddress_ : 0; }
@@ -7773,7 +7773,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "macAddress" field.</summary>
-    public const int MacAddressFieldNumber = 9;
+    public const int MacAddressFieldNumber = 23;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string MacAddress {
       get { return macAddressCase_ == MacAddressOneofCase.MacAddress ? (string) macAddress_ : ""; }
@@ -7784,7 +7784,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "enabled" field.</summary>
-    public const int EnabledFieldNumber = 10;
+    public const int EnabledFieldNumber = 25;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Enabled {
       get { return enabledCase_ == EnabledOneofCase.Enabled ? (bool) enabled_ : false; }
@@ -7795,7 +7795,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "port" field.</summary>
-    public const int PortFieldNumber = 11;
+    public const int PortFieldNumber = 26;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Port {
       get { return portCase_ == PortOneofCase.Port ? (int) port_ : 0; }
@@ -7806,7 +7806,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "speed" field.</summary>
-    public const int SpeedFieldNumber = 12;
+    public const int SpeedFieldNumber = 27;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Speed {
       get { return speedCase_ == SpeedOneofCase.Speed ? (int) speed_ : 0; }
@@ -7817,7 +7817,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devType" field.</summary>
-    public const int DevTypeFieldNumber = 13;
+    public const int DevTypeFieldNumber = 28;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevType DevType {
       get { return devTypeCase_ == DevTypeOneofCase.DevType ? (global::Z9.Spcore.Proto.DevType) devType_ : 0; }
@@ -7828,7 +7828,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devSubType" field.</summary>
-    public const int DevSubTypeFieldNumber = 14;
+    public const int DevSubTypeFieldNumber = 31;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevSubType DevSubType {
       get { return devSubTypeCase_ == DevSubTypeOneofCase.DevSubType ? (global::Z9.Spcore.Proto.DevSubType) devSubType_ : 0; }
@@ -7839,7 +7839,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devMod" field.</summary>
-    public const int DevModFieldNumber = 15;
+    public const int DevModFieldNumber = 32;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevMod DevMod {
       get { return devModCase_ == DevModOneofCase.DevMod ? (global::Z9.Spcore.Proto.DevMod) devMod_ : 0; }
@@ -7850,7 +7850,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devPlatform" field.</summary>
-    public const int DevPlatformFieldNumber = 16;
+    public const int DevPlatformFieldNumber = 35;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevPlatform DevPlatform {
       get { return devPlatformCase_ == DevPlatformOneofCase.DevPlatform ? (global::Z9.Spcore.Proto.DevPlatform) devPlatform_ : 0; }
@@ -7861,7 +7861,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devModConfig" field.</summary>
-    public const int DevModConfigFieldNumber = 17;
+    public const int DevModConfigFieldNumber = 38;
     private global::Z9.Spcore.Proto.DevModConfig devModConfig_;
     /// <summary>
     ///optional
@@ -7875,7 +7875,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devUse" field.</summary>
-    public const int DevUseFieldNumber = 18;
+    public const int DevUseFieldNumber = 39;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevUse DevUse {
       get { return devUseCase_ == DevUseOneofCase.DevUse ? (global::Z9.Spcore.Proto.DevUse) devUse_ : 0; }
@@ -7886,7 +7886,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "physicalParentUnid" field.</summary>
-    public const int PhysicalParentUnidFieldNumber = 19;
+    public const int PhysicalParentUnidFieldNumber = 41;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int PhysicalParentUnid {
       get { return physicalParentUnidCase_ == PhysicalParentUnidOneofCase.PhysicalParentUnid ? (int) physicalParentUnid_ : 0; }
@@ -7897,7 +7897,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "logicalParentUnid" field.</summary>
-    public const int LogicalParentUnidFieldNumber = 20;
+    public const int LogicalParentUnidFieldNumber = 42;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int LogicalParentUnid {
       get { return logicalParentUnidCase_ == LogicalParentUnidOneofCase.LogicalParentUnid ? (int) logicalParentUnid_ : 0; }
@@ -7908,7 +7908,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "timeZone" field.</summary>
-    public const int TimeZoneFieldNumber = 21;
+    public const int TimeZoneFieldNumber = 49;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string TimeZone {
       get { return timeZoneCase_ == TimeZoneOneofCase.TimeZone ? (string) timeZone_ : ""; }
@@ -7919,7 +7919,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "ignoreDaylightSavings" field.</summary>
-    public const int IgnoreDaylightSavingsFieldNumber = 22;
+    public const int IgnoreDaylightSavingsFieldNumber = 50;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool IgnoreDaylightSavings {
       get { return ignoreDaylightSavingsCase_ == IgnoreDaylightSavingsOneofCase.IgnoreDaylightSavings ? (bool) ignoreDaylightSavings_ : false; }
@@ -7930,9 +7930,9 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "logicalChildrenUnid" field.</summary>
-    public const int LogicalChildrenUnidFieldNumber = 23;
+    public const int LogicalChildrenUnidFieldNumber = 52;
     private static readonly pb::FieldCodec<int> _repeated_logicalChildrenUnid_codec
-        = pb::FieldCodec.ForInt32(186);
+        = pb::FieldCodec.ForInt32(418);
     private readonly pbc::RepeatedField<int> logicalChildrenUnid_ = new pbc::RepeatedField<int>();
     /// <summary>
     /// Logical children devices.
@@ -7943,9 +7943,9 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "physicalChildrenUnid" field.</summary>
-    public const int PhysicalChildrenUnidFieldNumber = 24;
+    public const int PhysicalChildrenUnidFieldNumber = 53;
     private static readonly pb::FieldCodec<int> _repeated_physicalChildrenUnid_codec
-        = pb::FieldCodec.ForInt32(194);
+        = pb::FieldCodec.ForInt32(426);
     private readonly pbc::RepeatedField<int> physicalChildrenUnid_ = new pbc::RepeatedField<int>();
     /// <summary>
     /// Physical children devices.
@@ -8032,7 +8032,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8050,7 +8050,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8068,7 +8068,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8086,7 +8086,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalId_" oneof.</summary>
     public enum ExternalIdOneofCase {
       None = 0,
-      ExternalId = 5,
+      ExternalId = 13,
     }
     private ExternalIdOneofCase externalIdCase_ = ExternalIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8104,7 +8104,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 6,
+      Unid = 14,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8122,7 +8122,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "address_" oneof.</summary>
     public enum AddressOneofCase {
       None = 0,
-      Address = 7,
+      Address = 21,
     }
     private AddressOneofCase addressCase_ = AddressOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8140,7 +8140,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "logicalAddress_" oneof.</summary>
     public enum LogicalAddressOneofCase {
       None = 0,
-      LogicalAddress = 8,
+      LogicalAddress = 22,
     }
     private LogicalAddressOneofCase logicalAddressCase_ = LogicalAddressOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8158,7 +8158,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "macAddress_" oneof.</summary>
     public enum MacAddressOneofCase {
       None = 0,
-      MacAddress = 9,
+      MacAddress = 23,
     }
     private MacAddressOneofCase macAddressCase_ = MacAddressOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8176,7 +8176,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "enabled_" oneof.</summary>
     public enum EnabledOneofCase {
       None = 0,
-      Enabled = 10,
+      Enabled = 25,
     }
     private EnabledOneofCase enabledCase_ = EnabledOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8194,7 +8194,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "port_" oneof.</summary>
     public enum PortOneofCase {
       None = 0,
-      Port = 11,
+      Port = 26,
     }
     private PortOneofCase portCase_ = PortOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8212,7 +8212,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "speed_" oneof.</summary>
     public enum SpeedOneofCase {
       None = 0,
-      Speed = 12,
+      Speed = 27,
     }
     private SpeedOneofCase speedCase_ = SpeedOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8230,7 +8230,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devType_" oneof.</summary>
     public enum DevTypeOneofCase {
       None = 0,
-      DevType = 13,
+      DevType = 28,
     }
     private DevTypeOneofCase devTypeCase_ = DevTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8248,7 +8248,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devSubType_" oneof.</summary>
     public enum DevSubTypeOneofCase {
       None = 0,
-      DevSubType = 14,
+      DevSubType = 31,
     }
     private DevSubTypeOneofCase devSubTypeCase_ = DevSubTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8266,7 +8266,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devMod_" oneof.</summary>
     public enum DevModOneofCase {
       None = 0,
-      DevMod = 15,
+      DevMod = 32,
     }
     private DevModOneofCase devModCase_ = DevModOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8284,7 +8284,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devPlatform_" oneof.</summary>
     public enum DevPlatformOneofCase {
       None = 0,
-      DevPlatform = 16,
+      DevPlatform = 35,
     }
     private DevPlatformOneofCase devPlatformCase_ = DevPlatformOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8302,7 +8302,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devUse_" oneof.</summary>
     public enum DevUseOneofCase {
       None = 0,
-      DevUse = 18,
+      DevUse = 39,
     }
     private DevUseOneofCase devUseCase_ = DevUseOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8320,7 +8320,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "physicalParentUnid_" oneof.</summary>
     public enum PhysicalParentUnidOneofCase {
       None = 0,
-      PhysicalParentUnid = 19,
+      PhysicalParentUnid = 41,
     }
     private PhysicalParentUnidOneofCase physicalParentUnidCase_ = PhysicalParentUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8338,7 +8338,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "logicalParentUnid_" oneof.</summary>
     public enum LogicalParentUnidOneofCase {
       None = 0,
-      LogicalParentUnid = 20,
+      LogicalParentUnid = 42,
     }
     private LogicalParentUnidOneofCase logicalParentUnidCase_ = LogicalParentUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8356,7 +8356,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "timeZone_" oneof.</summary>
     public enum TimeZoneOneofCase {
       None = 0,
-      TimeZone = 21,
+      TimeZone = 49,
     }
     private TimeZoneOneofCase timeZoneCase_ = TimeZoneOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8374,7 +8374,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "ignoreDaylightSavings_" oneof.</summary>
     public enum IgnoreDaylightSavingsOneofCase {
       None = 0,
-      IgnoreDaylightSavings = 22,
+      IgnoreDaylightSavings = 50,
     }
     private IgnoreDaylightSavingsOneofCase ignoreDaylightSavingsCase_ = IgnoreDaylightSavingsOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8546,87 +8546,87 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(106);
         output.WriteString(ExternalId);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteInt32(Unid);
       }
       if (addressCase_ == AddressOneofCase.Address) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(170, 1);
         output.WriteString(Address);
       }
       if (logicalAddressCase_ == LogicalAddressOneofCase.LogicalAddress) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(176, 1);
         output.WriteInt32(LogicalAddress);
       }
       if (macAddressCase_ == MacAddressOneofCase.MacAddress) {
-        output.WriteRawTag(74);
+        output.WriteRawTag(186, 1);
         output.WriteString(MacAddress);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(200, 1);
         output.WriteBool(Enabled);
       }
       if (portCase_ == PortOneofCase.Port) {
-        output.WriteRawTag(88);
+        output.WriteRawTag(208, 1);
         output.WriteInt32(Port);
       }
       if (speedCase_ == SpeedOneofCase.Speed) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(216, 1);
         output.WriteInt32(Speed);
       }
       if (devTypeCase_ == DevTypeOneofCase.DevType) {
-        output.WriteRawTag(104);
+        output.WriteRawTag(224, 1);
         output.WriteEnum((int) DevType);
       }
       if (devSubTypeCase_ == DevSubTypeOneofCase.DevSubType) {
-        output.WriteRawTag(112);
+        output.WriteRawTag(248, 1);
         output.WriteEnum((int) DevSubType);
       }
       if (devModCase_ == DevModOneofCase.DevMod) {
-        output.WriteRawTag(120);
+        output.WriteRawTag(128, 2);
         output.WriteEnum((int) DevMod);
       }
       if (devPlatformCase_ == DevPlatformOneofCase.DevPlatform) {
-        output.WriteRawTag(128, 1);
+        output.WriteRawTag(152, 2);
         output.WriteEnum((int) DevPlatform);
       }
       if (devModConfig_ != null) {
-        output.WriteRawTag(138, 1);
+        output.WriteRawTag(178, 2);
         output.WriteMessage(DevModConfig);
       }
       if (devUseCase_ == DevUseOneofCase.DevUse) {
-        output.WriteRawTag(144, 1);
+        output.WriteRawTag(184, 2);
         output.WriteEnum((int) DevUse);
       }
       if (physicalParentUnidCase_ == PhysicalParentUnidOneofCase.PhysicalParentUnid) {
-        output.WriteRawTag(152, 1);
+        output.WriteRawTag(200, 2);
         output.WriteInt32(PhysicalParentUnid);
       }
       if (logicalParentUnidCase_ == LogicalParentUnidOneofCase.LogicalParentUnid) {
-        output.WriteRawTag(160, 1);
+        output.WriteRawTag(208, 2);
         output.WriteInt32(LogicalParentUnid);
       }
       if (timeZoneCase_ == TimeZoneOneofCase.TimeZone) {
-        output.WriteRawTag(170, 1);
+        output.WriteRawTag(138, 3);
         output.WriteString(TimeZone);
       }
       if (ignoreDaylightSavingsCase_ == IgnoreDaylightSavingsOneofCase.IgnoreDaylightSavings) {
-        output.WriteRawTag(176, 1);
+        output.WriteRawTag(144, 3);
         output.WriteBool(IgnoreDaylightSavings);
       }
       logicalChildrenUnid_.WriteTo(output, _repeated_logicalChildrenUnid_codec);
@@ -8675,31 +8675,31 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Unid);
       }
       if (addressCase_ == AddressOneofCase.Address) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Address);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Address);
       }
       if (logicalAddressCase_ == LogicalAddressOneofCase.LogicalAddress) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LogicalAddress);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(LogicalAddress);
       }
       if (macAddressCase_ == MacAddressOneofCase.MacAddress) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(MacAddress);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(MacAddress);
       }
       if (enabledCase_ == EnabledOneofCase.Enabled) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       if (portCase_ == PortOneofCase.Port) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Port);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Port);
       }
       if (speedCase_ == SpeedOneofCase.Speed) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Speed);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Speed);
       }
       if (devTypeCase_ == DevTypeOneofCase.DevType) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevType);
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DevType);
       }
       if (devSubTypeCase_ == DevSubTypeOneofCase.DevSubType) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevSubType);
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DevSubType);
       }
       if (devModCase_ == DevModOneofCase.DevMod) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevMod);
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DevMod);
       }
       if (devPlatformCase_ == DevPlatformOneofCase.DevPlatform) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DevPlatform);
@@ -8928,105 +8928,105 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 42: {
+          case 106: {
             ExternalId = input.ReadString();
             break;
           }
-          case 48: {
+          case 112: {
             Unid = input.ReadInt32();
             break;
           }
-          case 58: {
+          case 170: {
             Address = input.ReadString();
             break;
           }
-          case 64: {
+          case 176: {
             LogicalAddress = input.ReadInt32();
             break;
           }
-          case 74: {
+          case 186: {
             MacAddress = input.ReadString();
             break;
           }
-          case 80: {
+          case 200: {
             Enabled = input.ReadBool();
             break;
           }
-          case 88: {
+          case 208: {
             Port = input.ReadInt32();
             break;
           }
-          case 96: {
+          case 216: {
             Speed = input.ReadInt32();
             break;
           }
-          case 104: {
+          case 224: {
             devType_ = input.ReadEnum();
             devTypeCase_ = DevTypeOneofCase.DevType;
             break;
           }
-          case 112: {
+          case 248: {
             devSubType_ = input.ReadEnum();
             devSubTypeCase_ = DevSubTypeOneofCase.DevSubType;
             break;
           }
-          case 120: {
+          case 256: {
             devMod_ = input.ReadEnum();
             devModCase_ = DevModOneofCase.DevMod;
             break;
           }
-          case 128: {
+          case 280: {
             devPlatform_ = input.ReadEnum();
             devPlatformCase_ = DevPlatformOneofCase.DevPlatform;
             break;
           }
-          case 138: {
+          case 306: {
             if (devModConfig_ == null) {
               devModConfig_ = new global::Z9.Spcore.Proto.DevModConfig();
             }
             input.ReadMessage(devModConfig_);
             break;
           }
-          case 144: {
+          case 312: {
             devUse_ = input.ReadEnum();
             devUseCase_ = DevUseOneofCase.DevUse;
             break;
           }
-          case 152: {
+          case 328: {
             PhysicalParentUnid = input.ReadInt32();
             break;
           }
-          case 160: {
+          case 336: {
             LogicalParentUnid = input.ReadInt32();
             break;
           }
-          case 170: {
+          case 394: {
             TimeZone = input.ReadString();
             break;
           }
-          case 176: {
+          case 400: {
             IgnoreDaylightSavings = input.ReadBool();
             break;
           }
-          case 186:
-          case 184: {
+          case 418:
+          case 416: {
             logicalChildrenUnid_.AddEntriesFrom(input, _repeated_logicalChildrenUnid_codec);
             break;
           }
-          case 194:
-          case 192: {
+          case 426:
+          case 424: {
             physicalChildrenUnid_.AddEntriesFrom(input, _repeated_physicalChildrenUnid_codec);
             break;
           }
@@ -10327,7 +10327,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "enabledRestriction" field.</summary>
-    public const int EnabledRestrictionFieldNumber = 5;
+    public const int EnabledRestrictionFieldNumber = 14;
     private global::Z9.Spcore.Proto.EnabledRestriction enabledRestriction_;
     /// <summary>
     ///optional
@@ -10396,7 +10396,7 @@ namespace Z9.Spcore.Proto {
         output.WriteMessage(DevUseRestriction);
       }
       if (enabledRestriction_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(114);
         output.WriteMessage(EnabledRestriction);
       }
     }
@@ -10495,7 +10495,7 @@ namespace Z9.Spcore.Proto {
             input.ReadMessage(devUseRestriction_);
             break;
           }
-          case 42: {
+          case 114: {
             if (enabledRestriction_ == null) {
               enabledRestriction_ = new global::Z9.Spcore.Proto.EnabledRestriction();
             }
@@ -10747,7 +10747,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "type" field.</summary>
-    public const int TypeFieldNumber = 2;
+    public const int TypeFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevActionParamsType Type {
       get { return typeCase_ == TypeOneofCase.Type ? (global::Z9.Spcore.Proto.DevActionParamsType) type_ : 0; }
@@ -10801,7 +10801,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "type_" oneof.</summary>
     public enum TypeOneofCase {
       None = 0,
-      Type = 2,
+      Type = 3,
     }
     private TypeOneofCase typeCase_ = TypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10882,7 +10882,7 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Unid);
       }
       if (typeCase_ == TypeOneofCase.Type) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(24);
         output.WriteEnum((int) Type);
       }
       if (extensionCase_ == ExtensionOneofCase.ExtDoorModeDevActionParams) {
@@ -10959,7 +10959,7 @@ namespace Z9.Spcore.Proto {
             Unid = input.ReadInt32();
             break;
           }
-          case 16: {
+          case 24: {
             type_ = input.ReadEnum();
             typeCase_ = TypeOneofCase.Type;
             break;
@@ -11546,7 +11546,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefUnid" field.</summary>
-    public const int EncryptionKeyRefUnidFieldNumber = 7;
+    public const int EncryptionKeyRefUnidFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefUnid {
       get { return encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid ? (int) encryptionKeyRefUnid_ : 0; }
@@ -11557,7 +11557,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefNextUnid" field.</summary>
-    public const int EncryptionKeyRefNextUnidFieldNumber = 8;
+    public const int EncryptionKeyRefNextUnidFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefNextUnid {
       get { return encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid ? (int) encryptionKeyRefNextUnid_ : 0; }
@@ -11568,7 +11568,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "disableEncryption" field.</summary>
-    public const int DisableEncryptionFieldNumber = 9;
+    public const int DisableEncryptionFieldNumber = 16;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool DisableEncryption {
       get { return disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption ? (bool) disableEncryption_ : false; }
@@ -11690,7 +11690,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
     public enum EncryptionKeyRefUnidOneofCase {
       None = 0,
-      EncryptionKeyRefUnid = 7,
+      EncryptionKeyRefUnid = 14,
     }
     private EncryptionKeyRefUnidOneofCase encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11708,7 +11708,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefNextUnid_" oneof.</summary>
     public enum EncryptionKeyRefNextUnidOneofCase {
       None = 0,
-      EncryptionKeyRefNextUnid = 8,
+      EncryptionKeyRefNextUnid = 15,
     }
     private EncryptionKeyRefNextUnidOneofCase encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11726,7 +11726,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "disableEncryption_" oneof.</summary>
     public enum DisableEncryptionOneofCase {
       None = 0,
-      DisableEncryption = 9,
+      DisableEncryption = 16,
     }
     private DisableEncryptionOneofCase disableEncryptionCase_ = DisableEncryptionOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11830,15 +11830,15 @@ namespace Z9.Spcore.Proto {
         output.WriteBool(Invert);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(112);
         output.WriteInt32(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(120);
         output.WriteInt32(EncryptionKeyRefNextUnid);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(128, 1);
         output.WriteBool(DisableEncryption);
       }
     }
@@ -11871,7 +11871,7 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       return size;
     }
@@ -11969,15 +11969,15 @@ namespace Z9.Spcore.Proto {
             Invert = input.ReadBool();
             break;
           }
-          case 56: {
+          case 112: {
             EncryptionKeyRefUnid = input.ReadInt32();
             break;
           }
-          case 64: {
+          case 120: {
             EncryptionKeyRefNextUnid = input.ReadInt32();
             break;
           }
-          case 72: {
+          case 128: {
             DisableEncryption = input.ReadBool();
             break;
           }
@@ -12254,7 +12254,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefUnid" field.</summary>
-    public const int EncryptionKeyRefUnidFieldNumber = 6;
+    public const int EncryptionKeyRefUnidFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefUnid {
       get { return encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid ? (int) encryptionKeyRefUnid_ : 0; }
@@ -12265,7 +12265,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefNextUnid" field.</summary>
-    public const int EncryptionKeyRefNextUnidFieldNumber = 7;
+    public const int EncryptionKeyRefNextUnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefNextUnid {
       get { return encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid ? (int) encryptionKeyRefNextUnid_ : 0; }
@@ -12276,7 +12276,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "disableEncryption" field.</summary>
-    public const int DisableEncryptionFieldNumber = 8;
+    public const int DisableEncryptionFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool DisableEncryption {
       get { return disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption ? (bool) disableEncryption_ : false; }
@@ -12380,7 +12380,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
     public enum EncryptionKeyRefUnidOneofCase {
       None = 0,
-      EncryptionKeyRefUnid = 6,
+      EncryptionKeyRefUnid = 11,
     }
     private EncryptionKeyRefUnidOneofCase encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12398,7 +12398,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefNextUnid_" oneof.</summary>
     public enum EncryptionKeyRefNextUnidOneofCase {
       None = 0,
-      EncryptionKeyRefNextUnid = 7,
+      EncryptionKeyRefNextUnid = 12,
     }
     private EncryptionKeyRefNextUnidOneofCase encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12416,7 +12416,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "disableEncryption_" oneof.</summary>
     public enum DisableEncryptionOneofCase {
       None = 0,
-      DisableEncryption = 8,
+      DisableEncryption = 13,
     }
     private DisableEncryptionOneofCase disableEncryptionCase_ = DisableEncryptionOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12512,15 +12512,15 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Unid);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(88);
         output.WriteInt32(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(96);
         output.WriteInt32(EncryptionKeyRefNextUnid);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(104);
         output.WriteBool(DisableEncryption);
       }
     }
@@ -12638,15 +12638,15 @@ namespace Z9.Spcore.Proto {
             Unid = input.ReadInt32();
             break;
           }
-          case 48: {
+          case 88: {
             EncryptionKeyRefUnid = input.ReadInt32();
             break;
           }
-          case 56: {
+          case 96: {
             EncryptionKeyRefNextUnid = input.ReadInt32();
             break;
           }
-          case 64: {
+          case 104: {
             DisableEncryption = input.ReadBool();
             break;
           }
@@ -12969,7 +12969,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "ledType" field.</summary>
-    public const int LedTypeFieldNumber = 8;
+    public const int LedTypeFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.CredReaderLedType LedType {
       get { return ledTypeCase_ == LedTypeOneofCase.LedType ? (global::Z9.Spcore.Proto.CredReaderLedType) ledType_ : 0; }
@@ -12980,7 +12980,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefUnid" field.</summary>
-    public const int EncryptionKeyRefUnidFieldNumber = 9;
+    public const int EncryptionKeyRefUnidFieldNumber = 19;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefUnid {
       get { return encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid ? (int) encryptionKeyRefUnid_ : 0; }
@@ -12991,7 +12991,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefNextUnid" field.</summary>
-    public const int EncryptionKeyRefNextUnidFieldNumber = 10;
+    public const int EncryptionKeyRefNextUnidFieldNumber = 20;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefNextUnid {
       get { return encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid ? (int) encryptionKeyRefNextUnid_ : 0; }
@@ -13002,7 +13002,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "serialPortAddress" field.</summary>
-    public const int SerialPortAddressFieldNumber = 11;
+    public const int SerialPortAddressFieldNumber = 21;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SerialPortAddress {
       get { return serialPortAddressCase_ == SerialPortAddressOneofCase.SerialPortAddress ? (string) serialPortAddress_ : ""; }
@@ -13013,7 +13013,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "disableEncryption" field.</summary>
-    public const int DisableEncryptionFieldNumber = 12;
+    public const int DisableEncryptionFieldNumber = 22;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool DisableEncryption {
       get { return disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption ? (bool) disableEncryption_ : false; }
@@ -13153,7 +13153,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "ledType_" oneof.</summary>
     public enum LedTypeOneofCase {
       None = 0,
-      LedType = 8,
+      LedType = 11,
     }
     private LedTypeOneofCase ledTypeCase_ = LedTypeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13171,7 +13171,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
     public enum EncryptionKeyRefUnidOneofCase {
       None = 0,
-      EncryptionKeyRefUnid = 9,
+      EncryptionKeyRefUnid = 19,
     }
     private EncryptionKeyRefUnidOneofCase encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13189,7 +13189,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefNextUnid_" oneof.</summary>
     public enum EncryptionKeyRefNextUnidOneofCase {
       None = 0,
-      EncryptionKeyRefNextUnid = 10,
+      EncryptionKeyRefNextUnid = 20,
     }
     private EncryptionKeyRefNextUnidOneofCase encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13207,7 +13207,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "serialPortAddress_" oneof.</summary>
     public enum SerialPortAddressOneofCase {
       None = 0,
-      SerialPortAddress = 11,
+      SerialPortAddress = 21,
     }
     private SerialPortAddressOneofCase serialPortAddressCase_ = SerialPortAddressOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13225,7 +13225,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "disableEncryption_" oneof.</summary>
     public enum DisableEncryptionOneofCase {
       None = 0,
-      DisableEncryption = 12,
+      DisableEncryption = 22,
     }
     private DisableEncryptionOneofCase disableEncryptionCase_ = DisableEncryptionOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13345,23 +13345,23 @@ namespace Z9.Spcore.Proto {
         output.WriteEnum((int) TamperType);
       }
       if (ledTypeCase_ == LedTypeOneofCase.LedType) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(88);
         output.WriteEnum((int) LedType);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(152, 1);
         output.WriteInt32(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(160, 1);
         output.WriteInt32(EncryptionKeyRefNextUnid);
       }
       if (serialPortAddressCase_ == SerialPortAddressOneofCase.SerialPortAddress) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(170, 1);
         output.WriteString(SerialPortAddress);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(176, 1);
         output.WriteBool(DisableEncryption);
       }
     }
@@ -13394,16 +13394,16 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LedType);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
       }
       if (serialPortAddressCase_ == SerialPortAddressOneofCase.SerialPortAddress) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SerialPortAddress);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(SerialPortAddress);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       return size;
     }
@@ -13525,24 +13525,24 @@ namespace Z9.Spcore.Proto {
             tamperTypeCase_ = TamperTypeOneofCase.TamperType;
             break;
           }
-          case 64: {
+          case 88: {
             ledType_ = input.ReadEnum();
             ledTypeCase_ = LedTypeOneofCase.LedType;
             break;
           }
-          case 72: {
+          case 152: {
             EncryptionKeyRefUnid = input.ReadInt32();
             break;
           }
-          case 80: {
+          case 160: {
             EncryptionKeyRefNextUnid = input.ReadInt32();
             break;
           }
-          case 90: {
+          case 170: {
             SerialPortAddress = input.ReadString();
             break;
           }
-          case 96: {
+          case 176: {
             DisableEncryption = input.ReadBool();
             break;
           }
@@ -14234,7 +14234,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "invert" field.</summary>
-    public const int InvertFieldNumber = 6;
+    public const int InvertFieldNumber = 8;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Invert {
       get { return invertCase_ == InvertOneofCase.Invert ? (bool) invert_ : false; }
@@ -14245,7 +14245,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefUnid" field.</summary>
-    public const int EncryptionKeyRefUnidFieldNumber = 7;
+    public const int EncryptionKeyRefUnidFieldNumber = 22;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefUnid {
       get { return encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid ? (int) encryptionKeyRefUnid_ : 0; }
@@ -14256,7 +14256,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "encryptionKeyRefNextUnid" field.</summary>
-    public const int EncryptionKeyRefNextUnidFieldNumber = 8;
+    public const int EncryptionKeyRefNextUnidFieldNumber = 23;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EncryptionKeyRefNextUnid {
       get { return encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid ? (int) encryptionKeyRefNextUnid_ : 0; }
@@ -14267,7 +14267,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "disableEncryption" field.</summary>
-    public const int DisableEncryptionFieldNumber = 9;
+    public const int DisableEncryptionFieldNumber = 24;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool DisableEncryption {
       get { return disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption ? (bool) disableEncryption_ : false; }
@@ -14371,7 +14371,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "invert_" oneof.</summary>
     public enum InvertOneofCase {
       None = 0,
-      Invert = 6,
+      Invert = 8,
     }
     private InvertOneofCase invertCase_ = InvertOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14389,7 +14389,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
     public enum EncryptionKeyRefUnidOneofCase {
       None = 0,
-      EncryptionKeyRefUnid = 7,
+      EncryptionKeyRefUnid = 22,
     }
     private EncryptionKeyRefUnidOneofCase encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14407,7 +14407,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "encryptionKeyRefNextUnid_" oneof.</summary>
     public enum EncryptionKeyRefNextUnidOneofCase {
       None = 0,
-      EncryptionKeyRefNextUnid = 8,
+      EncryptionKeyRefNextUnid = 23,
     }
     private EncryptionKeyRefNextUnidOneofCase encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14425,7 +14425,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "disableEncryption_" oneof.</summary>
     public enum DisableEncryptionOneofCase {
       None = 0,
-      DisableEncryption = 9,
+      DisableEncryption = 24,
     }
     private DisableEncryptionOneofCase disableEncryptionCase_ = DisableEncryptionOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14525,19 +14525,19 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Unid);
       }
       if (invertCase_ == InvertOneofCase.Invert) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(64);
         output.WriteBool(Invert);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(176, 1);
         output.WriteInt32(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(184, 1);
         output.WriteInt32(EncryptionKeyRefNextUnid);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(192, 1);
         output.WriteBool(DisableEncryption);
       }
     }
@@ -14564,13 +14564,13 @@ namespace Z9.Spcore.Proto {
         size += 1 + 1;
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
       }
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
       }
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       return size;
     }
@@ -14664,19 +14664,19 @@ namespace Z9.Spcore.Proto {
             Unid = input.ReadInt32();
             break;
           }
-          case 48: {
+          case 64: {
             Invert = input.ReadBool();
             break;
           }
-          case 56: {
+          case 176: {
             EncryptionKeyRefUnid = input.ReadInt32();
             break;
           }
-          case 64: {
+          case 184: {
             EncryptionKeyRefNextUnid = input.ReadInt32();
             break;
           }
-          case 72: {
+          case 192: {
             DisableEncryption = input.ReadBool();
             break;
           }
@@ -14839,7 +14839,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "hwTimeZone" field.</summary>
-    public const int HwTimeZoneFieldNumber = 4;
+    public const int HwTimeZoneFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string HwTimeZone {
       get { return hwTimeZoneCase_ == HwTimeZoneOneofCase.HwTimeZone ? (string) hwTimeZone_ : ""; }
@@ -14850,7 +14850,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtCode" field.</summary>
-    public const int EvtCodeFieldNumber = 5;
+    public const int EvtCodeFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.EvtCode EvtCode {
       get { return evtCodeCase_ == EvtCodeOneofCase.EvtCode ? (global::Z9.Spcore.Proto.EvtCode) evtCode_ : 0; }
@@ -14861,7 +14861,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalEvtCodeText" field.</summary>
-    public const int ExternalEvtCodeTextFieldNumber = 6;
+    public const int ExternalEvtCodeTextFieldNumber = 8;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalEvtCodeText {
       get { return externalEvtCodeTextCase_ == ExternalEvtCodeTextOneofCase.ExternalEvtCodeText ? (string) externalEvtCodeText_ : ""; }
@@ -14872,7 +14872,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalEvtCodeId" field.</summary>
-    public const int ExternalEvtCodeIdFieldNumber = 7;
+    public const int ExternalEvtCodeIdFieldNumber = 9;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalEvtCodeId {
       get { return externalEvtCodeIdCase_ == ExternalEvtCodeIdOneofCase.ExternalEvtCodeId ? (string) externalEvtCodeId_ : ""; }
@@ -14883,7 +14883,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtSubCode" field.</summary>
-    public const int EvtSubCodeFieldNumber = 8;
+    public const int EvtSubCodeFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.EvtSubCode EvtSubCode {
       get { return evtSubCodeCase_ == EvtSubCodeOneofCase.EvtSubCode ? (global::Z9.Spcore.Proto.EvtSubCode) evtSubCode_ : 0; }
@@ -14894,7 +14894,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalSubCodeText" field.</summary>
-    public const int ExternalSubCodeTextFieldNumber = 9;
+    public const int ExternalSubCodeTextFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalSubCodeText {
       get { return externalSubCodeTextCase_ == ExternalSubCodeTextOneofCase.ExternalSubCodeText ? (string) externalSubCodeText_ : ""; }
@@ -14905,7 +14905,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalSubCodeId" field.</summary>
-    public const int ExternalSubCodeIdFieldNumber = 10;
+    public const int ExternalSubCodeIdFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalSubCodeId {
       get { return externalSubCodeIdCase_ == ExternalSubCodeIdOneofCase.ExternalSubCodeId ? (string) externalSubCodeId_ : ""; }
@@ -14916,7 +14916,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtModifiers" field.</summary>
-    public const int EvtModifiersFieldNumber = 11;
+    public const int EvtModifiersFieldNumber = 13;
     private global::Z9.Spcore.Proto.EvtModifiers evtModifiers_;
     /// <summary>
     ///optional
@@ -14930,7 +14930,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "priority" field.</summary>
-    public const int PriorityFieldNumber = 12;
+    public const int PriorityFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Priority {
       get { return priorityCase_ == PriorityOneofCase.Priority ? (int) priority_ : 0; }
@@ -14941,7 +14941,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "data" field.</summary>
-    public const int DataFieldNumber = 13;
+    public const int DataFieldNumber = 20;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Data {
       get { return dataCase_ == DataOneofCase.Data ? (string) data_ : ""; }
@@ -14952,7 +14952,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtDevRef" field.</summary>
-    public const int EvtDevRefFieldNumber = 14;
+    public const int EvtDevRefFieldNumber = 25;
     private global::Z9.Spcore.Proto.EvtDevRef evtDevRef_;
     /// <summary>
     ///optional
@@ -14966,7 +14966,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtControllerRef" field.</summary>
-    public const int EvtControllerRefFieldNumber = 15;
+    public const int EvtControllerRefFieldNumber = 26;
     private global::Z9.Spcore.Proto.EvtDevRef evtControllerRef_;
     /// <summary>
     ///optional
@@ -14980,7 +14980,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtCredRef" field.</summary>
-    public const int EvtCredRefFieldNumber = 16;
+    public const int EvtCredRefFieldNumber = 30;
     private global::Z9.Spcore.Proto.EvtCredRef evtCredRef_;
     /// <summary>
     ///optional
@@ -14994,7 +14994,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "evtSchedRef" field.</summary>
-    public const int EvtSchedRefFieldNumber = 17;
+    public const int EvtSchedRefFieldNumber = 34;
     private global::Z9.Spcore.Proto.EvtSchedRef evtSchedRef_;
     /// <summary>
     ///optional
@@ -15008,7 +15008,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "consumed" field.</summary>
-    public const int ConsumedFieldNumber = 18;
+    public const int ConsumedFieldNumber = 46;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Consumed {
       get { return consumedCase_ == ConsumedOneofCase.Consumed ? (bool) consumed_ : false; }
@@ -15019,7 +15019,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 19;
+    public const int UuidFieldNumber = 50;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -15051,7 +15051,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "hwTimeZone_" oneof.</summary>
     public enum HwTimeZoneOneofCase {
       None = 0,
-      HwTimeZone = 4,
+      HwTimeZone = 6,
     }
     private HwTimeZoneOneofCase hwTimeZoneCase_ = HwTimeZoneOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15069,7 +15069,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "evtCode_" oneof.</summary>
     public enum EvtCodeOneofCase {
       None = 0,
-      EvtCode = 5,
+      EvtCode = 7,
     }
     private EvtCodeOneofCase evtCodeCase_ = EvtCodeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15087,7 +15087,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalEvtCodeText_" oneof.</summary>
     public enum ExternalEvtCodeTextOneofCase {
       None = 0,
-      ExternalEvtCodeText = 6,
+      ExternalEvtCodeText = 8,
     }
     private ExternalEvtCodeTextOneofCase externalEvtCodeTextCase_ = ExternalEvtCodeTextOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15105,7 +15105,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalEvtCodeId_" oneof.</summary>
     public enum ExternalEvtCodeIdOneofCase {
       None = 0,
-      ExternalEvtCodeId = 7,
+      ExternalEvtCodeId = 9,
     }
     private ExternalEvtCodeIdOneofCase externalEvtCodeIdCase_ = ExternalEvtCodeIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15123,7 +15123,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "evtSubCode_" oneof.</summary>
     public enum EvtSubCodeOneofCase {
       None = 0,
-      EvtSubCode = 8,
+      EvtSubCode = 10,
     }
     private EvtSubCodeOneofCase evtSubCodeCase_ = EvtSubCodeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15141,7 +15141,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalSubCodeText_" oneof.</summary>
     public enum ExternalSubCodeTextOneofCase {
       None = 0,
-      ExternalSubCodeText = 9,
+      ExternalSubCodeText = 11,
     }
     private ExternalSubCodeTextOneofCase externalSubCodeTextCase_ = ExternalSubCodeTextOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15159,7 +15159,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalSubCodeId_" oneof.</summary>
     public enum ExternalSubCodeIdOneofCase {
       None = 0,
-      ExternalSubCodeId = 10,
+      ExternalSubCodeId = 12,
     }
     private ExternalSubCodeIdOneofCase externalSubCodeIdCase_ = ExternalSubCodeIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15177,7 +15177,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "priority_" oneof.</summary>
     public enum PriorityOneofCase {
       None = 0,
-      Priority = 12,
+      Priority = 14,
     }
     private PriorityOneofCase priorityCase_ = PriorityOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15195,7 +15195,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "data_" oneof.</summary>
     public enum DataOneofCase {
       None = 0,
-      Data = 13,
+      Data = 20,
     }
     private DataOneofCase dataCase_ = DataOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15213,7 +15213,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "consumed_" oneof.</summary>
     public enum ConsumedOneofCase {
       None = 0,
-      Consumed = 18,
+      Consumed = 46,
     }
     private ConsumedOneofCase consumedCase_ = ConsumedOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15231,7 +15231,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 19,
+      Uuid = 50,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15349,67 +15349,67 @@ namespace Z9.Spcore.Proto {
         output.WriteMessage(DbTime);
       }
       if (hwTimeZoneCase_ == HwTimeZoneOneofCase.HwTimeZone) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(50);
         output.WriteString(HwTimeZone);
       }
       if (evtCodeCase_ == EvtCodeOneofCase.EvtCode) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(56);
         output.WriteEnum((int) EvtCode);
       }
       if (externalEvtCodeTextCase_ == ExternalEvtCodeTextOneofCase.ExternalEvtCodeText) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(66);
         output.WriteString(ExternalEvtCodeText);
       }
       if (externalEvtCodeIdCase_ == ExternalEvtCodeIdOneofCase.ExternalEvtCodeId) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(74);
         output.WriteString(ExternalEvtCodeId);
       }
       if (evtSubCodeCase_ == EvtSubCodeOneofCase.EvtSubCode) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(80);
         output.WriteEnum((int) EvtSubCode);
       }
       if (externalSubCodeTextCase_ == ExternalSubCodeTextOneofCase.ExternalSubCodeText) {
-        output.WriteRawTag(74);
+        output.WriteRawTag(90);
         output.WriteString(ExternalSubCodeText);
       }
       if (externalSubCodeIdCase_ == ExternalSubCodeIdOneofCase.ExternalSubCodeId) {
-        output.WriteRawTag(82);
+        output.WriteRawTag(98);
         output.WriteString(ExternalSubCodeId);
       }
       if (evtModifiers_ != null) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(106);
         output.WriteMessage(EvtModifiers);
       }
       if (priorityCase_ == PriorityOneofCase.Priority) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(112);
         output.WriteInt32(Priority);
       }
       if (dataCase_ == DataOneofCase.Data) {
-        output.WriteRawTag(106);
+        output.WriteRawTag(162, 1);
         output.WriteString(Data);
       }
       if (evtDevRef_ != null) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(202, 1);
         output.WriteMessage(EvtDevRef);
       }
       if (evtControllerRef_ != null) {
-        output.WriteRawTag(122);
+        output.WriteRawTag(210, 1);
         output.WriteMessage(EvtControllerRef);
       }
       if (evtCredRef_ != null) {
-        output.WriteRawTag(130, 1);
+        output.WriteRawTag(242, 1);
         output.WriteMessage(EvtCredRef);
       }
       if (evtSchedRef_ != null) {
-        output.WriteRawTag(138, 1);
+        output.WriteRawTag(146, 2);
         output.WriteMessage(EvtSchedRef);
       }
       if (consumedCase_ == ConsumedOneofCase.Consumed) {
-        output.WriteRawTag(144, 1);
+        output.WriteRawTag(240, 2);
         output.WriteBool(Consumed);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(154, 1);
+        output.WriteRawTag(146, 3);
         output.WriteString(Uuid);
       }
     }
@@ -15454,13 +15454,13 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Priority);
       }
       if (dataCase_ == DataOneofCase.Data) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Data);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Data);
       }
       if (evtDevRef_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EvtDevRef);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(EvtDevRef);
       }
       if (evtControllerRef_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EvtControllerRef);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(EvtControllerRef);
       }
       if (evtCredRef_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(EvtCredRef);
@@ -15624,84 +15624,84 @@ namespace Z9.Spcore.Proto {
             input.ReadMessage(dbTime_);
             break;
           }
-          case 34: {
+          case 50: {
             HwTimeZone = input.ReadString();
             break;
           }
-          case 40: {
+          case 56: {
             evtCode_ = input.ReadEnum();
             evtCodeCase_ = EvtCodeOneofCase.EvtCode;
             break;
           }
-          case 50: {
+          case 66: {
             ExternalEvtCodeText = input.ReadString();
             break;
           }
-          case 58: {
+          case 74: {
             ExternalEvtCodeId = input.ReadString();
             break;
           }
-          case 64: {
+          case 80: {
             evtSubCode_ = input.ReadEnum();
             evtSubCodeCase_ = EvtSubCodeOneofCase.EvtSubCode;
             break;
           }
-          case 74: {
+          case 90: {
             ExternalSubCodeText = input.ReadString();
             break;
           }
-          case 82: {
+          case 98: {
             ExternalSubCodeId = input.ReadString();
             break;
           }
-          case 90: {
+          case 106: {
             if (evtModifiers_ == null) {
               evtModifiers_ = new global::Z9.Spcore.Proto.EvtModifiers();
             }
             input.ReadMessage(evtModifiers_);
             break;
           }
-          case 96: {
+          case 112: {
             Priority = input.ReadInt32();
             break;
           }
-          case 106: {
+          case 162: {
             Data = input.ReadString();
             break;
           }
-          case 114: {
+          case 202: {
             if (evtDevRef_ == null) {
               evtDevRef_ = new global::Z9.Spcore.Proto.EvtDevRef();
             }
             input.ReadMessage(evtDevRef_);
             break;
           }
-          case 122: {
+          case 210: {
             if (evtControllerRef_ == null) {
               evtControllerRef_ = new global::Z9.Spcore.Proto.EvtDevRef();
             }
             input.ReadMessage(evtControllerRef_);
             break;
           }
-          case 130: {
+          case 242: {
             if (evtCredRef_ == null) {
               evtCredRef_ = new global::Z9.Spcore.Proto.EvtCredRef();
             }
             input.ReadMessage(evtCredRef_);
             break;
           }
-          case 138: {
+          case 274: {
             if (evtSchedRef_ == null) {
               evtSchedRef_ = new global::Z9.Spcore.Proto.EvtSchedRef();
             }
             input.ReadMessage(evtSchedRef_);
             break;
           }
-          case 144: {
+          case 368: {
             Consumed = input.ReadBool();
             break;
           }
-          case 154: {
+          case 402: {
             Uuid = input.ReadString();
             break;
           }
@@ -16031,7 +16031,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 3;
+    public const int NameFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -16042,7 +16042,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "credNum" field.</summary>
-    public const int CredNumFieldNumber = 4;
+    public const int CredNumFieldNumber = 7;
     private global::Z9.Spcore.Proto.BigIntegerData credNum_;
     /// <summary>
     ///optional
@@ -16056,7 +16056,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "facilityCode" field.</summary>
-    public const int FacilityCodeFieldNumber = 5;
+    public const int FacilityCodeFieldNumber = 8;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int FacilityCode {
       get { return facilityCodeCase_ == FacilityCodeOneofCase.FacilityCode ? (int) facilityCode_ : 0; }
@@ -16067,7 +16067,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 6;
+    public const int TagFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -16078,7 +16078,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 7;
+    public const int UuidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -16110,7 +16110,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 3,
+      Name = 6,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16128,7 +16128,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "facilityCode_" oneof.</summary>
     public enum FacilityCodeOneofCase {
       None = 0,
-      FacilityCode = 5,
+      FacilityCode = 8,
     }
     private FacilityCodeOneofCase facilityCodeCase_ = FacilityCodeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16146,7 +16146,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 6,
+      Tag = 11,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16164,7 +16164,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 7,
+      Uuid = 12,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16240,23 +16240,23 @@ namespace Z9.Spcore.Proto {
         output.WriteMessage(CredTemplateRef);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(50);
         output.WriteString(Name);
       }
       if (credNum_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(58);
         output.WriteMessage(CredNum);
       }
       if (facilityCodeCase_ == FacilityCodeOneofCase.FacilityCode) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(64);
         output.WriteInt32(FacilityCode);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(90);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(98);
         output.WriteString(Uuid);
       }
     }
@@ -16356,26 +16356,26 @@ namespace Z9.Spcore.Proto {
             input.ReadMessage(credTemplateRef_);
             break;
           }
-          case 26: {
+          case 50: {
             Name = input.ReadString();
             break;
           }
-          case 34: {
+          case 58: {
             if (credNum_ == null) {
               credNum_ = new global::Z9.Spcore.Proto.BigIntegerData();
             }
             input.ReadMessage(credNum_);
             break;
           }
-          case 40: {
+          case 64: {
             FacilityCode = input.ReadInt32();
             break;
           }
-          case 50: {
+          case 90: {
             Tag = input.ReadString();
             break;
           }
-          case 58: {
+          case 98: {
             Uuid = input.ReadString();
             break;
           }
@@ -16942,7 +16942,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalDevModText" field.</summary>
-    public const int ExternalDevModTextFieldNumber = 11;
+    public const int ExternalDevModTextFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalDevModText {
       get { return externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText ? (string) externalDevModText_ : ""; }
@@ -16953,7 +16953,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalDevModId" field.</summary>
-    public const int ExternalDevModIdFieldNumber = 12;
+    public const int ExternalDevModIdFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalDevModId {
       get { return externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId ? (string) externalDevModId_ : ""; }
@@ -16964,7 +16964,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "devUse" field.</summary>
-    public const int DevUseFieldNumber = 13;
+    public const int DevUseFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Z9.Spcore.Proto.DevUse DevUse {
       get { return devUseCase_ == DevUseOneofCase.DevUse ? (global::Z9.Spcore.Proto.DevUse) devUse_ : 0; }
@@ -16975,7 +16975,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 14;
+    public const int TagFieldNumber = 16;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -16986,7 +16986,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 15;
+    public const int UuidFieldNumber = 17;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -16997,7 +16997,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalId" field.</summary>
-    public const int ExternalIdFieldNumber = 16;
+    public const int ExternalIdFieldNumber = 18;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalId {
       get { return externalIdCase_ == ExternalIdOneofCase.ExternalId ? (string) externalId_ : ""; }
@@ -17191,7 +17191,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalDevModText_" oneof.</summary>
     public enum ExternalDevModTextOneofCase {
       None = 0,
-      ExternalDevModText = 11,
+      ExternalDevModText = 12,
     }
     private ExternalDevModTextOneofCase externalDevModTextCase_ = ExternalDevModTextOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17209,7 +17209,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalDevModId_" oneof.</summary>
     public enum ExternalDevModIdOneofCase {
       None = 0,
-      ExternalDevModId = 12,
+      ExternalDevModId = 13,
     }
     private ExternalDevModIdOneofCase externalDevModIdCase_ = ExternalDevModIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17227,7 +17227,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "devUse_" oneof.</summary>
     public enum DevUseOneofCase {
       None = 0,
-      DevUse = 13,
+      DevUse = 14,
     }
     private DevUseOneofCase devUseCase_ = DevUseOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17245,7 +17245,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 14,
+      Tag = 16,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17263,7 +17263,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 15,
+      Uuid = 17,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17281,7 +17281,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalId_" oneof.</summary>
     public enum ExternalIdOneofCase {
       None = 0,
-      ExternalId = 16,
+      ExternalId = 18,
     }
     private ExternalIdOneofCase externalIdCase_ = ExternalIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17429,27 +17429,27 @@ namespace Z9.Spcore.Proto {
         output.WriteEnum((int) DevMod);
       }
       if (externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText) {
-        output.WriteRawTag(90);
+        output.WriteRawTag(98);
         output.WriteString(ExternalDevModText);
       }
       if (externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId) {
-        output.WriteRawTag(98);
+        output.WriteRawTag(106);
         output.WriteString(ExternalDevModId);
       }
       if (devUseCase_ == DevUseOneofCase.DevUse) {
-        output.WriteRawTag(104);
+        output.WriteRawTag(112);
         output.WriteEnum((int) DevUse);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(114);
+        output.WriteRawTag(130, 1);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(122);
+        output.WriteRawTag(138, 1);
         output.WriteString(Uuid);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        output.WriteRawTag(130, 1);
+        output.WriteRawTag(146, 1);
         output.WriteString(ExternalId);
       }
     }
@@ -17497,10 +17497,10 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevUse);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Tag);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Uuid);
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Uuid);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(ExternalId);
@@ -17663,28 +17663,28 @@ namespace Z9.Spcore.Proto {
             devModCase_ = DevModOneofCase.DevMod;
             break;
           }
-          case 90: {
+          case 98: {
             ExternalDevModText = input.ReadString();
             break;
           }
-          case 98: {
+          case 106: {
             ExternalDevModId = input.ReadString();
             break;
           }
-          case 104: {
+          case 112: {
             devUse_ = input.ReadEnum();
             devUseCase_ = DevUseOneofCase.DevUse;
             break;
           }
-          case 114: {
+          case 130: {
             Tag = input.ReadString();
             break;
           }
-          case 122: {
+          case 138: {
             Uuid = input.ReadString();
             break;
           }
-          case 130: {
+          case 146: {
             ExternalId = input.ReadString();
             break;
           }
@@ -17747,7 +17747,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "inaccurateHwTime" field.</summary>
-    public const int InaccurateHwTimeFieldNumber = 1;
+    public const int InaccurateHwTimeFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool InaccurateHwTime {
       get { return inaccurateHwTimeCase_ == InaccurateHwTimeOneofCase.InaccurateHwTime ? (bool) inaccurateHwTime_ : false; }
@@ -17758,7 +17758,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "usedCard" field.</summary>
-    public const int UsedCardFieldNumber = 2;
+    public const int UsedCardFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool UsedCard {
       get { return usedCardCase_ == UsedCardOneofCase.UsedCard ? (bool) usedCard_ : false; }
@@ -17769,7 +17769,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "usedPin" field.</summary>
-    public const int UsedPinFieldNumber = 3;
+    public const int UsedPinFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool UsedPin {
       get { return usedPinCase_ == UsedPinOneofCase.UsedPin ? (bool) usedPin_ : false; }
@@ -17783,7 +17783,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "inaccurateHwTime_" oneof.</summary>
     public enum InaccurateHwTimeOneofCase {
       None = 0,
-      InaccurateHwTime = 1,
+      InaccurateHwTime = 11,
     }
     private InaccurateHwTimeOneofCase inaccurateHwTimeCase_ = InaccurateHwTimeOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17801,7 +17801,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "usedCard_" oneof.</summary>
     public enum UsedCardOneofCase {
       None = 0,
-      UsedCard = 2,
+      UsedCard = 13,
     }
     private UsedCardOneofCase usedCardCase_ = UsedCardOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17819,7 +17819,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "usedPin_" oneof.</summary>
     public enum UsedPinOneofCase {
       None = 0,
-      UsedPin = 3,
+      UsedPin = 14,
     }
     private UsedPinOneofCase usedPinCase_ = UsedPinOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17875,15 +17875,15 @@ namespace Z9.Spcore.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       if (inaccurateHwTimeCase_ == InaccurateHwTimeOneofCase.InaccurateHwTime) {
-        output.WriteRawTag(8);
+        output.WriteRawTag(88);
         output.WriteBool(InaccurateHwTime);
       }
       if (usedCardCase_ == UsedCardOneofCase.UsedCard) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(104);
         output.WriteBool(UsedCard);
       }
       if (usedPinCase_ == UsedPinOneofCase.UsedPin) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(112);
         output.WriteBool(UsedPin);
       }
     }
@@ -17936,15 +17936,15 @@ namespace Z9.Spcore.Proto {
           default:
             input.SkipLastField();
             break;
-          case 8: {
+          case 88: {
             InaccurateHwTime = input.ReadBool();
             break;
           }
-          case 16: {
+          case 104: {
             UsedCard = input.ReadBool();
             break;
           }
-          case 24: {
+          case 112: {
             UsedPin = input.ReadBool();
             break;
           }
@@ -18005,7 +18005,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "generalDevRestriction" field.</summary>
-    public const int GeneralDevRestrictionFieldNumber = 2;
+    public const int GeneralDevRestrictionFieldNumber = 7;
     private global::Z9.Spcore.Proto.GeneralDevRestriction generalDevRestriction_;
     /// <summary>
     ///optional
@@ -18056,7 +18056,7 @@ namespace Z9.Spcore.Proto {
         output.WriteMessage(EvtCodeRestriction);
       }
       if (generalDevRestriction_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(58);
         output.WriteMessage(GeneralDevRestriction);
       }
     }
@@ -18107,7 +18107,7 @@ namespace Z9.Spcore.Proto {
             input.ReadMessage(evtCodeRestriction_);
             break;
           }
-          case 18: {
+          case 58: {
             if (generalDevRestriction_ == null) {
               generalDevRestriction_ = new global::Z9.Spcore.Proto.GeneralDevRestriction();
             }
@@ -18606,7 +18606,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -18617,7 +18617,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -18628,7 +18628,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -18639,7 +18639,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -18650,9 +18650,9 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "holTypesUnid" field.</summary>
-    public const int HolTypesUnidFieldNumber = 6;
+    public const int HolTypesUnidFieldNumber = 14;
     private static readonly pb::FieldCodec<int> _repeated_holTypesUnid_codec
-        = pb::FieldCodec.ForInt32(50);
+        = pb::FieldCodec.ForInt32(114);
     private readonly pbc::RepeatedField<int> holTypesUnid_ = new pbc::RepeatedField<int>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<int> HolTypesUnid {
@@ -18660,7 +18660,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "allHolTypes" field.</summary>
-    public const int AllHolTypesFieldNumber = 7;
+    public const int AllHolTypesFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool AllHolTypes {
       get { return allHolTypesCase_ == AllHolTypesOneofCase.AllHolTypes ? (bool) allHolTypes_ : false; }
@@ -18671,7 +18671,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "date" field.</summary>
-    public const int DateFieldNumber = 8;
+    public const int DateFieldNumber = 16;
     private global::Z9.Spcore.Proto.SqlDateData date_;
     /// <summary>
     ///required
@@ -18685,7 +18685,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "numDays" field.</summary>
-    public const int NumDaysFieldNumber = 9;
+    public const int NumDaysFieldNumber = 17;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int NumDays {
       get { return numDaysCase_ == NumDaysOneofCase.NumDays ? (int) numDays_ : 0; }
@@ -18696,7 +18696,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "repeat" field.</summary>
-    public const int RepeatFieldNumber = 10;
+    public const int RepeatFieldNumber = 18;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool Repeat {
       get { return repeatCase_ == RepeatOneofCase.Repeat ? (bool) repeat_ : false; }
@@ -18707,7 +18707,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "numYearsRepeat" field.</summary>
-    public const int NumYearsRepeatFieldNumber = 11;
+    public const int NumYearsRepeatFieldNumber = 19;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int NumYearsRepeat {
       get { return numYearsRepeatCase_ == NumYearsRepeatOneofCase.NumYearsRepeat ? (int) numYearsRepeat_ : 0; }
@@ -18718,7 +18718,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "preserveSchedDay" field.</summary>
-    public const int PreserveSchedDayFieldNumber = 12;
+    public const int PreserveSchedDayFieldNumber = 20;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public bool PreserveSchedDay {
       get { return preserveSchedDayCase_ == PreserveSchedDayOneofCase.PreserveSchedDay ? (bool) preserveSchedDay_ : false; }
@@ -18729,7 +18729,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "holCalUnid" field.</summary>
-    public const int HolCalUnidFieldNumber = 13;
+    public const int HolCalUnidFieldNumber = 21;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int HolCalUnid {
       get { return holCalUnidCase_ == HolCalUnidOneofCase.HolCalUnid ? (int) holCalUnid_ : 0; }
@@ -18761,7 +18761,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18779,7 +18779,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18797,7 +18797,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18815,7 +18815,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18833,7 +18833,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "allHolTypes_" oneof.</summary>
     public enum AllHolTypesOneofCase {
       None = 0,
-      AllHolTypes = 7,
+      AllHolTypes = 15,
     }
     private AllHolTypesOneofCase allHolTypesCase_ = AllHolTypesOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18851,7 +18851,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "numDays_" oneof.</summary>
     public enum NumDaysOneofCase {
       None = 0,
-      NumDays = 9,
+      NumDays = 17,
     }
     private NumDaysOneofCase numDaysCase_ = NumDaysOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18869,7 +18869,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "repeat_" oneof.</summary>
     public enum RepeatOneofCase {
       None = 0,
-      Repeat = 10,
+      Repeat = 18,
     }
     private RepeatOneofCase repeatCase_ = RepeatOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18887,7 +18887,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "numYearsRepeat_" oneof.</summary>
     public enum NumYearsRepeatOneofCase {
       None = 0,
-      NumYearsRepeat = 11,
+      NumYearsRepeat = 19,
     }
     private NumYearsRepeatOneofCase numYearsRepeatCase_ = NumYearsRepeatOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18905,7 +18905,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "preserveSchedDay_" oneof.</summary>
     public enum PreserveSchedDayOneofCase {
       None = 0,
-      PreserveSchedDay = 12,
+      PreserveSchedDay = 20,
     }
     private PreserveSchedDayOneofCase preserveSchedDayCase_ = PreserveSchedDayOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18923,7 +18923,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "holCalUnid_" oneof.</summary>
     public enum HolCalUnidOneofCase {
       None = 0,
-      HolCalUnid = 13,
+      HolCalUnid = 21,
     }
     private HolCalUnidOneofCase holCalUnidCase_ = HolCalUnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19019,48 +19019,48 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
       holTypesUnid_.WriteTo(output, _repeated_holTypesUnid_codec);
       if (allHolTypesCase_ == AllHolTypesOneofCase.AllHolTypes) {
-        output.WriteRawTag(56);
+        output.WriteRawTag(120);
         output.WriteBool(AllHolTypes);
       }
       if (date_ != null) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(130, 1);
         output.WriteMessage(Date);
       }
       if (numDaysCase_ == NumDaysOneofCase.NumDays) {
-        output.WriteRawTag(72);
+        output.WriteRawTag(136, 1);
         output.WriteInt32(NumDays);
       }
       if (repeatCase_ == RepeatOneofCase.Repeat) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(144, 1);
         output.WriteBool(Repeat);
       }
       if (numYearsRepeatCase_ == NumYearsRepeatOneofCase.NumYearsRepeat) {
-        output.WriteRawTag(88);
+        output.WriteRawTag(152, 1);
         output.WriteInt32(NumYearsRepeat);
       }
       if (preserveSchedDayCase_ == PreserveSchedDayOneofCase.PreserveSchedDay) {
-        output.WriteRawTag(96);
+        output.WriteRawTag(160, 1);
         output.WriteBool(PreserveSchedDay);
       }
       if (holCalUnidCase_ == HolCalUnidOneofCase.HolCalUnid) {
-        output.WriteRawTag(104);
+        output.WriteRawTag(168, 1);
         output.WriteInt32(HolCalUnid);
       }
     }
@@ -19088,22 +19088,22 @@ namespace Z9.Spcore.Proto {
         size += 1 + 1;
       }
       if (date_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Date);
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Date);
       }
       if (numDaysCase_ == NumDaysOneofCase.NumDays) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumDays);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(NumDays);
       }
       if (repeatCase_ == RepeatOneofCase.Repeat) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       if (numYearsRepeatCase_ == NumYearsRepeatOneofCase.NumYearsRepeat) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumYearsRepeat);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(NumYearsRepeat);
       }
       if (preserveSchedDayCase_ == PreserveSchedDayOneofCase.PreserveSchedDay) {
-        size += 1 + 1;
+        size += 2 + 1;
       }
       if (holCalUnidCase_ == HolCalUnidOneofCase.HolCalUnid) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(HolCalUnid);
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(HolCalUnid);
       }
       return size;
     }
@@ -19200,55 +19200,55 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
-          case 50:
-          case 48: {
+          case 114:
+          case 112: {
             holTypesUnid_.AddEntriesFrom(input, _repeated_holTypesUnid_codec);
             break;
           }
-          case 56: {
+          case 120: {
             AllHolTypes = input.ReadBool();
             break;
           }
-          case 66: {
+          case 130: {
             if (date_ == null) {
               date_ = new global::Z9.Spcore.Proto.SqlDateData();
             }
             input.ReadMessage(date_);
             break;
           }
-          case 72: {
+          case 136: {
             NumDays = input.ReadInt32();
             break;
           }
-          case 80: {
+          case 144: {
             Repeat = input.ReadBool();
             break;
           }
-          case 88: {
+          case 152: {
             NumYearsRepeat = input.ReadInt32();
             break;
           }
-          case 96: {
+          case 160: {
             PreserveSchedDay = input.ReadBool();
             break;
           }
-          case 104: {
+          case 168: {
             HolCalUnid = input.ReadInt32();
             break;
           }
@@ -19334,7 +19334,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -19345,7 +19345,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -19356,7 +19356,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -19367,7 +19367,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 5;
+    public const int UnidFieldNumber = 12;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -19399,7 +19399,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19417,7 +19417,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19435,7 +19435,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19453,7 +19453,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 5,
+      Unid = 12,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19521,19 +19521,19 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(96);
         output.WriteInt32(Unid);
       }
     }
@@ -19608,19 +19608,19 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 40: {
+          case 96: {
             Unid = input.ReadInt32();
             break;
           }
@@ -19712,7 +19712,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -19723,7 +19723,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -19734,7 +19734,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -19745,7 +19745,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalId" field.</summary>
-    public const int ExternalIdFieldNumber = 5;
+    public const int ExternalIdFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalId {
       get { return externalIdCase_ == ExternalIdOneofCase.ExternalId ? (string) externalId_ : ""; }
@@ -19756,7 +19756,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 6;
+    public const int UnidFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -19788,7 +19788,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19806,7 +19806,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19824,7 +19824,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19842,7 +19842,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalId_" oneof.</summary>
     public enum ExternalIdOneofCase {
       None = 0,
-      ExternalId = 5,
+      ExternalId = 13,
     }
     private ExternalIdOneofCase externalIdCase_ = ExternalIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19860,7 +19860,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 6,
+      Unid = 14,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19932,23 +19932,23 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(106);
         output.WriteString(ExternalId);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteInt32(Unid);
       }
     }
@@ -20032,23 +20032,23 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 42: {
+          case 106: {
             ExternalId = input.ReadString();
             break;
           }
-          case 48: {
+          case 112: {
             Unid = input.ReadInt32();
             break;
           }
@@ -20141,7 +20141,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "tag" field.</summary>
-    public const int TagFieldNumber = 2;
+    public const int TagFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Tag {
       get { return tagCase_ == TagOneofCase.Tag ? (string) tag_ : ""; }
@@ -20152,7 +20152,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "uuid" field.</summary>
-    public const int UuidFieldNumber = 3;
+    public const int UuidFieldNumber = 7;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Uuid {
       get { return uuidCase_ == UuidOneofCase.Uuid ? (string) uuid_ : ""; }
@@ -20163,7 +20163,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "name" field.</summary>
-    public const int NameFieldNumber = 4;
+    public const int NameFieldNumber = 10;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
       get { return nameCase_ == NameOneofCase.Name ? (string) name_ : ""; }
@@ -20174,7 +20174,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "externalId" field.</summary>
-    public const int ExternalIdFieldNumber = 5;
+    public const int ExternalIdFieldNumber = 13;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string ExternalId {
       get { return externalIdCase_ == ExternalIdOneofCase.ExternalId ? (string) externalId_ : ""; }
@@ -20185,7 +20185,7 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "unid" field.</summary>
-    public const int UnidFieldNumber = 6;
+    public const int UnidFieldNumber = 14;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Unid {
       get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
@@ -20196,9 +20196,9 @@ namespace Z9.Spcore.Proto {
     }
 
     /// <summary>Field number for the "elements" field.</summary>
-    public const int ElementsFieldNumber = 7;
+    public const int ElementsFieldNumber = 16;
     private static readonly pb::FieldCodec<global::Z9.Spcore.Proto.SchedElement> _repeated_elements_codec
-        = pb::FieldCodec.ForMessage(58, global::Z9.Spcore.Proto.SchedElement.Parser);
+        = pb::FieldCodec.ForMessage(130, global::Z9.Spcore.Proto.SchedElement.Parser);
     private readonly pbc::RepeatedField<global::Z9.Spcore.Proto.SchedElement> elements_ = new pbc::RepeatedField<global::Z9.Spcore.Proto.SchedElement>();
     /// <summary>
     /// The elements (intervals) within the schedule.
@@ -20230,7 +20230,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "tag_" oneof.</summary>
     public enum TagOneofCase {
       None = 0,
-      Tag = 2,
+      Tag = 6,
     }
     private TagOneofCase tagCase_ = TagOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20248,7 +20248,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "uuid_" oneof.</summary>
     public enum UuidOneofCase {
       None = 0,
-      Uuid = 3,
+      Uuid = 7,
     }
     private UuidOneofCase uuidCase_ = UuidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20266,7 +20266,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "name_" oneof.</summary>
     public enum NameOneofCase {
       None = 0,
-      Name = 4,
+      Name = 10,
     }
     private NameOneofCase nameCase_ = NameOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20284,7 +20284,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "externalId_" oneof.</summary>
     public enum ExternalIdOneofCase {
       None = 0,
-      ExternalId = 5,
+      ExternalId = 13,
     }
     private ExternalIdOneofCase externalIdCase_ = ExternalIdOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20302,7 +20302,7 @@ namespace Z9.Spcore.Proto {
     /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
     public enum UnidOneofCase {
       None = 0,
-      Unid = 6,
+      Unid = 14,
     }
     private UnidOneofCase unidCase_ = UnidOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20376,23 +20376,23 @@ namespace Z9.Spcore.Proto {
         output.WriteInt32(Version);
       }
       if (tagCase_ == TagOneofCase.Tag) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(50);
         output.WriteString(Tag);
       }
       if (uuidCase_ == UuidOneofCase.Uuid) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(58);
         output.WriteString(Uuid);
       }
       if (nameCase_ == NameOneofCase.Name) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(82);
         output.WriteString(Name);
       }
       if (externalIdCase_ == ExternalIdOneofCase.ExternalId) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(106);
         output.WriteString(ExternalId);
       }
       if (unidCase_ == UnidOneofCase.Unid) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(112);
         output.WriteInt32(Unid);
       }
       elements_.WriteTo(output, _repeated_elements_codec);
@@ -20479,27 +20479,27 @@ namespace Z9.Spcore.Proto {
             Version = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 50: {
             Tag = input.ReadString();
             break;
           }
-          case 26: {
+          case 58: {
             Uuid = input.ReadString();
             break;
           }
-          case 34: {
+          case 82: {
             Name = input.ReadString();
             break;
           }
-          case 42: {
+          case 106: {
             ExternalId = input.ReadString();
             break;
           }
-          case 48: {
+          case 112: {
             Unid = input.ReadInt32();
             break;
           }
-          case 58: {
+          case 130: {
             elements_.AddEntriesFrom(input, _repeated_elements_codec);
             break;
           }

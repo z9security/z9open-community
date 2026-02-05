@@ -14,9 +14,9 @@ message CardPin {
 	// Facility code (AKA site code, building code). Normally, facility code is specified on the CredTemplate (CardPinTemplate).  But in cases where the facility code is not part of the template, it can be specified here.
 	oneof facilityCode_ { int32 facilityCode = 2;}
 	// PIN (Personal Identification Number).
-	oneof pin_ { string pin = 3;}
+	oneof pin_ { string pin = 4;}
 	// Whether the PIN is unique.  This is more often set to true than not, to allow PIN-only access.
-	oneof pinUnique_ { bool pinUnique = 4;}
+	oneof pinUnique_ { bool pinUnique = 5;}
 	// Registration code, used for certain mobile credential technologies.
 	// Registration URL, used for certain mobile credential technologies.
 }
@@ -39,66 +39,66 @@ message CardPinTemplate {
 	// Data layout.
 	oneof dataLayoutUnid_ { int32 dataLayoutUnid = 8;}
 	// If true, then any DataLayout is supported.  This allows modeling of systems which do not link credentials to formats.  If this option is used with drivers for hardware that do require this link, then the first available DataLayout is to be used.
-	oneof anyDataLayout_ { bool anyDataLayout = 9;}
+	oneof anyDataLayout_ { bool anyDataLayout = 15;}
 }
 // A credential - for door access and/or application access.  May include various factors such as card number/PIN, biometric data, username/password.
 message Cred {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 4;}
+	oneof unid_ { int32 unid = 11;}
 	// Name as a single string.
-	oneof name_ { string name = 5;}
+	oneof name_ { string name = 12;}
 	// Whether this credential is enabled (active), or not.
-	/*required*/ oneof enabled_ { bool enabled = 6;}
+	/*required*/ oneof enabled_ { bool enabled = 18;}
 	// Effective date: credential inactive before this date.
-	/*optional*/ DateTimeData effective = 7;
+	/*optional*/ DateTimeData effective = 20;
 	// Expiration date: credential inactive after this date.
-	/*optional*/ DateTimeData expires = 8;
+	/*optional*/ DateTimeData expires = 21;
 	// Credential template.
-	oneof credTemplateUnid_ { int32 credTemplateUnid = 9;}
+	oneof credTemplateUnid_ { int32 credTemplateUnid = 23;}
 	// Card/PIN.
-	/*optional*/ CardPin cardPin = 10;
+	/*optional*/ CardPin cardPin = 30;
 	// Door access modifiers.
-	/*optional*/ DoorAccessModifiers doorAccessModifiers = 11;
+	/*optional*/ DoorAccessModifiers doorAccessModifiers = 34;
 	// Privilege bindings.
-	repeated CredPrivBinding privBindings = 12;
+	repeated CredPrivBinding privBindings = 36;
 }
 // Template for a Cred.  Includes the fundamental type of the Cred such as whether it is a user/pass, card/pin, pin only, uses biometrics (and what type), and for a card, the facility code and data format.  This template is used by association, not by copying data.  Not used as a template for privileges or other data.
 message CredTemplate {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 5;}
+	oneof unid_ { int32 unid = 12;}
 	// Card/PIN template.
-	/*optional*/ CardPinTemplate cardPinTemplate = 6;
+	/*optional*/ CardPinTemplate cardPinTemplate = 15;
 	// Determines the order in which credential templates should be tried, processed, downloaded, etc
-	/*required*/ oneof priority_ { int32 priority = 7;}
+	/*required*/ oneof priority_ { int32 priority = 18;}
 }
 // Base class for card data format definitions, including ANSI/ISO BCD (Magstripe), Binary (Wiegand).
 message DataFormat {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 5;}
+	oneof unid_ { int32 unid = 12;}
 	// Data format type, determines subclass.
-	/*required*/ oneof dataFormatType_ { DataFormatType dataFormatType = 6;}
+	/*required*/ oneof dataFormatType_ { DataFormatType dataFormatType = 14;}
 	oneof extension {
 		BinaryFormat extBinaryFormat = 101;
 	}
@@ -137,7 +137,7 @@ message FieldBinaryElement {
 	// Which field.
 	/*required*/ oneof field_ { DataFormatField field = 1;}
 	// If the field value must be a certain value, (e.g. a fixed facility code), staticValue can be set to indicate that.  Note that for facility code, this can be left null, and the facility code can be specified in the CredTemplate, or Cred.
-	/*optional*/ BigIntegerData staticValue = 2;
+	/*optional*/ BigIntegerData staticValue = 5;
 }
 // Parity BinaryElement.
 message ParityBinaryElement {
@@ -160,19 +160,19 @@ message DataLayout {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 5;}
+	oneof unid_ { int32 unid = 12;}
 	// Type (subclass) of DataLayout.
-	/*required*/ oneof layoutType_ { DataLayoutType layoutType = 6;}
+	/*required*/ oneof layoutType_ { DataLayoutType layoutType = 14;}
 	// Priority.  Determines the order in which multiple DataLayout are applied at card read time.
-	/*required*/ oneof priority_ { int32 priority = 7;}
+	/*required*/ oneof priority_ { int32 priority = 15;}
 	// Whether the DataLayout is active (enabled) or not.  if null, this should be interpreted as true (enabled).
-	oneof enabled_ { bool enabled = 8;}
+	oneof enabled_ { bool enabled = 17;}
 	oneof extension {
 		BasicDataLayout extBasicDataLayout = 100;
 	}
@@ -223,16 +223,16 @@ message EncryptionKeyRef {
 // A binding to a Priv, for a Cred.
 message CredPrivBinding {
 	// Schedule restriction
-	/*optional*/ SchedRestriction schedRestriction = 1;
+	/*optional*/ SchedRestriction schedRestriction = 7;
 	// In lieu of a DoorAccessPriv, this allows a Dev to be treated as a DoorAccessPriv.  In combination with other restrictions, this can be used for "precision access".  For Door access, the Dev can be either a Door or a DevGroup.  This is ignored when processing other Priv subclasses.
-	oneof devAsDoorAccessPrivUnid_ { int32 devAsDoorAccessPrivUnid = 2;}
+	oneof devAsDoorAccessPrivUnid_ { int32 devAsDoorAccessPrivUnid = 9;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 3;}
+	oneof unid_ { int32 unid = 12;}
 }
 // Modifiers to a Cred, CredHolder, or a PrivBinding for Door access.
 message DoorAccessModifiers {
 	// If true, use the extended door strike and door held times.  Also known as "ADA" mode or accessibility mode.
-	oneof extDoorTime_ { bool extDoorTime = 1;}
+	oneof extDoorTime_ { bool extDoorTime = 3;}
 }
 // Door access Priv.
 message DoorAccessPriv {
@@ -244,27 +244,27 @@ message DoorAccessPrivElement {
 	// Unique ID.
 	oneof unid_ { int32 unid = 1;}
 	// Door.  If null, and devGroup and controlledArea are null, then all Door.
-	oneof doorUnid_ { int32 doorUnid = 2;}
+	oneof doorUnid_ { int32 doorUnid = 4;}
 	// Schedule restriction.
-	/*optional*/ SchedRestriction schedRestriction = 3;
+	/*optional*/ SchedRestriction schedRestriction = 7;
 }
 // Base class for privileges.  Subclasses include privileges for door access, application access, keypad commands, and roles.
 message Priv {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 5;}
+	oneof unid_ { int32 unid = 12;}
 	// Whether this privilege is enabled or not.
-	/*required*/ oneof enabled_ { bool enabled = 6;}
+	/*required*/ oneof enabled_ { bool enabled = 14;}
 	// Privilege type.
-	/*required*/ oneof privType_ { PrivType privType = 7;}
-	oneof externalId_ { string externalId = 8;}
+	/*required*/ oneof privType_ { PrivType privType = 18;}
+	oneof externalId_ { string externalId = 20;}
 	oneof extension {
 		DoorAccessPriv extDoorAccessPriv = 101;
 	}
@@ -274,51 +274,51 @@ message Dev {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
-	oneof externalId_ { string externalId = 5;}
+	oneof name_ { string name = 10;}
+	oneof externalId_ { string externalId = 13;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 6;}
+	oneof unid_ { int32 unid = 14;}
 	// The hardware/network address of this device.
-	/*required*/ oneof address_ { string address = 7;}
+	/*required*/ oneof address_ { string address = 21;}
 	// Logical address, if different from physical address.
-	oneof logicalAddress_ { int32 logicalAddress = 8;}
+	oneof logicalAddress_ { int32 logicalAddress = 22;}
 	// MAC address (if applicable).
-	oneof macAddress_ { string macAddress = 9;}
+	oneof macAddress_ { string macAddress = 23;}
 	// true if the device is enabled, false if disabled.
-	/*required*/ oneof enabled_ { bool enabled = 10;}
+	/*required*/ oneof enabled_ { bool enabled = 25;}
 	// Port number.  For network-connected devices, this is generally a TCP port.  For serially-connected devices, this is often a polling address.
-	oneof port_ { int32 port = 11;}
+	oneof port_ { int32 port = 26;}
 	// Connection speed.  Generally for serially-connected devices.
-	oneof speed_ { int32 speed = 12;}
+	oneof speed_ { int32 speed = 27;}
 	// Device type.
-	/*required*/ oneof devType_ { DevType devType = 13;}
+	/*required*/ oneof devType_ { DevType devType = 28;}
 	// Device sub-type.
-	oneof devSubType_ { DevSubType devSubType = 14;}
+	oneof devSubType_ { DevSubType devSubType = 31;}
 	// Device model.
-	oneof devMod_ { DevMod devMod = 15;}
+	oneof devMod_ { DevMod devMod = 32;}
 	// Communications family: network, serial, etc.
 	// Device platform.
-	oneof devPlatform_ { DevPlatform devPlatform = 16;}
+	oneof devPlatform_ { DevPlatform devPlatform = 35;}
 	// Device-model-specific configuration.
-	/*optional*/ DevModConfig devModConfig = 17;
+	/*optional*/ DevModConfig devModConfig = 38;
 	// The use/function/role of the device, typically with respect to the logical parent.
-	oneof devUse_ { DevUse devUse = 18;}
+	oneof devUse_ { DevUse devUse = 39;}
 	// Physical parent device.
-	oneof physicalParentUnid_ { int32 physicalParentUnid = 19;}
+	oneof physicalParentUnid_ { int32 physicalParentUnid = 41;}
 	// Logical parent device.
-	oneof logicalParentUnid_ { int32 logicalParentUnid = 20;}
+	oneof logicalParentUnid_ { int32 logicalParentUnid = 42;}
 	// Time zone the device is in.
-	oneof timeZone_ { string timeZone = 21;}
+	oneof timeZone_ { string timeZone = 49;}
 	// Whether to ignore daylight savings.
-	oneof ignoreDaylightSavings_ { bool ignoreDaylightSavings = 22;}
+	oneof ignoreDaylightSavings_ { bool ignoreDaylightSavings = 50;}
 	// Logical children devices.
-	repeated int32 logicalChildrenUnid = 23;
+	repeated int32 logicalChildrenUnid = 52;
 	// Physical children devices.
-	repeated int32 physicalChildrenUnid = 24;
+	repeated int32 physicalChildrenUnid = 53;
 	oneof extension {
 		Actuator extActuator = 100;
 		Controller extController = 103;
@@ -380,7 +380,7 @@ message GeneralDevRestriction {
 	// Restriction by device use.
 	/*optional*/ DevUseRestriction devUseRestriction = 4;
 	// Restriction by enabled/disabled.
-	/*optional*/ EnabledRestriction enabledRestriction = 5;
+	/*optional*/ EnabledRestriction enabledRestriction = 14;
 }
 // Restriction by specific Dev(s).
 message SpecificDevRestriction {
@@ -394,7 +394,7 @@ message DevActionParams {
 	// Unique ID.
 	oneof unid_ { int32 unid = 1;}
 	// The type of action the parameters are for.
-	/*required*/ oneof type_ { DevActionParamsType type = 2;}
+	/*required*/ oneof type_ { DevActionParamsType type = 3;}
 	oneof extension {
 		DoorModeDevActionParams extDoorModeDevActionParams = 106;
 		DoorMomentaryUnlockDevActionParams extDoorMomentaryUnlockDevActionParams = 107;
@@ -427,11 +427,11 @@ message ActuatorConfig {
 	// Whether to invert the logic of the output.
 	/*required*/ oneof invert_ { bool invert = 6;}
 	// Current EncryptionKeyRef used to encrypt communications.
-	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 7;}
+	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 14;}
 	// For changing keys, the next EncryptionKeyRef.  This allows us to update encryptionKeyRef only after the keys have been updated on the device.  And also, if anything goes wrong, we have both keys.
-	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 8;}
+	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 15;}
 	// Disable encryption, generally for OSDP readers/subcontrollers that would otherwise be using Secure Channel.  Intended to be used for diagnostics only, not recommended for production.
-	oneof disableEncryption_ { bool disableEncryption = 9;}
+	oneof disableEncryption_ { bool disableEncryption = 16;}
 }
 // A controller - or I/O board.  This can be either an "intelligent" controller which makes access control decisions, or a "sub" controller which only performs I/O, leaving it to an upstream intelligent controller or driver to make the decisions.
 message Controller {
@@ -451,11 +451,11 @@ message ControllerConfig {
 	// Unique ID.
 	oneof unid_ { int32 unid = 5;}
 	// Current EncryptionKeyRef used to encrypt communications.
-	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 6;}
+	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 11;}
 	// For changing keys, the next EncryptionKeyRef.  This allows us to update encryptionKeyRef only after the keys have been updated on the device.  And also, if anything goes wrong, we have both keys.
-	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 7;}
+	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 12;}
 	// Disable encryption, generally for OSDP readers/subcontrollers that would otherwise be using Secure Channel.  Intended to be used for diagnostics only, not recommended for production.
-	oneof disableEncryption_ { bool disableEncryption = 8;}
+	oneof disableEncryption_ { bool disableEncryption = 13;}
 }
 // Credential (card) reader.
 message CredReader {
@@ -479,15 +479,15 @@ message CredReaderConfig {
 	// The tamper type of this reader.
 	oneof tamperType_ { CredReaderTamperType tamperType = 7;}
 	// LED type for this reader.
-	oneof ledType_ { CredReaderLedType ledType = 8;}
+	oneof ledType_ { CredReaderLedType ledType = 11;}
 	// Current EncryptionKeyRef used to encrypt communications.
-	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 9;}
+	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 19;}
 	// For changing keys, the next EncryptionKeyRef.  This allows us to update encryptionKeyRef only after the keys have been updated on the device.  And also, if anything goes wrong, we have both keys.
-	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 10;}
+	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 20;}
 	// Serial port address for this reader.  If set, this is used as the serial port address instead of Dev.address.  May be a literal serial port address like /dev/ttyUSB0, COM1, etc, or, an ordinal such as 0 or 1.
-	oneof serialPortAddress_ { string serialPortAddress = 11;}
+	oneof serialPortAddress_ { string serialPortAddress = 21;}
 	// Disable encryption, generally for OSDP readers/subcontrollers that would otherwise be using Secure Channel.  Intended to be used for diagnostics only, not recommended for production.
-	oneof disableEncryption_ { bool disableEncryption = 12;}
+	oneof disableEncryption_ { bool disableEncryption = 22;}
 }
 // A door, AKA access point.  May be any sort of access-controlled portal, from a door, to a storage locker, to a turnstile, to a parking gate.
 message Door {
@@ -522,13 +522,13 @@ message SensorConfig {
 	// Unique ID.
 	oneof unid_ { int32 unid = 5;}
 	// Whether to invert the logic of the sensor.  This generally means normally closed for false, normally open for true.
-	/*required*/ oneof invert_ { bool invert = 6;}
+	/*required*/ oneof invert_ { bool invert = 8;}
 	// Current EncryptionKeyRef used to encrypt communications.
-	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 7;}
+	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 22;}
 	// For changing keys, the next EncryptionKeyRef.  This allows us to update encryptionKeyRef only after the keys have been updated on the device.  And also, if anything goes wrong, we have both keys.
-	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 8;}
+	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 23;}
 	// Disable encryption, generally for OSDP readers/subcontrollers that would otherwise be using Secure Channel.  Intended to be used for diagnostics only, not recommended for production.
-	oneof disableEncryption_ { bool disableEncryption = 9;}
+	oneof disableEncryption_ { bool disableEncryption = 24;}
 }
 // An event.  An event is designed to contain all relevant data captured at the time of the event, to minimize the need to cross-reference with other data, and to include all information needed for reporting, filtering, viewing embedded within the event.
 message Evt {
@@ -539,37 +539,37 @@ message Evt {
 	// Time recorded in DB.
 	/*required*/ DateTimeData dbTime = 3;
 	// The local time zone, for display purposes only, for displaying hwTime/hwTimeMillis.
-	oneof hwTimeZone_ { string hwTimeZone = 4;}
+	oneof hwTimeZone_ { string hwTimeZone = 6;}
 	// Event code, "what" happened.
-	/*required*/ oneof evtCode_ { EvtCode evtCode = 5;}
+	/*required*/ oneof evtCode_ { EvtCode evtCode = 7;}
 	// If evtCode is EvtCode.EXTERNAL, the text string for the external event code.
-	oneof externalEvtCodeText_ { string externalEvtCodeText = 6;}
+	oneof externalEvtCodeText_ { string externalEvtCodeText = 8;}
 	// If evtCode is EvtCode.EXTERNAL, the external system's id for the external event code.
-	oneof externalEvtCodeId_ { string externalEvtCodeId = 7;}
+	oneof externalEvtCodeId_ { string externalEvtCodeId = 9;}
 	// Event sub-code - more detail on "what" happened.
-	oneof evtSubCode_ { EvtSubCode evtSubCode = 8;}
+	oneof evtSubCode_ { EvtSubCode evtSubCode = 10;}
 	// If evtSubCode is EvtSubCode.EXTERNAL, the text string for the external event sub-code.
-	oneof externalSubCodeText_ { string externalSubCodeText = 9;}
+	oneof externalSubCodeText_ { string externalSubCodeText = 11;}
 	// If evtSubCode is EvtSubCode.EXTERNAL, the external system's id for the external event sub code.
-	oneof externalSubCodeId_ { string externalSubCodeId = 10;}
+	oneof externalSubCodeId_ { string externalSubCodeId = 12;}
 	// Event modifiers.
-	/*optional*/ EvtModifiers evtModifiers = 11;
+	/*optional*/ EvtModifiers evtModifiers = 13;
 	// Priority.  Lower numbers mean more important.  0 is the "most important".
-	/*required*/ oneof priority_ { int32 priority = 12;}
+	/*required*/ oneof priority_ { int32 priority = 14;}
 	// Extra/arbitrary data associated with the event.
-	oneof data_ { string data = 13;}
+	oneof data_ { string data = 20;}
 	// A reference to the device associated with this event.
-	/*optional*/ EvtDevRef evtDevRef = 14;
+	/*optional*/ EvtDevRef evtDevRef = 25;
 	// A reference to the controller device associated with this event.
-	/*optional*/ EvtDevRef evtControllerRef = 15;
+	/*optional*/ EvtDevRef evtControllerRef = 26;
 	// A reference to the credential associated with this event.
-	/*optional*/ EvtCredRef evtCredRef = 16;
+	/*optional*/ EvtCredRef evtCredRef = 30;
 	// A reference to the schedule associated with this event.
-	/*optional*/ EvtSchedRef evtSchedRef = 17;
+	/*optional*/ EvtSchedRef evtSchedRef = 34;
 	// Whether this event has been consumed or not.  This is a kind of "soft" delete (if consumed=true).
-	/*required*/ oneof consumed_ { bool consumed = 18;}
+	/*required*/ oneof consumed_ { bool consumed = 46;}
 	// UUID.
-	oneof uuid_ { string uuid = 19;}
+	oneof uuid_ { string uuid = 50;}
 }
 // Restriction by EvtCode.
 message EvtCodeRestriction {
@@ -587,15 +587,15 @@ message EvtCredRef {
 	// From referenced Cred: CredTemplate (reference)
 	/*optional*/ EvtCredTemplateRef credTemplateRef = 2;
 	// From referenced Cred: name
-	oneof name_ { string name = 3;}
+	oneof name_ { string name = 6;}
 	// From referenced Cred: credNum
-	/*optional*/ BigIntegerData credNum = 4;
+	/*optional*/ BigIntegerData credNum = 7;
 	// From referenced Cred: facilityCode
-	oneof facilityCode_ { int32 facilityCode = 5;}
+	oneof facilityCode_ { int32 facilityCode = 8;}
 	// From referenced Cred: tag
-	oneof tag_ { string tag = 6;}
+	oneof tag_ { string tag = 11;}
 	// From referenced Cred: uuid
-	oneof uuid_ { string uuid = 7;}
+	oneof uuid_ { string uuid = 12;}
 }
 // A reference (really a summary) from an Evt to a CredTemplate, containing its essential properties, and without requiring any lookup of the referenced object for reporting, filtering, or display.
 message EvtCredTemplateRef {
@@ -631,26 +631,26 @@ message EvtDevRef {
 	// From referenced Dev: devMod
 	oneof devMod_ { DevMod devMod = 10;}
 	// From referenced Dev: externalDevModText
-	oneof externalDevModText_ { string externalDevModText = 11;}
+	oneof externalDevModText_ { string externalDevModText = 12;}
 	// From referenced Dev: externalDevModId
-	oneof externalDevModId_ { string externalDevModId = 12;}
+	oneof externalDevModId_ { string externalDevModId = 13;}
 	// From referenced Dev: devUse
-	oneof devUse_ { DevUse devUse = 13;}
+	oneof devUse_ { DevUse devUse = 14;}
 	// From referenced Dev: tag
-	oneof tag_ { string tag = 14;}
+	oneof tag_ { string tag = 16;}
 	// From referenced Dev: uuid
-	oneof uuid_ { string uuid = 15;}
+	oneof uuid_ { string uuid = 17;}
 	// From referenced Dev: externalId
-	oneof externalId_ { string externalId = 16;}
+	oneof externalId_ { string externalId = 18;}
 }
 // Evt modifiers
 message EvtModifiers {
 	// true if the hwTime is not accurate.  Generally set to be same as dbTime if hwTime not accurate.  Useful when the clock on a controller or door is known to be off or not correctly set.
-	oneof inaccurateHwTime_ { bool inaccurateHwTime = 1;}
+	oneof inaccurateHwTime_ { bool inaccurateHwTime = 11;}
 	// For door access events: true if used: card.
-	oneof usedCard_ { bool usedCard = 2;}
+	oneof usedCard_ { bool usedCard = 13;}
 	// For door access events: true if used: PIN.
-	oneof usedPin_ { bool usedPin = 3;}
+	oneof usedPin_ { bool usedPin = 14;}
 }
 // Restriction of Evt by EvtCode, Dev, Cred, and other properties.
 message EvtRestriction {
@@ -658,7 +658,7 @@ message EvtRestriction {
 	/*optional*/ EvtCodeRestriction evtCodeRestriction = 1;
 	// Restriction by EvtSubCode
 	// Restriction by Dev/EvtDevRef
-	/*optional*/ GeneralDevRestriction generalDevRestriction = 2;
+	/*optional*/ GeneralDevRestriction generalDevRestriction = 7;
 	// Restriction by Cred/EvtCredRef
 	// Restriction by hwTime
 }
@@ -679,64 +679,64 @@ message Hol {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 5;}
-	repeated int32 holTypesUnid = 6;
-	/*required*/ oneof allHolTypes_ { bool allHolTypes = 7;}
-	/*required*/ SqlDateData date = 8;
-	/*required*/ oneof numDays_ { int32 numDays = 9;}
-	/*required*/ oneof repeat_ { bool repeat = 10;}
-	oneof numYearsRepeat_ { int32 numYearsRepeat = 11;}
-	/*required*/ oneof preserveSchedDay_ { bool preserveSchedDay = 12;}
-	oneof holCalUnid_ { int32 holCalUnid = 13;}
+	oneof unid_ { int32 unid = 12;}
+	repeated int32 holTypesUnid = 14;
+	/*required*/ oneof allHolTypes_ { bool allHolTypes = 15;}
+	/*required*/ SqlDateData date = 16;
+	/*required*/ oneof numDays_ { int32 numDays = 17;}
+	/*required*/ oneof repeat_ { bool repeat = 18;}
+	oneof numYearsRepeat_ { int32 numYearsRepeat = 19;}
+	/*required*/ oneof preserveSchedDay_ { bool preserveSchedDay = 20;}
+	oneof holCalUnid_ { int32 holCalUnid = 21;}
 }
 // Holiday calendar, consisting of multiple holidays (Hol).
 message HolCal {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
+	oneof name_ { string name = 10;}
 	// Unique ID
-	oneof unid_ { int32 unid = 5;}
+	oneof unid_ { int32 unid = 12;}
 }
 // Holiday type for holidays (Hol).  Schedules (Sched) refer to holidays indirectly via these types.
 message HolType {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
-	oneof externalId_ { string externalId = 5;}
+	oneof name_ { string name = 10;}
+	oneof externalId_ { string externalId = 13;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 6;}
+	oneof unid_ { int32 unid = 14;}
 }
 // A schedule.  It can have multiple elements (intervals), specifying time ranges, days of the week and holiday types.  Schedules can be used to restrict access during the specified days/times, as well as drive scheduled activity such as door mode changes and other hardware outputs.
 message Sched {
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 1;}
 	// tag.
-	oneof tag_ { string tag = 2;}
+	oneof tag_ { string tag = 6;}
 	// UUID.
-	oneof uuid_ { string uuid = 3;}
+	oneof uuid_ { string uuid = 7;}
 	// Name.
-	oneof name_ { string name = 4;}
-	oneof externalId_ { string externalId = 5;}
+	oneof name_ { string name = 10;}
+	oneof externalId_ { string externalId = 13;}
 	// Unique ID.
-	oneof unid_ { int32 unid = 6;}
+	oneof unid_ { int32 unid = 14;}
 	// The elements (intervals) within the schedule.
-	repeated SchedElement elements = 7;
+	repeated SchedElement elements = 16;
 }
 // Element of a Sched.
 message SchedElement {
