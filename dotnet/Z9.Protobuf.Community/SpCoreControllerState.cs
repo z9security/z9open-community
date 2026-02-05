@@ -28,11 +28,6 @@ namespace Z9.Protobuf
         /// </summary>
         private const bool AutoSetLastModifiedOnDbChange = true;
 
-        private const bool StrictFirmwareVersionSecurity_IdentificationChallenge = false;
-
-        private const int IDENTIFICATION_CHALLENGE_NONCE_SIZE_IN_BYTES = 16; // 128 bits
-        private const int IDENTIFICATION_CHALLENGE_RESPONSE_TIMEOUT = 15000; // 15 seconds
-
         private readonly ConcurrentDictionary<long, DbChange> _pendingDbChanges = new ConcurrentDictionary<long, DbChange>();
         private readonly ConcurrentDictionary<long, DevActionReq> _pendingDevActions = new ConcurrentDictionary<long, DevActionReq>();
 
@@ -40,7 +35,6 @@ namespace Z9.Protobuf
         private ExecutorThread _executorThread;
         private bool _stopping;
         private Identification _identification;
-        private long _identificationChallengeExpiresAfter;
         private bool _online;
         private long _nextDbChangeRequestId = 1;
         private long _nextDevActionRequestId = 1;
@@ -86,8 +80,6 @@ namespace Z9.Protobuf
         public bool StrictFirmwareVersionSecurity { get; set; }
         public ISpCoreControllerStateObserver Observer { get; set; }
         public X509Certificate2 SslCertificate { get; }
-        public byte[] IdentificationChallenge { get; set; }
-
         public Exception exception;
         public SpCoreMessageInputStream mis;
         public SpCoreMessageOutputStream mos;
@@ -271,42 +263,12 @@ namespace Z9.Protobuf
 
             _maxBodyLength = message.Identification.MaxBodyLength;
 
-            if (IdentificationChallenge != null)
-            {
-                // this is our second identification message, with the identification response.
-                if (CheckIdentification())
-                {
-                    // We are expected to send a 2nd Identification after the challenge succeeds.
-                    SendIdentification();
-
-                    _online = true;
-                    Observer?.OnOnline(this);
-                }
-                else
-                {
-                    throw new Exception("CheckIdentification returned false when IdentificationChallenge != null"); // should never happen
-                }
-            }
-            else
-            {
-                // this is our first identification message.  we need to be linked up with the "real" controller state now.
-
-                // identification challenge will be sent via CheckIdentification
-                // password will be checked via CheckIdentification
-
-                _online = true;
-                Observer?.OnOnline(this);
-            }
+            _online = true;
+            Observer?.OnOnline(this);
         }
 
-        // Community edition: No identification challenge support
-
-        /// <summary>
-        /// </summary>
-        /// <returns>true if fully Online, false if sending IdentificationChallenge</returns>
         public bool CheckIdentification()
         {
-            // Community edition: simplified identification check without challenge/response
             if (!Outgoing)
             {
                 String receivedPassword = null;

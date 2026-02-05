@@ -59,10 +59,9 @@ namespace Z9.Protobuf
         public void Stop()
         {
             _stopping = true;
-            _stopped.WaitOne(TimeSpan.FromSeconds(30));
-
             _connectedEvent.Set();
             _disconnectedEvent.Set();
+            _stopped.WaitOne(TimeSpan.FromSeconds(30));
         }
 
         public void Run()
@@ -311,8 +310,6 @@ namespace Z9.Protobuf
             Logger.Debug(_controllerState.LogPrefix + "CloseThreadsAndSocket");
 
             _connectionThread?.Stop();
-            _readerThread?.Stop();
-            _writerThread?.Stop();
 
             try
             {
@@ -327,6 +324,9 @@ namespace Z9.Protobuf
             {
                 Logger.Error(_controllerState.LogPrefix, e);
             }
+
+            _readerThread?.Stop();
+            _writerThread?.Stop();
 
             try
             {

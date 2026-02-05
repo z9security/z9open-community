@@ -399,10 +399,9 @@ namespace Z9.Protobuf
                 pendingStateCast.ConnectionInfo.IdentificationCertificate = matchingUnderlying.ConnectionInfo.IdentificationCertificate;
                 pendingStateCast.ConnectionInfo.Licenses = matchingUnderlying.ConnectionInfo.Licenses;
 
-                bool identificationChallengeInProgress;
                 try
                 {
-                    identificationChallengeInProgress = !pendingStateCast.CheckIdentification();
+                    pendingStateCast.CheckIdentification();
                 }
                 catch (Exception e)
                 {
@@ -413,11 +412,7 @@ namespace Z9.Protobuf
                 }
 
                 pendingStateCast.SendIdentification();
-
-                Logger.Info(pendingStateCast.LogPrefix + $"identificationChallengeInProgress={identificationChallengeInProgress}");
-
-                if (!identificationChallengeInProgress)
-                    pendingStateCast.Observer?.OnOnline(matchingProxy);
+                pendingStateCast.Observer?.OnOnline(matchingProxy);
             }
 
             // we don't care about any of these.
