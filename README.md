@@ -45,9 +45,15 @@ The `dotnet/` folder contains a C# SDK for Z9/Open Community Profile:
 
 Pushing a version tag triggers the CI pipeline to build, test, and publish the `Z9.Protobuf.Community` package to nuget.org:
 
+Find the latest version and tag the next:
+
 ```bash
-git tag v1.0.1
-git push origin v1.0.1
+git tag --sort=-v:refname | head -1
+```
+
+```bash
+git tag v1.0.2
+git push origin v1.0.2
 ```
 
 Note: This is done by the repo owner and requires a `NUGET_API_KEY` secret configured in the repository's GitHub Actions settings.
