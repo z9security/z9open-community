@@ -56,4 +56,10 @@ git tag v1.0.2
 git push origin v1.0.2
 ```
 
-Note: This is done by the repo owner and requires a `NUGET_API_KEY` secret configured in the repository's GitHub Actions settings.
+Note: This requires a `NUGET_API_KEY` secret configured in the repository's GitHub Actions settings.
+
+Verify the package is published:
+
+```bash
+curl -s https://api.nuget.org/v3-flatcontainer/z9.protobuf.community/index.json
+```
