@@ -43,6 +43,7 @@ namespace Z9.Protobuf.Community.Test
         public List<Priv> ReceivedPrivs { get; } = new List<Priv>();
         public List<HolCal> ReceivedHolCals { get; } = new List<HolCal>();
         public List<HolType> ReceivedHolTypes { get; } = new List<HolType>();
+        public List<Hol> ReceivedHols { get; } = new List<Hol>();
         public List<Sched> ReceivedScheds { get; } = new List<Sched>();
 
         // Track delete operations
@@ -54,6 +55,7 @@ namespace Z9.Protobuf.Community.Test
         public List<int> DeletedPrivUnids { get; } = new List<int>();
         public List<int> DeletedHolCalUnids { get; } = new List<int>();
         public List<int> DeletedHolTypeUnids { get; } = new List<int>();
+        public List<int> DeletedHolUnids { get; } = new List<int>();
         public List<int> DeletedSchedUnids { get; } = new List<int>();
 
         // Track delete-all flags
@@ -65,6 +67,7 @@ namespace Z9.Protobuf.Community.Test
         public bool PrivDeleteAllReceived { get; private set; }
         public bool HolCalDeleteAllReceived { get; private set; }
         public bool HolTypeDeleteAllReceived { get; private set; }
+        public bool HolDeleteAllReceived { get; private set; }
         public bool SchedDeleteAllReceived { get; private set; }
 
         // Track EvtControl messages
@@ -224,6 +227,8 @@ namespace Z9.Protobuf.Community.Test
                     ReceivedHolCals.Add(item);
                 foreach (var item in dbChange.HolType)
                     ReceivedHolTypes.Add(item);
+                foreach (var item in dbChange.Hol)
+                    ReceivedHols.Add(item);
                 foreach (var item in dbChange.Sched)
                     ReceivedScheds.Add(item);
 
@@ -244,6 +249,8 @@ namespace Z9.Protobuf.Community.Test
                     DeletedHolCalUnids.Add(unid);
                 foreach (var unid in dbChange.HolTypeDelete)
                     DeletedHolTypeUnids.Add(unid);
+                foreach (var unid in dbChange.HolDelete)
+                    DeletedHolUnids.Add(unid);
                 foreach (var unid in dbChange.SchedDelete)
                     DeletedSchedUnids.Add(unid);
 
@@ -264,6 +271,8 @@ namespace Z9.Protobuf.Community.Test
                     HolCalDeleteAllReceived = true;
                 if (dbChange.HolTypeDeleteAllCase == DbChange.HolTypeDeleteAllOneofCase.HolTypeDeleteAll && dbChange.HolTypeDeleteAll)
                     HolTypeDeleteAllReceived = true;
+                if (dbChange.HolDeleteAllCase == DbChange.HolDeleteAllOneofCase.HolDeleteAll && dbChange.HolDeleteAll)
+                    HolDeleteAllReceived = true;
                 if (dbChange.SchedDeleteAllCase == DbChange.SchedDeleteAllOneofCase.SchedDeleteAll && dbChange.SchedDeleteAll)
                     SchedDeleteAllReceived = true;
             }

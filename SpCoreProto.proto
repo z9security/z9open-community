@@ -163,7 +163,10 @@ message DbChange {
 	/*optional*/ oneof schedDeleteAll_ { bool schedDeleteAll = 44;}
 	repeated int32 schedDelete = 45;
 	repeated Sched sched = 46;
-	
+
+	/*optional*/ oneof holDeleteAll_ { bool holDeleteAll = 155;}
+	repeated int32 holDelete = 156;
+	repeated Hol hol = 157;
 
 }
 

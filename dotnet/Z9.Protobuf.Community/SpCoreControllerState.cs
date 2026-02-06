@@ -499,6 +499,10 @@ namespace Z9.Protobuf
             {
                 SpCoreProtoUtil.InitRequired(o, true);
             }
+            foreach (Hol o in c.Hol)
+            {
+                SpCoreProtoUtil.InitRequired(o, true);
+            }
             foreach (Priv o in c.Priv)
             {
                 SpCoreProtoUtil.InitRequired(o, true);

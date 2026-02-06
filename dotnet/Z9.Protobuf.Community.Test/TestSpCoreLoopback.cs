@@ -602,6 +602,42 @@ namespace Z9.Protobuf.Community.Test
         }
 
         [TestMethod]
+        public void TestHolInsertAndDelete()
+        {
+            try
+            {
+                SetupConnection();
+
+                var dbChange = new DbChange();
+                dbChange.Hol.Add(new Hol { Unid = 850, NumDays = 1, Repeat = true, AllHolTypes = true, PreserveSchedDay = false });
+                SendDbChangeAndWait(dbChange);
+
+                Assert.AreEqual(1, _controller.ReceivedHols.Count);
+                Assert.AreEqual(850, _controller.ReceivedHols[0].Unid);
+                Assert.AreEqual(1, _controller.ReceivedHols[0].NumDays);
+                Assert.IsTrue(_controller.ReceivedHols[0].Repeat);
+
+                // Delete
+                var deleteChange = new DbChange();
+                deleteChange.HolDelete.Add(850);
+                SendDbChangeAndWait(deleteChange);
+
+                Assert.AreEqual(1, _controller.DeletedHolUnids.Count);
+
+                // Delete all
+                var deleteAllChange = new DbChange();
+                deleteAllChange.HolDeleteAll = true;
+                SendDbChangeAndWait(deleteAllChange);
+
+                Assert.IsTrue(_controller.HolDeleteAllReceived);
+            }
+            finally
+            {
+                TeardownConnection();
+            }
+        }
+
+        [TestMethod]
         public void TestSchedInsertAndDelete()
         {
             try
@@ -676,6 +712,9 @@ namespace Z9.Protobuf.Community.Test
                 // Add holiday type
                 dbChange.HolType.Add(new HolType { Unid = 70, Name = "National Holiday" });
 
+                // Add holiday
+                dbChange.Hol.Add(new Hol { Unid = 75, NumDays = 1, Repeat = true, AllHolTypes = true, PreserveSchedDay = false, HolCalUnid = 60 });
+
                 // Add schedules
                 dbChange.Sched.Add(new Sched { Unid = 80, Name = "Always" });
                 dbChange.Sched.Add(new Sched { Unid = 81, Name = "Business Hours" });
@@ -691,6 +730,7 @@ namespace Z9.Protobuf.Community.Test
                 Assert.AreEqual(2, _controller.ReceivedPrivs.Count, "Should have 2 privileges");
                 Assert.AreEqual(1, _controller.ReceivedHolCals.Count, "Should have 1 holiday calendar");
                 Assert.AreEqual(1, _controller.ReceivedHolTypes.Count, "Should have 1 holiday type");
+                Assert.AreEqual(1, _controller.ReceivedHols.Count, "Should have 1 holiday");
                 Assert.AreEqual(2, _controller.ReceivedScheds.Count, "Should have 2 schedules");
             }
             finally

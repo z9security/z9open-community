@@ -84,7 +84,7 @@ namespace Z9.Spcore.Proto {
             "bmd0aF9CCQoHYm9vdElkX0IbChlzb2Z0d2FyZVZlcnNpb25UaW1lc3RhbXBf",
             "QhcKFXNvZnR3YXJlVmVyc2lvbkJyYW5kX0IZChdzb2Z0d2FyZVZlcnNpb25Q",
             "cm9kdWN0X0IPCg1zZXJpYWxOdW1iZXJfQhgKFnNvZnR3YXJlVmVyc2lvbkJy",
-            "YW5jaF9CCwoJcGFzc3dvcmRfIq4ICghEYkNoYW5nZRITCglyZXF1ZXN0SWQY",
+            "YW5jaF9CCwoJcGFzc3dvcmRfIpAJCghEYkNoYW5nZRITCglyZXF1ZXN0SWQY",
             "ASABKANIABIXCg1jcmVkRGVsZXRlQWxsGAIgASgISAESEgoKY3JlZERlbGV0",
             "ZRgDIAMoBRIjCgRjcmVkGAQgAygLMhUuejkuc3Bjb3JlLnByb3RvLkNyZWQS",
             "HwoVY3JlZFRlbXBsYXRlRGVsZXRlQWxsGAUgASgISAISGgoSY3JlZFRlbXBs",
@@ -103,42 +103,44 @@ namespace Z9.Spcore.Proto {
             "ZURlbGV0ZUFsbBgpIAEoCEgIEhUKDWhvbFR5cGVEZWxldGUYKiADKAUSKQoH",
             "aG9sVHlwZRgrIAMoCzIYLno5LnNwY29yZS5wcm90by5Ib2xUeXBlEhgKDnNj",
             "aGVkRGVsZXRlQWxsGCwgASgISAkSEwoLc2NoZWREZWxldGUYLSADKAUSJQoF",
-            "c2NoZWQYLiADKAsyFi56OS5zcGNvcmUucHJvdG8uU2NoZWRCDAoKcmVxdWVz",
-            "dElkX0IQCg5jcmVkRGVsZXRlQWxsX0IYChZjcmVkVGVtcGxhdGVEZWxldGVB",
-            "bGxfQhYKFGRhdGFMYXlvdXREZWxldGVBbGxfQhYKFGRhdGFGb3JtYXREZWxl",
-            "dGVBbGxfQg8KDWRldkRlbGV0ZUFsbF9CEAoOcHJpdkRlbGV0ZUFsbF9CEgoQ",
-            "aG9sQ2FsRGVsZXRlQWxsX0ITChFob2xUeXBlRGVsZXRlQWxsX0IRCg9zY2hl",
-            "ZERlbGV0ZUFsbF8i5QIKDERiQ2hhbmdlUmVzcBITCglyZXF1ZXN0SWQYASAB",
-            "KANIABITCglleGNlcHRpb24YAiABKAlIARIRCgljcmVkVW5pZHMYAyADKAUS",
-            "GQoRY3JlZFRlbXBsYXRlVW5pZHMYBCADKAUSFwoPZGF0YUxheW91dFVuaWRz",
-            "GAUgAygFEhcKD2RhdGFGb3JtYXRVbmlkcxgGIAMoBRIQCghkZXZVbmlkcxgH",
-            "IAMoBRIRCglwcml2VW5pZHMYDiADKAUSEwoLaG9sQ2FsVW5pZHMYDyADKAUS",
-            "FAoMaG9sVHlwZVVuaWRzGBAgAygFEhIKCnNjaGVkVW5pZHMYESADKAUSHQoV",
-            "ZW5jcnlwdGlvbktleVJlZlVuaWRzGDAgAygFEhAKCGhvbFVuaWRzGDYgAygF",
-            "EhoKEmVuY3J5cHRpb25LZXlVbmlkcxhHIAMoBUIMCgpyZXF1ZXN0SWRfQgwK",
-            "CmV4Y2VwdGlvbl8ibgoKRXZ0Q29udHJvbBI5Cg5ldnRGbG93Q29udHJvbBgB",
-            "IAEoDjIfLno5LnNwY29yZS5wcm90by5FdnRGbG93Q29udHJvbEgAEhIKCmNv",
-            "bnN1bWVFdnQYAiADKANCEQoPZXZ0Rmxvd0NvbnRyb2xfItYBCgxEZXZBY3Rp",
-            "b25SZXESEwoJcmVxdWVzdElkGAEgASgDSAASNwoNZGV2QWN0aW9uVHlwZRgC",
-            "IAEoDjIeLno5LnNwY29yZS5wcm90by5EZXZBY3Rpb25UeXBlSAESEQoHZGV2",
-            "VW5pZBgDIAEoBUgCEjkKD2RldkFjdGlvblBhcmFtcxgEIAEoCzIgLno5LnNw",
-            "Y29yZS5wcm90by5EZXZBY3Rpb25QYXJhbXNCDAoKcmVxdWVzdElkX0IQCg5k",
-            "ZXZBY3Rpb25UeXBlX0IKCghkZXZVbmlkXyJVCg1EZXZBY3Rpb25SZXNwEhMK",
-            "CXJlcXVlc3RJZBgBIAEoA0gAEhMKCWV4Y2VwdGlvbhgCIAEoCUgBQgwKCnJl",
-            "cXVlc3RJZF9CDAoKZXhjZXB0aW9uXyqFAQoRVGVybWluYXRpb25SZWFzb24S",
-            "GgoWVGVybWluYXRpb25SZWFzb25fTk9ORRAAEisKJ1Rlcm1pbmF0aW9uUmVh",
-            "c29uX0VYSVRJTkdfT1JfUkVTVEFSVElORxABEicKI1Rlcm1pbmF0aW9uUmVh",
-            "c29uX1BBU1NXT1JEX01JU01BVENIEAIqfAoORXZ0Rmxvd0NvbnRyb2wSIwof",
-            "RXZ0Rmxvd0NvbnRyb2xfU1RBUlRfQ09OVElOVU9VUxAAEiIKHkV2dEZsb3dD",
-            "b250cm9sX1NUT1BfQ09OVElOVU9VUxABEiEKHUV2dEZsb3dDb250cm9sX1NF",
-            "TkRfT05FX0JBVENIEAJCAkgDYgZwcm90bzM="));
+            "c2NoZWQYLiADKAsyFi56OS5zcGNvcmUucHJvdG8uU2NoZWQSFwoMaG9sRGVs",
+            "ZXRlQWxsGJsBIAEoCEgKEhIKCWhvbERlbGV0ZRicASADKAUSIgoDaG9sGJ0B",
+            "IAMoCzIULno5LnNwY29yZS5wcm90by5Ib2xCDAoKcmVxdWVzdElkX0IQCg5j",
+            "cmVkRGVsZXRlQWxsX0IYChZjcmVkVGVtcGxhdGVEZWxldGVBbGxfQhYKFGRh",
+            "dGFMYXlvdXREZWxldGVBbGxfQhYKFGRhdGFGb3JtYXREZWxldGVBbGxfQg8K",
+            "DWRldkRlbGV0ZUFsbF9CEAoOcHJpdkRlbGV0ZUFsbF9CEgoQaG9sQ2FsRGVs",
+            "ZXRlQWxsX0ITChFob2xUeXBlRGVsZXRlQWxsX0IRCg9zY2hlZERlbGV0ZUFs",
+            "bF9CDwoNaG9sRGVsZXRlQWxsXyLlAgoMRGJDaGFuZ2VSZXNwEhMKCXJlcXVl",
+            "c3RJZBgBIAEoA0gAEhMKCWV4Y2VwdGlvbhgCIAEoCUgBEhEKCWNyZWRVbmlk",
+            "cxgDIAMoBRIZChFjcmVkVGVtcGxhdGVVbmlkcxgEIAMoBRIXCg9kYXRhTGF5",
+            "b3V0VW5pZHMYBSADKAUSFwoPZGF0YUZvcm1hdFVuaWRzGAYgAygFEhAKCGRl",
+            "dlVuaWRzGAcgAygFEhEKCXByaXZVbmlkcxgOIAMoBRITCgtob2xDYWxVbmlk",
+            "cxgPIAMoBRIUCgxob2xUeXBlVW5pZHMYECADKAUSEgoKc2NoZWRVbmlkcxgR",
+            "IAMoBRIdChVlbmNyeXB0aW9uS2V5UmVmVW5pZHMYMCADKAUSEAoIaG9sVW5p",
+            "ZHMYNiADKAUSGgoSZW5jcnlwdGlvbktleVVuaWRzGEcgAygFQgwKCnJlcXVl",
+            "c3RJZF9CDAoKZXhjZXB0aW9uXyJuCgpFdnRDb250cm9sEjkKDmV2dEZsb3dD",
+            "b250cm9sGAEgASgOMh8uejkuc3Bjb3JlLnByb3RvLkV2dEZsb3dDb250cm9s",
+            "SAASEgoKY29uc3VtZUV2dBgCIAMoA0IRCg9ldnRGbG93Q29udHJvbF8i1gEK",
+            "DERldkFjdGlvblJlcRITCglyZXF1ZXN0SWQYASABKANIABI3Cg1kZXZBY3Rp",
+            "b25UeXBlGAIgASgOMh4uejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblR5cGVI",
+            "ARIRCgdkZXZVbmlkGAMgASgFSAISOQoPZGV2QWN0aW9uUGFyYW1zGAQgASgL",
+            "MiAuejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblBhcmFtc0IMCgpyZXF1ZXN0",
+            "SWRfQhAKDmRldkFjdGlvblR5cGVfQgoKCGRldlVuaWRfIlUKDURldkFjdGlv",
+            "blJlc3ASEwoJcmVxdWVzdElkGAEgASgDSAASEwoJZXhjZXB0aW9uGAIgASgJ",
+            "SAFCDAoKcmVxdWVzdElkX0IMCgpleGNlcHRpb25fKoUBChFUZXJtaW5hdGlv",
+            "blJlYXNvbhIaChZUZXJtaW5hdGlvblJlYXNvbl9OT05FEAASKwonVGVybWlu",
+            "YXRpb25SZWFzb25fRVhJVElOR19PUl9SRVNUQVJUSU5HEAESJwojVGVybWlu",
+            "YXRpb25SZWFzb25fUEFTU1dPUkRfTUlTTUFUQ0gQAip8Cg5FdnRGbG93Q29u",
+            "dHJvbBIjCh9FdnRGbG93Q29udHJvbF9TVEFSVF9DT05USU5VT1VTEAASIgoe",
+            "RXZ0Rmxvd0NvbnRyb2xfU1RPUF9DT05USU5VT1VTEAESIQodRXZ0Rmxvd0Nv",
+            "bnRyb2xfU0VORF9PTkVfQkFUQ0gQAkICSANiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Z9.Spcore.Proto.SpCoreProtoElementsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoEnumsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Z9.Spcore.Proto.TerminationReason), typeof(global::Z9.Spcore.Proto.EvtFlowControl), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.SpCoreMessage), global::Z9.Spcore.Proto.SpCoreMessage.Parser, new[]{ "Type", "Identification", "DbChange", "DbChangeResp", "Evt", "DevActionReq", "DevActionResp", "EvtControl", "TerminationReason" }, new[]{ "Type", "TerminationReason" }, new[]{ typeof(global::Z9.Spcore.Proto.SpCoreMessage.Types.Type) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.ProtocolCapabilities), global::Z9.Spcore.Proto.ProtocolCapabilities.Parser, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Identification), global::Z9.Spcore.Proto.Identification.Parser, new[]{ "Id", "SpCoreDevMod", "SpCoreDevUse", "ProtocolVersion", "SoftwareVersion", "MaxBodyLength", "BootId", "SoftwareVersionTimestamp", "SoftwareVersionBrand", "SoftwareVersionProduct", "SerialNumber", "SoftwareVersionBranch", "ProtocolCapabilities", "Password", "EvtDevRef" }, new[]{ "Id", "SpCoreDevMod", "SpCoreDevUse", "ProtocolVersion", "SoftwareVersion", "MaxBodyLength", "BootId", "SoftwareVersionTimestamp", "SoftwareVersionBrand", "SoftwareVersionProduct", "SerialNumber", "SoftwareVersionBranch", "Password" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DbChange), global::Z9.Spcore.Proto.DbChange.Parser, new[]{ "RequestId", "CredDeleteAll", "CredDelete", "Cred", "CredTemplateDeleteAll", "CredTemplateDelete", "CredTemplate", "DataLayoutDeleteAll", "DataLayoutDelete", "DataLayout", "DataFormatDeleteAll", "DataFormatDelete", "DataFormat", "DevDeleteAll", "DevDelete", "Dev", "PrivDeleteAll", "PrivDelete", "Priv", "HolCalDeleteAll", "HolCalDelete", "HolCal", "HolTypeDeleteAll", "HolTypeDelete", "HolType", "SchedDeleteAll", "SchedDelete", "Sched" }, new[]{ "RequestId", "CredDeleteAll", "CredTemplateDeleteAll", "DataLayoutDeleteAll", "DataFormatDeleteAll", "DevDeleteAll", "PrivDeleteAll", "HolCalDeleteAll", "HolTypeDeleteAll", "SchedDeleteAll" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DbChange), global::Z9.Spcore.Proto.DbChange.Parser, new[]{ "RequestId", "CredDeleteAll", "CredDelete", "Cred", "CredTemplateDeleteAll", "CredTemplateDelete", "CredTemplate", "DataLayoutDeleteAll", "DataLayoutDelete", "DataLayout", "DataFormatDeleteAll", "DataFormatDelete", "DataFormat", "DevDeleteAll", "DevDelete", "Dev", "PrivDeleteAll", "PrivDelete", "Priv", "HolCalDeleteAll", "HolCalDelete", "HolCal", "HolTypeDeleteAll", "HolTypeDelete", "HolType", "SchedDeleteAll", "SchedDelete", "Sched", "HolDeleteAll", "HolDelete", "Hol" }, new[]{ "RequestId", "CredDeleteAll", "CredTemplateDeleteAll", "DataLayoutDeleteAll", "DataFormatDeleteAll", "DevDeleteAll", "PrivDeleteAll", "HolCalDeleteAll", "HolTypeDeleteAll", "SchedDeleteAll", "HolDeleteAll" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DbChangeResp), global::Z9.Spcore.Proto.DbChangeResp.Parser, new[]{ "RequestId", "Exception", "CredUnids", "CredTemplateUnids", "DataLayoutUnids", "DataFormatUnids", "DevUnids", "PrivUnids", "HolCalUnids", "HolTypeUnids", "SchedUnids", "EncryptionKeyRefUnids", "HolUnids", "EncryptionKeyUnids" }, new[]{ "RequestId", "Exception" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.EvtControl), global::Z9.Spcore.Proto.EvtControl.Parser, new[]{ "EvtFlowControl", "ConsumeEvt" }, new[]{ "EvtFlowControl" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevActionReq), global::Z9.Spcore.Proto.DevActionReq.Parser, new[]{ "RequestId", "DevActionType", "DevUnid", "DevActionParams" }, new[]{ "RequestId", "DevActionType", "DevUnid" }, null, null),
@@ -2321,6 +2323,8 @@ namespace Z9.Spcore.Proto {
       holType_ = other.holType_.Clone();
       schedDelete_ = other.schedDelete_.Clone();
       sched_ = other.sched_.Clone();
+      holDelete_ = other.holDelete_.Clone();
+      hol_ = other.hol_.Clone();
       switch (other.RequestIdCase) {
         case RequestIdOneofCase.RequestId:
           RequestId = other.RequestId;
@@ -2378,6 +2382,12 @@ namespace Z9.Spcore.Proto {
       switch (other.SchedDeleteAllCase) {
         case SchedDeleteAllOneofCase.SchedDeleteAll:
           SchedDeleteAll = other.SchedDeleteAll;
+          break;
+      }
+
+      switch (other.HolDeleteAllCase) {
+        case HolDeleteAllOneofCase.HolDeleteAll:
+          HolDeleteAll = other.HolDeleteAll;
           break;
       }
 
@@ -2678,6 +2688,37 @@ namespace Z9.Spcore.Proto {
       get { return sched_; }
     }
 
+    /// <summary>Field number for the "holDeleteAll" field.</summary>
+    public const int HolDeleteAllFieldNumber = 155;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool HolDeleteAll {
+      get { return holDeleteAllCase_ == HolDeleteAllOneofCase.HolDeleteAll ? (bool) holDeleteAll_ : false; }
+      set {
+        holDeleteAll_ = value;
+        holDeleteAllCase_ = HolDeleteAllOneofCase.HolDeleteAll;
+      }
+    }
+
+    /// <summary>Field number for the "holDelete" field.</summary>
+    public const int HolDeleteFieldNumber = 156;
+    private static readonly pb::FieldCodec<int> _repeated_holDelete_codec
+        = pb::FieldCodec.ForInt32(1250);
+    private readonly pbc::RepeatedField<int> holDelete_ = new pbc::RepeatedField<int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<int> HolDelete {
+      get { return holDelete_; }
+    }
+
+    /// <summary>Field number for the "hol" field.</summary>
+    public const int HolFieldNumber = 157;
+    private static readonly pb::FieldCodec<global::Z9.Spcore.Proto.Hol> _repeated_hol_codec
+        = pb::FieldCodec.ForMessage(1258, global::Z9.Spcore.Proto.Hol.Parser);
+    private readonly pbc::RepeatedField<global::Z9.Spcore.Proto.Hol> hol_ = new pbc::RepeatedField<global::Z9.Spcore.Proto.Hol>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Z9.Spcore.Proto.Hol> Hol {
+      get { return hol_; }
+    }
+
     private object requestId_;
     /// <summary>Enum of possible cases for the "requestId_" oneof.</summary>
     public enum RequestIdOneofCase {
@@ -2858,6 +2899,24 @@ namespace Z9.Spcore.Proto {
       schedDeleteAll_ = null;
     }
 
+    private object holDeleteAll_;
+    /// <summary>Enum of possible cases for the "holDeleteAll_" oneof.</summary>
+    public enum HolDeleteAllOneofCase {
+      None = 0,
+      HolDeleteAll = 155,
+    }
+    private HolDeleteAllOneofCase holDeleteAllCase_ = HolDeleteAllOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public HolDeleteAllOneofCase HolDeleteAllCase {
+      get { return holDeleteAllCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearHolDeleteAll() {
+      holDeleteAllCase_ = HolDeleteAllOneofCase.None;
+      holDeleteAll_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DbChange);
@@ -2899,6 +2958,9 @@ namespace Z9.Spcore.Proto {
       if (SchedDeleteAll != other.SchedDeleteAll) return false;
       if(!schedDelete_.Equals(other.schedDelete_)) return false;
       if(!sched_.Equals(other.sched_)) return false;
+      if (HolDeleteAll != other.HolDeleteAll) return false;
+      if(!holDelete_.Equals(other.holDelete_)) return false;
+      if(!hol_.Equals(other.hol_)) return false;
       if (RequestIdCase != other.RequestIdCase) return false;
       if (CredDeleteAllCase != other.CredDeleteAllCase) return false;
       if (CredTemplateDeleteAllCase != other.CredTemplateDeleteAllCase) return false;
@@ -2909,6 +2971,7 @@ namespace Z9.Spcore.Proto {
       if (HolCalDeleteAllCase != other.HolCalDeleteAllCase) return false;
       if (HolTypeDeleteAllCase != other.HolTypeDeleteAllCase) return false;
       if (SchedDeleteAllCase != other.SchedDeleteAllCase) return false;
+      if (HolDeleteAllCase != other.HolDeleteAllCase) return false;
       return true;
     }
 
@@ -2943,6 +3006,9 @@ namespace Z9.Spcore.Proto {
       if (schedDeleteAllCase_ == SchedDeleteAllOneofCase.SchedDeleteAll) hash ^= SchedDeleteAll.GetHashCode();
       hash ^= schedDelete_.GetHashCode();
       hash ^= sched_.GetHashCode();
+      if (holDeleteAllCase_ == HolDeleteAllOneofCase.HolDeleteAll) hash ^= HolDeleteAll.GetHashCode();
+      hash ^= holDelete_.GetHashCode();
+      hash ^= hol_.GetHashCode();
       hash ^= (int) requestIdCase_;
       hash ^= (int) credDeleteAllCase_;
       hash ^= (int) credTemplateDeleteAllCase_;
@@ -2953,6 +3019,7 @@ namespace Z9.Spcore.Proto {
       hash ^= (int) holCalDeleteAllCase_;
       hash ^= (int) holTypeDeleteAllCase_;
       hash ^= (int) schedDeleteAllCase_;
+      hash ^= (int) holDeleteAllCase_;
       return hash;
     }
 
@@ -3021,6 +3088,12 @@ namespace Z9.Spcore.Proto {
       }
       schedDelete_.WriteTo(output, _repeated_schedDelete_codec);
       sched_.WriteTo(output, _repeated_sched_codec);
+      if (holDeleteAllCase_ == HolDeleteAllOneofCase.HolDeleteAll) {
+        output.WriteRawTag(216, 9);
+        output.WriteBool(HolDeleteAll);
+      }
+      holDelete_.WriteTo(output, _repeated_holDelete_codec);
+      hol_.WriteTo(output, _repeated_hol_codec);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3074,6 +3147,11 @@ namespace Z9.Spcore.Proto {
       }
       size += schedDelete_.CalculateSize(_repeated_schedDelete_codec);
       size += sched_.CalculateSize(_repeated_sched_codec);
+      if (holDeleteAllCase_ == HolDeleteAllOneofCase.HolDeleteAll) {
+        size += 2 + 1;
+      }
+      size += holDelete_.CalculateSize(_repeated_holDelete_codec);
+      size += hol_.CalculateSize(_repeated_hol_codec);
       return size;
     }
 
@@ -3100,6 +3178,8 @@ namespace Z9.Spcore.Proto {
       holType_.Add(other.holType_);
       schedDelete_.Add(other.schedDelete_);
       sched_.Add(other.sched_);
+      holDelete_.Add(other.holDelete_);
+      hol_.Add(other.hol_);
       switch (other.RequestIdCase) {
         case RequestIdOneofCase.RequestId:
           RequestId = other.RequestId;
@@ -3157,6 +3237,12 @@ namespace Z9.Spcore.Proto {
       switch (other.SchedDeleteAllCase) {
         case SchedDeleteAllOneofCase.SchedDeleteAll:
           SchedDeleteAll = other.SchedDeleteAll;
+          break;
+      }
+
+      switch (other.HolDeleteAllCase) {
+        case HolDeleteAllOneofCase.HolDeleteAll:
+          HolDeleteAll = other.HolDeleteAll;
           break;
       }
 
@@ -3289,6 +3375,19 @@ namespace Z9.Spcore.Proto {
           }
           case 370: {
             sched_.AddEntriesFrom(input, _repeated_sched_codec);
+            break;
+          }
+          case 1240: {
+            HolDeleteAll = input.ReadBool();
+            break;
+          }
+          case 1250:
+          case 1248: {
+            holDelete_.AddEntriesFrom(input, _repeated_holDelete_codec);
+            break;
+          }
+          case 1258: {
+            hol_.AddEntriesFrom(input, _repeated_hol_codec);
             break;
           }
         }
