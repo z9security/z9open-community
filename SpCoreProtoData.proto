@@ -224,6 +224,8 @@ message EncryptionKeyRef {
 message CredPrivBinding {
 	// Schedule restriction
 	/*optional*/ SchedRestriction schedRestriction = 7;
+	// The privilege
+	oneof privUnid_ { int32 privUnid = 8;}
 	// In lieu of a DoorAccessPriv, this allows a Dev to be treated as a DoorAccessPriv.  In combination with other restrictions, this can be used for "precision access".  For Door access, the Dev can be either a Door or a DevGroup.  This is ignored when processing other Priv subclasses.
 	oneof devAsDoorAccessPrivUnid_ { int32 devAsDoorAccessPrivUnid = 9;}
 	// Unique ID.
