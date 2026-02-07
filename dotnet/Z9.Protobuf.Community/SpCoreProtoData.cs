@@ -220,118 +220,123 @@ namespace Z9.Spcore.Proto {
             "QhcKFWVuY3J5cHRpb25LZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVm",
             "TmV4dFVuaWRfQhQKEnNlcmlhbFBvcnRBZGRyZXNzX0IUChJkaXNhYmxlRW5j",
             "cnlwdGlvbl8iNwoERG9vchIvCgpkb29yQ29uZmlnGAEgASgLMhsuejkuc3Bj",
-            "b3JlLnByb3RvLkRvb3JDb25maWcijgMKCkRvb3JDb25maWcSEQoHdmVyc2lv",
+            "b3JlLnByb3RvLkRvb3JDb25maWci7gQKCkRvb3JDb25maWcSEQoHdmVyc2lv",
             "bhgBIAEoBUgAEhIKCHVzZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyAB",
-            "KAlIAhIgChZkZXZJbml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSHQoTYWN0",
-            "aXZhdGVTdHJpa2VPblJleBgLIAEoCEgEEh4KFGVuY3J5cHRpb25LZXlSZWZV",
-            "bmlkGC8gASgFSAUSIgoYZW5jcnlwdGlvbktleVJlZk5leHRVbmlkGDAgASgF",
-            "SAYSGwoRZGlzYWJsZUVuY3J5cHRpb24YMyABKAhIB0IKCgh2ZXJzaW9uX0IL",
-            "Cgl1c2VybmFtZV9CCwoJcGFzc3dvcmRfQhkKF2RldkluaXRpYXRlc0Nvbm5l",
-            "Y3Rpb25fQhYKFGFjdGl2YXRlU3RyaWtlT25SZXhfQhcKFWVuY3J5cHRpb25L",
-            "ZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRp",
-            "c2FibGVFbmNyeXB0aW9uXyLwAQoIRG9vck1vZGUSOwoLc3RhdGljU3RhdGUY",
-            "ASABKA4yJC56OS5zcGNvcmUucHJvdG8uRG9vck1vZGVTdGF0aWNTdGF0ZUgA",
-            "EhgKDmFsbG93VW5pcXVlUGluGAIgASgISAESEwoJYWxsb3dDYXJkGAMgASgI",
-            "SAISJgoccmVxdWlyZUNvbmZpcm1pbmdQaW5XaXRoQ2FyZBgEIAEoCEgDQg4K",
-            "DHN0YXRpY1N0YXRlX0IRCg9hbGxvd1VuaXF1ZVBpbl9CDAoKYWxsb3dDYXJk",
-            "X0IfCh1yZXF1aXJlQ29uZmlybWluZ1BpbldpdGhDYXJkXyI9CgZTZW5zb3IS",
-            "MwoMc2Vuc29yQ29uZmlnGAEgASgLMh0uejkuc3Bjb3JlLnByb3RvLlNlbnNv",
-            "ckNvbmZpZyKPAwoMU2Vuc29yQ29uZmlnEhEKB3ZlcnNpb24YASABKAVIABIS",
-            "Cgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3b3JkGAMgASgJSAISIAoWZGV2",
-            "SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVuaWQYBSABKAVIBBIQ",
-            "CgZpbnZlcnQYCCABKAhIBRIeChRlbmNyeXB0aW9uS2V5UmVmVW5pZBgWIAEo",
-            "BUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZBgXIAEoBUgHEhsKEWRp",
-            "c2FibGVFbmNyeXB0aW9uGBggASgISAhCCgoIdmVyc2lvbl9CCwoJdXNlcm5h",
-            "bWVfQgsKCXBhc3N3b3JkX0IZChdkZXZJbml0aWF0ZXNDb25uZWN0aW9uX0IH",
-            "CgV1bmlkX0IJCgdpbnZlcnRfQhcKFWVuY3J5cHRpb25LZXlSZWZVbmlkX0Ib",
-            "ChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRpc2FibGVFbmNyeXB0",
-            "aW9uXyLiBgoDRXZ0Eg4KBHVuaWQYASABKANIABItCgZod1RpbWUYAiABKAsy",
-            "HS56OS5zcGNvcmUucHJvdG8uRGF0ZVRpbWVEYXRhEi0KBmRiVGltZRgDIAEo",
-            "CzIdLno5LnNwY29yZS5wcm90by5EYXRlVGltZURhdGESFAoKaHdUaW1lWm9u",
-            "ZRgGIAEoCUgBEisKB2V2dENvZGUYByABKA4yGC56OS5zcGNvcmUucHJvdG8u",
-            "RXZ0Q29kZUgCEh0KE2V4dGVybmFsRXZ0Q29kZVRleHQYCCABKAlIAxIbChFl",
-            "eHRlcm5hbEV2dENvZGVJZBgJIAEoCUgEEjEKCmV2dFN1YkNvZGUYCiABKA4y",
-            "Gy56OS5zcGNvcmUucHJvdG8uRXZ0U3ViQ29kZUgFEh0KE2V4dGVybmFsU3Vi",
-            "Q29kZVRleHQYCyABKAlIBhIbChFleHRlcm5hbFN1YkNvZGVJZBgMIAEoCUgH",
-            "EjMKDGV2dE1vZGlmaWVycxgNIAEoCzIdLno5LnNwY29yZS5wcm90by5FdnRN",
-            "b2RpZmllcnMSEgoIcHJpb3JpdHkYDiABKAVICBIOCgRkYXRhGBQgASgJSAkS",
-            "LQoJZXZ0RGV2UmVmGBkgASgLMhouejkuc3Bjb3JlLnByb3RvLkV2dERldlJl",
-            "ZhI0ChBldnRDb250cm9sbGVyUmVmGBogASgLMhouejkuc3Bjb3JlLnByb3Rv",
-            "LkV2dERldlJlZhIvCgpldnRDcmVkUmVmGB4gASgLMhsuejkuc3Bjb3JlLnBy",
-            "b3RvLkV2dENyZWRSZWYSMQoLZXZ0U2NoZWRSZWYYIiABKAsyHC56OS5zcGNv",
-            "cmUucHJvdG8uRXZ0U2NoZWRSZWYSEgoIY29uc3VtZWQYLiABKAhIChIOCgR1",
-            "dWlkGDIgASgJSAtCBwoFdW5pZF9CDQoLaHdUaW1lWm9uZV9CCgoIZXZ0Q29k",
-            "ZV9CFgoUZXh0ZXJuYWxFdnRDb2RlVGV4dF9CFAoSZXh0ZXJuYWxFdnRDb2Rl",
-            "SWRfQg0KC2V2dFN1YkNvZGVfQhYKFGV4dGVybmFsU3ViQ29kZVRleHRfQhQK",
-            "EmV4dGVybmFsU3ViQ29kZUlkX0ILCglwcmlvcml0eV9CBwoFZGF0YV9CCwoJ",
-            "Y29uc3VtZWRfQgcKBXV1aWRfIoQBChJFdnRDb2RlUmVzdHJpY3Rpb24SKgoI",
-            "ZXZ0Q29kZXMYASADKA4yGC56OS5zcGNvcmUucHJvdG8uRXZ0Q29kZRIQCgZp",
-            "bnZlcnQYAiABKAhIABIVCgtlbXB0eUlzTm9uZRgDIAEoCEgBQgkKB2ludmVy",
-            "dF9CDgoMZW1wdHlJc05vbmVfIocCCgpFdnRDcmVkUmVmEg4KBHVuaWQYASAB",
-            "KAVIABI8Cg9jcmVkVGVtcGxhdGVSZWYYAiABKAsyIy56OS5zcGNvcmUucHJv",
-            "dG8uRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBG5hbWUYBiABKAlIARIwCgdjcmVk",
-            "TnVtGAcgASgLMh8uejkuc3Bjb3JlLnByb3RvLkJpZ0ludGVnZXJEYXRhEhYK",
-            "DGZhY2lsaXR5Q29kZRgIIAEoBUgCEg0KA3RhZxgLIAEoCUgDEg4KBHV1aWQY",
-            "DCABKAlIBEIHCgV1bmlkX0IHCgVuYW1lX0IPCg1mYWNpbGl0eUNvZGVfQgYK",
-            "BHRhZ19CBwoFdXVpZF8idgoSRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBHVuaWQY",
-            "ASABKAVIABIOCgRuYW1lGAIgASgJSAESDQoDdGFnGAMgASgJSAISDgoEdXVp",
-            "ZBgEIAEoCUgDQgcKBXVuaWRfQgcKBW5hbWVfQgYKBHRhZ19CBwoFdXVpZF8i",
-            "2gUKCUV2dERldlJlZhIOCgR1bmlkGAEgASgFSAASDgoEbmFtZRgCIAEoCUgB",
-            "EhEKB2FkZHJlc3MYAyABKAlIAhIYCg5sb2dpY2FsQWRkcmVzcxgEIAEoBUgD",
-            "EjMKC2RldlBsYXRmb3JtGAUgASgOMhwuejkuc3Bjb3JlLnByb3RvLkRldlBs",
-            "YXRmb3JtSAQSKwoHZGV2VHlwZRgGIAEoDjIYLno5LnNwY29yZS5wcm90by5E",
-            "ZXZUeXBlSAUSHQoTZXh0ZXJuYWxEZXZUeXBlVGV4dBgHIAEoCUgGEhsKEWV4",
-            "dGVybmFsRGV2VHlwZUlkGAggASgJSAcSMQoKZGV2U3ViVHlwZRgJIAEoDjIb",
-            "Lno5LnNwY29yZS5wcm90by5EZXZTdWJUeXBlSAgSKQoGZGV2TW9kGAogASgO",
-            "Mhcuejkuc3Bjb3JlLnByb3RvLkRldk1vZEgJEhwKEmV4dGVybmFsRGV2TW9k",
-            "VGV4dBgMIAEoCUgKEhoKEGV4dGVybmFsRGV2TW9kSWQYDSABKAlICxIpCgZk",
-            "ZXZVc2UYDiABKA4yFy56OS5zcGNvcmUucHJvdG8uRGV2VXNlSAwSDQoDdGFn",
-            "GBAgASgJSA0SDgoEdXVpZBgRIAEoCUgOEhQKCmV4dGVybmFsSWQYEiABKAlI",
-            "D0IHCgV1bmlkX0IHCgVuYW1lX0IKCghhZGRyZXNzX0IRCg9sb2dpY2FsQWRk",
-            "cmVzc19CDgoMZGV2UGxhdGZvcm1fQgoKCGRldlR5cGVfQhYKFGV4dGVybmFs",
-            "RGV2VHlwZVRleHRfQhQKEmV4dGVybmFsRGV2VHlwZUlkX0INCgtkZXZTdWJU",
-            "eXBlX0IJCgdkZXZNb2RfQhUKE2V4dGVybmFsRGV2TW9kVGV4dF9CEwoRZXh0",
-            "ZXJuYWxEZXZNb2RJZF9CCQoHZGV2VXNlX0IGCgR0YWdfQgcKBXV1aWRfQg0K",
-            "C2V4dGVybmFsSWRfIn8KDEV2dE1vZGlmaWVycxIaChBpbmFjY3VyYXRlSHdU",
-            "aW1lGAsgASgISAASEgoIdXNlZENhcmQYDSABKAhIARIRCgd1c2VkUGluGA4g",
-            "ASgISAJCEwoRaW5hY2N1cmF0ZUh3VGltZV9CCwoJdXNlZENhcmRfQgoKCHVz",
-            "ZWRQaW5fIpgBCg5FdnRSZXN0cmljdGlvbhI/ChJldnRDb2RlUmVzdHJpY3Rp",
-            "b24YASABKAsyIy56OS5zcGNvcmUucHJvdG8uRXZ0Q29kZVJlc3RyaWN0aW9u",
-            "EkUKFWdlbmVyYWxEZXZSZXN0cmljdGlvbhgHIAEoCzImLno5LnNwY29yZS5w",
-            "cm90by5HZW5lcmFsRGV2UmVzdHJpY3Rpb24ijAEKC0V2dFNjaGVkUmVmEg4K",
-            "BHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAESEAoGaW52ZXJ0GAMgASgI",
-            "SAISDQoDdGFnGAQgASgJSAMSDgoEdXVpZBgFIAEoCUgEQgcKBXVuaWRfQgcK",
-            "BW5hbWVfQgkKB2ludmVydF9CBgoEdGFnX0IHCgV1dWlkXyKuAwoDSG9sEhEK",
-            "B3ZlcnNpb24YASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJ",
-            "SAISDgoEbmFtZRgKIAEoCUgDEg4KBHVuaWQYDCABKAVIBBIUCgxob2xUeXBl",
-            "c1VuaWQYDiADKAUSFQoLYWxsSG9sVHlwZXMYDyABKAhIBRIqCgRkYXRlGBAg",
-            "ASgLMhwuejkuc3Bjb3JlLnByb3RvLlNxbERhdGVEYXRhEhEKB251bURheXMY",
-            "ESABKAVIBhIQCgZyZXBlYXQYEiABKAhIBxIYCg5udW1ZZWFyc1JlcGVhdBgT",
-            "IAEoBUgIEhoKEHByZXNlcnZlU2NoZWREYXkYFCABKAhICRIUCgpob2xDYWxV",
-            "bmlkGBUgASgFSApCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVu",
-            "YW1lX0IHCgV1bmlkX0IOCgxhbGxIb2xUeXBlc19CCgoIbnVtRGF5c19CCQoH",
-            "cmVwZWF0X0IRCg9udW1ZZWFyc1JlcGVhdF9CEwoRcHJlc2VydmVTY2hlZERh",
-            "eV9CDQoLaG9sQ2FsVW5pZF8iiQEKBkhvbENhbBIRCgd2ZXJzaW9uGAEgASgF",
-            "SAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgCEg4KBG5hbWUYCiAB",
-            "KAlIAxIOCgR1bmlkGAwgASgFSARCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1",
-            "dWlkX0IHCgVuYW1lX0IHCgV1bmlkXyKvAQoHSG9sVHlwZRIRCgd2ZXJzaW9u",
-            "GAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgCEg4KBG5h",
-            "bWUYCiABKAlIAxIUCgpleHRlcm5hbElkGA0gASgJSAQSDgoEdW5pZBgOIAEo",
-            "BUgFQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9CDQoL",
-            "ZXh0ZXJuYWxJZF9CBwoFdW5pZF8i3gEKBVNjaGVkEhEKB3ZlcnNpb24YASAB",
-            "KAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFtZRgK",
-            "IAEoCUgDEhQKCmV4dGVybmFsSWQYDSABKAlIBBIOCgR1bmlkGA4gASgFSAUS",
-            "LwoIZWxlbWVudHMYECADKAsyHS56OS5zcGNvcmUucHJvdG8uU2NoZWRFbGVt",
-            "ZW50QgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9CDQoL",
-            "ZXh0ZXJuYWxJZF9CBwoFdW5pZF8ihgIKDFNjaGVkRWxlbWVudBIOCgR1bmlk",
-            "GAEgASgFSAASLAoJc2NoZWREYXlzGAIgAygOMhkuejkuc3Bjb3JlLnByb3Rv",
-            "LlNjaGVkRGF5EhIKCGhvbGlkYXlzGAMgASgISAESFAoMaG9sVHlwZXNVbmlk",
-            "GAQgAygFEisKBXN0YXJ0GAUgASgLMhwuejkuc3Bjb3JlLnByb3RvLlNxbFRp",
-            "bWVEYXRhEioKBHN0b3AYBiABKAsyHC56OS5zcGNvcmUucHJvdG8uU3FsVGlt",
-            "ZURhdGESEgoIcGx1c0RheXMYByABKAVIAkIHCgV1bmlkX0ILCglob2xpZGF5",
-            "c19CCwoJcGx1c0RheXNfIlIKEFNjaGVkUmVzdHJpY3Rpb24SEwoJc2NoZWRV",
-            "bmlkGAEgASgFSAASEAoGaW52ZXJ0GAIgASgISAFCDAoKc2NoZWRVbmlkX0IJ",
-            "CgdpbnZlcnRfQgJIA2IGcHJvdG8z"));
+            "KAlIAhIgChZkZXZJbml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSMgoPZGVm",
+            "YXVsdERvb3JNb2RlGAYgASgLMhkuejkuc3Bjb3JlLnByb3RvLkRvb3JNb2Rl",
+            "Eh0KE2FjdGl2YXRlU3RyaWtlT25SZXgYCyABKAhIBBIUCgpzdHJpa2VUaW1l",
+            "GA4gASgFSAUSHAoSZXh0ZW5kZWRTdHJpa2VUaW1lGA8gASgFSAYSEgoIaGVs",
+            "ZFRpbWUYECABKAVIBxIaChBleHRlbmRlZEhlbGRUaW1lGBEgASgFSAgSHgoU",
+            "ZW5jcnlwdGlvbktleVJlZlVuaWQYLyABKAVICRIiChhlbmNyeXB0aW9uS2V5",
+            "UmVmTmV4dFVuaWQYMCABKAVIChIbChFkaXNhYmxlRW5jcnlwdGlvbhgzIAEo",
+            "CEgLQgoKCHZlcnNpb25fQgsKCXVzZXJuYW1lX0ILCglwYXNzd29yZF9CGQoX",
+            "ZGV2SW5pdGlhdGVzQ29ubmVjdGlvbl9CFgoUYWN0aXZhdGVTdHJpa2VPblJl",
+            "eF9CDQoLc3RyaWtlVGltZV9CFQoTZXh0ZW5kZWRTdHJpa2VUaW1lX0ILCglo",
+            "ZWxkVGltZV9CEwoRZXh0ZW5kZWRIZWxkVGltZV9CFwoVZW5jcnlwdGlvbktl",
+            "eVJlZlVuaWRfQhsKGWVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZF9CFAoSZGlz",
+            "YWJsZUVuY3J5cHRpb25fIvABCghEb29yTW9kZRI7CgtzdGF0aWNTdGF0ZRgB",
+            "IAEoDjIkLno5LnNwY29yZS5wcm90by5Eb29yTW9kZVN0YXRpY1N0YXRlSAAS",
+            "GAoOYWxsb3dVbmlxdWVQaW4YAiABKAhIARITCglhbGxvd0NhcmQYAyABKAhI",
+            "AhImChxyZXF1aXJlQ29uZmlybWluZ1BpbldpdGhDYXJkGAQgASgISANCDgoM",
+            "c3RhdGljU3RhdGVfQhEKD2FsbG93VW5pcXVlUGluX0IMCgphbGxvd0NhcmRf",
+            "Qh8KHXJlcXVpcmVDb25maXJtaW5nUGluV2l0aENhcmRfIj0KBlNlbnNvchIz",
+            "CgxzZW5zb3JDb25maWcYASABKAsyHS56OS5zcGNvcmUucHJvdG8uU2Vuc29y",
+            "Q29uZmlnIo8DCgxTZW5zb3JDb25maWcSEQoHdmVyc2lvbhgBIAEoBUgAEhIK",
+            "CHVzZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyABKAlIAhIgChZkZXZJ",
+            "bml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSDgoEdW5pZBgFIAEoBUgEEhAK",
+            "BmludmVydBgIIAEoCEgFEh4KFGVuY3J5cHRpb25LZXlSZWZVbmlkGBYgASgF",
+            "SAYSIgoYZW5jcnlwdGlvbktleVJlZk5leHRVbmlkGBcgASgFSAcSGwoRZGlz",
+            "YWJsZUVuY3J5cHRpb24YGCABKAhICEIKCgh2ZXJzaW9uX0ILCgl1c2VybmFt",
+            "ZV9CCwoJcGFzc3dvcmRfQhkKF2RldkluaXRpYXRlc0Nvbm5lY3Rpb25fQgcK",
+            "BXVuaWRfQgkKB2ludmVydF9CFwoVZW5jcnlwdGlvbktleVJlZlVuaWRfQhsK",
+            "GWVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZF9CFAoSZGlzYWJsZUVuY3J5cHRp",
+            "b25fIuIGCgNFdnQSDgoEdW5pZBgBIAEoA0gAEi0KBmh3VGltZRgCIAEoCzId",
+            "Lno5LnNwY29yZS5wcm90by5EYXRlVGltZURhdGESLQoGZGJUaW1lGAMgASgL",
+            "Mh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0YRIUCgpod1RpbWVab25l",
+            "GAYgASgJSAESKwoHZXZ0Q29kZRgHIAEoDjIYLno5LnNwY29yZS5wcm90by5F",
+            "dnRDb2RlSAISHQoTZXh0ZXJuYWxFdnRDb2RlVGV4dBgIIAEoCUgDEhsKEWV4",
+            "dGVybmFsRXZ0Q29kZUlkGAkgASgJSAQSMQoKZXZ0U3ViQ29kZRgKIAEoDjIb",
+            "Lno5LnNwY29yZS5wcm90by5FdnRTdWJDb2RlSAUSHQoTZXh0ZXJuYWxTdWJD",
+            "b2RlVGV4dBgLIAEoCUgGEhsKEWV4dGVybmFsU3ViQ29kZUlkGAwgASgJSAcS",
+            "MwoMZXZ0TW9kaWZpZXJzGA0gASgLMh0uejkuc3Bjb3JlLnByb3RvLkV2dE1v",
+            "ZGlmaWVycxISCghwcmlvcml0eRgOIAEoBUgIEg4KBGRhdGEYFCABKAlICRIt",
+            "CglldnREZXZSZWYYGSABKAsyGi56OS5zcGNvcmUucHJvdG8uRXZ0RGV2UmVm",
+            "EjQKEGV2dENvbnRyb2xsZXJSZWYYGiABKAsyGi56OS5zcGNvcmUucHJvdG8u",
+            "RXZ0RGV2UmVmEi8KCmV2dENyZWRSZWYYHiABKAsyGy56OS5zcGNvcmUucHJv",
+            "dG8uRXZ0Q3JlZFJlZhIxCgtldnRTY2hlZFJlZhgiIAEoCzIcLno5LnNwY29y",
+            "ZS5wcm90by5FdnRTY2hlZFJlZhISCghjb25zdW1lZBguIAEoCEgKEg4KBHV1",
+            "aWQYMiABKAlIC0IHCgV1bmlkX0INCgtod1RpbWVab25lX0IKCghldnRDb2Rl",
+            "X0IWChRleHRlcm5hbEV2dENvZGVUZXh0X0IUChJleHRlcm5hbEV2dENvZGVJ",
+            "ZF9CDQoLZXZ0U3ViQ29kZV9CFgoUZXh0ZXJuYWxTdWJDb2RlVGV4dF9CFAoS",
+            "ZXh0ZXJuYWxTdWJDb2RlSWRfQgsKCXByaW9yaXR5X0IHCgVkYXRhX0ILCglj",
+            "b25zdW1lZF9CBwoFdXVpZF8ihAEKEkV2dENvZGVSZXN0cmljdGlvbhIqCghl",
+            "dnRDb2RlcxgBIAMoDjIYLno5LnNwY29yZS5wcm90by5FdnRDb2RlEhAKBmlu",
+            "dmVydBgCIAEoCEgAEhUKC2VtcHR5SXNOb25lGAMgASgISAFCCQoHaW52ZXJ0",
+            "X0IOCgxlbXB0eUlzTm9uZV8ihwIKCkV2dENyZWRSZWYSDgoEdW5pZBgBIAEo",
+            "BUgAEjwKD2NyZWRUZW1wbGF0ZVJlZhgCIAEoCzIjLno5LnNwY29yZS5wcm90",
+            "by5FdnRDcmVkVGVtcGxhdGVSZWYSDgoEbmFtZRgGIAEoCUgBEjAKB2NyZWRO",
+            "dW0YByABKAsyHy56OS5zcGNvcmUucHJvdG8uQmlnSW50ZWdlckRhdGESFgoM",
+            "ZmFjaWxpdHlDb2RlGAggASgFSAISDQoDdGFnGAsgASgJSAMSDgoEdXVpZBgM",
+            "IAEoCUgEQgcKBXVuaWRfQgcKBW5hbWVfQg8KDWZhY2lsaXR5Q29kZV9CBgoE",
+            "dGFnX0IHCgV1dWlkXyJ2ChJFdnRDcmVkVGVtcGxhdGVSZWYSDgoEdW5pZBgB",
+            "IAEoBUgAEg4KBG5hbWUYAiABKAlIARINCgN0YWcYAyABKAlIAhIOCgR1dWlk",
+            "GAQgASgJSANCBwoFdW5pZF9CBwoFbmFtZV9CBgoEdGFnX0IHCgV1dWlkXyLa",
+            "BQoJRXZ0RGV2UmVmEg4KBHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAES",
+            "EQoHYWRkcmVzcxgDIAEoCUgCEhgKDmxvZ2ljYWxBZGRyZXNzGAQgASgFSAMS",
+            "MwoLZGV2UGxhdGZvcm0YBSABKA4yHC56OS5zcGNvcmUucHJvdG8uRGV2UGxh",
+            "dGZvcm1IBBIrCgdkZXZUeXBlGAYgASgOMhguejkuc3Bjb3JlLnByb3RvLkRl",
+            "dlR5cGVIBRIdChNleHRlcm5hbERldlR5cGVUZXh0GAcgASgJSAYSGwoRZXh0",
+            "ZXJuYWxEZXZUeXBlSWQYCCABKAlIBxIxCgpkZXZTdWJUeXBlGAkgASgOMhsu",
+            "ejkuc3Bjb3JlLnByb3RvLkRldlN1YlR5cGVICBIpCgZkZXZNb2QYCiABKA4y",
+            "Fy56OS5zcGNvcmUucHJvdG8uRGV2TW9kSAkSHAoSZXh0ZXJuYWxEZXZNb2RU",
+            "ZXh0GAwgASgJSAoSGgoQZXh0ZXJuYWxEZXZNb2RJZBgNIAEoCUgLEikKBmRl",
+            "dlVzZRgOIAEoDjIXLno5LnNwY29yZS5wcm90by5EZXZVc2VIDBINCgN0YWcY",
+            "ECABKAlIDRIOCgR1dWlkGBEgASgJSA4SFAoKZXh0ZXJuYWxJZBgSIAEoCUgP",
+            "QgcKBXVuaWRfQgcKBW5hbWVfQgoKCGFkZHJlc3NfQhEKD2xvZ2ljYWxBZGRy",
+            "ZXNzX0IOCgxkZXZQbGF0Zm9ybV9CCgoIZGV2VHlwZV9CFgoUZXh0ZXJuYWxE",
+            "ZXZUeXBlVGV4dF9CFAoSZXh0ZXJuYWxEZXZUeXBlSWRfQg0KC2RldlN1YlR5",
+            "cGVfQgkKB2Rldk1vZF9CFQoTZXh0ZXJuYWxEZXZNb2RUZXh0X0ITChFleHRl",
+            "cm5hbERldk1vZElkX0IJCgdkZXZVc2VfQgYKBHRhZ19CBwoFdXVpZF9CDQoL",
+            "ZXh0ZXJuYWxJZF8ifwoMRXZ0TW9kaWZpZXJzEhoKEGluYWNjdXJhdGVId1Rp",
+            "bWUYCyABKAhIABISCgh1c2VkQ2FyZBgNIAEoCEgBEhEKB3VzZWRQaW4YDiAB",
+            "KAhIAkITChFpbmFjY3VyYXRlSHdUaW1lX0ILCgl1c2VkQ2FyZF9CCgoIdXNl",
+            "ZFBpbl8imAEKDkV2dFJlc3RyaWN0aW9uEj8KEmV2dENvZGVSZXN0cmljdGlv",
+            "bhgBIAEoCzIjLno5LnNwY29yZS5wcm90by5FdnRDb2RlUmVzdHJpY3Rpb24S",
+            "RQoVZ2VuZXJhbERldlJlc3RyaWN0aW9uGAcgASgLMiYuejkuc3Bjb3JlLnBy",
+            "b3RvLkdlbmVyYWxEZXZSZXN0cmljdGlvbiKMAQoLRXZ0U2NoZWRSZWYSDgoE",
+            "dW5pZBgBIAEoBUgAEg4KBG5hbWUYAiABKAlIARIQCgZpbnZlcnQYAyABKAhI",
+            "AhINCgN0YWcYBCABKAlIAxIOCgR1dWlkGAUgASgJSARCBwoFdW5pZF9CBwoF",
+            "bmFtZV9CCQoHaW52ZXJ0X0IGCgR0YWdfQgcKBXV1aWRfIq4DCgNIb2wSEQoH",
+            "dmVyc2lvbhgBIAEoBUgAEg0KA3RhZxgGIAEoCUgBEg4KBHV1aWQYByABKAlI",
+            "AhIOCgRuYW1lGAogASgJSAMSDgoEdW5pZBgMIAEoBUgEEhQKDGhvbFR5cGVz",
+            "VW5pZBgOIAMoBRIVCgthbGxIb2xUeXBlcxgPIAEoCEgFEioKBGRhdGUYECAB",
+            "KAsyHC56OS5zcGNvcmUucHJvdG8uU3FsRGF0ZURhdGESEQoHbnVtRGF5cxgR",
+            "IAEoBUgGEhAKBnJlcGVhdBgSIAEoCEgHEhgKDm51bVllYXJzUmVwZWF0GBMg",
+            "ASgFSAgSGgoQcHJlc2VydmVTY2hlZERheRgUIAEoCEgJEhQKCmhvbENhbFVu",
+            "aWQYFSABKAVICkIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1aWRfQgcKBW5h",
+            "bWVfQgcKBXVuaWRfQg4KDGFsbEhvbFR5cGVzX0IKCghudW1EYXlzX0IJCgdy",
+            "ZXBlYXRfQhEKD251bVllYXJzUmVwZWF0X0ITChFwcmVzZXJ2ZVNjaGVkRGF5",
+            "X0INCgtob2xDYWxVbmlkXyKJAQoGSG9sQ2FsEhEKB3ZlcnNpb24YASABKAVI",
+            "ABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFtZRgKIAEo",
+            "CUgDEg4KBHVuaWQYDCABKAVIBEIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1",
+            "aWRfQgcKBW5hbWVfQgcKBXVuaWRfIq8BCgdIb2xUeXBlEhEKB3ZlcnNpb24Y",
+            "ASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFt",
+            "ZRgKIAEoCUgDEhQKCmV4dGVybmFsSWQYDSABKAlIBBIOCgR1bmlkGA4gASgF",
+            "SAVCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0INCgtl",
+            "eHRlcm5hbElkX0IHCgV1bmlkXyLeAQoFU2NoZWQSEQoHdmVyc2lvbhgBIAEo",
+            "BUgAEg0KA3RhZxgGIAEoCUgBEg4KBHV1aWQYByABKAlIAhIOCgRuYW1lGAog",
+            "ASgJSAMSFAoKZXh0ZXJuYWxJZBgNIAEoCUgEEg4KBHVuaWQYDiABKAVIBRIv",
+            "CghlbGVtZW50cxgQIAMoCzIdLno5LnNwY29yZS5wcm90by5TY2hlZEVsZW1l",
+            "bnRCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0INCgtl",
+            "eHRlcm5hbElkX0IHCgV1bmlkXyKGAgoMU2NoZWRFbGVtZW50Eg4KBHVuaWQY",
+            "ASABKAVIABIsCglzY2hlZERheXMYAiADKA4yGS56OS5zcGNvcmUucHJvdG8u",
+            "U2NoZWREYXkSEgoIaG9saWRheXMYAyABKAhIARIUCgxob2xUeXBlc1VuaWQY",
+            "BCADKAUSKwoFc3RhcnQYBSABKAsyHC56OS5zcGNvcmUucHJvdG8uU3FsVGlt",
+            "ZURhdGESKgoEc3RvcBgGIAEoCzIcLno5LnNwY29yZS5wcm90by5TcWxUaW1l",
+            "RGF0YRISCghwbHVzRGF5cxgHIAEoBUgCQgcKBXVuaWRfQgsKCWhvbGlkYXlz",
+            "X0ILCglwbHVzRGF5c18iUgoQU2NoZWRSZXN0cmljdGlvbhITCglzY2hlZFVu",
+            "aWQYASABKAVIABIQCgZpbnZlcnQYAiABKAhIAUIMCgpzY2hlZFVuaWRfQgkK",
+            "B2ludmVydF9CAkgDYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Z9.Spcore.Proto.SpCoreProtoElementsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoEnumsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -373,7 +378,7 @@ namespace Z9.Spcore.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.CredReader), global::Z9.Spcore.Proto.CredReader.Parser, new[]{ "CredReaderConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.CredReaderConfig), global::Z9.Spcore.Proto.CredReaderConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "CommType", "TamperType", "LedType", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "SerialPortAddress", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "CommType", "TamperType", "LedType", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "SerialPortAddress", "DisableEncryption" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Door), global::Z9.Spcore.Proto.Door.Parser, new[]{ "DoorConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorConfig), global::Z9.Spcore.Proto.DoorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "ActivateStrikeOnRex", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "ActivateStrikeOnRex", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorConfig), global::Z9.Spcore.Proto.DoorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "DefaultDoorMode", "ActivateStrikeOnRex", "StrikeTime", "ExtendedStrikeTime", "HeldTime", "ExtendedHeldTime", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "ActivateStrikeOnRex", "StrikeTime", "ExtendedStrikeTime", "HeldTime", "ExtendedHeldTime", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorMode), global::Z9.Spcore.Proto.DoorMode.Parser, new[]{ "StaticState", "AllowUniquePin", "AllowCard", "RequireConfirmingPinWithCard" }, new[]{ "StaticState", "AllowUniquePin", "AllowCard", "RequireConfirmingPinWithCard" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Sensor), global::Z9.Spcore.Proto.Sensor.Parser, new[]{ "SensorConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.SensorConfig), global::Z9.Spcore.Proto.SensorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
@@ -5628,6 +5633,9 @@ namespace Z9.Spcore.Proto {
 
   }
 
+  /// <summary>
+  /// Reference to an encryption key in a keystore. Does not store the actual key.
+  /// </summary>
   public sealed partial class EncryptionKeyRef : pb::IMessage<EncryptionKeyRef> {
     private static readonly pb::MessageParser<EncryptionKeyRef> _parser = new pb::MessageParser<EncryptionKeyRef>(() => new EncryptionKeyRef());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9149,6 +9157,9 @@ namespace Z9.Spcore.Proto {
 
   }
 
+  /// <summary>
+  /// DevMod-specific configuration for a Dev. Subclasses correspond to different DevMod values.
+  /// </summary>
   public sealed partial class DevModConfig : pb::IMessage<DevModConfig> {
     private static readonly pb::MessageParser<DevModConfig> _parser = new pb::MessageParser<DevModConfig>(() => new DevModConfig());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11056,6 +11067,9 @@ namespace Z9.Spcore.Proto {
 
   }
 
+  /// <summary>
+  /// DevActionParams for DevActionParamsType.DOOR_MODE.
+  /// </summary>
   public sealed partial class DoorModeDevActionParams : pb::IMessage<DoorModeDevActionParams> {
     private static readonly pb::MessageParser<DoorModeDevActionParams> _parser = new pb::MessageParser<DoorModeDevActionParams>(() => new DoorModeDevActionParams());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13776,6 +13790,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public DoorConfig(DoorConfig other) : this() {
+      DefaultDoorMode = other.defaultDoorMode_ != null ? other.DefaultDoorMode.Clone() : null;
       switch (other.VersionCase) {
         case VersionOneofCase.Version:
           Version = other.Version;
@@ -13803,6 +13818,30 @@ namespace Z9.Spcore.Proto {
       switch (other.ActivateStrikeOnRexCase) {
         case ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex:
           ActivateStrikeOnRex = other.ActivateStrikeOnRex;
+          break;
+      }
+
+      switch (other.StrikeTimeCase) {
+        case StrikeTimeOneofCase.StrikeTime:
+          StrikeTime = other.StrikeTime;
+          break;
+      }
+
+      switch (other.ExtendedStrikeTimeCase) {
+        case ExtendedStrikeTimeOneofCase.ExtendedStrikeTime:
+          ExtendedStrikeTime = other.ExtendedStrikeTime;
+          break;
+      }
+
+      switch (other.HeldTimeCase) {
+        case HeldTimeOneofCase.HeldTime:
+          HeldTime = other.HeldTime;
+          break;
+      }
+
+      switch (other.ExtendedHeldTimeCase) {
+        case ExtendedHeldTimeOneofCase.ExtendedHeldTime:
+          ExtendedHeldTime = other.ExtendedHeldTime;
           break;
       }
 
@@ -13875,6 +13914,20 @@ namespace Z9.Spcore.Proto {
       }
     }
 
+    /// <summary>Field number for the "defaultDoorMode" field.</summary>
+    public const int DefaultDoorModeFieldNumber = 6;
+    private global::Z9.Spcore.Proto.DoorMode defaultDoorMode_;
+    /// <summary>
+    ///optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DoorMode DefaultDoorMode {
+      get { return defaultDoorMode_; }
+      set {
+        defaultDoorMode_ = value;
+      }
+    }
+
     /// <summary>Field number for the "activateStrikeOnRex" field.</summary>
     public const int ActivateStrikeOnRexFieldNumber = 11;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13883,6 +13936,50 @@ namespace Z9.Spcore.Proto {
       set {
         activateStrikeOnRex_ = value;
         activateStrikeOnRexCase_ = ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex;
+      }
+    }
+
+    /// <summary>Field number for the "strikeTime" field.</summary>
+    public const int StrikeTimeFieldNumber = 14;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int StrikeTime {
+      get { return strikeTimeCase_ == StrikeTimeOneofCase.StrikeTime ? (int) strikeTime_ : 0; }
+      set {
+        strikeTime_ = value;
+        strikeTimeCase_ = StrikeTimeOneofCase.StrikeTime;
+      }
+    }
+
+    /// <summary>Field number for the "extendedStrikeTime" field.</summary>
+    public const int ExtendedStrikeTimeFieldNumber = 15;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ExtendedStrikeTime {
+      get { return extendedStrikeTimeCase_ == ExtendedStrikeTimeOneofCase.ExtendedStrikeTime ? (int) extendedStrikeTime_ : 0; }
+      set {
+        extendedStrikeTime_ = value;
+        extendedStrikeTimeCase_ = ExtendedStrikeTimeOneofCase.ExtendedStrikeTime;
+      }
+    }
+
+    /// <summary>Field number for the "heldTime" field.</summary>
+    public const int HeldTimeFieldNumber = 16;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int HeldTime {
+      get { return heldTimeCase_ == HeldTimeOneofCase.HeldTime ? (int) heldTime_ : 0; }
+      set {
+        heldTime_ = value;
+        heldTimeCase_ = HeldTimeOneofCase.HeldTime;
+      }
+    }
+
+    /// <summary>Field number for the "extendedHeldTime" field.</summary>
+    public const int ExtendedHeldTimeFieldNumber = 17;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ExtendedHeldTime {
+      get { return extendedHeldTimeCase_ == ExtendedHeldTimeOneofCase.ExtendedHeldTime ? (int) extendedHeldTime_ : 0; }
+      set {
+        extendedHeldTime_ = value;
+        extendedHeldTimeCase_ = ExtendedHeldTimeOneofCase.ExtendedHeldTime;
       }
     }
 
@@ -14009,6 +14106,78 @@ namespace Z9.Spcore.Proto {
       activateStrikeOnRex_ = null;
     }
 
+    private object strikeTime_;
+    /// <summary>Enum of possible cases for the "strikeTime_" oneof.</summary>
+    public enum StrikeTimeOneofCase {
+      None = 0,
+      StrikeTime = 14,
+    }
+    private StrikeTimeOneofCase strikeTimeCase_ = StrikeTimeOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StrikeTimeOneofCase StrikeTimeCase {
+      get { return strikeTimeCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearStrikeTime() {
+      strikeTimeCase_ = StrikeTimeOneofCase.None;
+      strikeTime_ = null;
+    }
+
+    private object extendedStrikeTime_;
+    /// <summary>Enum of possible cases for the "extendedStrikeTime_" oneof.</summary>
+    public enum ExtendedStrikeTimeOneofCase {
+      None = 0,
+      ExtendedStrikeTime = 15,
+    }
+    private ExtendedStrikeTimeOneofCase extendedStrikeTimeCase_ = ExtendedStrikeTimeOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExtendedStrikeTimeOneofCase ExtendedStrikeTimeCase {
+      get { return extendedStrikeTimeCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExtendedStrikeTime() {
+      extendedStrikeTimeCase_ = ExtendedStrikeTimeOneofCase.None;
+      extendedStrikeTime_ = null;
+    }
+
+    private object heldTime_;
+    /// <summary>Enum of possible cases for the "heldTime_" oneof.</summary>
+    public enum HeldTimeOneofCase {
+      None = 0,
+      HeldTime = 16,
+    }
+    private HeldTimeOneofCase heldTimeCase_ = HeldTimeOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public HeldTimeOneofCase HeldTimeCase {
+      get { return heldTimeCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearHeldTime() {
+      heldTimeCase_ = HeldTimeOneofCase.None;
+      heldTime_ = null;
+    }
+
+    private object extendedHeldTime_;
+    /// <summary>Enum of possible cases for the "extendedHeldTime_" oneof.</summary>
+    public enum ExtendedHeldTimeOneofCase {
+      None = 0,
+      ExtendedHeldTime = 17,
+    }
+    private ExtendedHeldTimeOneofCase extendedHeldTimeCase_ = ExtendedHeldTimeOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExtendedHeldTimeOneofCase ExtendedHeldTimeCase {
+      get { return extendedHeldTimeCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExtendedHeldTime() {
+      extendedHeldTimeCase_ = ExtendedHeldTimeOneofCase.None;
+      extendedHeldTime_ = null;
+    }
+
     private object encryptionKeyRefUnid_;
     /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
     public enum EncryptionKeyRefUnidOneofCase {
@@ -14080,7 +14249,12 @@ namespace Z9.Spcore.Proto {
       if (Username != other.Username) return false;
       if (Password != other.Password) return false;
       if (DevInitiatesConnection != other.DevInitiatesConnection) return false;
+      if (!object.Equals(DefaultDoorMode, other.DefaultDoorMode)) return false;
       if (ActivateStrikeOnRex != other.ActivateStrikeOnRex) return false;
+      if (StrikeTime != other.StrikeTime) return false;
+      if (ExtendedStrikeTime != other.ExtendedStrikeTime) return false;
+      if (HeldTime != other.HeldTime) return false;
+      if (ExtendedHeldTime != other.ExtendedHeldTime) return false;
       if (EncryptionKeyRefUnid != other.EncryptionKeyRefUnid) return false;
       if (EncryptionKeyRefNextUnid != other.EncryptionKeyRefNextUnid) return false;
       if (DisableEncryption != other.DisableEncryption) return false;
@@ -14089,6 +14263,10 @@ namespace Z9.Spcore.Proto {
       if (PasswordCase != other.PasswordCase) return false;
       if (DevInitiatesConnectionCase != other.DevInitiatesConnectionCase) return false;
       if (ActivateStrikeOnRexCase != other.ActivateStrikeOnRexCase) return false;
+      if (StrikeTimeCase != other.StrikeTimeCase) return false;
+      if (ExtendedStrikeTimeCase != other.ExtendedStrikeTimeCase) return false;
+      if (HeldTimeCase != other.HeldTimeCase) return false;
+      if (ExtendedHeldTimeCase != other.ExtendedHeldTimeCase) return false;
       if (EncryptionKeyRefUnidCase != other.EncryptionKeyRefUnidCase) return false;
       if (EncryptionKeyRefNextUnidCase != other.EncryptionKeyRefNextUnidCase) return false;
       if (DisableEncryptionCase != other.DisableEncryptionCase) return false;
@@ -14102,7 +14280,12 @@ namespace Z9.Spcore.Proto {
       if (usernameCase_ == UsernameOneofCase.Username) hash ^= Username.GetHashCode();
       if (passwordCase_ == PasswordOneofCase.Password) hash ^= Password.GetHashCode();
       if (devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection) hash ^= DevInitiatesConnection.GetHashCode();
+      if (defaultDoorMode_ != null) hash ^= DefaultDoorMode.GetHashCode();
       if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) hash ^= ActivateStrikeOnRex.GetHashCode();
+      if (strikeTimeCase_ == StrikeTimeOneofCase.StrikeTime) hash ^= StrikeTime.GetHashCode();
+      if (extendedStrikeTimeCase_ == ExtendedStrikeTimeOneofCase.ExtendedStrikeTime) hash ^= ExtendedStrikeTime.GetHashCode();
+      if (heldTimeCase_ == HeldTimeOneofCase.HeldTime) hash ^= HeldTime.GetHashCode();
+      if (extendedHeldTimeCase_ == ExtendedHeldTimeOneofCase.ExtendedHeldTime) hash ^= ExtendedHeldTime.GetHashCode();
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) hash ^= EncryptionKeyRefUnid.GetHashCode();
       if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) hash ^= EncryptionKeyRefNextUnid.GetHashCode();
       if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) hash ^= DisableEncryption.GetHashCode();
@@ -14111,6 +14294,10 @@ namespace Z9.Spcore.Proto {
       hash ^= (int) passwordCase_;
       hash ^= (int) devInitiatesConnectionCase_;
       hash ^= (int) activateStrikeOnRexCase_;
+      hash ^= (int) strikeTimeCase_;
+      hash ^= (int) extendedStrikeTimeCase_;
+      hash ^= (int) heldTimeCase_;
+      hash ^= (int) extendedHeldTimeCase_;
       hash ^= (int) encryptionKeyRefUnidCase_;
       hash ^= (int) encryptionKeyRefNextUnidCase_;
       hash ^= (int) disableEncryptionCase_;
@@ -14140,9 +14327,29 @@ namespace Z9.Spcore.Proto {
         output.WriteRawTag(32);
         output.WriteBool(DevInitiatesConnection);
       }
+      if (defaultDoorMode_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(DefaultDoorMode);
+      }
       if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) {
         output.WriteRawTag(88);
         output.WriteBool(ActivateStrikeOnRex);
+      }
+      if (strikeTimeCase_ == StrikeTimeOneofCase.StrikeTime) {
+        output.WriteRawTag(112);
+        output.WriteInt32(StrikeTime);
+      }
+      if (extendedStrikeTimeCase_ == ExtendedStrikeTimeOneofCase.ExtendedStrikeTime) {
+        output.WriteRawTag(120);
+        output.WriteInt32(ExtendedStrikeTime);
+      }
+      if (heldTimeCase_ == HeldTimeOneofCase.HeldTime) {
+        output.WriteRawTag(128, 1);
+        output.WriteInt32(HeldTime);
+      }
+      if (extendedHeldTimeCase_ == ExtendedHeldTimeOneofCase.ExtendedHeldTime) {
+        output.WriteRawTag(136, 1);
+        output.WriteInt32(ExtendedHeldTime);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
         output.WriteRawTag(248, 2);
@@ -14173,8 +14380,23 @@ namespace Z9.Spcore.Proto {
       if (devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection) {
         size += 1 + 1;
       }
+      if (defaultDoorMode_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DefaultDoorMode);
+      }
       if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) {
         size += 1 + 1;
+      }
+      if (strikeTimeCase_ == StrikeTimeOneofCase.StrikeTime) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(StrikeTime);
+      }
+      if (extendedStrikeTimeCase_ == ExtendedStrikeTimeOneofCase.ExtendedStrikeTime) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ExtendedStrikeTime);
+      }
+      if (heldTimeCase_ == HeldTimeOneofCase.HeldTime) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(HeldTime);
+      }
+      if (extendedHeldTimeCase_ == ExtendedHeldTimeOneofCase.ExtendedHeldTime) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(ExtendedHeldTime);
       }
       if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
@@ -14192,6 +14414,12 @@ namespace Z9.Spcore.Proto {
     public void MergeFrom(DoorConfig other) {
       if (other == null) {
         return;
+      }
+      if (other.defaultDoorMode_ != null) {
+        if (defaultDoorMode_ == null) {
+          defaultDoorMode_ = new global::Z9.Spcore.Proto.DoorMode();
+        }
+        DefaultDoorMode.MergeFrom(other.DefaultDoorMode);
       }
       switch (other.VersionCase) {
         case VersionOneofCase.Version:
@@ -14220,6 +14448,30 @@ namespace Z9.Spcore.Proto {
       switch (other.ActivateStrikeOnRexCase) {
         case ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex:
           ActivateStrikeOnRex = other.ActivateStrikeOnRex;
+          break;
+      }
+
+      switch (other.StrikeTimeCase) {
+        case StrikeTimeOneofCase.StrikeTime:
+          StrikeTime = other.StrikeTime;
+          break;
+      }
+
+      switch (other.ExtendedStrikeTimeCase) {
+        case ExtendedStrikeTimeOneofCase.ExtendedStrikeTime:
+          ExtendedStrikeTime = other.ExtendedStrikeTime;
+          break;
+      }
+
+      switch (other.HeldTimeCase) {
+        case HeldTimeOneofCase.HeldTime:
+          HeldTime = other.HeldTime;
+          break;
+      }
+
+      switch (other.ExtendedHeldTimeCase) {
+        case ExtendedHeldTimeOneofCase.ExtendedHeldTime:
+          ExtendedHeldTime = other.ExtendedHeldTime;
           break;
       }
 
@@ -14267,8 +14519,31 @@ namespace Z9.Spcore.Proto {
             DevInitiatesConnection = input.ReadBool();
             break;
           }
+          case 50: {
+            if (defaultDoorMode_ == null) {
+              defaultDoorMode_ = new global::Z9.Spcore.Proto.DoorMode();
+            }
+            input.ReadMessage(defaultDoorMode_);
+            break;
+          }
           case 88: {
             ActivateStrikeOnRex = input.ReadBool();
+            break;
+          }
+          case 112: {
+            StrikeTime = input.ReadInt32();
+            break;
+          }
+          case 120: {
+            ExtendedStrikeTime = input.ReadInt32();
+            break;
+          }
+          case 128: {
+            HeldTime = input.ReadInt32();
+            break;
+          }
+          case 136: {
+            ExtendedHeldTime = input.ReadInt32();
             break;
           }
           case 376: {
@@ -19299,6 +19574,9 @@ namespace Z9.Spcore.Proto {
     private static readonly pb::FieldCodec<int> _repeated_holTypesUnid_codec
         = pb::FieldCodec.ForInt32(114);
     private readonly pbc::RepeatedField<int> holTypesUnid_ = new pbc::RepeatedField<int>();
+    /// <summary>
+    /// Whether this holiday is a member of all holiday types.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<int> HolTypesUnid {
       get { return holTypesUnid_; }
