@@ -219,7 +219,17 @@ namespace Z9.Spcore.Proto {
             "dW5pZF9CCwoJY29tbVR5cGVfQg0KC3RhbXBlclR5cGVfQgoKCGxlZFR5cGVf",
             "QhcKFWVuY3J5cHRpb25LZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVm",
             "TmV4dFVuaWRfQhQKEnNlcmlhbFBvcnRBZGRyZXNzX0IUChJkaXNhYmxlRW5j",
-            "cnlwdGlvbl8iBgoERG9vciLwAQoIRG9vck1vZGUSOwoLc3RhdGljU3RhdGUY",
+            "cnlwdGlvbl8iNwoERG9vchIvCgpkb29yQ29uZmlnGAEgASgLMhsuejkuc3Bj",
+            "b3JlLnByb3RvLkRvb3JDb25maWcijgMKCkRvb3JDb25maWcSEQoHdmVyc2lv",
+            "bhgBIAEoBUgAEhIKCHVzZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyAB",
+            "KAlIAhIgChZkZXZJbml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSHQoTYWN0",
+            "aXZhdGVTdHJpa2VPblJleBgLIAEoCEgEEh4KFGVuY3J5cHRpb25LZXlSZWZV",
+            "bmlkGC8gASgFSAUSIgoYZW5jcnlwdGlvbktleVJlZk5leHRVbmlkGDAgASgF",
+            "SAYSGwoRZGlzYWJsZUVuY3J5cHRpb24YMyABKAhIB0IKCgh2ZXJzaW9uX0IL",
+            "Cgl1c2VybmFtZV9CCwoJcGFzc3dvcmRfQhkKF2RldkluaXRpYXRlc0Nvbm5l",
+            "Y3Rpb25fQhYKFGFjdGl2YXRlU3RyaWtlT25SZXhfQhcKFWVuY3J5cHRpb25L",
+            "ZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRp",
+            "c2FibGVFbmNyeXB0aW9uXyLwAQoIRG9vck1vZGUSOwoLc3RhdGljU3RhdGUY",
             "ASABKA4yJC56OS5zcGNvcmUucHJvdG8uRG9vck1vZGVTdGF0aWNTdGF0ZUgA",
             "EhgKDmFsbG93VW5pcXVlUGluGAIgASgISAESEwoJYWxsb3dDYXJkGAMgASgI",
             "SAISJgoccmVxdWlyZUNvbmZpcm1pbmdQaW5XaXRoQ2FyZBgEIAEoCEgDQg4K",
@@ -362,7 +372,8 @@ namespace Z9.Spcore.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.ControllerConfig), global::Z9.Spcore.Proto.ControllerConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.CredReader), global::Z9.Spcore.Proto.CredReader.Parser, new[]{ "CredReaderConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.CredReaderConfig), global::Z9.Spcore.Proto.CredReaderConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "CommType", "TamperType", "LedType", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "SerialPortAddress", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "CommType", "TamperType", "LedType", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "SerialPortAddress", "DisableEncryption" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Door), global::Z9.Spcore.Proto.Door.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Door), global::Z9.Spcore.Proto.Door.Parser, new[]{ "DoorConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorConfig), global::Z9.Spcore.Proto.DoorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "ActivateStrikeOnRex", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "ActivateStrikeOnRex", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorMode), global::Z9.Spcore.Proto.DoorMode.Parser, new[]{ "StaticState", "AllowUniquePin", "AllowCard", "RequireConfirmingPinWithCard" }, new[]{ "StaticState", "AllowUniquePin", "AllowCard", "RequireConfirmingPinWithCard" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Sensor), global::Z9.Spcore.Proto.Sensor.Parser, new[]{ "SensorConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.SensorConfig), global::Z9.Spcore.Proto.SensorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
@@ -13636,11 +13647,26 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Door(Door other) : this() {
+      DoorConfig = other.doorConfig_ != null ? other.DoorConfig.Clone() : null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Door Clone() {
       return new Door(this);
+    }
+
+    /// <summary>Field number for the "doorConfig" field.</summary>
+    public const int DoorConfigFieldNumber = 1;
+    private global::Z9.Spcore.Proto.DoorConfig doorConfig_;
+    /// <summary>
+    ///optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DoorConfig DoorConfig {
+      get { return doorConfig_; }
+      set {
+        doorConfig_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13656,12 +13682,14 @@ namespace Z9.Spcore.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(DoorConfig, other.DoorConfig)) return false;
       return true;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (doorConfig_ != null) hash ^= DoorConfig.GetHashCode();
       return hash;
     }
 
@@ -13672,11 +13700,18 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      if (doorConfig_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(DoorConfig);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (doorConfig_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DoorConfig);
+      }
       return size;
     }
 
@@ -13684,6 +13719,12 @@ namespace Z9.Spcore.Proto {
     public void MergeFrom(Door other) {
       if (other == null) {
         return;
+      }
+      if (other.doorConfig_ != null) {
+        if (doorConfig_ == null) {
+          doorConfig_ = new global::Z9.Spcore.Proto.DoorConfig();
+        }
+        DoorConfig.MergeFrom(other.DoorConfig);
       }
     }
 
@@ -13695,6 +13736,553 @@ namespace Z9.Spcore.Proto {
           default:
             input.SkipLastField();
             break;
+          case 10: {
+            if (doorConfig_ == null) {
+              doorConfig_ = new global::Z9.Spcore.Proto.DoorConfig();
+            }
+            input.ReadMessage(doorConfig_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// DevConfig for a Door.
+  /// </summary>
+  public sealed partial class DoorConfig : pb::IMessage<DoorConfig> {
+    private static readonly pb::MessageParser<DoorConfig> _parser = new pb::MessageParser<DoorConfig>(() => new DoorConfig());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DoorConfig> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[38]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DoorConfig() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DoorConfig(DoorConfig other) : this() {
+      switch (other.VersionCase) {
+        case VersionOneofCase.Version:
+          Version = other.Version;
+          break;
+      }
+
+      switch (other.UsernameCase) {
+        case UsernameOneofCase.Username:
+          Username = other.Username;
+          break;
+      }
+
+      switch (other.PasswordCase) {
+        case PasswordOneofCase.Password:
+          Password = other.Password;
+          break;
+      }
+
+      switch (other.DevInitiatesConnectionCase) {
+        case DevInitiatesConnectionOneofCase.DevInitiatesConnection:
+          DevInitiatesConnection = other.DevInitiatesConnection;
+          break;
+      }
+
+      switch (other.ActivateStrikeOnRexCase) {
+        case ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex:
+          ActivateStrikeOnRex = other.ActivateStrikeOnRex;
+          break;
+      }
+
+      switch (other.EncryptionKeyRefUnidCase) {
+        case EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid:
+          EncryptionKeyRefUnid = other.EncryptionKeyRefUnid;
+          break;
+      }
+
+      switch (other.EncryptionKeyRefNextUnidCase) {
+        case EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid:
+          EncryptionKeyRefNextUnid = other.EncryptionKeyRefNextUnid;
+          break;
+      }
+
+      switch (other.DisableEncryptionCase) {
+        case DisableEncryptionOneofCase.DisableEncryption:
+          DisableEncryption = other.DisableEncryption;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DoorConfig Clone() {
+      return new DoorConfig(this);
+    }
+
+    /// <summary>Field number for the "version" field.</summary>
+    public const int VersionFieldNumber = 1;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Version {
+      get { return versionCase_ == VersionOneofCase.Version ? (int) version_ : 0; }
+      set {
+        version_ = value;
+        versionCase_ = VersionOneofCase.Version;
+      }
+    }
+
+    /// <summary>Field number for the "username" field.</summary>
+    public const int UsernameFieldNumber = 2;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Username {
+      get { return usernameCase_ == UsernameOneofCase.Username ? (string) username_ : ""; }
+      set {
+        username_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        usernameCase_ = UsernameOneofCase.Username;
+      }
+    }
+
+    /// <summary>Field number for the "password" field.</summary>
+    public const int PasswordFieldNumber = 3;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Password {
+      get { return passwordCase_ == PasswordOneofCase.Password ? (string) password_ : ""; }
+      set {
+        password_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        passwordCase_ = PasswordOneofCase.Password;
+      }
+    }
+
+    /// <summary>Field number for the "devInitiatesConnection" field.</summary>
+    public const int DevInitiatesConnectionFieldNumber = 4;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DevInitiatesConnection {
+      get { return devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection ? (bool) devInitiatesConnection_ : false; }
+      set {
+        devInitiatesConnection_ = value;
+        devInitiatesConnectionCase_ = DevInitiatesConnectionOneofCase.DevInitiatesConnection;
+      }
+    }
+
+    /// <summary>Field number for the "activateStrikeOnRex" field.</summary>
+    public const int ActivateStrikeOnRexFieldNumber = 11;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ActivateStrikeOnRex {
+      get { return activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex ? (bool) activateStrikeOnRex_ : false; }
+      set {
+        activateStrikeOnRex_ = value;
+        activateStrikeOnRexCase_ = ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex;
+      }
+    }
+
+    /// <summary>Field number for the "encryptionKeyRefUnid" field.</summary>
+    public const int EncryptionKeyRefUnidFieldNumber = 47;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int EncryptionKeyRefUnid {
+      get { return encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid ? (int) encryptionKeyRefUnid_ : 0; }
+      set {
+        encryptionKeyRefUnid_ = value;
+        encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid;
+      }
+    }
+
+    /// <summary>Field number for the "encryptionKeyRefNextUnid" field.</summary>
+    public const int EncryptionKeyRefNextUnidFieldNumber = 48;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int EncryptionKeyRefNextUnid {
+      get { return encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid ? (int) encryptionKeyRefNextUnid_ : 0; }
+      set {
+        encryptionKeyRefNextUnid_ = value;
+        encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid;
+      }
+    }
+
+    /// <summary>Field number for the "disableEncryption" field.</summary>
+    public const int DisableEncryptionFieldNumber = 51;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DisableEncryption {
+      get { return disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption ? (bool) disableEncryption_ : false; }
+      set {
+        disableEncryption_ = value;
+        disableEncryptionCase_ = DisableEncryptionOneofCase.DisableEncryption;
+      }
+    }
+
+    private object version_;
+    /// <summary>Enum of possible cases for the "version_" oneof.</summary>
+    public enum VersionOneofCase {
+      None = 0,
+      Version = 1,
+    }
+    private VersionOneofCase versionCase_ = VersionOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VersionOneofCase VersionCase {
+      get { return versionCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearVersion() {
+      versionCase_ = VersionOneofCase.None;
+      version_ = null;
+    }
+
+    private object username_;
+    /// <summary>Enum of possible cases for the "username_" oneof.</summary>
+    public enum UsernameOneofCase {
+      None = 0,
+      Username = 2,
+    }
+    private UsernameOneofCase usernameCase_ = UsernameOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsernameOneofCase UsernameCase {
+      get { return usernameCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearUsername() {
+      usernameCase_ = UsernameOneofCase.None;
+      username_ = null;
+    }
+
+    private object password_;
+    /// <summary>Enum of possible cases for the "password_" oneof.</summary>
+    public enum PasswordOneofCase {
+      None = 0,
+      Password = 3,
+    }
+    private PasswordOneofCase passwordCase_ = PasswordOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PasswordOneofCase PasswordCase {
+      get { return passwordCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearPassword() {
+      passwordCase_ = PasswordOneofCase.None;
+      password_ = null;
+    }
+
+    private object devInitiatesConnection_;
+    /// <summary>Enum of possible cases for the "devInitiatesConnection_" oneof.</summary>
+    public enum DevInitiatesConnectionOneofCase {
+      None = 0,
+      DevInitiatesConnection = 4,
+    }
+    private DevInitiatesConnectionOneofCase devInitiatesConnectionCase_ = DevInitiatesConnectionOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevInitiatesConnectionOneofCase DevInitiatesConnectionCase {
+      get { return devInitiatesConnectionCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDevInitiatesConnection() {
+      devInitiatesConnectionCase_ = DevInitiatesConnectionOneofCase.None;
+      devInitiatesConnection_ = null;
+    }
+
+    private object activateStrikeOnRex_;
+    /// <summary>Enum of possible cases for the "activateStrikeOnRex_" oneof.</summary>
+    public enum ActivateStrikeOnRexOneofCase {
+      None = 0,
+      ActivateStrikeOnRex = 11,
+    }
+    private ActivateStrikeOnRexOneofCase activateStrikeOnRexCase_ = ActivateStrikeOnRexOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ActivateStrikeOnRexOneofCase ActivateStrikeOnRexCase {
+      get { return activateStrikeOnRexCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearActivateStrikeOnRex() {
+      activateStrikeOnRexCase_ = ActivateStrikeOnRexOneofCase.None;
+      activateStrikeOnRex_ = null;
+    }
+
+    private object encryptionKeyRefUnid_;
+    /// <summary>Enum of possible cases for the "encryptionKeyRefUnid_" oneof.</summary>
+    public enum EncryptionKeyRefUnidOneofCase {
+      None = 0,
+      EncryptionKeyRefUnid = 47,
+    }
+    private EncryptionKeyRefUnidOneofCase encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public EncryptionKeyRefUnidOneofCase EncryptionKeyRefUnidCase {
+      get { return encryptionKeyRefUnidCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearEncryptionKeyRefUnid() {
+      encryptionKeyRefUnidCase_ = EncryptionKeyRefUnidOneofCase.None;
+      encryptionKeyRefUnid_ = null;
+    }
+
+    private object encryptionKeyRefNextUnid_;
+    /// <summary>Enum of possible cases for the "encryptionKeyRefNextUnid_" oneof.</summary>
+    public enum EncryptionKeyRefNextUnidOneofCase {
+      None = 0,
+      EncryptionKeyRefNextUnid = 48,
+    }
+    private EncryptionKeyRefNextUnidOneofCase encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public EncryptionKeyRefNextUnidOneofCase EncryptionKeyRefNextUnidCase {
+      get { return encryptionKeyRefNextUnidCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearEncryptionKeyRefNextUnid() {
+      encryptionKeyRefNextUnidCase_ = EncryptionKeyRefNextUnidOneofCase.None;
+      encryptionKeyRefNextUnid_ = null;
+    }
+
+    private object disableEncryption_;
+    /// <summary>Enum of possible cases for the "disableEncryption_" oneof.</summary>
+    public enum DisableEncryptionOneofCase {
+      None = 0,
+      DisableEncryption = 51,
+    }
+    private DisableEncryptionOneofCase disableEncryptionCase_ = DisableEncryptionOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DisableEncryptionOneofCase DisableEncryptionCase {
+      get { return disableEncryptionCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDisableEncryption() {
+      disableEncryptionCase_ = DisableEncryptionOneofCase.None;
+      disableEncryption_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DoorConfig);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DoorConfig other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Version != other.Version) return false;
+      if (Username != other.Username) return false;
+      if (Password != other.Password) return false;
+      if (DevInitiatesConnection != other.DevInitiatesConnection) return false;
+      if (ActivateStrikeOnRex != other.ActivateStrikeOnRex) return false;
+      if (EncryptionKeyRefUnid != other.EncryptionKeyRefUnid) return false;
+      if (EncryptionKeyRefNextUnid != other.EncryptionKeyRefNextUnid) return false;
+      if (DisableEncryption != other.DisableEncryption) return false;
+      if (VersionCase != other.VersionCase) return false;
+      if (UsernameCase != other.UsernameCase) return false;
+      if (PasswordCase != other.PasswordCase) return false;
+      if (DevInitiatesConnectionCase != other.DevInitiatesConnectionCase) return false;
+      if (ActivateStrikeOnRexCase != other.ActivateStrikeOnRexCase) return false;
+      if (EncryptionKeyRefUnidCase != other.EncryptionKeyRefUnidCase) return false;
+      if (EncryptionKeyRefNextUnidCase != other.EncryptionKeyRefNextUnidCase) return false;
+      if (DisableEncryptionCase != other.DisableEncryptionCase) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (versionCase_ == VersionOneofCase.Version) hash ^= Version.GetHashCode();
+      if (usernameCase_ == UsernameOneofCase.Username) hash ^= Username.GetHashCode();
+      if (passwordCase_ == PasswordOneofCase.Password) hash ^= Password.GetHashCode();
+      if (devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection) hash ^= DevInitiatesConnection.GetHashCode();
+      if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) hash ^= ActivateStrikeOnRex.GetHashCode();
+      if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) hash ^= EncryptionKeyRefUnid.GetHashCode();
+      if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) hash ^= EncryptionKeyRefNextUnid.GetHashCode();
+      if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) hash ^= DisableEncryption.GetHashCode();
+      hash ^= (int) versionCase_;
+      hash ^= (int) usernameCase_;
+      hash ^= (int) passwordCase_;
+      hash ^= (int) devInitiatesConnectionCase_;
+      hash ^= (int) activateStrikeOnRexCase_;
+      hash ^= (int) encryptionKeyRefUnidCase_;
+      hash ^= (int) encryptionKeyRefNextUnidCase_;
+      hash ^= (int) disableEncryptionCase_;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (versionCase_ == VersionOneofCase.Version) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Version);
+      }
+      if (usernameCase_ == UsernameOneofCase.Username) {
+        output.WriteRawTag(18);
+        output.WriteString(Username);
+      }
+      if (passwordCase_ == PasswordOneofCase.Password) {
+        output.WriteRawTag(26);
+        output.WriteString(Password);
+      }
+      if (devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection) {
+        output.WriteRawTag(32);
+        output.WriteBool(DevInitiatesConnection);
+      }
+      if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) {
+        output.WriteRawTag(88);
+        output.WriteBool(ActivateStrikeOnRex);
+      }
+      if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
+        output.WriteRawTag(248, 2);
+        output.WriteInt32(EncryptionKeyRefUnid);
+      }
+      if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
+        output.WriteRawTag(128, 3);
+        output.WriteInt32(EncryptionKeyRefNextUnid);
+      }
+      if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
+        output.WriteRawTag(152, 3);
+        output.WriteBool(DisableEncryption);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (versionCase_ == VersionOneofCase.Version) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Version);
+      }
+      if (usernameCase_ == UsernameOneofCase.Username) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
+      }
+      if (passwordCase_ == PasswordOneofCase.Password) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Password);
+      }
+      if (devInitiatesConnectionCase_ == DevInitiatesConnectionOneofCase.DevInitiatesConnection) {
+        size += 1 + 1;
+      }
+      if (activateStrikeOnRexCase_ == ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex) {
+        size += 1 + 1;
+      }
+      if (encryptionKeyRefUnidCase_ == EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefUnid);
+      }
+      if (encryptionKeyRefNextUnidCase_ == EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(EncryptionKeyRefNextUnid);
+      }
+      if (disableEncryptionCase_ == DisableEncryptionOneofCase.DisableEncryption) {
+        size += 2 + 1;
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DoorConfig other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.VersionCase) {
+        case VersionOneofCase.Version:
+          Version = other.Version;
+          break;
+      }
+
+      switch (other.UsernameCase) {
+        case UsernameOneofCase.Username:
+          Username = other.Username;
+          break;
+      }
+
+      switch (other.PasswordCase) {
+        case PasswordOneofCase.Password:
+          Password = other.Password;
+          break;
+      }
+
+      switch (other.DevInitiatesConnectionCase) {
+        case DevInitiatesConnectionOneofCase.DevInitiatesConnection:
+          DevInitiatesConnection = other.DevInitiatesConnection;
+          break;
+      }
+
+      switch (other.ActivateStrikeOnRexCase) {
+        case ActivateStrikeOnRexOneofCase.ActivateStrikeOnRex:
+          ActivateStrikeOnRex = other.ActivateStrikeOnRex;
+          break;
+      }
+
+      switch (other.EncryptionKeyRefUnidCase) {
+        case EncryptionKeyRefUnidOneofCase.EncryptionKeyRefUnid:
+          EncryptionKeyRefUnid = other.EncryptionKeyRefUnid;
+          break;
+      }
+
+      switch (other.EncryptionKeyRefNextUnidCase) {
+        case EncryptionKeyRefNextUnidOneofCase.EncryptionKeyRefNextUnid:
+          EncryptionKeyRefNextUnid = other.EncryptionKeyRefNextUnid;
+          break;
+      }
+
+      switch (other.DisableEncryptionCase) {
+        case DisableEncryptionOneofCase.DisableEncryption:
+          DisableEncryption = other.DisableEncryption;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            Version = input.ReadInt32();
+            break;
+          }
+          case 18: {
+            Username = input.ReadString();
+            break;
+          }
+          case 26: {
+            Password = input.ReadString();
+            break;
+          }
+          case 32: {
+            DevInitiatesConnection = input.ReadBool();
+            break;
+          }
+          case 88: {
+            ActivateStrikeOnRex = input.ReadBool();
+            break;
+          }
+          case 376: {
+            EncryptionKeyRefUnid = input.ReadInt32();
+            break;
+          }
+          case 384: {
+            EncryptionKeyRefNextUnid = input.ReadInt32();
+            break;
+          }
+          case 408: {
+            DisableEncryption = input.ReadBool();
+            break;
+          }
         }
       }
     }
@@ -13711,7 +14299,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14028,7 +14616,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14157,7 +14745,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14753,7 +15341,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15778,7 +16366,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16006,7 +16594,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16452,7 +17040,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16768,7 +17356,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17761,7 +18349,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18021,7 +18609,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18187,7 +18775,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18559,7 +19147,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19325,7 +19913,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19697,7 +20285,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20125,7 +20713,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20576,7 +21164,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20958,7 +21546,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
