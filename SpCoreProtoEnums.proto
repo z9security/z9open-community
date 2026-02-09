@@ -94,7 +94,7 @@ enum DevMod {
 	DevMod_RESERVED43 = 43;
 	DevMod_RESERVED44 = 44;
 	DevMod_RESERVED45 = 45;
-	DevMod_RESERVED46 = 46;
+	DevMod_IO_CONTROLLER_EXTERNAL = 46; // Externally-defined: IO_CONTROLLER.
 	DevMod_RESERVED47 = 47;
 	DevMod_RESERVED48 = 48;
 	DevMod_RESERVED49 = 49;
@@ -348,7 +348,7 @@ enum DevPlatform {
 	DevPlatform_RESERVED6 = 6;
 	DevPlatform_RESERVED7 = 7;
 	DevPlatform_RESERVED8 = 8;
-	DevPlatform_RESERVED9 = 9;
+	DevPlatform_EXTERNAL = 9; // External
 	DevPlatform_RESERVED10 = 10;
 	DevPlatform_RESERVED11 = 11;
 	DevPlatform_RESERVED12 = 12;
@@ -625,6 +625,67 @@ enum DevActionType {
 	DevActionType_RESERVED107 = 107;
 	DevActionType_RESERVED108 = 108;
 }
+// Activity state of a Dev (generally Sensor or Actuator) - whether it is active or inactive, but also includes warning, and repeating pulse.
+enum ActivityState {
+	ActivityState_INACTIVE = 0; // Inactive, off.
+	ActivityState_ACTIVE = 1; // Active, on.
+	ActivityState_RESERVED2 = 2;
+	ActivityState_RESERVED3 = 3;
+}
+// Communications state of a Dev - online/offline.
+enum CommState {
+	CommState_OFFLINE = 0; // Offline.
+	CommState_ONLINE = 1; // Online.
+}
+// An aspect of the state of a Dev.
+enum DevAspect {
+	DevAspect_PRIMARY = 0; // Primary aspect.  Most devices only have a single aspect, this one.
+	DevAspect_RESERVED1 = 1;
+	DevAspect_RESERVED2 = 2;
+	DevAspect_RESERVED3 = 3;
+	DevAspect_RESERVED4 = 4;
+	DevAspect_DOOR_FORCED = 5; // Door: forced.
+	DevAspect_DOOR_HELD = 6; // Door: held.
+	DevAspect_RESERVED7 = 7;
+	DevAspect_RESERVED8 = 8;
+	DevAspect_RESERVED9 = 9;
+	DevAspect_RESERVED10 = 10;
+	DevAspect_RESERVED11 = 11;
+	DevAspect_RESERVED12 = 12;
+	DevAspect_RESERVED13 = 13;
+	DevAspect_RESERVED14 = 14;
+	DevAspect_DOOR_UNLOCKED = 15; // Door: unlocked.
+	DevAspect_DOOR_OPEN = 16; // Door: open.
+	DevAspect_RESERVED17 = 17;
+	DevAspect_RESERVED18 = 18;
+	DevAspect_RESERVED19 = 19;
+	DevAspect_RESERVED20 = 20;
+	DevAspect_RESERVED21 = 21;
+	DevAspect_RESERVED22 = 22;
+	DevAspect_RESERVED23 = 23;
+	DevAspect_RESERVED24 = 24;
+	DevAspect_RESERVED25 = 25;
+	DevAspect_RESERVED26 = 26;
+	DevAspect_RESERVED27 = 27;
+	DevAspect_RESERVED28 = 28;
+	DevAspect_RESERVED29 = 29;
+	DevAspect_RESERVED30 = 30;
+	DevAspect_RESERVED31 = 31;
+	DevAspect_RESERVED32 = 32;
+	DevAspect_RESERVED33 = 33;
+	DevAspect_RESERVED34 = 34;
+	DevAspect_RESERVED35 = 35;
+	DevAspect_RESERVED36 = 36;
+	DevAspect_RESERVED37 = 37;
+	DevAspect_RESERVED38 = 38;
+	DevAspect_RESERVED39 = 39;
+	DevAspect_RESERVED40 = 40;
+	DevAspect_RESERVED41 = 41;
+	DevAspect_RESERVED42 = 42;
+	DevAspect_RESERVED43 = 43;
+	DevAspect_RESERVED44 = 44;
+	DevAspect_RESERVED45 = 45;
+}
 // Possible communications types for a CredReader.
 enum CredReaderCommType {
 	CredReaderCommType_RESERVED0 = 0;
@@ -723,7 +784,7 @@ enum EvtCode {
 	EvtCode_RESERVED14 = 14;
 	EvtCode_CRED_READER_ONLINE = 15; // Credential reader online.
 	EvtCode_CRED_READER_OFFLINE = 16; // Credential reader offline.
-	EvtCode_RESERVED17 = 17;
+	EvtCode_RAW_CRED_READ = 17; // Raw credential read.
 	EvtCode_RESERVED18 = 18;
 	EvtCode_RESERVED19 = 19;
 	EvtCode_RESERVED20 = 20;

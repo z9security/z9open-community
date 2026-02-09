@@ -18,7 +18,7 @@ message SpCoreMessage {
 		DB_CHANGE = 3;			// Host->Panel
 		DB_CHANGE_RESP = 4;		// Panel->Host
 		EVT = 5;				// Panel->Host most commonly, can go Host->Panel for architecture where events are sent the other way 
-		RFU_6 = 6;
+		DEV_STATE_RECORD = 6;	// Panel->Host
 		DEV_ACTION_REQ = 7;		// Host->Panel
 		DEV_ACTION_RESP = 8;	// Panel->Host
 		EVT_CONTROL = 9;		// Host->Panel: control flow of evts, consume evts
@@ -31,7 +31,7 @@ message SpCoreMessage {
 		RFU_16 = 16;
 		RFU_17 = 17;
 		RFU_18 = 18;
-		RFU_19 = 19;
+		DEV_STATE_RECORD_CONTROL = 19;	// Host->Panel: control flow of DevStateRecord
 		RFU_20 = 20;
 		RFU_21 = 21;
 		RFU_22 = 22;
@@ -80,9 +80,11 @@ message SpCoreMessage {
 	/*optional*/ DbChange dbChange = 3;
 	/*optional*/ DbChangeResp dbChangeResp = 4;
 	repeated Evt evt = 5;
+	repeated DevStateRecord devStateRecord = 6;
 	/*optional*/ DevActionReq devActionReq = 7;
 	/*optional*/ DevActionResp devActionResp = 8;
 	/*optional*/ EvtControl evtControl = 9;
+	/*optional*/ DevStateRecordControl devStateRecordControl = 14;
 	/*optional*/ oneof terminationReason_ { TerminationReason terminationReason = 53;}
 }
 
@@ -92,6 +94,7 @@ message ProtocolCapabilities {
 	/*optional*/ oneof maxEnum_DevUse_ { int32 maxEnum_DevUse = 3;}
 	/*optional*/ oneof maxEnum_DevActionParamsType_ { int32 maxEnum_DevActionParamsType = 4;}
 	/*optional*/ oneof maxEnum_DevActionType_ { int32 maxEnum_DevActionType = 5;}
+	/*optional*/ oneof maxEnum_DevAspect_ { int32 maxEnum_DevAspect = 6;}
 	/*optional*/ oneof maxEnum_EvtCode_ { int32 maxEnum_EvtCode = 7;}
 	/*optional*/ oneof maxEnum_EvtSubCode_ { int32 maxEnum_EvtSubCode = 9;}
 	/*optional*/ oneof supportsIdentificationPassword_ { bool supportsIdentificationPassword = 22;} // for sending password in Identification, from Host down to panel, regardless of socket connection direction.
@@ -201,7 +204,16 @@ message EvtControl {
 	repeated int64 consumeEvt = 2; // consume these evts (by unid)
 }
 
-// control the flow of DB_CHANGE_MONITOR (DbChangeMonitor) (Host->Panel)
+// control the flow of DevStateRecord (Host->Panel)
+enum DevStateRecordFlowControl {
+	DevStateRecordFlowControl_START_CONTINUOUS = 0; // start sending continously (keep sending until DevStateRecordFlowControl_STOP_CONTINUOUS)
+	DevStateRecordFlowControl_STOP_CONTINUOUS = 1; // stop sending continuously (opposite of DevStateRecordFlowControl_START_CONTINUOUS)
+	DevStateRecordFlowControl_SEND_ONE_BATCH = 2; // send a single batch of DevStateRecord.  This is the simplest mechanism to avoid the host being flooded with events faster than it can process them
+}
+
+message DevStateRecordControl {
+	/*optional*/ oneof devStateRecordFlowControl_ { DevStateRecordFlowControl devStateRecordFlowControl = 1;}
+}
 
 message DevActionReq {
 	/*required*/ oneof requestId_ { int64 requestId = 1;}

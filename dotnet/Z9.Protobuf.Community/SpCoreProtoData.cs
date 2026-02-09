@@ -122,7 +122,7 @@ namespace Z9.Spcore.Proto {
             "ASgLMh8uejkuc3Bjb3JlLnByb3RvLkRvb3JBY2Nlc3NQcml2SAhCCgoIdmVy",
             "c2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0IHCgV1bmlkX0IKCghl",
             "bmFibGVkX0ILCglwcml2VHlwZV9CDQoLZXh0ZXJuYWxJZF9CCwoJZXh0ZW5z",
-            "aW9uItIJCgNEZXYSEQoHdmVyc2lvbhgBIAEoBUgAEg0KA3RhZxgGIAEoCUgB",
+            "aW9uIrgKCgNEZXYSEQoHdmVyc2lvbhgBIAEoBUgAEg0KA3RhZxgGIAEoCUgB",
             "Eg4KBHV1aWQYByABKAlIAhIOCgRuYW1lGAogASgJSAMSFAoKZXh0ZXJuYWxJ",
             "ZBgNIAEoCUgEEg4KBHVuaWQYDiABKAVIBRIRCgdhZGRyZXNzGBUgASgJSAYS",
             "GAoObG9naWNhbEFkZHJlc3MYFiABKAVIBxIUCgptYWNBZGRyZXNzGBcgASgJ",
@@ -131,212 +131,236 @@ namespace Z9.Spcore.Proto {
             "RGV2VHlwZUgMEjEKCmRldlN1YlR5cGUYHyABKA4yGy56OS5zcGNvcmUucHJv",
             "dG8uRGV2U3ViVHlwZUgNEikKBmRldk1vZBggIAEoDjIXLno5LnNwY29yZS5w",
             "cm90by5EZXZNb2RIDhIzCgtkZXZQbGF0Zm9ybRgjIAEoDjIcLno5LnNwY29y",
-            "ZS5wcm90by5EZXZQbGF0Zm9ybUgPEjMKDGRldk1vZENvbmZpZxgmIAEoCzId",
-            "Lno5LnNwY29yZS5wcm90by5EZXZNb2RDb25maWcSKQoGZGV2VXNlGCcgASgO",
-            "Mhcuejkuc3Bjb3JlLnByb3RvLkRldlVzZUgQEhwKEnBoeXNpY2FsUGFyZW50",
-            "VW5pZBgpIAEoBUgREhsKEWxvZ2ljYWxQYXJlbnRVbmlkGCogASgFSBISEgoI",
-            "dGltZVpvbmUYMSABKAlIExIfChVpZ25vcmVEYXlsaWdodFNhdmluZ3MYMiAB",
-            "KAhIFBIbChNsb2dpY2FsQ2hpbGRyZW5VbmlkGDQgAygFEhwKFHBoeXNpY2Fs",
-            "Q2hpbGRyZW5VbmlkGDUgAygFEjAKC2V4dEFjdHVhdG9yGGQgASgLMhkuejku",
-            "c3Bjb3JlLnByb3RvLkFjdHVhdG9ySBUSNAoNZXh0Q29udHJvbGxlchhnIAEo",
-            "CzIbLno5LnNwY29yZS5wcm90by5Db250cm9sbGVySBUSNAoNZXh0Q3JlZFJl",
-            "YWRlchhoIAEoCzIbLno5LnNwY29yZS5wcm90by5DcmVkUmVhZGVySBUSKAoH",
-            "ZXh0RG9vchhrIAEoCzIVLno5LnNwY29yZS5wcm90by5Eb29ySBUSLAoJZXh0",
-            "U2Vuc29yGHMgASgLMhcuejkuc3Bjb3JlLnByb3RvLlNlbnNvckgVQgoKCHZl",
-            "cnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9CDQoLZXh0ZXJuYWxJ",
-            "ZF9CBwoFdW5pZF9CCgoIYWRkcmVzc19CEQoPbG9naWNhbEFkZHJlc3NfQg0K",
-            "C21hY0FkZHJlc3NfQgoKCGVuYWJsZWRfQgcKBXBvcnRfQggKBnNwZWVkX0IK",
-            "CghkZXZUeXBlX0INCgtkZXZTdWJUeXBlX0IJCgdkZXZNb2RfQg4KDGRldlBs",
-            "YXRmb3JtX0IJCgdkZXZVc2VfQhUKE3BoeXNpY2FsUGFyZW50VW5pZF9CFAoS",
-            "bG9naWNhbFBhcmVudFVuaWRfQgsKCXRpbWVab25lX0IYChZpZ25vcmVEYXls",
-            "aWdodFNhdmluZ3NfQgsKCWV4dGVuc2lvbiKCAQoMRGV2TW9kQ29uZmlnEg4K",
-            "BHVuaWQYASABKAVIABIRCgd2ZXJzaW9uGAIgASgFSAESMQoEdHlwZRgDIAEo",
-            "DjIhLno5LnNwY29yZS5wcm90by5EZXZNb2RDb25maWdUeXBlSAJCBwoFdW5p",
-            "ZF9CCgoIdmVyc2lvbl9CBwoFdHlwZV8iWgoRRGV2TW9kUmVzdHJpY3Rpb24S",
-            "KAoHZGV2TW9kcxgBIAMoDjIXLno5LnNwY29yZS5wcm90by5EZXZNb2QSEAoG",
-            "aW52ZXJ0GAIgASgISABCCQoHaW52ZXJ0XyJmChVEZXZTdWJUeXBlUmVzdHJp",
-            "Y3Rpb24SMAoLZGV2U3ViVHlwZXMYASADKA4yGy56OS5zcGNvcmUucHJvdG8u",
-            "RGV2U3ViVHlwZRIQCgZpbnZlcnQYAiABKAhIAEIJCgdpbnZlcnRfIl0KEkRl",
-            "dlR5cGVSZXN0cmljdGlvbhIqCghkZXZUeXBlcxgBIAMoDjIYLno5LnNwY29y",
-            "ZS5wcm90by5EZXZUeXBlEhAKBmludmVydBgCIAEoCEgAQgkKB2ludmVydF8i",
-            "WgoRRGV2VXNlUmVzdHJpY3Rpb24SKAoHZGV2VXNlcxgBIAMoDjIXLno5LnNw",
-            "Y29yZS5wcm90by5EZXZVc2USEAoGaW52ZXJ0GAIgASgISABCCQoHaW52ZXJ0",
-            "XyJaChJFbmFibGVkUmVzdHJpY3Rpb24SFgoMZW5hYmxlZFZhbHVlGAEgASgI",
-            "SAASEAoGaW52ZXJ0GAIgASgISAFCDwoNZW5hYmxlZFZhbHVlX0IJCgdpbnZl",
-            "cnRfIt4CChVHZW5lcmFsRGV2UmVzdHJpY3Rpb24SPQoRZGV2TW9kUmVzdHJp",
-            "Y3Rpb24YASABKAsyIi56OS5zcGNvcmUucHJvdG8uRGV2TW9kUmVzdHJpY3Rp",
-            "b24SRQoVZGV2U3ViVHlwZVJlc3RyaWN0aW9uGAIgASgLMiYuejkuc3Bjb3Jl",
-            "LnByb3RvLkRldlN1YlR5cGVSZXN0cmljdGlvbhI/ChJkZXZUeXBlUmVzdHJp",
-            "Y3Rpb24YAyABKAsyIy56OS5zcGNvcmUucHJvdG8uRGV2VHlwZVJlc3RyaWN0",
-            "aW9uEj0KEWRldlVzZVJlc3RyaWN0aW9uGAQgASgLMiIuejkuc3Bjb3JlLnBy",
-            "b3RvLkRldlVzZVJlc3RyaWN0aW9uEj8KEmVuYWJsZWRSZXN0cmljdGlvbhgO",
-            "IAEoCzIjLno5LnNwY29yZS5wcm90by5FbmFibGVkUmVzdHJpY3Rpb24iRwoW",
-            "U3BlY2lmaWNEZXZSZXN0cmljdGlvbhIQCghkZXZzVW5pZBgBIAMoBRIQCgZp",
-            "bnZlcnQYAiABKAhIAEIJCgdpbnZlcnRfIqwCCg9EZXZBY3Rpb25QYXJhbXMS",
-            "DgoEdW5pZBgBIAEoBUgAEjQKBHR5cGUYAyABKA4yJC56OS5zcGNvcmUucHJv",
-            "dG8uRGV2QWN0aW9uUGFyYW1zVHlwZUgBEk4KGmV4dERvb3JNb2RlRGV2QWN0",
-            "aW9uUGFyYW1zGGogASgLMiguejkuc3Bjb3JlLnByb3RvLkRvb3JNb2RlRGV2",
-            "QWN0aW9uUGFyYW1zSAISZAolZXh0RG9vck1vbWVudGFyeVVubG9ja0RldkFj",
-            "dGlvblBhcmFtcxhrIAEoCzIzLno5LnNwY29yZS5wcm90by5Eb29yTW9tZW50",
-            "YXJ5VW5sb2NrRGV2QWN0aW9uUGFyYW1zSAJCBwoFdW5pZF9CBwoFdHlwZV9C",
-            "CwoJZXh0ZW5zaW9uInMKF0Rvb3JNb2RlRGV2QWN0aW9uUGFyYW1zEhgKDnJl",
-            "c2V0VG9EZWZhdWx0GAEgASgISAASKwoIZG9vck1vZGUYAiABKAsyGS56OS5z",
-            "cGNvcmUucHJvdG8uRG9vck1vZGVCEQoPcmVzZXRUb0RlZmF1bHRfIiQKIkRv",
-            "b3JNb21lbnRhcnlVbmxvY2tEZXZBY3Rpb25QYXJhbXMiQwoIQWN0dWF0b3IS",
-            "NwoOYWN0dWF0b3JDb25maWcYASABKAsyHy56OS5zcGNvcmUucHJvdG8uQWN0",
-            "dWF0b3JDb25maWcikQMKDkFjdHVhdG9yQ29uZmlnEhEKB3ZlcnNpb24YASAB",
-            "KAVIABISCgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3b3JkGAMgASgJSAIS",
-            "IAoWZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVuaWQYBSAB",
-            "KAVIBBIQCgZpbnZlcnQYBiABKAhIBRIeChRlbmNyeXB0aW9uS2V5UmVmVW5p",
-            "ZBgOIAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZBgPIAEoBUgH",
-            "EhsKEWRpc2FibGVFbmNyeXB0aW9uGBAgASgISAhCCgoIdmVyc2lvbl9CCwoJ",
-            "dXNlcm5hbWVfQgsKCXBhc3N3b3JkX0IZChdkZXZJbml0aWF0ZXNDb25uZWN0",
-            "aW9uX0IHCgV1bmlkX0IJCgdpbnZlcnRfQhcKFWVuY3J5cHRpb25LZXlSZWZV",
-            "bmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRpc2FibGVF",
-            "bmNyeXB0aW9uXyJJCgpDb250cm9sbGVyEjsKEGNvbnRyb2xsZXJDb25maWcY",
-            "ASABKAsyIS56OS5zcGNvcmUucHJvdG8uQ29udHJvbGxlckNvbmZpZyL2AgoQ",
-            "Q29udHJvbGxlckNvbmZpZxIRCgd2ZXJzaW9uGAEgASgFSAASEgoIdXNlcm5h",
-            "bWUYAiABKAlIARISCghwYXNzd29yZBgDIAEoCUgCEiAKFmRldkluaXRpYXRl",
-            "c0Nvbm5lY3Rpb24YBCABKAhIAxIOCgR1bmlkGAUgASgFSAQSHgoUZW5jcnlw",
-            "dGlvbktleVJlZlVuaWQYCyABKAVIBRIiChhlbmNyeXB0aW9uS2V5UmVmTmV4",
-            "dFVuaWQYDCABKAVIBhIbChFkaXNhYmxlRW5jcnlwdGlvbhgNIAEoCEgHQgoK",
-            "CHZlcnNpb25fQgsKCXVzZXJuYW1lX0ILCglwYXNzd29yZF9CGQoXZGV2SW5p",
-            "dGlhdGVzQ29ubmVjdGlvbl9CBwoFdW5pZF9CFwoVZW5jcnlwdGlvbktleVJl",
-            "ZlVuaWRfQhsKGWVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZF9CFAoSZGlzYWJs",
-            "ZUVuY3J5cHRpb25fIkkKCkNyZWRSZWFkZXISOwoQY3JlZFJlYWRlckNvbmZp",
-            "ZxgBIAEoCzIhLno5LnNwY29yZS5wcm90by5DcmVkUmVhZGVyQ29uZmlnIv4E",
-            "ChBDcmVkUmVhZGVyQ29uZmlnEhEKB3ZlcnNpb24YASABKAVIABISCgh1c2Vy",
-            "bmFtZRgCIAEoCUgBEhIKCHBhc3N3b3JkGAMgASgJSAISIAoWZGV2SW5pdGlh",
-            "dGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVuaWQYBSABKAVIBBI3Cghjb21t",
-            "VHlwZRgGIAEoDjIjLno5LnNwY29yZS5wcm90by5DcmVkUmVhZGVyQ29tbVR5",
-            "cGVIBRI7Cgp0YW1wZXJUeXBlGAcgASgOMiUuejkuc3Bjb3JlLnByb3RvLkNy",
-            "ZWRSZWFkZXJUYW1wZXJUeXBlSAYSNQoHbGVkVHlwZRgLIAEoDjIiLno5LnNw",
-            "Y29yZS5wcm90by5DcmVkUmVhZGVyTGVkVHlwZUgHEh4KFGVuY3J5cHRpb25L",
-            "ZXlSZWZVbmlkGBMgASgFSAgSIgoYZW5jcnlwdGlvbktleVJlZk5leHRVbmlk",
-            "GBQgASgFSAkSGwoRc2VyaWFsUG9ydEFkZHJlc3MYFSABKAlIChIbChFkaXNh",
-            "YmxlRW5jcnlwdGlvbhgWIAEoCEgLQgoKCHZlcnNpb25fQgsKCXVzZXJuYW1l",
-            "X0ILCglwYXNzd29yZF9CGQoXZGV2SW5pdGlhdGVzQ29ubmVjdGlvbl9CBwoF",
-            "dW5pZF9CCwoJY29tbVR5cGVfQg0KC3RhbXBlclR5cGVfQgoKCGxlZFR5cGVf",
-            "QhcKFWVuY3J5cHRpb25LZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVm",
-            "TmV4dFVuaWRfQhQKEnNlcmlhbFBvcnRBZGRyZXNzX0IUChJkaXNhYmxlRW5j",
-            "cnlwdGlvbl8iNwoERG9vchIvCgpkb29yQ29uZmlnGAEgASgLMhsuejkuc3Bj",
-            "b3JlLnByb3RvLkRvb3JDb25maWci7gQKCkRvb3JDb25maWcSEQoHdmVyc2lv",
-            "bhgBIAEoBUgAEhIKCHVzZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyAB",
-            "KAlIAhIgChZkZXZJbml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSMgoPZGVm",
-            "YXVsdERvb3JNb2RlGAYgASgLMhkuejkuc3Bjb3JlLnByb3RvLkRvb3JNb2Rl",
-            "Eh0KE2FjdGl2YXRlU3RyaWtlT25SZXgYCyABKAhIBBIUCgpzdHJpa2VUaW1l",
-            "GA4gASgFSAUSHAoSZXh0ZW5kZWRTdHJpa2VUaW1lGA8gASgFSAYSEgoIaGVs",
-            "ZFRpbWUYECABKAVIBxIaChBleHRlbmRlZEhlbGRUaW1lGBEgASgFSAgSHgoU",
-            "ZW5jcnlwdGlvbktleVJlZlVuaWQYLyABKAVICRIiChhlbmNyeXB0aW9uS2V5",
-            "UmVmTmV4dFVuaWQYMCABKAVIChIbChFkaXNhYmxlRW5jcnlwdGlvbhgzIAEo",
-            "CEgLQgoKCHZlcnNpb25fQgsKCXVzZXJuYW1lX0ILCglwYXNzd29yZF9CGQoX",
-            "ZGV2SW5pdGlhdGVzQ29ubmVjdGlvbl9CFgoUYWN0aXZhdGVTdHJpa2VPblJl",
-            "eF9CDQoLc3RyaWtlVGltZV9CFQoTZXh0ZW5kZWRTdHJpa2VUaW1lX0ILCglo",
-            "ZWxkVGltZV9CEwoRZXh0ZW5kZWRIZWxkVGltZV9CFwoVZW5jcnlwdGlvbktl",
-            "eVJlZlVuaWRfQhsKGWVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZF9CFAoSZGlz",
-            "YWJsZUVuY3J5cHRpb25fIvABCghEb29yTW9kZRI7CgtzdGF0aWNTdGF0ZRgB",
-            "IAEoDjIkLno5LnNwY29yZS5wcm90by5Eb29yTW9kZVN0YXRpY1N0YXRlSAAS",
-            "GAoOYWxsb3dVbmlxdWVQaW4YAiABKAhIARITCglhbGxvd0NhcmQYAyABKAhI",
-            "AhImChxyZXF1aXJlQ29uZmlybWluZ1BpbldpdGhDYXJkGAQgASgISANCDgoM",
-            "c3RhdGljU3RhdGVfQhEKD2FsbG93VW5pcXVlUGluX0IMCgphbGxvd0NhcmRf",
-            "Qh8KHXJlcXVpcmVDb25maXJtaW5nUGluV2l0aENhcmRfIj0KBlNlbnNvchIz",
-            "CgxzZW5zb3JDb25maWcYASABKAsyHS56OS5zcGNvcmUucHJvdG8uU2Vuc29y",
-            "Q29uZmlnIo8DCgxTZW5zb3JDb25maWcSEQoHdmVyc2lvbhgBIAEoBUgAEhIK",
-            "CHVzZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyABKAlIAhIgChZkZXZJ",
-            "bml0aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSDgoEdW5pZBgFIAEoBUgEEhAK",
-            "BmludmVydBgIIAEoCEgFEh4KFGVuY3J5cHRpb25LZXlSZWZVbmlkGBYgASgF",
-            "SAYSIgoYZW5jcnlwdGlvbktleVJlZk5leHRVbmlkGBcgASgFSAcSGwoRZGlz",
-            "YWJsZUVuY3J5cHRpb24YGCABKAhICEIKCgh2ZXJzaW9uX0ILCgl1c2VybmFt",
-            "ZV9CCwoJcGFzc3dvcmRfQhkKF2RldkluaXRpYXRlc0Nvbm5lY3Rpb25fQgcK",
-            "BXVuaWRfQgkKB2ludmVydF9CFwoVZW5jcnlwdGlvbktleVJlZlVuaWRfQhsK",
-            "GWVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZF9CFAoSZGlzYWJsZUVuY3J5cHRp",
-            "b25fIuIGCgNFdnQSDgoEdW5pZBgBIAEoA0gAEi0KBmh3VGltZRgCIAEoCzId",
-            "Lno5LnNwY29yZS5wcm90by5EYXRlVGltZURhdGESLQoGZGJUaW1lGAMgASgL",
-            "Mh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0YRIUCgpod1RpbWVab25l",
-            "GAYgASgJSAESKwoHZXZ0Q29kZRgHIAEoDjIYLno5LnNwY29yZS5wcm90by5F",
-            "dnRDb2RlSAISHQoTZXh0ZXJuYWxFdnRDb2RlVGV4dBgIIAEoCUgDEhsKEWV4",
-            "dGVybmFsRXZ0Q29kZUlkGAkgASgJSAQSMQoKZXZ0U3ViQ29kZRgKIAEoDjIb",
-            "Lno5LnNwY29yZS5wcm90by5FdnRTdWJDb2RlSAUSHQoTZXh0ZXJuYWxTdWJD",
-            "b2RlVGV4dBgLIAEoCUgGEhsKEWV4dGVybmFsU3ViQ29kZUlkGAwgASgJSAcS",
-            "MwoMZXZ0TW9kaWZpZXJzGA0gASgLMh0uejkuc3Bjb3JlLnByb3RvLkV2dE1v",
-            "ZGlmaWVycxISCghwcmlvcml0eRgOIAEoBUgIEg4KBGRhdGEYFCABKAlICRIt",
-            "CglldnREZXZSZWYYGSABKAsyGi56OS5zcGNvcmUucHJvdG8uRXZ0RGV2UmVm",
-            "EjQKEGV2dENvbnRyb2xsZXJSZWYYGiABKAsyGi56OS5zcGNvcmUucHJvdG8u",
-            "RXZ0RGV2UmVmEi8KCmV2dENyZWRSZWYYHiABKAsyGy56OS5zcGNvcmUucHJv",
-            "dG8uRXZ0Q3JlZFJlZhIxCgtldnRTY2hlZFJlZhgiIAEoCzIcLno5LnNwY29y",
-            "ZS5wcm90by5FdnRTY2hlZFJlZhISCghjb25zdW1lZBguIAEoCEgKEg4KBHV1",
-            "aWQYMiABKAlIC0IHCgV1bmlkX0INCgtod1RpbWVab25lX0IKCghldnRDb2Rl",
-            "X0IWChRleHRlcm5hbEV2dENvZGVUZXh0X0IUChJleHRlcm5hbEV2dENvZGVJ",
-            "ZF9CDQoLZXZ0U3ViQ29kZV9CFgoUZXh0ZXJuYWxTdWJDb2RlVGV4dF9CFAoS",
-            "ZXh0ZXJuYWxTdWJDb2RlSWRfQgsKCXByaW9yaXR5X0IHCgVkYXRhX0ILCglj",
-            "b25zdW1lZF9CBwoFdXVpZF8ihAEKEkV2dENvZGVSZXN0cmljdGlvbhIqCghl",
-            "dnRDb2RlcxgBIAMoDjIYLno5LnNwY29yZS5wcm90by5FdnRDb2RlEhAKBmlu",
-            "dmVydBgCIAEoCEgAEhUKC2VtcHR5SXNOb25lGAMgASgISAFCCQoHaW52ZXJ0",
-            "X0IOCgxlbXB0eUlzTm9uZV8ihwIKCkV2dENyZWRSZWYSDgoEdW5pZBgBIAEo",
-            "BUgAEjwKD2NyZWRUZW1wbGF0ZVJlZhgCIAEoCzIjLno5LnNwY29yZS5wcm90",
-            "by5FdnRDcmVkVGVtcGxhdGVSZWYSDgoEbmFtZRgGIAEoCUgBEjAKB2NyZWRO",
-            "dW0YByABKAsyHy56OS5zcGNvcmUucHJvdG8uQmlnSW50ZWdlckRhdGESFgoM",
-            "ZmFjaWxpdHlDb2RlGAggASgFSAISDQoDdGFnGAsgASgJSAMSDgoEdXVpZBgM",
-            "IAEoCUgEQgcKBXVuaWRfQgcKBW5hbWVfQg8KDWZhY2lsaXR5Q29kZV9CBgoE",
-            "dGFnX0IHCgV1dWlkXyJ2ChJFdnRDcmVkVGVtcGxhdGVSZWYSDgoEdW5pZBgB",
-            "IAEoBUgAEg4KBG5hbWUYAiABKAlIARINCgN0YWcYAyABKAlIAhIOCgR1dWlk",
-            "GAQgASgJSANCBwoFdW5pZF9CBwoFbmFtZV9CBgoEdGFnX0IHCgV1dWlkXyLa",
-            "BQoJRXZ0RGV2UmVmEg4KBHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAES",
-            "EQoHYWRkcmVzcxgDIAEoCUgCEhgKDmxvZ2ljYWxBZGRyZXNzGAQgASgFSAMS",
-            "MwoLZGV2UGxhdGZvcm0YBSABKA4yHC56OS5zcGNvcmUucHJvdG8uRGV2UGxh",
-            "dGZvcm1IBBIrCgdkZXZUeXBlGAYgASgOMhguejkuc3Bjb3JlLnByb3RvLkRl",
-            "dlR5cGVIBRIdChNleHRlcm5hbERldlR5cGVUZXh0GAcgASgJSAYSGwoRZXh0",
-            "ZXJuYWxEZXZUeXBlSWQYCCABKAlIBxIxCgpkZXZTdWJUeXBlGAkgASgOMhsu",
-            "ejkuc3Bjb3JlLnByb3RvLkRldlN1YlR5cGVICBIpCgZkZXZNb2QYCiABKA4y",
-            "Fy56OS5zcGNvcmUucHJvdG8uRGV2TW9kSAkSHAoSZXh0ZXJuYWxEZXZNb2RU",
-            "ZXh0GAwgASgJSAoSGgoQZXh0ZXJuYWxEZXZNb2RJZBgNIAEoCUgLEikKBmRl",
-            "dlVzZRgOIAEoDjIXLno5LnNwY29yZS5wcm90by5EZXZVc2VIDBINCgN0YWcY",
-            "ECABKAlIDRIOCgR1dWlkGBEgASgJSA4SFAoKZXh0ZXJuYWxJZBgSIAEoCUgP",
-            "QgcKBXVuaWRfQgcKBW5hbWVfQgoKCGFkZHJlc3NfQhEKD2xvZ2ljYWxBZGRy",
-            "ZXNzX0IOCgxkZXZQbGF0Zm9ybV9CCgoIZGV2VHlwZV9CFgoUZXh0ZXJuYWxE",
-            "ZXZUeXBlVGV4dF9CFAoSZXh0ZXJuYWxEZXZUeXBlSWRfQg0KC2RldlN1YlR5",
-            "cGVfQgkKB2Rldk1vZF9CFQoTZXh0ZXJuYWxEZXZNb2RUZXh0X0ITChFleHRl",
-            "cm5hbERldk1vZElkX0IJCgdkZXZVc2VfQgYKBHRhZ19CBwoFdXVpZF9CDQoL",
-            "ZXh0ZXJuYWxJZF8ifwoMRXZ0TW9kaWZpZXJzEhoKEGluYWNjdXJhdGVId1Rp",
-            "bWUYCyABKAhIABISCgh1c2VkQ2FyZBgNIAEoCEgBEhEKB3VzZWRQaW4YDiAB",
-            "KAhIAkITChFpbmFjY3VyYXRlSHdUaW1lX0ILCgl1c2VkQ2FyZF9CCgoIdXNl",
-            "ZFBpbl8imAEKDkV2dFJlc3RyaWN0aW9uEj8KEmV2dENvZGVSZXN0cmljdGlv",
-            "bhgBIAEoCzIjLno5LnNwY29yZS5wcm90by5FdnRDb2RlUmVzdHJpY3Rpb24S",
-            "RQoVZ2VuZXJhbERldlJlc3RyaWN0aW9uGAcgASgLMiYuejkuc3Bjb3JlLnBy",
-            "b3RvLkdlbmVyYWxEZXZSZXN0cmljdGlvbiKMAQoLRXZ0U2NoZWRSZWYSDgoE",
-            "dW5pZBgBIAEoBUgAEg4KBG5hbWUYAiABKAlIARIQCgZpbnZlcnQYAyABKAhI",
-            "AhINCgN0YWcYBCABKAlIAxIOCgR1dWlkGAUgASgJSARCBwoFdW5pZF9CBwoF",
-            "bmFtZV9CCQoHaW52ZXJ0X0IGCgR0YWdfQgcKBXV1aWRfIq4DCgNIb2wSEQoH",
-            "dmVyc2lvbhgBIAEoBUgAEg0KA3RhZxgGIAEoCUgBEg4KBHV1aWQYByABKAlI",
-            "AhIOCgRuYW1lGAogASgJSAMSDgoEdW5pZBgMIAEoBUgEEhQKDGhvbFR5cGVz",
-            "VW5pZBgOIAMoBRIVCgthbGxIb2xUeXBlcxgPIAEoCEgFEioKBGRhdGUYECAB",
-            "KAsyHC56OS5zcGNvcmUucHJvdG8uU3FsRGF0ZURhdGESEQoHbnVtRGF5cxgR",
-            "IAEoBUgGEhAKBnJlcGVhdBgSIAEoCEgHEhgKDm51bVllYXJzUmVwZWF0GBMg",
-            "ASgFSAgSGgoQcHJlc2VydmVTY2hlZERheRgUIAEoCEgJEhQKCmhvbENhbFVu",
-            "aWQYFSABKAVICkIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1aWRfQgcKBW5h",
-            "bWVfQgcKBXVuaWRfQg4KDGFsbEhvbFR5cGVzX0IKCghudW1EYXlzX0IJCgdy",
-            "ZXBlYXRfQhEKD251bVllYXJzUmVwZWF0X0ITChFwcmVzZXJ2ZVNjaGVkRGF5",
-            "X0INCgtob2xDYWxVbmlkXyKJAQoGSG9sQ2FsEhEKB3ZlcnNpb24YASABKAVI",
-            "ABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFtZRgKIAEo",
-            "CUgDEg4KBHVuaWQYDCABKAVIBEIKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1",
-            "aWRfQgcKBW5hbWVfQgcKBXVuaWRfIq8BCgdIb2xUeXBlEhEKB3ZlcnNpb24Y",
+            "ZS5wcm90by5EZXZQbGF0Zm9ybUgPEhwKEmV4dGVybmFsRGV2TW9kVGV4dBgk",
+            "IAEoCUgQEhoKEGV4dGVybmFsRGV2TW9kSWQYJSABKAlIERIzCgxkZXZNb2RD",
+            "b25maWcYJiABKAsyHS56OS5zcGNvcmUucHJvdG8uRGV2TW9kQ29uZmlnEikK",
+            "BmRldlVzZRgnIAEoDjIXLno5LnNwY29yZS5wcm90by5EZXZVc2VIEhIcChJw",
+            "aHlzaWNhbFBhcmVudFVuaWQYKSABKAVIExIbChFsb2dpY2FsUGFyZW50VW5p",
+            "ZBgqIAEoBUgUEhIKCHRpbWVab25lGDEgASgJSBUSHwoVaWdub3JlRGF5bGln",
+            "aHRTYXZpbmdzGDIgASgISBYSGwoTbG9naWNhbENoaWxkcmVuVW5pZBg0IAMo",
+            "BRIcChRwaHlzaWNhbENoaWxkcmVuVW5pZBg1IAMoBRIwCgtleHRBY3R1YXRv",
+            "chhkIAEoCzIZLno5LnNwY29yZS5wcm90by5BY3R1YXRvckgXEjQKDWV4dENv",
+            "bnRyb2xsZXIYZyABKAsyGy56OS5zcGNvcmUucHJvdG8uQ29udHJvbGxlckgX",
+            "EjQKDWV4dENyZWRSZWFkZXIYaCABKAsyGy56OS5zcGNvcmUucHJvdG8uQ3Jl",
+            "ZFJlYWRlckgXEigKB2V4dERvb3IYayABKAsyFS56OS5zcGNvcmUucHJvdG8u",
+            "RG9vckgXEiwKCWV4dFNlbnNvchhzIAEoCzIXLno5LnNwY29yZS5wcm90by5T",
+            "ZW5zb3JIF0IKCgh2ZXJzaW9uX0IGCgR0YWdfQgcKBXV1aWRfQgcKBW5hbWVf",
+            "Qg0KC2V4dGVybmFsSWRfQgcKBXVuaWRfQgoKCGFkZHJlc3NfQhEKD2xvZ2lj",
+            "YWxBZGRyZXNzX0INCgttYWNBZGRyZXNzX0IKCghlbmFibGVkX0IHCgVwb3J0",
+            "X0IICgZzcGVlZF9CCgoIZGV2VHlwZV9CDQoLZGV2U3ViVHlwZV9CCQoHZGV2",
+            "TW9kX0IOCgxkZXZQbGF0Zm9ybV9CFQoTZXh0ZXJuYWxEZXZNb2RUZXh0X0IT",
+            "ChFleHRlcm5hbERldk1vZElkX0IJCgdkZXZVc2VfQhUKE3BoeXNpY2FsUGFy",
+            "ZW50VW5pZF9CFAoSbG9naWNhbFBhcmVudFVuaWRfQgsKCXRpbWVab25lX0IY",
+            "ChZpZ25vcmVEYXlsaWdodFNhdmluZ3NfQgsKCWV4dGVuc2lvbiKCAQoMRGV2",
+            "TW9kQ29uZmlnEg4KBHVuaWQYASABKAVIABIRCgd2ZXJzaW9uGAIgASgFSAES",
+            "MQoEdHlwZRgDIAEoDjIhLno5LnNwY29yZS5wcm90by5EZXZNb2RDb25maWdU",
+            "eXBlSAJCBwoFdW5pZF9CCgoIdmVyc2lvbl9CBwoFdHlwZV8iWgoRRGV2TW9k",
+            "UmVzdHJpY3Rpb24SKAoHZGV2TW9kcxgBIAMoDjIXLno5LnNwY29yZS5wcm90",
+            "by5EZXZNb2QSEAoGaW52ZXJ0GAIgASgISABCCQoHaW52ZXJ0XyJmChVEZXZT",
+            "dWJUeXBlUmVzdHJpY3Rpb24SMAoLZGV2U3ViVHlwZXMYASADKA4yGy56OS5z",
+            "cGNvcmUucHJvdG8uRGV2U3ViVHlwZRIQCgZpbnZlcnQYAiABKAhIAEIJCgdp",
+            "bnZlcnRfIl0KEkRldlR5cGVSZXN0cmljdGlvbhIqCghkZXZUeXBlcxgBIAMo",
+            "DjIYLno5LnNwY29yZS5wcm90by5EZXZUeXBlEhAKBmludmVydBgCIAEoCEgA",
+            "QgkKB2ludmVydF8iWgoRRGV2VXNlUmVzdHJpY3Rpb24SKAoHZGV2VXNlcxgB",
+            "IAMoDjIXLno5LnNwY29yZS5wcm90by5EZXZVc2USEAoGaW52ZXJ0GAIgASgI",
+            "SABCCQoHaW52ZXJ0XyJaChJFbmFibGVkUmVzdHJpY3Rpb24SFgoMZW5hYmxl",
+            "ZFZhbHVlGAEgASgISAASEAoGaW52ZXJ0GAIgASgISAFCDwoNZW5hYmxlZFZh",
+            "bHVlX0IJCgdpbnZlcnRfIt4CChVHZW5lcmFsRGV2UmVzdHJpY3Rpb24SPQoR",
+            "ZGV2TW9kUmVzdHJpY3Rpb24YASABKAsyIi56OS5zcGNvcmUucHJvdG8uRGV2",
+            "TW9kUmVzdHJpY3Rpb24SRQoVZGV2U3ViVHlwZVJlc3RyaWN0aW9uGAIgASgL",
+            "MiYuejkuc3Bjb3JlLnByb3RvLkRldlN1YlR5cGVSZXN0cmljdGlvbhI/ChJk",
+            "ZXZUeXBlUmVzdHJpY3Rpb24YAyABKAsyIy56OS5zcGNvcmUucHJvdG8uRGV2",
+            "VHlwZVJlc3RyaWN0aW9uEj0KEWRldlVzZVJlc3RyaWN0aW9uGAQgASgLMiIu",
+            "ejkuc3Bjb3JlLnByb3RvLkRldlVzZVJlc3RyaWN0aW9uEj8KEmVuYWJsZWRS",
+            "ZXN0cmljdGlvbhgOIAEoCzIjLno5LnNwY29yZS5wcm90by5FbmFibGVkUmVz",
+            "dHJpY3Rpb24iRwoWU3BlY2lmaWNEZXZSZXN0cmljdGlvbhIQCghkZXZzVW5p",
+            "ZBgBIAMoBRIQCgZpbnZlcnQYAiABKAhIAEIJCgdpbnZlcnRfIqwCCg9EZXZB",
+            "Y3Rpb25QYXJhbXMSDgoEdW5pZBgBIAEoBUgAEjQKBHR5cGUYAyABKA4yJC56",
+            "OS5zcGNvcmUucHJvdG8uRGV2QWN0aW9uUGFyYW1zVHlwZUgBEk4KGmV4dERv",
+            "b3JNb2RlRGV2QWN0aW9uUGFyYW1zGGogASgLMiguejkuc3Bjb3JlLnByb3Rv",
+            "LkRvb3JNb2RlRGV2QWN0aW9uUGFyYW1zSAISZAolZXh0RG9vck1vbWVudGFy",
+            "eVVubG9ja0RldkFjdGlvblBhcmFtcxhrIAEoCzIzLno5LnNwY29yZS5wcm90",
+            "by5Eb29yTW9tZW50YXJ5VW5sb2NrRGV2QWN0aW9uUGFyYW1zSAJCBwoFdW5p",
+            "ZF9CBwoFdHlwZV9CCwoJZXh0ZW5zaW9uInMKF0Rvb3JNb2RlRGV2QWN0aW9u",
+            "UGFyYW1zEhgKDnJlc2V0VG9EZWZhdWx0GAEgASgISAASKwoIZG9vck1vZGUY",
+            "AiABKAsyGS56OS5zcGNvcmUucHJvdG8uRG9vck1vZGVCEQoPcmVzZXRUb0Rl",
+            "ZmF1bHRfIiQKIkRvb3JNb21lbnRhcnlVbmxvY2tEZXZBY3Rpb25QYXJhbXMi",
+            "6gQKDkRldkFzcGVjdFN0YXRlEg4KBHVuaWQYASABKAVIABIvCglkZXZBc3Bl",
+            "Y3QYAiABKA4yGi56OS5zcGNvcmUucHJvdG8uRGV2QXNwZWN0SAESLQoGaHdU",
+            "aW1lGAMgASgLMh0uejkuc3Bjb3JlLnByb3RvLkRhdGVUaW1lRGF0YRItCgZk",
+            "YlRpbWUYBCABKAsyHS56OS5zcGNvcmUucHJvdG8uRGF0ZVRpbWVEYXRhEi8K",
+            "CWNvbW1TdGF0ZRgQIAEoDjIaLno5LnNwY29yZS5wcm90by5Db21tU3RhdGVI",
+            "AhIYCg5jb21tU3RhdGVTdGFsZRgRIAEoCEgDEjcKDWFjdGl2aXR5U3RhdGUY",
+            "KiABKA4yHi56OS5zcGNvcmUucHJvdG8uQWN0aXZpdHlTdGF0ZUgEEhwKEmFj",
+            "dGl2aXR5U3RhdGVTdGFsZRgrIAEoCEgFEisKCGRvb3JNb2RlGCwgASgLMhku",
+            "ejkuc3Bjb3JlLnByb3RvLkRvb3JNb2RlEhcKDWRvb3JNb2RlU3RhbGUYLSAB",
+            "KAhIBhIXCg1leHRlcm5hbFN0YXRlGDQgASgJSAcSHAoSZXh0ZXJuYWxTdGF0",
+            "ZVN0YWxlGDUgASgISAhCBwoFdW5pZF9CDAoKZGV2QXNwZWN0X0IMCgpjb21t",
+            "U3RhdGVfQhEKD2NvbW1TdGF0ZVN0YWxlX0IQCg5hY3Rpdml0eVN0YXRlX0IV",
+            "ChNhY3Rpdml0eVN0YXRlU3RhbGVfQhAKDmRvb3JNb2RlU3RhbGVfQhAKDmV4",
+            "dGVybmFsU3RhdGVfQhUKE2V4dGVybmFsU3RhdGVTdGFsZV8i7wEKCERldlN0",
+            "YXRlElEKD2RldkFzcGVjdFN0YXRlcxgBIAMoCzI4Lno5LnNwY29yZS5wcm90",
+            "by5EZXZTdGF0ZS5EZXZBc3BlY3RfRGV2QXNwZWN0U3RhdGVfRW50cnkajwEK",
+            "HkRldkFzcGVjdF9EZXZBc3BlY3RTdGF0ZV9FbnRyeRIpCgNrZXkYASABKA4y",
+            "Gi56OS5zcGNvcmUucHJvdG8uRGV2QXNwZWN0SAASMAoFdmFsdWUYAiABKAsy",
+            "Hy56OS5zcGNvcmUucHJvdG8uRGV2QXNwZWN0U3RhdGVIAUIGCgRrZXlfQggK",
+            "BnZhbHVlXyJ1Cg5EZXZTdGF0ZVJlY29yZBIOCgR1bmlkGAEgASgFSAASEQoH",
+            "ZGV2VW5pZBgCIAEoBUgBEisKCGRldlN0YXRlGAMgASgLMhkuejkuc3Bjb3Jl",
+            "LnByb3RvLkRldlN0YXRlQgcKBXVuaWRfQgoKCGRldlVuaWRfIkMKCEFjdHVh",
+            "dG9yEjcKDmFjdHVhdG9yQ29uZmlnGAEgASgLMh8uejkuc3Bjb3JlLnByb3Rv",
+            "LkFjdHVhdG9yQ29uZmlnIpEDCg5BY3R1YXRvckNvbmZpZxIRCgd2ZXJzaW9u",
+            "GAEgASgFSAASEgoIdXNlcm5hbWUYAiABKAlIARISCghwYXNzd29yZBgDIAEo",
+            "CUgCEiAKFmRldkluaXRpYXRlc0Nvbm5lY3Rpb24YBCABKAhIAxIOCgR1bmlk",
+            "GAUgASgFSAQSEAoGaW52ZXJ0GAYgASgISAUSHgoUZW5jcnlwdGlvbktleVJl",
+            "ZlVuaWQYDiABKAVIBhIiChhlbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWQYDyAB",
+            "KAVIBxIbChFkaXNhYmxlRW5jcnlwdGlvbhgQIAEoCEgIQgoKCHZlcnNpb25f",
+            "QgsKCXVzZXJuYW1lX0ILCglwYXNzd29yZF9CGQoXZGV2SW5pdGlhdGVzQ29u",
+            "bmVjdGlvbl9CBwoFdW5pZF9CCQoHaW52ZXJ0X0IXChVlbmNyeXB0aW9uS2V5",
+            "UmVmVW5pZF9CGwoZZW5jcnlwdGlvbktleVJlZk5leHRVbmlkX0IUChJkaXNh",
+            "YmxlRW5jcnlwdGlvbl8iSQoKQ29udHJvbGxlchI7ChBjb250cm9sbGVyQ29u",
+            "ZmlnGAEgASgLMiEuejkuc3Bjb3JlLnByb3RvLkNvbnRyb2xsZXJDb25maWci",
+            "9gIKEENvbnRyb2xsZXJDb25maWcSEQoHdmVyc2lvbhgBIAEoBUgAEhIKCHVz",
+            "ZXJuYW1lGAIgASgJSAESEgoIcGFzc3dvcmQYAyABKAlIAhIgChZkZXZJbml0",
+            "aWF0ZXNDb25uZWN0aW9uGAQgASgISAMSDgoEdW5pZBgFIAEoBUgEEh4KFGVu",
+            "Y3J5cHRpb25LZXlSZWZVbmlkGAsgASgFSAUSIgoYZW5jcnlwdGlvbktleVJl",
+            "Zk5leHRVbmlkGAwgASgFSAYSGwoRZGlzYWJsZUVuY3J5cHRpb24YDSABKAhI",
+            "B0IKCgh2ZXJzaW9uX0ILCgl1c2VybmFtZV9CCwoJcGFzc3dvcmRfQhkKF2Rl",
+            "dkluaXRpYXRlc0Nvbm5lY3Rpb25fQgcKBXVuaWRfQhcKFWVuY3J5cHRpb25L",
+            "ZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRp",
+            "c2FibGVFbmNyeXB0aW9uXyJJCgpDcmVkUmVhZGVyEjsKEGNyZWRSZWFkZXJD",
+            "b25maWcYASABKAsyIS56OS5zcGNvcmUucHJvdG8uQ3JlZFJlYWRlckNvbmZp",
+            "ZyL+BAoQQ3JlZFJlYWRlckNvbmZpZxIRCgd2ZXJzaW9uGAEgASgFSAASEgoI",
+            "dXNlcm5hbWUYAiABKAlIARISCghwYXNzd29yZBgDIAEoCUgCEiAKFmRldklu",
+            "aXRpYXRlc0Nvbm5lY3Rpb24YBCABKAhIAxIOCgR1bmlkGAUgASgFSAQSNwoI",
+            "Y29tbVR5cGUYBiABKA4yIy56OS5zcGNvcmUucHJvdG8uQ3JlZFJlYWRlckNv",
+            "bW1UeXBlSAUSOwoKdGFtcGVyVHlwZRgHIAEoDjIlLno5LnNwY29yZS5wcm90",
+            "by5DcmVkUmVhZGVyVGFtcGVyVHlwZUgGEjUKB2xlZFR5cGUYCyABKA4yIi56",
+            "OS5zcGNvcmUucHJvdG8uQ3JlZFJlYWRlckxlZFR5cGVIBxIeChRlbmNyeXB0",
+            "aW9uS2V5UmVmVW5pZBgTIAEoBUgIEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0",
+            "VW5pZBgUIAEoBUgJEhsKEXNlcmlhbFBvcnRBZGRyZXNzGBUgASgJSAoSGwoR",
+            "ZGlzYWJsZUVuY3J5cHRpb24YFiABKAhIC0IKCgh2ZXJzaW9uX0ILCgl1c2Vy",
+            "bmFtZV9CCwoJcGFzc3dvcmRfQhkKF2RldkluaXRpYXRlc0Nvbm5lY3Rpb25f",
+            "QgcKBXVuaWRfQgsKCWNvbW1UeXBlX0INCgt0YW1wZXJUeXBlX0IKCghsZWRU",
+            "eXBlX0IXChVlbmNyeXB0aW9uS2V5UmVmVW5pZF9CGwoZZW5jcnlwdGlvbktl",
+            "eVJlZk5leHRVbmlkX0IUChJzZXJpYWxQb3J0QWRkcmVzc19CFAoSZGlzYWJs",
+            "ZUVuY3J5cHRpb25fIjcKBERvb3ISLwoKZG9vckNvbmZpZxgBIAEoCzIbLno5",
+            "LnNwY29yZS5wcm90by5Eb29yQ29uZmlnIu4ECgpEb29yQ29uZmlnEhEKB3Zl",
+            "cnNpb24YASABKAVIABISCgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3b3Jk",
+            "GAMgASgJSAISIAoWZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEjIK",
+            "D2RlZmF1bHREb29yTW9kZRgGIAEoCzIZLno5LnNwY29yZS5wcm90by5Eb29y",
+            "TW9kZRIdChNhY3RpdmF0ZVN0cmlrZU9uUmV4GAsgASgISAQSFAoKc3RyaWtl",
+            "VGltZRgOIAEoBUgFEhwKEmV4dGVuZGVkU3RyaWtlVGltZRgPIAEoBUgGEhIK",
+            "CGhlbGRUaW1lGBAgASgFSAcSGgoQZXh0ZW5kZWRIZWxkVGltZRgRIAEoBUgI",
+            "Eh4KFGVuY3J5cHRpb25LZXlSZWZVbmlkGC8gASgFSAkSIgoYZW5jcnlwdGlv",
+            "bktleVJlZk5leHRVbmlkGDAgASgFSAoSGwoRZGlzYWJsZUVuY3J5cHRpb24Y",
+            "MyABKAhIC0IKCgh2ZXJzaW9uX0ILCgl1c2VybmFtZV9CCwoJcGFzc3dvcmRf",
+            "QhkKF2RldkluaXRpYXRlc0Nvbm5lY3Rpb25fQhYKFGFjdGl2YXRlU3RyaWtl",
+            "T25SZXhfQg0KC3N0cmlrZVRpbWVfQhUKE2V4dGVuZGVkU3RyaWtlVGltZV9C",
+            "CwoJaGVsZFRpbWVfQhMKEWV4dGVuZGVkSGVsZFRpbWVfQhcKFWVuY3J5cHRp",
+            "b25LZXlSZWZVbmlkX0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQK",
+            "EmRpc2FibGVFbmNyeXB0aW9uXyLwAQoIRG9vck1vZGUSOwoLc3RhdGljU3Rh",
+            "dGUYASABKA4yJC56OS5zcGNvcmUucHJvdG8uRG9vck1vZGVTdGF0aWNTdGF0",
+            "ZUgAEhgKDmFsbG93VW5pcXVlUGluGAIgASgISAESEwoJYWxsb3dDYXJkGAMg",
+            "ASgISAISJgoccmVxdWlyZUNvbmZpcm1pbmdQaW5XaXRoQ2FyZBgEIAEoCEgD",
+            "Qg4KDHN0YXRpY1N0YXRlX0IRCg9hbGxvd1VuaXF1ZVBpbl9CDAoKYWxsb3dD",
+            "YXJkX0IfCh1yZXF1aXJlQ29uZmlybWluZ1BpbldpdGhDYXJkXyI9CgZTZW5z",
+            "b3ISMwoMc2Vuc29yQ29uZmlnGAEgASgLMh0uejkuc3Bjb3JlLnByb3RvLlNl",
+            "bnNvckNvbmZpZyKPAwoMU2Vuc29yQ29uZmlnEhEKB3ZlcnNpb24YASABKAVI",
+            "ABISCgh1c2VybmFtZRgCIAEoCUgBEhIKCHBhc3N3b3JkGAMgASgJSAISIAoW",
+            "ZGV2SW5pdGlhdGVzQ29ubmVjdGlvbhgEIAEoCEgDEg4KBHVuaWQYBSABKAVI",
+            "BBIQCgZpbnZlcnQYCCABKAhIBRIeChRlbmNyeXB0aW9uS2V5UmVmVW5pZBgW",
+            "IAEoBUgGEiIKGGVuY3J5cHRpb25LZXlSZWZOZXh0VW5pZBgXIAEoBUgHEhsK",
+            "EWRpc2FibGVFbmNyeXB0aW9uGBggASgISAhCCgoIdmVyc2lvbl9CCwoJdXNl",
+            "cm5hbWVfQgsKCXBhc3N3b3JkX0IZChdkZXZJbml0aWF0ZXNDb25uZWN0aW9u",
+            "X0IHCgV1bmlkX0IJCgdpbnZlcnRfQhcKFWVuY3J5cHRpb25LZXlSZWZVbmlk",
+            "X0IbChllbmNyeXB0aW9uS2V5UmVmTmV4dFVuaWRfQhQKEmRpc2FibGVFbmNy",
+            "eXB0aW9uXyLiBgoDRXZ0Eg4KBHVuaWQYASABKANIABItCgZod1RpbWUYAiAB",
+            "KAsyHS56OS5zcGNvcmUucHJvdG8uRGF0ZVRpbWVEYXRhEi0KBmRiVGltZRgD",
+            "IAEoCzIdLno5LnNwY29yZS5wcm90by5EYXRlVGltZURhdGESFAoKaHdUaW1l",
+            "Wm9uZRgGIAEoCUgBEisKB2V2dENvZGUYByABKA4yGC56OS5zcGNvcmUucHJv",
+            "dG8uRXZ0Q29kZUgCEh0KE2V4dGVybmFsRXZ0Q29kZVRleHQYCCABKAlIAxIb",
+            "ChFleHRlcm5hbEV2dENvZGVJZBgJIAEoCUgEEjEKCmV2dFN1YkNvZGUYCiAB",
+            "KA4yGy56OS5zcGNvcmUucHJvdG8uRXZ0U3ViQ29kZUgFEh0KE2V4dGVybmFs",
+            "U3ViQ29kZVRleHQYCyABKAlIBhIbChFleHRlcm5hbFN1YkNvZGVJZBgMIAEo",
+            "CUgHEjMKDGV2dE1vZGlmaWVycxgNIAEoCzIdLno5LnNwY29yZS5wcm90by5F",
+            "dnRNb2RpZmllcnMSEgoIcHJpb3JpdHkYDiABKAVICBIOCgRkYXRhGBQgASgJ",
+            "SAkSLQoJZXZ0RGV2UmVmGBkgASgLMhouejkuc3Bjb3JlLnByb3RvLkV2dERl",
+            "dlJlZhI0ChBldnRDb250cm9sbGVyUmVmGBogASgLMhouejkuc3Bjb3JlLnBy",
+            "b3RvLkV2dERldlJlZhIvCgpldnRDcmVkUmVmGB4gASgLMhsuejkuc3Bjb3Jl",
+            "LnByb3RvLkV2dENyZWRSZWYSMQoLZXZ0U2NoZWRSZWYYIiABKAsyHC56OS5z",
+            "cGNvcmUucHJvdG8uRXZ0U2NoZWRSZWYSEgoIY29uc3VtZWQYLiABKAhIChIO",
+            "CgR1dWlkGDIgASgJSAtCBwoFdW5pZF9CDQoLaHdUaW1lWm9uZV9CCgoIZXZ0",
+            "Q29kZV9CFgoUZXh0ZXJuYWxFdnRDb2RlVGV4dF9CFAoSZXh0ZXJuYWxFdnRD",
+            "b2RlSWRfQg0KC2V2dFN1YkNvZGVfQhYKFGV4dGVybmFsU3ViQ29kZVRleHRf",
+            "QhQKEmV4dGVybmFsU3ViQ29kZUlkX0ILCglwcmlvcml0eV9CBwoFZGF0YV9C",
+            "CwoJY29uc3VtZWRfQgcKBXV1aWRfIoQBChJFdnRDb2RlUmVzdHJpY3Rpb24S",
+            "KgoIZXZ0Q29kZXMYASADKA4yGC56OS5zcGNvcmUucHJvdG8uRXZ0Q29kZRIQ",
+            "CgZpbnZlcnQYAiABKAhIABIVCgtlbXB0eUlzTm9uZRgDIAEoCEgBQgkKB2lu",
+            "dmVydF9CDgoMZW1wdHlJc05vbmVfIocCCgpFdnRDcmVkUmVmEg4KBHVuaWQY",
+            "ASABKAVIABI8Cg9jcmVkVGVtcGxhdGVSZWYYAiABKAsyIy56OS5zcGNvcmUu",
+            "cHJvdG8uRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBG5hbWUYBiABKAlIARIwCgdj",
+            "cmVkTnVtGAcgASgLMh8uejkuc3Bjb3JlLnByb3RvLkJpZ0ludGVnZXJEYXRh",
+            "EhYKDGZhY2lsaXR5Q29kZRgIIAEoBUgCEg0KA3RhZxgLIAEoCUgDEg4KBHV1",
+            "aWQYDCABKAlIBEIHCgV1bmlkX0IHCgVuYW1lX0IPCg1mYWNpbGl0eUNvZGVf",
+            "QgYKBHRhZ19CBwoFdXVpZF8idgoSRXZ0Q3JlZFRlbXBsYXRlUmVmEg4KBHVu",
+            "aWQYASABKAVIABIOCgRuYW1lGAIgASgJSAESDQoDdGFnGAMgASgJSAISDgoE",
+            "dXVpZBgEIAEoCUgDQgcKBXVuaWRfQgcKBW5hbWVfQgYKBHRhZ19CBwoFdXVp",
+            "ZF8i2gUKCUV2dERldlJlZhIOCgR1bmlkGAEgASgFSAASDgoEbmFtZRgCIAEo",
+            "CUgBEhEKB2FkZHJlc3MYAyABKAlIAhIYCg5sb2dpY2FsQWRkcmVzcxgEIAEo",
+            "BUgDEjMKC2RldlBsYXRmb3JtGAUgASgOMhwuejkuc3Bjb3JlLnByb3RvLkRl",
+            "dlBsYXRmb3JtSAQSKwoHZGV2VHlwZRgGIAEoDjIYLno5LnNwY29yZS5wcm90",
+            "by5EZXZUeXBlSAUSHQoTZXh0ZXJuYWxEZXZUeXBlVGV4dBgHIAEoCUgGEhsK",
+            "EWV4dGVybmFsRGV2VHlwZUlkGAggASgJSAcSMQoKZGV2U3ViVHlwZRgJIAEo",
+            "DjIbLno5LnNwY29yZS5wcm90by5EZXZTdWJUeXBlSAgSKQoGZGV2TW9kGAog",
+            "ASgOMhcuejkuc3Bjb3JlLnByb3RvLkRldk1vZEgJEhwKEmV4dGVybmFsRGV2",
+            "TW9kVGV4dBgMIAEoCUgKEhoKEGV4dGVybmFsRGV2TW9kSWQYDSABKAlICxIp",
+            "CgZkZXZVc2UYDiABKA4yFy56OS5zcGNvcmUucHJvdG8uRGV2VXNlSAwSDQoD",
+            "dGFnGBAgASgJSA0SDgoEdXVpZBgRIAEoCUgOEhQKCmV4dGVybmFsSWQYEiAB",
+            "KAlID0IHCgV1bmlkX0IHCgVuYW1lX0IKCghhZGRyZXNzX0IRCg9sb2dpY2Fs",
+            "QWRkcmVzc19CDgoMZGV2UGxhdGZvcm1fQgoKCGRldlR5cGVfQhYKFGV4dGVy",
+            "bmFsRGV2VHlwZVRleHRfQhQKEmV4dGVybmFsRGV2VHlwZUlkX0INCgtkZXZT",
+            "dWJUeXBlX0IJCgdkZXZNb2RfQhUKE2V4dGVybmFsRGV2TW9kVGV4dF9CEwoR",
+            "ZXh0ZXJuYWxEZXZNb2RJZF9CCQoHZGV2VXNlX0IGCgR0YWdfQgcKBXV1aWRf",
+            "Qg0KC2V4dGVybmFsSWRfIn8KDEV2dE1vZGlmaWVycxIaChBpbmFjY3VyYXRl",
+            "SHdUaW1lGAsgASgISAASEgoIdXNlZENhcmQYDSABKAhIARIRCgd1c2VkUGlu",
+            "GA4gASgISAJCEwoRaW5hY2N1cmF0ZUh3VGltZV9CCwoJdXNlZENhcmRfQgoK",
+            "CHVzZWRQaW5fIpgBCg5FdnRSZXN0cmljdGlvbhI/ChJldnRDb2RlUmVzdHJp",
+            "Y3Rpb24YASABKAsyIy56OS5zcGNvcmUucHJvdG8uRXZ0Q29kZVJlc3RyaWN0",
+            "aW9uEkUKFWdlbmVyYWxEZXZSZXN0cmljdGlvbhgHIAEoCzImLno5LnNwY29y",
+            "ZS5wcm90by5HZW5lcmFsRGV2UmVzdHJpY3Rpb24ijAEKC0V2dFNjaGVkUmVm",
+            "Eg4KBHVuaWQYASABKAVIABIOCgRuYW1lGAIgASgJSAESEAoGaW52ZXJ0GAMg",
+            "ASgISAISDQoDdGFnGAQgASgJSAMSDgoEdXVpZBgFIAEoCUgEQgcKBXVuaWRf",
+            "QgcKBW5hbWVfQgkKB2ludmVydF9CBgoEdGFnX0IHCgV1dWlkXyKuAwoDSG9s",
+            "EhEKB3ZlcnNpb24YASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcg",
+            "ASgJSAISDgoEbmFtZRgKIAEoCUgDEg4KBHVuaWQYDCABKAVIBBIUCgxob2xU",
+            "eXBlc1VuaWQYDiADKAUSFQoLYWxsSG9sVHlwZXMYDyABKAhIBRIqCgRkYXRl",
+            "GBAgASgLMhwuejkuc3Bjb3JlLnByb3RvLlNxbERhdGVEYXRhEhEKB251bURh",
+            "eXMYESABKAVIBhIQCgZyZXBlYXQYEiABKAhIBxIYCg5udW1ZZWFyc1JlcGVh",
+            "dBgTIAEoBUgIEhoKEHByZXNlcnZlU2NoZWREYXkYFCABKAhICRIUCgpob2xD",
+            "YWxVbmlkGBUgASgFSApCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IH",
+            "CgVuYW1lX0IHCgV1bmlkX0IOCgxhbGxIb2xUeXBlc19CCgoIbnVtRGF5c19C",
+            "CQoHcmVwZWF0X0IRCg9udW1ZZWFyc1JlcGVhdF9CEwoRcHJlc2VydmVTY2hl",
+            "ZERheV9CDQoLaG9sQ2FsVW5pZF8iiQEKBkhvbENhbBIRCgd2ZXJzaW9uGAEg",
+            "ASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgCEg4KBG5hbWUY",
+            "CiABKAlIAxIOCgR1bmlkGAwgASgFSARCCgoIdmVyc2lvbl9CBgoEdGFnX0IH",
+            "CgV1dWlkX0IHCgVuYW1lX0IHCgV1bmlkXyKvAQoHSG9sVHlwZRIRCgd2ZXJz",
+            "aW9uGAEgASgFSAASDQoDdGFnGAYgASgJSAESDgoEdXVpZBgHIAEoCUgCEg4K",
+            "BG5hbWUYCiABKAlIAxIUCgpleHRlcm5hbElkGA0gASgJSAQSDgoEdW5pZBgO",
+            "IAEoBUgFQgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9C",
+            "DQoLZXh0ZXJuYWxJZF9CBwoFdW5pZF8i3gEKBVNjaGVkEhEKB3ZlcnNpb24Y",
             "ASABKAVIABINCgN0YWcYBiABKAlIARIOCgR1dWlkGAcgASgJSAISDgoEbmFt",
             "ZRgKIAEoCUgDEhQKCmV4dGVybmFsSWQYDSABKAlIBBIOCgR1bmlkGA4gASgF",
-            "SAVCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0INCgtl",
-            "eHRlcm5hbElkX0IHCgV1bmlkXyLeAQoFU2NoZWQSEQoHdmVyc2lvbhgBIAEo",
-            "BUgAEg0KA3RhZxgGIAEoCUgBEg4KBHV1aWQYByABKAlIAhIOCgRuYW1lGAog",
-            "ASgJSAMSFAoKZXh0ZXJuYWxJZBgNIAEoCUgEEg4KBHVuaWQYDiABKAVIBRIv",
-            "CghlbGVtZW50cxgQIAMoCzIdLno5LnNwY29yZS5wcm90by5TY2hlZEVsZW1l",
-            "bnRCCgoIdmVyc2lvbl9CBgoEdGFnX0IHCgV1dWlkX0IHCgVuYW1lX0INCgtl",
-            "eHRlcm5hbElkX0IHCgV1bmlkXyKGAgoMU2NoZWRFbGVtZW50Eg4KBHVuaWQY",
-            "ASABKAVIABIsCglzY2hlZERheXMYAiADKA4yGS56OS5zcGNvcmUucHJvdG8u",
-            "U2NoZWREYXkSEgoIaG9saWRheXMYAyABKAhIARIUCgxob2xUeXBlc1VuaWQY",
-            "BCADKAUSKwoFc3RhcnQYBSABKAsyHC56OS5zcGNvcmUucHJvdG8uU3FsVGlt",
-            "ZURhdGESKgoEc3RvcBgGIAEoCzIcLno5LnNwY29yZS5wcm90by5TcWxUaW1l",
-            "RGF0YRISCghwbHVzRGF5cxgHIAEoBUgCQgcKBXVuaWRfQgsKCWhvbGlkYXlz",
-            "X0ILCglwbHVzRGF5c18iUgoQU2NoZWRSZXN0cmljdGlvbhITCglzY2hlZFVu",
-            "aWQYASABKAVIABIQCgZpbnZlcnQYAiABKAhIAUIMCgpzY2hlZFVuaWRfQgkK",
-            "B2ludmVydF9CAkgDYgZwcm90bzM="));
+            "SAUSLwoIZWxlbWVudHMYECADKAsyHS56OS5zcGNvcmUucHJvdG8uU2NoZWRF",
+            "bGVtZW50QgoKCHZlcnNpb25fQgYKBHRhZ19CBwoFdXVpZF9CBwoFbmFtZV9C",
+            "DQoLZXh0ZXJuYWxJZF9CBwoFdW5pZF8ihgIKDFNjaGVkRWxlbWVudBIOCgR1",
+            "bmlkGAEgASgFSAASLAoJc2NoZWREYXlzGAIgAygOMhkuejkuc3Bjb3JlLnBy",
+            "b3RvLlNjaGVkRGF5EhIKCGhvbGlkYXlzGAMgASgISAESFAoMaG9sVHlwZXNV",
+            "bmlkGAQgAygFEisKBXN0YXJ0GAUgASgLMhwuejkuc3Bjb3JlLnByb3RvLlNx",
+            "bFRpbWVEYXRhEioKBHN0b3AYBiABKAsyHC56OS5zcGNvcmUucHJvdG8uU3Fs",
+            "VGltZURhdGESEgoIcGx1c0RheXMYByABKAVIAkIHCgV1bmlkX0ILCglob2xp",
+            "ZGF5c19CCwoJcGx1c0RheXNfIlIKEFNjaGVkUmVzdHJpY3Rpb24SEwoJc2No",
+            "ZWRVbmlkGAEgASgFSAASEAoGaW52ZXJ0GAIgASgISAFCDAoKc2NoZWRVbmlk",
+            "X0IJCgdpbnZlcnRfQgJIA2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Z9.Spcore.Proto.SpCoreProtoElementsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoEnumsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -359,7 +383,7 @@ namespace Z9.Spcore.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorAccessPriv), global::Z9.Spcore.Proto.DoorAccessPriv.Parser, new[]{ "Elements" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorAccessPrivElement), global::Z9.Spcore.Proto.DoorAccessPrivElement.Parser, new[]{ "Unid", "DoorUnid", "SchedRestriction" }, new[]{ "Unid", "DoorUnid" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Priv), global::Z9.Spcore.Proto.Priv.Parser, new[]{ "Version", "Tag", "Uuid", "Name", "Unid", "Enabled", "PrivType", "ExternalId", "ExtDoorAccessPriv" }, new[]{ "Version", "Tag", "Uuid", "Name", "Unid", "Enabled", "PrivType", "ExternalId", "Extension" }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Dev), global::Z9.Spcore.Proto.Dev.Parser, new[]{ "Version", "Tag", "Uuid", "Name", "ExternalId", "Unid", "Address", "LogicalAddress", "MacAddress", "Enabled", "Port", "Speed", "DevType", "DevSubType", "DevMod", "DevPlatform", "DevModConfig", "DevUse", "PhysicalParentUnid", "LogicalParentUnid", "TimeZone", "IgnoreDaylightSavings", "LogicalChildrenUnid", "PhysicalChildrenUnid", "ExtActuator", "ExtController", "ExtCredReader", "ExtDoor", "ExtSensor" }, new[]{ "Version", "Tag", "Uuid", "Name", "ExternalId", "Unid", "Address", "LogicalAddress", "MacAddress", "Enabled", "Port", "Speed", "DevType", "DevSubType", "DevMod", "DevPlatform", "DevUse", "PhysicalParentUnid", "LogicalParentUnid", "TimeZone", "IgnoreDaylightSavings", "Extension" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Dev), global::Z9.Spcore.Proto.Dev.Parser, new[]{ "Version", "Tag", "Uuid", "Name", "ExternalId", "Unid", "Address", "LogicalAddress", "MacAddress", "Enabled", "Port", "Speed", "DevType", "DevSubType", "DevMod", "DevPlatform", "ExternalDevModText", "ExternalDevModId", "DevModConfig", "DevUse", "PhysicalParentUnid", "LogicalParentUnid", "TimeZone", "IgnoreDaylightSavings", "LogicalChildrenUnid", "PhysicalChildrenUnid", "ExtActuator", "ExtController", "ExtCredReader", "ExtDoor", "ExtSensor" }, new[]{ "Version", "Tag", "Uuid", "Name", "ExternalId", "Unid", "Address", "LogicalAddress", "MacAddress", "Enabled", "Port", "Speed", "DevType", "DevSubType", "DevMod", "DevPlatform", "ExternalDevModText", "ExternalDevModId", "DevUse", "PhysicalParentUnid", "LogicalParentUnid", "TimeZone", "IgnoreDaylightSavings", "Extension" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevModConfig), global::Z9.Spcore.Proto.DevModConfig.Parser, new[]{ "Unid", "Version", "Type" }, new[]{ "Unid", "Version", "Type" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevModRestriction), global::Z9.Spcore.Proto.DevModRestriction.Parser, new[]{ "DevMods", "Invert" }, new[]{ "Invert" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevSubTypeRestriction), global::Z9.Spcore.Proto.DevSubTypeRestriction.Parser, new[]{ "DevSubTypes", "Invert" }, new[]{ "Invert" }, null, null),
@@ -371,6 +395,9 @@ namespace Z9.Spcore.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevActionParams), global::Z9.Spcore.Proto.DevActionParams.Parser, new[]{ "Unid", "Type", "ExtDoorModeDevActionParams", "ExtDoorMomentaryUnlockDevActionParams" }, new[]{ "Unid", "Type", "Extension" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorModeDevActionParams), global::Z9.Spcore.Proto.DoorModeDevActionParams.Parser, new[]{ "ResetToDefault", "DoorMode" }, new[]{ "ResetToDefault" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DoorMomentaryUnlockDevActionParams), global::Z9.Spcore.Proto.DoorMomentaryUnlockDevActionParams.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevAspectState), global::Z9.Spcore.Proto.DevAspectState.Parser, new[]{ "Unid", "DevAspect", "HwTime", "DbTime", "CommState", "CommStateStale", "ActivityState", "ActivityStateStale", "DoorMode", "DoorModeStale", "ExternalState", "ExternalStateStale" }, new[]{ "Unid", "DevAspect", "CommState", "CommStateStale", "ActivityState", "ActivityStateStale", "DoorModeStale", "ExternalState", "ExternalStateStale" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevState), global::Z9.Spcore.Proto.DevState.Parser, new[]{ "DevAspectStates" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry), global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry.Parser, new[]{ "Key", "Value" }, new[]{ "Key", "Value" }, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevStateRecord), global::Z9.Spcore.Proto.DevStateRecord.Parser, new[]{ "Unid", "DevUnid", "DevState" }, new[]{ "Unid", "DevUnid" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Actuator), global::Z9.Spcore.Proto.Actuator.Parser, new[]{ "ActuatorConfig" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.ActuatorConfig), global::Z9.Spcore.Proto.ActuatorConfig.Parser, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, new[]{ "Version", "Username", "Password", "DevInitiatesConnection", "Unid", "Invert", "EncryptionKeyRefUnid", "EncryptionKeyRefNextUnid", "DisableEncryption" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Controller), global::Z9.Spcore.Proto.Controller.Parser, new[]{ "ControllerConfig" }, null, null, null),
@@ -7705,6 +7732,18 @@ namespace Z9.Spcore.Proto {
           break;
       }
 
+      switch (other.ExternalDevModTextCase) {
+        case ExternalDevModTextOneofCase.ExternalDevModText:
+          ExternalDevModText = other.ExternalDevModText;
+          break;
+      }
+
+      switch (other.ExternalDevModIdCase) {
+        case ExternalDevModIdOneofCase.ExternalDevModId:
+          ExternalDevModId = other.ExternalDevModId;
+          break;
+      }
+
       switch (other.DevUseCase) {
         case DevUseOneofCase.DevUse:
           DevUse = other.DevUse;
@@ -7933,6 +7972,28 @@ namespace Z9.Spcore.Proto {
       set {
         devPlatform_ = value;
         devPlatformCase_ = DevPlatformOneofCase.DevPlatform;
+      }
+    }
+
+    /// <summary>Field number for the "externalDevModText" field.</summary>
+    public const int ExternalDevModTextFieldNumber = 36;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ExternalDevModText {
+      get { return externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText ? (string) externalDevModText_ : ""; }
+      set {
+        externalDevModText_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        externalDevModTextCase_ = ExternalDevModTextOneofCase.ExternalDevModText;
+      }
+    }
+
+    /// <summary>Field number for the "externalDevModId" field.</summary>
+    public const int ExternalDevModIdFieldNumber = 37;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ExternalDevModId {
+      get { return externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId ? (string) externalDevModId_ : ""; }
+      set {
+        externalDevModId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        externalDevModIdCase_ = ExternalDevModIdOneofCase.ExternalDevModId;
       }
     }
 
@@ -8374,6 +8435,42 @@ namespace Z9.Spcore.Proto {
       devPlatform_ = null;
     }
 
+    private object externalDevModText_;
+    /// <summary>Enum of possible cases for the "externalDevModText_" oneof.</summary>
+    public enum ExternalDevModTextOneofCase {
+      None = 0,
+      ExternalDevModText = 36,
+    }
+    private ExternalDevModTextOneofCase externalDevModTextCase_ = ExternalDevModTextOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExternalDevModTextOneofCase ExternalDevModTextCase {
+      get { return externalDevModTextCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExternalDevModText() {
+      externalDevModTextCase_ = ExternalDevModTextOneofCase.None;
+      externalDevModText_ = null;
+    }
+
+    private object externalDevModId_;
+    /// <summary>Enum of possible cases for the "externalDevModId_" oneof.</summary>
+    public enum ExternalDevModIdOneofCase {
+      None = 0,
+      ExternalDevModId = 37,
+    }
+    private ExternalDevModIdOneofCase externalDevModIdCase_ = ExternalDevModIdOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExternalDevModIdOneofCase ExternalDevModIdCase {
+      get { return externalDevModIdCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExternalDevModId() {
+      externalDevModIdCase_ = ExternalDevModIdOneofCase.None;
+      externalDevModId_ = null;
+    }
+
     private object devUse_;
     /// <summary>Enum of possible cases for the "devUse_" oneof.</summary>
     public enum DevUseOneofCase {
@@ -8515,6 +8612,8 @@ namespace Z9.Spcore.Proto {
       if (DevSubType != other.DevSubType) return false;
       if (DevMod != other.DevMod) return false;
       if (DevPlatform != other.DevPlatform) return false;
+      if (ExternalDevModText != other.ExternalDevModText) return false;
+      if (ExternalDevModId != other.ExternalDevModId) return false;
       if (!object.Equals(DevModConfig, other.DevModConfig)) return false;
       if (DevUse != other.DevUse) return false;
       if (PhysicalParentUnid != other.PhysicalParentUnid) return false;
@@ -8544,6 +8643,8 @@ namespace Z9.Spcore.Proto {
       if (DevSubTypeCase != other.DevSubTypeCase) return false;
       if (DevModCase != other.DevModCase) return false;
       if (DevPlatformCase != other.DevPlatformCase) return false;
+      if (ExternalDevModTextCase != other.ExternalDevModTextCase) return false;
+      if (ExternalDevModIdCase != other.ExternalDevModIdCase) return false;
       if (DevUseCase != other.DevUseCase) return false;
       if (PhysicalParentUnidCase != other.PhysicalParentUnidCase) return false;
       if (LogicalParentUnidCase != other.LogicalParentUnidCase) return false;
@@ -8572,6 +8673,8 @@ namespace Z9.Spcore.Proto {
       if (devSubTypeCase_ == DevSubTypeOneofCase.DevSubType) hash ^= DevSubType.GetHashCode();
       if (devModCase_ == DevModOneofCase.DevMod) hash ^= DevMod.GetHashCode();
       if (devPlatformCase_ == DevPlatformOneofCase.DevPlatform) hash ^= DevPlatform.GetHashCode();
+      if (externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText) hash ^= ExternalDevModText.GetHashCode();
+      if (externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId) hash ^= ExternalDevModId.GetHashCode();
       if (devModConfig_ != null) hash ^= DevModConfig.GetHashCode();
       if (devUseCase_ == DevUseOneofCase.DevUse) hash ^= DevUse.GetHashCode();
       if (physicalParentUnidCase_ == PhysicalParentUnidOneofCase.PhysicalParentUnid) hash ^= PhysicalParentUnid.GetHashCode();
@@ -8601,6 +8704,8 @@ namespace Z9.Spcore.Proto {
       hash ^= (int) devSubTypeCase_;
       hash ^= (int) devModCase_;
       hash ^= (int) devPlatformCase_;
+      hash ^= (int) externalDevModTextCase_;
+      hash ^= (int) externalDevModIdCase_;
       hash ^= (int) devUseCase_;
       hash ^= (int) physicalParentUnidCase_;
       hash ^= (int) logicalParentUnidCase_;
@@ -8680,6 +8785,14 @@ namespace Z9.Spcore.Proto {
       if (devPlatformCase_ == DevPlatformOneofCase.DevPlatform) {
         output.WriteRawTag(152, 2);
         output.WriteEnum((int) DevPlatform);
+      }
+      if (externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText) {
+        output.WriteRawTag(162, 2);
+        output.WriteString(ExternalDevModText);
+      }
+      if (externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId) {
+        output.WriteRawTag(170, 2);
+        output.WriteString(ExternalDevModId);
       }
       if (devModConfig_ != null) {
         output.WriteRawTag(178, 2);
@@ -8779,6 +8892,12 @@ namespace Z9.Spcore.Proto {
       }
       if (devPlatformCase_ == DevPlatformOneofCase.DevPlatform) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) DevPlatform);
+      }
+      if (externalDevModTextCase_ == ExternalDevModTextOneofCase.ExternalDevModText) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ExternalDevModText);
+      }
+      if (externalDevModIdCase_ == ExternalDevModIdOneofCase.ExternalDevModId) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ExternalDevModId);
       }
       if (devModConfig_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(DevModConfig);
@@ -8927,6 +9046,18 @@ namespace Z9.Spcore.Proto {
           break;
       }
 
+      switch (other.ExternalDevModTextCase) {
+        case ExternalDevModTextOneofCase.ExternalDevModText:
+          ExternalDevModText = other.ExternalDevModText;
+          break;
+      }
+
+      switch (other.ExternalDevModIdCase) {
+        case ExternalDevModIdOneofCase.ExternalDevModId:
+          ExternalDevModId = other.ExternalDevModId;
+          break;
+      }
+
       switch (other.DevUseCase) {
         case DevUseOneofCase.DevUse:
           DevUse = other.DevUse;
@@ -9066,6 +9197,14 @@ namespace Z9.Spcore.Proto {
           case 280: {
             devPlatform_ = input.ReadEnum();
             devPlatformCase_ = DevPlatformOneofCase.DevPlatform;
+            break;
+          }
+          case 290: {
+            ExternalDevModText = input.ReadString();
+            break;
+          }
+          case 298: {
+            ExternalDevModId = input.ReadString();
             break;
           }
           case 306: {
@@ -11345,6 +11484,1289 @@ namespace Z9.Spcore.Proto {
   }
 
   /// <summary>
+  /// The state of a single DevAspect for a Dev.
+  /// </summary>
+  public sealed partial class DevAspectState : pb::IMessage<DevAspectState> {
+    private static readonly pb::MessageParser<DevAspectState> _parser = new pb::MessageParser<DevAspectState>(() => new DevAspectState());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DevAspectState> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[31]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevAspectState() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevAspectState(DevAspectState other) : this() {
+      HwTime = other.hwTime_ != null ? other.HwTime.Clone() : null;
+      DbTime = other.dbTime_ != null ? other.DbTime.Clone() : null;
+      DoorMode = other.doorMode_ != null ? other.DoorMode.Clone() : null;
+      switch (other.UnidCase) {
+        case UnidOneofCase.Unid:
+          Unid = other.Unid;
+          break;
+      }
+
+      switch (other.DevAspectCase) {
+        case DevAspectOneofCase.DevAspect:
+          DevAspect = other.DevAspect;
+          break;
+      }
+
+      switch (other.CommStateCase) {
+        case CommStateOneofCase.CommState:
+          CommState = other.CommState;
+          break;
+      }
+
+      switch (other.CommStateStaleCase) {
+        case CommStateStaleOneofCase.CommStateStale:
+          CommStateStale = other.CommStateStale;
+          break;
+      }
+
+      switch (other.ActivityStateCase) {
+        case ActivityStateOneofCase.ActivityState:
+          ActivityState = other.ActivityState;
+          break;
+      }
+
+      switch (other.ActivityStateStaleCase) {
+        case ActivityStateStaleOneofCase.ActivityStateStale:
+          ActivityStateStale = other.ActivityStateStale;
+          break;
+      }
+
+      switch (other.DoorModeStaleCase) {
+        case DoorModeStaleOneofCase.DoorModeStale:
+          DoorModeStale = other.DoorModeStale;
+          break;
+      }
+
+      switch (other.ExternalStateCase) {
+        case ExternalStateOneofCase.ExternalState:
+          ExternalState = other.ExternalState;
+          break;
+      }
+
+      switch (other.ExternalStateStaleCase) {
+        case ExternalStateStaleOneofCase.ExternalStateStale:
+          ExternalStateStale = other.ExternalStateStale;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevAspectState Clone() {
+      return new DevAspectState(this);
+    }
+
+    /// <summary>Field number for the "unid" field.</summary>
+    public const int UnidFieldNumber = 1;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Unid {
+      get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
+      set {
+        unid_ = value;
+        unidCase_ = UnidOneofCase.Unid;
+      }
+    }
+
+    /// <summary>Field number for the "devAspect" field.</summary>
+    public const int DevAspectFieldNumber = 2;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DevAspect DevAspect {
+      get { return devAspectCase_ == DevAspectOneofCase.DevAspect ? (global::Z9.Spcore.Proto.DevAspect) devAspect_ : 0; }
+      set {
+        devAspect_ = value;
+        devAspectCase_ = DevAspectOneofCase.DevAspect;
+      }
+    }
+
+    /// <summary>Field number for the "hwTime" field.</summary>
+    public const int HwTimeFieldNumber = 3;
+    private global::Z9.Spcore.Proto.DateTimeData hwTime_;
+    /// <summary>
+    ///required
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DateTimeData HwTime {
+      get { return hwTime_; }
+      set {
+        hwTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "dbTime" field.</summary>
+    public const int DbTimeFieldNumber = 4;
+    private global::Z9.Spcore.Proto.DateTimeData dbTime_;
+    /// <summary>
+    ///required
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DateTimeData DbTime {
+      get { return dbTime_; }
+      set {
+        dbTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "commState" field.</summary>
+    public const int CommStateFieldNumber = 16;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.CommState CommState {
+      get { return commStateCase_ == CommStateOneofCase.CommState ? (global::Z9.Spcore.Proto.CommState) commState_ : 0; }
+      set {
+        commState_ = value;
+        commStateCase_ = CommStateOneofCase.CommState;
+      }
+    }
+
+    /// <summary>Field number for the "commStateStale" field.</summary>
+    public const int CommStateStaleFieldNumber = 17;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool CommStateStale {
+      get { return commStateStaleCase_ == CommStateStaleOneofCase.CommStateStale ? (bool) commStateStale_ : false; }
+      set {
+        commStateStale_ = value;
+        commStateStaleCase_ = CommStateStaleOneofCase.CommStateStale;
+      }
+    }
+
+    /// <summary>Field number for the "activityState" field.</summary>
+    public const int ActivityStateFieldNumber = 42;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.ActivityState ActivityState {
+      get { return activityStateCase_ == ActivityStateOneofCase.ActivityState ? (global::Z9.Spcore.Proto.ActivityState) activityState_ : 0; }
+      set {
+        activityState_ = value;
+        activityStateCase_ = ActivityStateOneofCase.ActivityState;
+      }
+    }
+
+    /// <summary>Field number for the "activityStateStale" field.</summary>
+    public const int ActivityStateStaleFieldNumber = 43;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ActivityStateStale {
+      get { return activityStateStaleCase_ == ActivityStateStaleOneofCase.ActivityStateStale ? (bool) activityStateStale_ : false; }
+      set {
+        activityStateStale_ = value;
+        activityStateStaleCase_ = ActivityStateStaleOneofCase.ActivityStateStale;
+      }
+    }
+
+    /// <summary>Field number for the "doorMode" field.</summary>
+    public const int DoorModeFieldNumber = 44;
+    private global::Z9.Spcore.Proto.DoorMode doorMode_;
+    /// <summary>
+    ///optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DoorMode DoorMode {
+      get { return doorMode_; }
+      set {
+        doorMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "doorModeStale" field.</summary>
+    public const int DoorModeStaleFieldNumber = 45;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DoorModeStale {
+      get { return doorModeStaleCase_ == DoorModeStaleOneofCase.DoorModeStale ? (bool) doorModeStale_ : false; }
+      set {
+        doorModeStale_ = value;
+        doorModeStaleCase_ = DoorModeStaleOneofCase.DoorModeStale;
+      }
+    }
+
+    /// <summary>Field number for the "externalState" field.</summary>
+    public const int ExternalStateFieldNumber = 52;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ExternalState {
+      get { return externalStateCase_ == ExternalStateOneofCase.ExternalState ? (string) externalState_ : ""; }
+      set {
+        externalState_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        externalStateCase_ = ExternalStateOneofCase.ExternalState;
+      }
+    }
+
+    /// <summary>Field number for the "externalStateStale" field.</summary>
+    public const int ExternalStateStaleFieldNumber = 53;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool ExternalStateStale {
+      get { return externalStateStaleCase_ == ExternalStateStaleOneofCase.ExternalStateStale ? (bool) externalStateStale_ : false; }
+      set {
+        externalStateStale_ = value;
+        externalStateStaleCase_ = ExternalStateStaleOneofCase.ExternalStateStale;
+      }
+    }
+
+    private object unid_;
+    /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
+    public enum UnidOneofCase {
+      None = 0,
+      Unid = 1,
+    }
+    private UnidOneofCase unidCase_ = UnidOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnidOneofCase UnidCase {
+      get { return unidCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearUnid() {
+      unidCase_ = UnidOneofCase.None;
+      unid_ = null;
+    }
+
+    private object devAspect_;
+    /// <summary>Enum of possible cases for the "devAspect_" oneof.</summary>
+    public enum DevAspectOneofCase {
+      None = 0,
+      DevAspect = 2,
+    }
+    private DevAspectOneofCase devAspectCase_ = DevAspectOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevAspectOneofCase DevAspectCase {
+      get { return devAspectCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDevAspect() {
+      devAspectCase_ = DevAspectOneofCase.None;
+      devAspect_ = null;
+    }
+
+    private object commState_;
+    /// <summary>Enum of possible cases for the "commState_" oneof.</summary>
+    public enum CommStateOneofCase {
+      None = 0,
+      CommState = 16,
+    }
+    private CommStateOneofCase commStateCase_ = CommStateOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CommStateOneofCase CommStateCase {
+      get { return commStateCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearCommState() {
+      commStateCase_ = CommStateOneofCase.None;
+      commState_ = null;
+    }
+
+    private object commStateStale_;
+    /// <summary>Enum of possible cases for the "commStateStale_" oneof.</summary>
+    public enum CommStateStaleOneofCase {
+      None = 0,
+      CommStateStale = 17,
+    }
+    private CommStateStaleOneofCase commStateStaleCase_ = CommStateStaleOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CommStateStaleOneofCase CommStateStaleCase {
+      get { return commStateStaleCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearCommStateStale() {
+      commStateStaleCase_ = CommStateStaleOneofCase.None;
+      commStateStale_ = null;
+    }
+
+    private object activityState_;
+    /// <summary>Enum of possible cases for the "activityState_" oneof.</summary>
+    public enum ActivityStateOneofCase {
+      None = 0,
+      ActivityState = 42,
+    }
+    private ActivityStateOneofCase activityStateCase_ = ActivityStateOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ActivityStateOneofCase ActivityStateCase {
+      get { return activityStateCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearActivityState() {
+      activityStateCase_ = ActivityStateOneofCase.None;
+      activityState_ = null;
+    }
+
+    private object activityStateStale_;
+    /// <summary>Enum of possible cases for the "activityStateStale_" oneof.</summary>
+    public enum ActivityStateStaleOneofCase {
+      None = 0,
+      ActivityStateStale = 43,
+    }
+    private ActivityStateStaleOneofCase activityStateStaleCase_ = ActivityStateStaleOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ActivityStateStaleOneofCase ActivityStateStaleCase {
+      get { return activityStateStaleCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearActivityStateStale() {
+      activityStateStaleCase_ = ActivityStateStaleOneofCase.None;
+      activityStateStale_ = null;
+    }
+
+    private object doorModeStale_;
+    /// <summary>Enum of possible cases for the "doorModeStale_" oneof.</summary>
+    public enum DoorModeStaleOneofCase {
+      None = 0,
+      DoorModeStale = 45,
+    }
+    private DoorModeStaleOneofCase doorModeStaleCase_ = DoorModeStaleOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DoorModeStaleOneofCase DoorModeStaleCase {
+      get { return doorModeStaleCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDoorModeStale() {
+      doorModeStaleCase_ = DoorModeStaleOneofCase.None;
+      doorModeStale_ = null;
+    }
+
+    private object externalState_;
+    /// <summary>Enum of possible cases for the "externalState_" oneof.</summary>
+    public enum ExternalStateOneofCase {
+      None = 0,
+      ExternalState = 52,
+    }
+    private ExternalStateOneofCase externalStateCase_ = ExternalStateOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExternalStateOneofCase ExternalStateCase {
+      get { return externalStateCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExternalState() {
+      externalStateCase_ = ExternalStateOneofCase.None;
+      externalState_ = null;
+    }
+
+    private object externalStateStale_;
+    /// <summary>Enum of possible cases for the "externalStateStale_" oneof.</summary>
+    public enum ExternalStateStaleOneofCase {
+      None = 0,
+      ExternalStateStale = 53,
+    }
+    private ExternalStateStaleOneofCase externalStateStaleCase_ = ExternalStateStaleOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExternalStateStaleOneofCase ExternalStateStaleCase {
+      get { return externalStateStaleCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearExternalStateStale() {
+      externalStateStaleCase_ = ExternalStateStaleOneofCase.None;
+      externalStateStale_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DevAspectState);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DevAspectState other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Unid != other.Unid) return false;
+      if (DevAspect != other.DevAspect) return false;
+      if (!object.Equals(HwTime, other.HwTime)) return false;
+      if (!object.Equals(DbTime, other.DbTime)) return false;
+      if (CommState != other.CommState) return false;
+      if (CommStateStale != other.CommStateStale) return false;
+      if (ActivityState != other.ActivityState) return false;
+      if (ActivityStateStale != other.ActivityStateStale) return false;
+      if (!object.Equals(DoorMode, other.DoorMode)) return false;
+      if (DoorModeStale != other.DoorModeStale) return false;
+      if (ExternalState != other.ExternalState) return false;
+      if (ExternalStateStale != other.ExternalStateStale) return false;
+      if (UnidCase != other.UnidCase) return false;
+      if (DevAspectCase != other.DevAspectCase) return false;
+      if (CommStateCase != other.CommStateCase) return false;
+      if (CommStateStaleCase != other.CommStateStaleCase) return false;
+      if (ActivityStateCase != other.ActivityStateCase) return false;
+      if (ActivityStateStaleCase != other.ActivityStateStaleCase) return false;
+      if (DoorModeStaleCase != other.DoorModeStaleCase) return false;
+      if (ExternalStateCase != other.ExternalStateCase) return false;
+      if (ExternalStateStaleCase != other.ExternalStateStaleCase) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (unidCase_ == UnidOneofCase.Unid) hash ^= Unid.GetHashCode();
+      if (devAspectCase_ == DevAspectOneofCase.DevAspect) hash ^= DevAspect.GetHashCode();
+      if (hwTime_ != null) hash ^= HwTime.GetHashCode();
+      if (dbTime_ != null) hash ^= DbTime.GetHashCode();
+      if (commStateCase_ == CommStateOneofCase.CommState) hash ^= CommState.GetHashCode();
+      if (commStateStaleCase_ == CommStateStaleOneofCase.CommStateStale) hash ^= CommStateStale.GetHashCode();
+      if (activityStateCase_ == ActivityStateOneofCase.ActivityState) hash ^= ActivityState.GetHashCode();
+      if (activityStateStaleCase_ == ActivityStateStaleOneofCase.ActivityStateStale) hash ^= ActivityStateStale.GetHashCode();
+      if (doorMode_ != null) hash ^= DoorMode.GetHashCode();
+      if (doorModeStaleCase_ == DoorModeStaleOneofCase.DoorModeStale) hash ^= DoorModeStale.GetHashCode();
+      if (externalStateCase_ == ExternalStateOneofCase.ExternalState) hash ^= ExternalState.GetHashCode();
+      if (externalStateStaleCase_ == ExternalStateStaleOneofCase.ExternalStateStale) hash ^= ExternalStateStale.GetHashCode();
+      hash ^= (int) unidCase_;
+      hash ^= (int) devAspectCase_;
+      hash ^= (int) commStateCase_;
+      hash ^= (int) commStateStaleCase_;
+      hash ^= (int) activityStateCase_;
+      hash ^= (int) activityStateStaleCase_;
+      hash ^= (int) doorModeStaleCase_;
+      hash ^= (int) externalStateCase_;
+      hash ^= (int) externalStateStaleCase_;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (unidCase_ == UnidOneofCase.Unid) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Unid);
+      }
+      if (devAspectCase_ == DevAspectOneofCase.DevAspect) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) DevAspect);
+      }
+      if (hwTime_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(HwTime);
+      }
+      if (dbTime_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(DbTime);
+      }
+      if (commStateCase_ == CommStateOneofCase.CommState) {
+        output.WriteRawTag(128, 1);
+        output.WriteEnum((int) CommState);
+      }
+      if (commStateStaleCase_ == CommStateStaleOneofCase.CommStateStale) {
+        output.WriteRawTag(136, 1);
+        output.WriteBool(CommStateStale);
+      }
+      if (activityStateCase_ == ActivityStateOneofCase.ActivityState) {
+        output.WriteRawTag(208, 2);
+        output.WriteEnum((int) ActivityState);
+      }
+      if (activityStateStaleCase_ == ActivityStateStaleOneofCase.ActivityStateStale) {
+        output.WriteRawTag(216, 2);
+        output.WriteBool(ActivityStateStale);
+      }
+      if (doorMode_ != null) {
+        output.WriteRawTag(226, 2);
+        output.WriteMessage(DoorMode);
+      }
+      if (doorModeStaleCase_ == DoorModeStaleOneofCase.DoorModeStale) {
+        output.WriteRawTag(232, 2);
+        output.WriteBool(DoorModeStale);
+      }
+      if (externalStateCase_ == ExternalStateOneofCase.ExternalState) {
+        output.WriteRawTag(162, 3);
+        output.WriteString(ExternalState);
+      }
+      if (externalStateStaleCase_ == ExternalStateStaleOneofCase.ExternalStateStale) {
+        output.WriteRawTag(168, 3);
+        output.WriteBool(ExternalStateStale);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (unidCase_ == UnidOneofCase.Unid) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Unid);
+      }
+      if (devAspectCase_ == DevAspectOneofCase.DevAspect) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevAspect);
+      }
+      if (hwTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(HwTime);
+      }
+      if (dbTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DbTime);
+      }
+      if (commStateCase_ == CommStateOneofCase.CommState) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) CommState);
+      }
+      if (commStateStaleCase_ == CommStateStaleOneofCase.CommStateStale) {
+        size += 2 + 1;
+      }
+      if (activityStateCase_ == ActivityStateOneofCase.ActivityState) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) ActivityState);
+      }
+      if (activityStateStaleCase_ == ActivityStateStaleOneofCase.ActivityStateStale) {
+        size += 2 + 1;
+      }
+      if (doorMode_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(DoorMode);
+      }
+      if (doorModeStaleCase_ == DoorModeStaleOneofCase.DoorModeStale) {
+        size += 2 + 1;
+      }
+      if (externalStateCase_ == ExternalStateOneofCase.ExternalState) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ExternalState);
+      }
+      if (externalStateStaleCase_ == ExternalStateStaleOneofCase.ExternalStateStale) {
+        size += 2 + 1;
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DevAspectState other) {
+      if (other == null) {
+        return;
+      }
+      if (other.hwTime_ != null) {
+        if (hwTime_ == null) {
+          hwTime_ = new global::Z9.Spcore.Proto.DateTimeData();
+        }
+        HwTime.MergeFrom(other.HwTime);
+      }
+      if (other.dbTime_ != null) {
+        if (dbTime_ == null) {
+          dbTime_ = new global::Z9.Spcore.Proto.DateTimeData();
+        }
+        DbTime.MergeFrom(other.DbTime);
+      }
+      if (other.doorMode_ != null) {
+        if (doorMode_ == null) {
+          doorMode_ = new global::Z9.Spcore.Proto.DoorMode();
+        }
+        DoorMode.MergeFrom(other.DoorMode);
+      }
+      switch (other.UnidCase) {
+        case UnidOneofCase.Unid:
+          Unid = other.Unid;
+          break;
+      }
+
+      switch (other.DevAspectCase) {
+        case DevAspectOneofCase.DevAspect:
+          DevAspect = other.DevAspect;
+          break;
+      }
+
+      switch (other.CommStateCase) {
+        case CommStateOneofCase.CommState:
+          CommState = other.CommState;
+          break;
+      }
+
+      switch (other.CommStateStaleCase) {
+        case CommStateStaleOneofCase.CommStateStale:
+          CommStateStale = other.CommStateStale;
+          break;
+      }
+
+      switch (other.ActivityStateCase) {
+        case ActivityStateOneofCase.ActivityState:
+          ActivityState = other.ActivityState;
+          break;
+      }
+
+      switch (other.ActivityStateStaleCase) {
+        case ActivityStateStaleOneofCase.ActivityStateStale:
+          ActivityStateStale = other.ActivityStateStale;
+          break;
+      }
+
+      switch (other.DoorModeStaleCase) {
+        case DoorModeStaleOneofCase.DoorModeStale:
+          DoorModeStale = other.DoorModeStale;
+          break;
+      }
+
+      switch (other.ExternalStateCase) {
+        case ExternalStateOneofCase.ExternalState:
+          ExternalState = other.ExternalState;
+          break;
+      }
+
+      switch (other.ExternalStateStaleCase) {
+        case ExternalStateStaleOneofCase.ExternalStateStale:
+          ExternalStateStale = other.ExternalStateStale;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            Unid = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            devAspect_ = input.ReadEnum();
+            devAspectCase_ = DevAspectOneofCase.DevAspect;
+            break;
+          }
+          case 26: {
+            if (hwTime_ == null) {
+              hwTime_ = new global::Z9.Spcore.Proto.DateTimeData();
+            }
+            input.ReadMessage(hwTime_);
+            break;
+          }
+          case 34: {
+            if (dbTime_ == null) {
+              dbTime_ = new global::Z9.Spcore.Proto.DateTimeData();
+            }
+            input.ReadMessage(dbTime_);
+            break;
+          }
+          case 128: {
+            commState_ = input.ReadEnum();
+            commStateCase_ = CommStateOneofCase.CommState;
+            break;
+          }
+          case 136: {
+            CommStateStale = input.ReadBool();
+            break;
+          }
+          case 336: {
+            activityState_ = input.ReadEnum();
+            activityStateCase_ = ActivityStateOneofCase.ActivityState;
+            break;
+          }
+          case 344: {
+            ActivityStateStale = input.ReadBool();
+            break;
+          }
+          case 354: {
+            if (doorMode_ == null) {
+              doorMode_ = new global::Z9.Spcore.Proto.DoorMode();
+            }
+            input.ReadMessage(doorMode_);
+            break;
+          }
+          case 360: {
+            DoorModeStale = input.ReadBool();
+            break;
+          }
+          case 418: {
+            ExternalState = input.ReadString();
+            break;
+          }
+          case 424: {
+            ExternalStateStale = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// The state of a Dev, including all DevAspect.
+  /// </summary>
+  public sealed partial class DevState : pb::IMessage<DevState> {
+    private static readonly pb::MessageParser<DevState> _parser = new pb::MessageParser<DevState>(() => new DevState());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DevState> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[32]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevState() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevState(DevState other) : this() {
+      devAspectStates_ = other.devAspectStates_.Clone();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevState Clone() {
+      return new DevState(this);
+    }
+
+    /// <summary>Field number for the "devAspectStates" field.</summary>
+    public const int DevAspectStatesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry> _repeated_devAspectStates_codec
+        = pb::FieldCodec.ForMessage(10, global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry.Parser);
+    private readonly pbc::RepeatedField<global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry> devAspectStates_ = new pbc::RepeatedField<global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Z9.Spcore.Proto.DevState.Types.DevAspect_DevAspectState_Entry> DevAspectStates {
+      get { return devAspectStates_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DevState);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DevState other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!devAspectStates_.Equals(other.devAspectStates_)) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= devAspectStates_.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      devAspectStates_.WriteTo(output, _repeated_devAspectStates_codec);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += devAspectStates_.CalculateSize(_repeated_devAspectStates_codec);
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DevState other) {
+      if (other == null) {
+        return;
+      }
+      devAspectStates_.Add(other.devAspectStates_);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            devAspectStates_.AddEntriesFrom(input, _repeated_devAspectStates_codec);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the DevState message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      /// <summary>
+      /// The states for each device aspect.
+      /// </summary>
+      public sealed partial class DevAspect_DevAspectState_Entry : pb::IMessage<DevAspect_DevAspectState_Entry> {
+        private static readonly pb::MessageParser<DevAspect_DevAspectState_Entry> _parser = new pb::MessageParser<DevAspect_DevAspectState_Entry>(() => new DevAspect_DevAspectState_Entry());
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<DevAspect_DevAspectState_Entry> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Z9.Spcore.Proto.DevState.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DevAspect_DevAspectState_Entry() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DevAspect_DevAspectState_Entry(DevAspect_DevAspectState_Entry other) : this() {
+          switch (other.KeyCase) {
+            case KeyOneofCase.Key:
+              Key = other.Key;
+              break;
+          }
+
+          switch (other.ValueCase) {
+            case ValueOneofCase.Value:
+              Value = other.Value.Clone();
+              break;
+          }
+
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DevAspect_DevAspectState_Entry Clone() {
+          return new DevAspect_DevAspectState_Entry(this);
+        }
+
+        /// <summary>Field number for the "key" field.</summary>
+        public const int KeyFieldNumber = 1;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Z9.Spcore.Proto.DevAspect Key {
+          get { return keyCase_ == KeyOneofCase.Key ? (global::Z9.Spcore.Proto.DevAspect) key_ : 0; }
+          set {
+            key_ = value;
+            keyCase_ = KeyOneofCase.Key;
+          }
+        }
+
+        /// <summary>Field number for the "value" field.</summary>
+        public const int ValueFieldNumber = 2;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::Z9.Spcore.Proto.DevAspectState Value {
+          get { return valueCase_ == ValueOneofCase.Value ? (global::Z9.Spcore.Proto.DevAspectState) value_ : null; }
+          set {
+            value_ = value;
+            valueCase_ = value == null ? ValueOneofCase.None : ValueOneofCase.Value;
+          }
+        }
+
+        private object key_;
+        /// <summary>Enum of possible cases for the "key_" oneof.</summary>
+        public enum KeyOneofCase {
+          None = 0,
+          Key = 1,
+        }
+        private KeyOneofCase keyCase_ = KeyOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public KeyOneofCase KeyCase {
+          get { return keyCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void ClearKey() {
+          keyCase_ = KeyOneofCase.None;
+          key_ = null;
+        }
+
+        private object value_;
+        /// <summary>Enum of possible cases for the "value_" oneof.</summary>
+        public enum ValueOneofCase {
+          None = 0,
+          Value = 2,
+        }
+        private ValueOneofCase valueCase_ = ValueOneofCase.None;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ValueOneofCase ValueCase {
+          get { return valueCase_; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void ClearValue() {
+          valueCase_ = ValueOneofCase.None;
+          value_ = null;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as DevAspect_DevAspectState_Entry);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(DevAspect_DevAspectState_Entry other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Key != other.Key) return false;
+          if (!object.Equals(Value, other.Value)) return false;
+          if (KeyCase != other.KeyCase) return false;
+          if (ValueCase != other.ValueCase) return false;
+          return true;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (keyCase_ == KeyOneofCase.Key) hash ^= Key.GetHashCode();
+          if (valueCase_ == ValueOneofCase.Value) hash ^= Value.GetHashCode();
+          hash ^= (int) keyCase_;
+          hash ^= (int) valueCase_;
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (keyCase_ == KeyOneofCase.Key) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) Key);
+          }
+          if (valueCase_ == ValueOneofCase.Value) {
+            output.WriteRawTag(18);
+            output.WriteMessage(Value);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (keyCase_ == KeyOneofCase.Key) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Key);
+          }
+          if (valueCase_ == ValueOneofCase.Value) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Value);
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(DevAspect_DevAspectState_Entry other) {
+          if (other == null) {
+            return;
+          }
+          switch (other.KeyCase) {
+            case KeyOneofCase.Key:
+              Key = other.Key;
+              break;
+          }
+
+          switch (other.ValueCase) {
+            case ValueOneofCase.Value:
+              if (Value == null) {
+                Value = new global::Z9.Spcore.Proto.DevAspectState();
+              }
+              Value.MergeFrom(other.Value);
+              break;
+          }
+
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                input.SkipLastField();
+                break;
+              case 8: {
+                key_ = input.ReadEnum();
+                keyCase_ = KeyOneofCase.Key;
+                break;
+              }
+              case 18: {
+                global::Z9.Spcore.Proto.DevAspectState subBuilder = new global::Z9.Spcore.Proto.DevAspectState();
+                if (valueCase_ == ValueOneofCase.Value) {
+                  subBuilder.MergeFrom(Value);
+                }
+                input.ReadMessage(subBuilder);
+                Value = subBuilder;
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  /// An association of a Dev with its DevState.
+  /// </summary>
+  public sealed partial class DevStateRecord : pb::IMessage<DevStateRecord> {
+    private static readonly pb::MessageParser<DevStateRecord> _parser = new pb::MessageParser<DevStateRecord>(() => new DevStateRecord());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DevStateRecord> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[33]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecord() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecord(DevStateRecord other) : this() {
+      DevState = other.devState_ != null ? other.DevState.Clone() : null;
+      switch (other.UnidCase) {
+        case UnidOneofCase.Unid:
+          Unid = other.Unid;
+          break;
+      }
+
+      switch (other.DevUnidCase) {
+        case DevUnidOneofCase.DevUnid:
+          DevUnid = other.DevUnid;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecord Clone() {
+      return new DevStateRecord(this);
+    }
+
+    /// <summary>Field number for the "unid" field.</summary>
+    public const int UnidFieldNumber = 1;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Unid {
+      get { return unidCase_ == UnidOneofCase.Unid ? (int) unid_ : 0; }
+      set {
+        unid_ = value;
+        unidCase_ = UnidOneofCase.Unid;
+      }
+    }
+
+    /// <summary>Field number for the "devUnid" field.</summary>
+    public const int DevUnidFieldNumber = 2;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int DevUnid {
+      get { return devUnidCase_ == DevUnidOneofCase.DevUnid ? (int) devUnid_ : 0; }
+      set {
+        devUnid_ = value;
+        devUnidCase_ = DevUnidOneofCase.DevUnid;
+      }
+    }
+
+    /// <summary>Field number for the "devState" field.</summary>
+    public const int DevStateFieldNumber = 3;
+    private global::Z9.Spcore.Proto.DevState devState_;
+    /// <summary>
+    ///optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DevState DevState {
+      get { return devState_; }
+      set {
+        devState_ = value;
+      }
+    }
+
+    private object unid_;
+    /// <summary>Enum of possible cases for the "unid_" oneof.</summary>
+    public enum UnidOneofCase {
+      None = 0,
+      Unid = 1,
+    }
+    private UnidOneofCase unidCase_ = UnidOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UnidOneofCase UnidCase {
+      get { return unidCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearUnid() {
+      unidCase_ = UnidOneofCase.None;
+      unid_ = null;
+    }
+
+    private object devUnid_;
+    /// <summary>Enum of possible cases for the "devUnid_" oneof.</summary>
+    public enum DevUnidOneofCase {
+      None = 0,
+      DevUnid = 2,
+    }
+    private DevUnidOneofCase devUnidCase_ = DevUnidOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevUnidOneofCase DevUnidCase {
+      get { return devUnidCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDevUnid() {
+      devUnidCase_ = DevUnidOneofCase.None;
+      devUnid_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DevStateRecord);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DevStateRecord other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Unid != other.Unid) return false;
+      if (DevUnid != other.DevUnid) return false;
+      if (!object.Equals(DevState, other.DevState)) return false;
+      if (UnidCase != other.UnidCase) return false;
+      if (DevUnidCase != other.DevUnidCase) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (unidCase_ == UnidOneofCase.Unid) hash ^= Unid.GetHashCode();
+      if (devUnidCase_ == DevUnidOneofCase.DevUnid) hash ^= DevUnid.GetHashCode();
+      if (devState_ != null) hash ^= DevState.GetHashCode();
+      hash ^= (int) unidCase_;
+      hash ^= (int) devUnidCase_;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (unidCase_ == UnidOneofCase.Unid) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Unid);
+      }
+      if (devUnidCase_ == DevUnidOneofCase.DevUnid) {
+        output.WriteRawTag(16);
+        output.WriteInt32(DevUnid);
+      }
+      if (devState_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(DevState);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (unidCase_ == UnidOneofCase.Unid) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Unid);
+      }
+      if (devUnidCase_ == DevUnidOneofCase.DevUnid) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(DevUnid);
+      }
+      if (devState_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DevState);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DevStateRecord other) {
+      if (other == null) {
+        return;
+      }
+      if (other.devState_ != null) {
+        if (devState_ == null) {
+          devState_ = new global::Z9.Spcore.Proto.DevState();
+        }
+        DevState.MergeFrom(other.DevState);
+      }
+      switch (other.UnidCase) {
+        case UnidOneofCase.Unid:
+          Unid = other.Unid;
+          break;
+      }
+
+      switch (other.DevUnidCase) {
+        case DevUnidOneofCase.DevUnid:
+          DevUnid = other.DevUnid;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            Unid = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            DevUnid = input.ReadInt32();
+            break;
+          }
+          case 26: {
+            if (devState_ == null) {
+              devState_ = new global::Z9.Spcore.Proto.DevState();
+            }
+            input.ReadMessage(devState_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   /// An actuator, or output.
   /// </summary>
   public sealed partial class Actuator : pb::IMessage<Actuator> {
@@ -11354,7 +12776,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11483,7 +12905,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12079,7 +13501,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12208,7 +13630,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12748,7 +14170,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12877,7 +14299,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13644,7 +15066,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13773,7 +15195,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14574,7 +15996,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14891,7 +16313,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15020,7 +16442,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15616,7 +17038,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16641,7 +18063,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16869,7 +18291,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17315,7 +18737,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17631,7 +19053,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18624,7 +20046,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18884,7 +20306,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19050,7 +20472,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19422,7 +20844,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20191,7 +21613,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20563,7 +21985,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -20991,7 +22413,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21442,7 +22864,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -21824,7 +23246,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

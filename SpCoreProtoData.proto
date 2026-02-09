@@ -201,6 +201,7 @@ message EncryptionKey {
 	// The binary bytes of the key.
 	/*required*/ oneof bytes_ { bytes bytes = 8;}
 }
+// Reference to an encryption key in a keystore. Does not store the actual key.
 message EncryptionKeyRef {
 	// Unique ID.
 	oneof unid_ { int32 unid = 1;}
@@ -305,6 +306,10 @@ message Dev {
 	// Communications family: network, serial, etc.
 	// Device platform.
 	oneof devPlatform_ { DevPlatform devPlatform = 35;}
+	// If devMod is EXTERNAL, a text description of the model.
+	oneof externalDevModText_ { string externalDevModText = 36;}
+	// If devMod is EXTERNAL, a machine-readable model identifier.
+	oneof externalDevModId_ { string externalDevModId = 37;}
 	// Device-model-specific configuration.
 	/*optional*/ DevModConfig devModConfig = 38;
 	// The use/function/role of the device, typically with respect to the logical parent.
@@ -329,11 +334,13 @@ message Dev {
 		Sensor extSensor = 115;
 	}
 }
+// DevMod-specific configuration for a Dev. Subclasses correspond to different DevMod values.
 message DevModConfig {
 	// Unique ID.
 	oneof unid_ { int32 unid = 1;}
 	// Version (for optimistic locking)
 	oneof version_ { int32 version = 2;}
+	// The device module configuration type.
 	oneof type_ { DevModConfigType type = 3;}
 }
 // Restriction by DevMod.
@@ -402,12 +409,58 @@ message DevActionParams {
 		DoorMomentaryUnlockDevActionParams extDoorMomentaryUnlockDevActionParams = 107;
 	}
 }
+// DevActionParams for DevActionParamsType.DOOR_MODE.
 message DoorModeDevActionParams {
 	/*required*/ oneof resetToDefault_ { bool resetToDefault = 1;}
 	/*optional*/ DoorMode doorMode = 2;
 }
 // DevActionParams for door momentary unlock action (DevActionType.DOOR_MOMENTARY_UNLOCK).
 message DoorMomentaryUnlockDevActionParams {
+}
+// The state of a single DevAspect for a Dev.
+message DevAspectState {
+	// Unique ID.
+	oneof unid_ { int32 unid = 1;}
+	// The aspect of the device being represented by this state object.
+	/*required*/ oneof devAspect_ { DevAspect devAspect = 2;}
+	// Time occurred at hardware.  Stored in server local time.  Presentation time zone is determined by getTimeZone().
+	/*required*/ DateTimeData hwTime = 3;
+	// Time recorded in DB.  Stored in server local time.  Presentation time zone is the time zone of the server.
+	/*required*/ DateTimeData dbTime = 4;
+	// Communications state of the device - online/offline.
+	oneof commState_ { CommState commState = 16;}
+	// If true, corresponding property is stale: commState
+	oneof commStateStale_ { bool commStateStale = 17;}
+	// Activity state of the device (generally Sensor or Actuator) - whether it is active or inactive, but also includes warning, and repeating pulse.
+	oneof activityState_ { ActivityState activityState = 42;}
+	// If true, corresponding property is stale: activityState
+	oneof activityStateStale_ { bool activityStateStale = 43;}
+	// The door mode of the device.  Only applicable to a Door.
+	/*optional*/ DoorMode doorMode = 44;
+	// If true, corresponding property is stale: doorMode
+	oneof doorModeStale_ { bool doorModeStale = 45;}
+	// Externally-defined state text (presentable to a user).
+	oneof externalState_ { string externalState = 52;}
+	// If true, corresponding property is stale: externalState
+	oneof externalStateStale_ { bool externalStateStale = 53;}
+}
+// The state of a Dev, including all DevAspect.
+message DevState {
+	// The states for each device aspect.
+		message DevAspect_DevAspectState_Entry {
+			/*required*/ oneof key_ { DevAspect key = 1;}
+			/*required*/ oneof value_ { DevAspectState value = 2;}
+		}
+	repeated DevAspect_DevAspectState_Entry devAspectStates = 1;
+}
+// An association of a Dev with its DevState.
+message DevStateRecord {
+	// Unique ID.
+	oneof unid_ { int32 unid = 1;}
+	// Device.
+	/*required*/ oneof devUnid_ { int32 devUnid = 2;}
+	// Device state.
+	/*optional*/ DevState devState = 3;
 }
 // An actuator, or output.
 message Actuator {
@@ -494,6 +547,36 @@ message CredReaderConfig {
 // A door, AKA access point.  May be any sort of access-controlled portal, from a door, to a storage locker, to a turnstile, to a parking gate.
 message Door {
 	// Door configuration
+	/*optional*/ DoorConfig doorConfig = 1;
+}
+// DevConfig for a Door.
+message DoorConfig {
+	// Version (for optimistic locking)
+	oneof version_ { int32 version = 1;}
+	// username to connect to the device.
+	oneof username_ { string username = 2;}
+	// password to connect to the device.
+	oneof password_ { string password = 3;}
+	// Used for communications where connection initiation direction is configurable.  Most commonly used for TCP connections, where the Dev may be either the "client" or "server" end of the socket.
+	oneof devInitiatesConnection_ { bool devInitiatesConnection = 4;}
+	// Default door mode.
+	/*optional*/ DoorMode defaultDoorMode = 6;
+	// True if the REX is not physically linked to the strike, and therefore the controller needs to activate the strike on REX. In many cases, the REX signal simply indicates that the user has unlocked the door from the inside, and the strike does not need to be involved. For example, many crash bars for exit, and electrified locksets work this way. In other cases, for convenience or fire code compliance, the REX directly unlocks the door electrically, by, for example, cutting the power to a mag lock.
+	oneof activateStrikeOnRex_ { bool activateStrikeOnRex = 11;}
+	// The time in milliseconds to activate the door strike.
+	oneof strikeTime_ { int32 strikeTime = 14;}
+	// The time in milliseconds to activate the door strike - extended (for disabled users, for example).
+	oneof extendedStrikeTime_ { int32 extendedStrikeTime = 15;}
+	// The time in milliseconds after which the door is considered held open.
+	oneof heldTime_ { int32 heldTime = 16;}
+	// The time in milliseconds after which the door is considered held open - extended (for disabled users, for example).
+	oneof extendedHeldTime_ { int32 extendedHeldTime = 17;}
+	// Current EncryptionKeyRef used to encrypt communications.
+	oneof encryptionKeyRefUnid_ { int32 encryptionKeyRefUnid = 47;}
+	// For changing keys, the next EncryptionKeyRef.  This allows us to update encryptionKeyRef only after the keys have been updated on the device.  And also, if anything goes wrong, we have both keys.
+	oneof encryptionKeyRefNextUnid_ { int32 encryptionKeyRefNextUnid = 48;}
+	// Disable encryption, generally for OSDP readers/subcontrollers that would otherwise be using Secure Channel.  Intended to be used for diagnostics only, not recommended for production.
+	oneof disableEncryption_ { bool disableEncryption = 51;}
 }
 // A door mode.  Can specify whether access is allowed by unique PIN, as well as with card, and whether a confirming PIN is required when using a card.
 message DoorMode {
@@ -689,11 +772,17 @@ message Hol {
 	// Unique ID.
 	oneof unid_ { int32 unid = 12;}
 	repeated int32 holTypesUnid = 14;
+	// Whether this holiday is a member of all holiday types.
 	/*required*/ oneof allHolTypes_ { bool allHolTypes = 15;}
+	// The date of the holiday.
 	/*required*/ SqlDateData date = 16;
+	// Number of days the holiday lasts (1 minimum).
 	/*required*/ oneof numDays_ { int32 numDays = 17;}
+	// Whether the holiday repeats every year.
 	/*required*/ oneof repeat_ { bool repeat = 18;}
+	// Number of years to repeat. Null for indefinitely.
 	oneof numYearsRepeat_ { int32 numYearsRepeat = 19;}
+	// If true, SchedDay is preserved on this holiday.
 	/*required*/ oneof preserveSchedDay_ { bool preserveSchedDay = 20;}
 	oneof holCalUnid_ { int32 holCalUnid = 21;}
 }

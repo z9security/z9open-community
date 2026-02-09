@@ -24,125 +24,138 @@ namespace Z9.Spcore.Proto {
           string.Concat(
             "ChFTcENvcmVQcm90by5wcm90bxIPejkuc3Bjb3JlLnByb3RvGhlTcENvcmVQ",
             "cm90b0VsZW1lbnRzLnByb3RvGhZTcENvcmVQcm90b0VudW1zLnByb3RvGhVT",
-            "cENvcmVQcm90b0RhdGEucHJvdG8iiAoKDVNwQ29yZU1lc3NhZ2USMwoEdHlw",
+            "cENvcmVQcm90b0RhdGEucHJvdG8ipQsKDVNwQ29yZU1lc3NhZ2USMwoEdHlw",
             "ZRgBIAEoDjIjLno5LnNwY29yZS5wcm90by5TcENvcmVNZXNzYWdlLlR5cGVI",
             "ABI3Cg5pZGVudGlmaWNhdGlvbhgCIAEoCzIfLno5LnNwY29yZS5wcm90by5J",
             "ZGVudGlmaWNhdGlvbhIrCghkYkNoYW5nZRgDIAEoCzIZLno5LnNwY29yZS5w",
             "cm90by5EYkNoYW5nZRIzCgxkYkNoYW5nZVJlc3AYBCABKAsyHS56OS5zcGNv",
             "cmUucHJvdG8uRGJDaGFuZ2VSZXNwEiEKA2V2dBgFIAMoCzIULno5LnNwY29y",
-            "ZS5wcm90by5FdnQSMwoMZGV2QWN0aW9uUmVxGAcgASgLMh0uejkuc3Bjb3Jl",
-            "LnByb3RvLkRldkFjdGlvblJlcRI1Cg1kZXZBY3Rpb25SZXNwGAggASgLMh4u",
-            "ejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblJlc3ASLwoKZXZ0Q29udHJvbBgJ",
-            "IAEoCzIbLno5LnNwY29yZS5wcm90by5FdnRDb250cm9sEj8KEXRlcm1pbmF0",
-            "aW9uUmVhc29uGDUgASgOMiIuejkuc3Bjb3JlLnByb3RvLlRlcm1pbmF0aW9u",
-            "UmVhc29uSAEihgYKBFR5cGUSCQoFUkZVXzAQABISCg5JREVOVElGSUNBVElP",
-            "ThABEggKBFBJTkcQAhINCglEQl9DSEFOR0UQAxISCg5EQl9DSEFOR0VfUkVT",
-            "UBAEEgcKA0VWVBAFEgkKBVJGVV82EAYSEgoOREVWX0FDVElPTl9SRVEQBxIT",
-            "Cg9ERVZfQUNUSU9OX1JFU1AQCBIPCgtFVlRfQ09OVFJPTBAJEgoKBlJGVV8x",
-            "MBAKEgoKBlJGVV8xMRALEgoKBlJGVV8xMhAMEgkKBU1VTFRJEA0SDQoJVEVS",
-            "TUlOQVRFEA4SCgoGUkZVXzE1EA8SCgoGUkZVXzE2EBASCgoGUkZVXzE3EBES",
-            "CgoGUkZVXzE4EBISCgoGUkZVXzE5EBMSCgoGUkZVXzIwEBQSCgoGUkZVXzIx",
-            "EBUSCgoGUkZVXzIyEBYSCgoGUkZVXzIzEBcSCgoGUkZVXzI0EBgSCgoGUkZV",
-            "XzI1EBkSCgoGUkZVXzI2EBoSCgoGUkZVXzI3EBsSCgoGUkZVXzI4EBwSCgoG",
-            "UkZVXzI5EB0SCgoGUkZVXzMwEB4SCgoGUkZVXzMxEB8SCgoGUkZVXzMyECAS",
-            "CgoGUkZVXzMzECESCgoGUkZVXzM0ECISCgoGUkZVXzM1ECMSCgoGUkZVXzM2",
-            "ECQSCgoGUkZVXzM3ECUSCgoGUkZVXzM4ECYSCgoGUkZVXzM5ECcSCgoGUkZV",
-            "XzQwECgSCgoGUkZVXzQxECkSCgoGUkZVXzQyECoSCgoGUkZVXzQzECsSCgoG",
-            "UkZVXzQ0ECwSCgoGUkZVXzQ1EC0SCgoGUkZVXzQ2EC4SCgoGUkZVXzQ3EC8S",
-            "CgoGUkZVXzQ4EDASCgoGUkZVXzQ5EDESCgoGUkZVXzUwEDISCgoGUkZVXzUx",
-            "EDMSCgoGUkZVXzUyEDQSCgoGUkZVXzUzEDUSCgoGUkZVXzU0EDYSCgoGUkZV",
-            "XzU1EDcSCgoGUkZVXzU2EDgSCgoGUkZVXzU3EDkSCgoGUkZVXzU4EDoSCgoG",
-            "UkZVXzU5EDsSCgoGUkZVXzYwEDxCBwoFdHlwZV9CFAoSdGVybWluYXRpb25S",
-            "ZWFzb25fIvoEChRQcm90b2NvbENhcGFiaWxpdGllcxIYCg5tYXhFbnVtX0Rl",
-            "dk1vZBgCIAEoBUgAEhgKDm1heEVudW1fRGV2VXNlGAMgASgFSAESJQobbWF4",
-            "RW51bV9EZXZBY3Rpb25QYXJhbXNUeXBlGAQgASgFSAISHwoVbWF4RW51bV9E",
-            "ZXZBY3Rpb25UeXBlGAUgASgFSAMSGQoPbWF4RW51bV9FdnRDb2RlGAcgASgF",
-            "SAQSHAoSbWF4RW51bV9FdnRTdWJDb2RlGAkgASgFSAUSKAoec3VwcG9ydHNJ",
-            "ZGVudGlmaWNhdGlvblBhc3N3b3JkGBYgASgISAYSMAomc3VwcG9ydHNJZGVu",
-            "dGlmaWNhdGlvblBhc3N3b3JkVXBzdHJlYW0YFyABKAhIBxIdChNtYXhFbnVt",
-            "X0RldlBsYXRmb3JtGBwgASgFSAgSIwoZbWF4RW51bV9UZXJtaW5hdGlvblJl",
-            "YXNvbhggIAEoBUgJQhEKD21heEVudW1fRGV2TW9kX0IRCg9tYXhFbnVtX0Rl",
-            "dlVzZV9CHgocbWF4RW51bV9EZXZBY3Rpb25QYXJhbXNUeXBlX0IYChZtYXhF",
-            "bnVtX0RldkFjdGlvblR5cGVfQhIKEG1heEVudW1fRXZ0Q29kZV9CFQoTbWF4",
-            "RW51bV9FdnRTdWJDb2RlX0IhCh9zdXBwb3J0c0lkZW50aWZpY2F0aW9uUGFz",
-            "c3dvcmRfQikKJ3N1cHBvcnRzSWRlbnRpZmljYXRpb25QYXNzd29yZFVwc3Ry",
-            "ZWFtX0IWChRtYXhFbnVtX0RldlBsYXRmb3JtX0IcChptYXhFbnVtX1Rlcm1p",
-            "bmF0aW9uUmVhc29uXyL/BQoOSWRlbnRpZmljYXRpb24SDAoCaWQYASABKAlI",
-            "ABIvCgxzcENvcmVEZXZNb2QYAiABKA4yFy56OS5zcGNvcmUucHJvdG8uRGV2",
-            "TW9kSAESLwoMc3BDb3JlRGV2VXNlGAMgASgOMhcuejkuc3Bjb3JlLnByb3Rv",
-            "LkRldlVzZUgCEhkKD3Byb3RvY29sVmVyc2lvbhgEIAEoCUgDEhkKD3NvZnR3",
-            "YXJlVmVyc2lvbhgFIAEoCUgEEhcKDW1heEJvZHlMZW5ndGgYByABKAVIBRIQ",
-            "CgZib290SWQYCCABKANIBhIiChhzb2Z0d2FyZVZlcnNpb25UaW1lc3RhbXAY",
-            "CSABKAlIBxIeChRzb2Z0d2FyZVZlcnNpb25CcmFuZBgKIAEoCUgIEiAKFnNv",
-            "ZnR3YXJlVmVyc2lvblByb2R1Y3QYCyABKAlICRIWCgxzZXJpYWxOdW1iZXIY",
-            "DCABKAlIChIfChVzb2Z0d2FyZVZlcnNpb25CcmFuY2gYDSABKAlICxJDChRw",
-            "cm90b2NvbENhcGFiaWxpdGllcxgOIAEoCzIlLno5LnNwY29yZS5wcm90by5Q",
-            "cm90b2NvbENhcGFiaWxpdGllcxISCghwYXNzd29yZBgQIAEoCUgMEi0KCWV2",
-            "dERldlJlZhgTIAEoCzIaLno5LnNwY29yZS5wcm90by5FdnREZXZSZWZCBQoD",
-            "aWRfQg8KDXNwQ29yZURldk1vZF9CDwoNc3BDb3JlRGV2VXNlX0ISChBwcm90",
-            "b2NvbFZlcnNpb25fQhIKEHNvZnR3YXJlVmVyc2lvbl9CEAoObWF4Qm9keUxl",
-            "bmd0aF9CCQoHYm9vdElkX0IbChlzb2Z0d2FyZVZlcnNpb25UaW1lc3RhbXBf",
-            "QhcKFXNvZnR3YXJlVmVyc2lvbkJyYW5kX0IZChdzb2Z0d2FyZVZlcnNpb25Q",
-            "cm9kdWN0X0IPCg1zZXJpYWxOdW1iZXJfQhgKFnNvZnR3YXJlVmVyc2lvbkJy",
-            "YW5jaF9CCwoJcGFzc3dvcmRfIpAJCghEYkNoYW5nZRITCglyZXF1ZXN0SWQY",
-            "ASABKANIABIXCg1jcmVkRGVsZXRlQWxsGAIgASgISAESEgoKY3JlZERlbGV0",
-            "ZRgDIAMoBRIjCgRjcmVkGAQgAygLMhUuejkuc3Bjb3JlLnByb3RvLkNyZWQS",
-            "HwoVY3JlZFRlbXBsYXRlRGVsZXRlQWxsGAUgASgISAISGgoSY3JlZFRlbXBs",
-            "YXRlRGVsZXRlGAYgAygFEjMKDGNyZWRUZW1wbGF0ZRgHIAMoCzIdLno5LnNw",
-            "Y29yZS5wcm90by5DcmVkVGVtcGxhdGUSHQoTZGF0YUxheW91dERlbGV0ZUFs",
-            "bBgIIAEoCEgDEhgKEGRhdGFMYXlvdXREZWxldGUYCSADKAUSLwoKZGF0YUxh",
-            "eW91dBgKIAMoCzIbLno5LnNwY29yZS5wcm90by5EYXRhTGF5b3V0Eh0KE2Rh",
-            "dGFGb3JtYXREZWxldGVBbGwYCyABKAhIBBIYChBkYXRhRm9ybWF0RGVsZXRl",
-            "GAwgAygFEi8KCmRhdGFGb3JtYXQYDSADKAsyGy56OS5zcGNvcmUucHJvdG8u",
-            "RGF0YUZvcm1hdBIWCgxkZXZEZWxldGVBbGwYDiABKAhIBRIRCglkZXZEZWxl",
-            "dGUYDyADKAUSIQoDZGV2GBAgAygLMhQuejkuc3Bjb3JlLnByb3RvLkRldhIX",
-            "Cg1wcml2RGVsZXRlQWxsGCMgASgISAYSEgoKcHJpdkRlbGV0ZRgkIAMoBRIj",
-            "CgRwcml2GCUgAygLMhUuejkuc3Bjb3JlLnByb3RvLlByaXYSGQoPaG9sQ2Fs",
-            "RGVsZXRlQWxsGCYgASgISAcSFAoMaG9sQ2FsRGVsZXRlGCcgAygFEicKBmhv",
-            "bENhbBgoIAMoCzIXLno5LnNwY29yZS5wcm90by5Ib2xDYWwSGgoQaG9sVHlw",
-            "ZURlbGV0ZUFsbBgpIAEoCEgIEhUKDWhvbFR5cGVEZWxldGUYKiADKAUSKQoH",
-            "aG9sVHlwZRgrIAMoCzIYLno5LnNwY29yZS5wcm90by5Ib2xUeXBlEhgKDnNj",
-            "aGVkRGVsZXRlQWxsGCwgASgISAkSEwoLc2NoZWREZWxldGUYLSADKAUSJQoF",
-            "c2NoZWQYLiADKAsyFi56OS5zcGNvcmUucHJvdG8uU2NoZWQSFwoMaG9sRGVs",
-            "ZXRlQWxsGJsBIAEoCEgKEhIKCWhvbERlbGV0ZRicASADKAUSIgoDaG9sGJ0B",
-            "IAMoCzIULno5LnNwY29yZS5wcm90by5Ib2xCDAoKcmVxdWVzdElkX0IQCg5j",
-            "cmVkRGVsZXRlQWxsX0IYChZjcmVkVGVtcGxhdGVEZWxldGVBbGxfQhYKFGRh",
-            "dGFMYXlvdXREZWxldGVBbGxfQhYKFGRhdGFGb3JtYXREZWxldGVBbGxfQg8K",
-            "DWRldkRlbGV0ZUFsbF9CEAoOcHJpdkRlbGV0ZUFsbF9CEgoQaG9sQ2FsRGVs",
-            "ZXRlQWxsX0ITChFob2xUeXBlRGVsZXRlQWxsX0IRCg9zY2hlZERlbGV0ZUFs",
-            "bF9CDwoNaG9sRGVsZXRlQWxsXyLlAgoMRGJDaGFuZ2VSZXNwEhMKCXJlcXVl",
-            "c3RJZBgBIAEoA0gAEhMKCWV4Y2VwdGlvbhgCIAEoCUgBEhEKCWNyZWRVbmlk",
-            "cxgDIAMoBRIZChFjcmVkVGVtcGxhdGVVbmlkcxgEIAMoBRIXCg9kYXRhTGF5",
-            "b3V0VW5pZHMYBSADKAUSFwoPZGF0YUZvcm1hdFVuaWRzGAYgAygFEhAKCGRl",
-            "dlVuaWRzGAcgAygFEhEKCXByaXZVbmlkcxgOIAMoBRITCgtob2xDYWxVbmlk",
-            "cxgPIAMoBRIUCgxob2xUeXBlVW5pZHMYECADKAUSEgoKc2NoZWRVbmlkcxgR",
-            "IAMoBRIdChVlbmNyeXB0aW9uS2V5UmVmVW5pZHMYMCADKAUSEAoIaG9sVW5p",
-            "ZHMYNiADKAUSGgoSZW5jcnlwdGlvbktleVVuaWRzGEcgAygFQgwKCnJlcXVl",
-            "c3RJZF9CDAoKZXhjZXB0aW9uXyJuCgpFdnRDb250cm9sEjkKDmV2dEZsb3dD",
-            "b250cm9sGAEgASgOMh8uejkuc3Bjb3JlLnByb3RvLkV2dEZsb3dDb250cm9s",
-            "SAASEgoKY29uc3VtZUV2dBgCIAMoA0IRCg9ldnRGbG93Q29udHJvbF8i1gEK",
-            "DERldkFjdGlvblJlcRITCglyZXF1ZXN0SWQYASABKANIABI3Cg1kZXZBY3Rp",
-            "b25UeXBlGAIgASgOMh4uejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblR5cGVI",
-            "ARIRCgdkZXZVbmlkGAMgASgFSAISOQoPZGV2QWN0aW9uUGFyYW1zGAQgASgL",
-            "MiAuejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblBhcmFtc0IMCgpyZXF1ZXN0",
-            "SWRfQhAKDmRldkFjdGlvblR5cGVfQgoKCGRldlVuaWRfIlUKDURldkFjdGlv",
-            "blJlc3ASEwoJcmVxdWVzdElkGAEgASgDSAASEwoJZXhjZXB0aW9uGAIgASgJ",
-            "SAFCDAoKcmVxdWVzdElkX0IMCgpleGNlcHRpb25fKoUBChFUZXJtaW5hdGlv",
-            "blJlYXNvbhIaChZUZXJtaW5hdGlvblJlYXNvbl9OT05FEAASKwonVGVybWlu",
-            "YXRpb25SZWFzb25fRVhJVElOR19PUl9SRVNUQVJUSU5HEAESJwojVGVybWlu",
-            "YXRpb25SZWFzb25fUEFTU1dPUkRfTUlTTUFUQ0gQAip8Cg5FdnRGbG93Q29u",
-            "dHJvbBIjCh9FdnRGbG93Q29udHJvbF9TVEFSVF9DT05USU5VT1VTEAASIgoe",
-            "RXZ0Rmxvd0NvbnRyb2xfU1RPUF9DT05USU5VT1VTEAESIQodRXZ0Rmxvd0Nv",
-            "bnRyb2xfU0VORF9PTkVfQkFUQ0gQAkICSANiBnByb3RvMw=="));
+            "ZS5wcm90by5FdnQSNwoOZGV2U3RhdGVSZWNvcmQYBiADKAsyHy56OS5zcGNv",
+            "cmUucHJvdG8uRGV2U3RhdGVSZWNvcmQSMwoMZGV2QWN0aW9uUmVxGAcgASgL",
+            "Mh0uejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblJlcRI1Cg1kZXZBY3Rpb25S",
+            "ZXNwGAggASgLMh4uejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblJlc3ASLwoK",
+            "ZXZ0Q29udHJvbBgJIAEoCzIbLno5LnNwY29yZS5wcm90by5FdnRDb250cm9s",
+            "EkUKFWRldlN0YXRlUmVjb3JkQ29udHJvbBgOIAEoCzImLno5LnNwY29yZS5w",
+            "cm90by5EZXZTdGF0ZVJlY29yZENvbnRyb2wSPwoRdGVybWluYXRpb25SZWFz",
+            "b24YNSABKA4yIi56OS5zcGNvcmUucHJvdG8uVGVybWluYXRpb25SZWFzb25I",
+            "ASKjBgoEVHlwZRIJCgVSRlVfMBAAEhIKDklERU5USUZJQ0FUSU9OEAESCAoE",
+            "UElORxACEg0KCURCX0NIQU5HRRADEhIKDkRCX0NIQU5HRV9SRVNQEAQSBwoD",
+            "RVZUEAUSFAoQREVWX1NUQVRFX1JFQ09SRBAGEhIKDkRFVl9BQ1RJT05fUkVR",
+            "EAcSEwoPREVWX0FDVElPTl9SRVNQEAgSDwoLRVZUX0NPTlRST0wQCRIKCgZS",
+            "RlVfMTAQChIKCgZSRlVfMTEQCxIKCgZSRlVfMTIQDBIJCgVNVUxUSRANEg0K",
+            "CVRFUk1JTkFURRAOEgoKBlJGVV8xNRAPEgoKBlJGVV8xNhAQEgoKBlJGVV8x",
+            "NxAREgoKBlJGVV8xOBASEhwKGERFVl9TVEFURV9SRUNPUkRfQ09OVFJPTBAT",
+            "EgoKBlJGVV8yMBAUEgoKBlJGVV8yMRAVEgoKBlJGVV8yMhAWEgoKBlJGVV8y",
+            "MxAXEgoKBlJGVV8yNBAYEgoKBlJGVV8yNRAZEgoKBlJGVV8yNhAaEgoKBlJG",
+            "VV8yNxAbEgoKBlJGVV8yOBAcEgoKBlJGVV8yORAdEgoKBlJGVV8zMBAeEgoK",
+            "BlJGVV8zMRAfEgoKBlJGVV8zMhAgEgoKBlJGVV8zMxAhEgoKBlJGVV8zNBAi",
+            "EgoKBlJGVV8zNRAjEgoKBlJGVV8zNhAkEgoKBlJGVV8zNxAlEgoKBlJGVV8z",
+            "OBAmEgoKBlJGVV8zORAnEgoKBlJGVV80MBAoEgoKBlJGVV80MRApEgoKBlJG",
+            "VV80MhAqEgoKBlJGVV80MxArEgoKBlJGVV80NBAsEgoKBlJGVV80NRAtEgoK",
+            "BlJGVV80NhAuEgoKBlJGVV80NxAvEgoKBlJGVV80OBAwEgoKBlJGVV80ORAx",
+            "EgoKBlJGVV81MBAyEgoKBlJGVV81MRAzEgoKBlJGVV81MhA0EgoKBlJGVV81",
+            "MxA1EgoKBlJGVV81NBA2EgoKBlJGVV81NRA3EgoKBlJGVV81NhA4EgoKBlJG",
+            "VV81NxA5EgoKBlJGVV81OBA6EgoKBlJGVV81ORA7EgoKBlJGVV82MBA8QgcK",
+            "BXR5cGVfQhQKEnRlcm1pbmF0aW9uUmVhc29uXyKtBQoUUHJvdG9jb2xDYXBh",
+            "YmlsaXRpZXMSGAoObWF4RW51bV9EZXZNb2QYAiABKAVIABIYCg5tYXhFbnVt",
+            "X0RldlVzZRgDIAEoBUgBEiUKG21heEVudW1fRGV2QWN0aW9uUGFyYW1zVHlw",
+            "ZRgEIAEoBUgCEh8KFW1heEVudW1fRGV2QWN0aW9uVHlwZRgFIAEoBUgDEhsK",
+            "EW1heEVudW1fRGV2QXNwZWN0GAYgASgFSAQSGQoPbWF4RW51bV9FdnRDb2Rl",
+            "GAcgASgFSAUSHAoSbWF4RW51bV9FdnRTdWJDb2RlGAkgASgFSAYSKAoec3Vw",
+            "cG9ydHNJZGVudGlmaWNhdGlvblBhc3N3b3JkGBYgASgISAcSMAomc3VwcG9y",
+            "dHNJZGVudGlmaWNhdGlvblBhc3N3b3JkVXBzdHJlYW0YFyABKAhICBIdChNt",
+            "YXhFbnVtX0RldlBsYXRmb3JtGBwgASgFSAkSIwoZbWF4RW51bV9UZXJtaW5h",
+            "dGlvblJlYXNvbhggIAEoBUgKQhEKD21heEVudW1fRGV2TW9kX0IRCg9tYXhF",
+            "bnVtX0RldlVzZV9CHgocbWF4RW51bV9EZXZBY3Rpb25QYXJhbXNUeXBlX0IY",
+            "ChZtYXhFbnVtX0RldkFjdGlvblR5cGVfQhQKEm1heEVudW1fRGV2QXNwZWN0",
+            "X0ISChBtYXhFbnVtX0V2dENvZGVfQhUKE21heEVudW1fRXZ0U3ViQ29kZV9C",
+            "IQofc3VwcG9ydHNJZGVudGlmaWNhdGlvblBhc3N3b3JkX0IpCidzdXBwb3J0",
+            "c0lkZW50aWZpY2F0aW9uUGFzc3dvcmRVcHN0cmVhbV9CFgoUbWF4RW51bV9E",
+            "ZXZQbGF0Zm9ybV9CHAoabWF4RW51bV9UZXJtaW5hdGlvblJlYXNvbl8i/wUK",
+            "DklkZW50aWZpY2F0aW9uEgwKAmlkGAEgASgJSAASLwoMc3BDb3JlRGV2TW9k",
+            "GAIgASgOMhcuejkuc3Bjb3JlLnByb3RvLkRldk1vZEgBEi8KDHNwQ29yZURl",
+            "dlVzZRgDIAEoDjIXLno5LnNwY29yZS5wcm90by5EZXZVc2VIAhIZCg9wcm90",
+            "b2NvbFZlcnNpb24YBCABKAlIAxIZCg9zb2Z0d2FyZVZlcnNpb24YBSABKAlI",
+            "BBIXCg1tYXhCb2R5TGVuZ3RoGAcgASgFSAUSEAoGYm9vdElkGAggASgDSAYS",
+            "IgoYc29mdHdhcmVWZXJzaW9uVGltZXN0YW1wGAkgASgJSAcSHgoUc29mdHdh",
+            "cmVWZXJzaW9uQnJhbmQYCiABKAlICBIgChZzb2Z0d2FyZVZlcnNpb25Qcm9k",
+            "dWN0GAsgASgJSAkSFgoMc2VyaWFsTnVtYmVyGAwgASgJSAoSHwoVc29mdHdh",
+            "cmVWZXJzaW9uQnJhbmNoGA0gASgJSAsSQwoUcHJvdG9jb2xDYXBhYmlsaXRp",
+            "ZXMYDiABKAsyJS56OS5zcGNvcmUucHJvdG8uUHJvdG9jb2xDYXBhYmlsaXRp",
+            "ZXMSEgoIcGFzc3dvcmQYECABKAlIDBItCglldnREZXZSZWYYEyABKAsyGi56",
+            "OS5zcGNvcmUucHJvdG8uRXZ0RGV2UmVmQgUKA2lkX0IPCg1zcENvcmVEZXZN",
+            "b2RfQg8KDXNwQ29yZURldlVzZV9CEgoQcHJvdG9jb2xWZXJzaW9uX0ISChBz",
+            "b2Z0d2FyZVZlcnNpb25fQhAKDm1heEJvZHlMZW5ndGhfQgkKB2Jvb3RJZF9C",
+            "GwoZc29mdHdhcmVWZXJzaW9uVGltZXN0YW1wX0IXChVzb2Z0d2FyZVZlcnNp",
+            "b25CcmFuZF9CGQoXc29mdHdhcmVWZXJzaW9uUHJvZHVjdF9CDwoNc2VyaWFs",
+            "TnVtYmVyX0IYChZzb2Z0d2FyZVZlcnNpb25CcmFuY2hfQgsKCXBhc3N3b3Jk",
+            "XyKQCQoIRGJDaGFuZ2USEwoJcmVxdWVzdElkGAEgASgDSAASFwoNY3JlZERl",
+            "bGV0ZUFsbBgCIAEoCEgBEhIKCmNyZWREZWxldGUYAyADKAUSIwoEY3JlZBgE",
+            "IAMoCzIVLno5LnNwY29yZS5wcm90by5DcmVkEh8KFWNyZWRUZW1wbGF0ZURl",
+            "bGV0ZUFsbBgFIAEoCEgCEhoKEmNyZWRUZW1wbGF0ZURlbGV0ZRgGIAMoBRIz",
+            "CgxjcmVkVGVtcGxhdGUYByADKAsyHS56OS5zcGNvcmUucHJvdG8uQ3JlZFRl",
+            "bXBsYXRlEh0KE2RhdGFMYXlvdXREZWxldGVBbGwYCCABKAhIAxIYChBkYXRh",
+            "TGF5b3V0RGVsZXRlGAkgAygFEi8KCmRhdGFMYXlvdXQYCiADKAsyGy56OS5z",
+            "cGNvcmUucHJvdG8uRGF0YUxheW91dBIdChNkYXRhRm9ybWF0RGVsZXRlQWxs",
+            "GAsgASgISAQSGAoQZGF0YUZvcm1hdERlbGV0ZRgMIAMoBRIvCgpkYXRhRm9y",
+            "bWF0GA0gAygLMhsuejkuc3Bjb3JlLnByb3RvLkRhdGFGb3JtYXQSFgoMZGV2",
+            "RGVsZXRlQWxsGA4gASgISAUSEQoJZGV2RGVsZXRlGA8gAygFEiEKA2RldhgQ",
+            "IAMoCzIULno5LnNwY29yZS5wcm90by5EZXYSFwoNcHJpdkRlbGV0ZUFsbBgj",
+            "IAEoCEgGEhIKCnByaXZEZWxldGUYJCADKAUSIwoEcHJpdhglIAMoCzIVLno5",
+            "LnNwY29yZS5wcm90by5Qcml2EhkKD2hvbENhbERlbGV0ZUFsbBgmIAEoCEgH",
+            "EhQKDGhvbENhbERlbGV0ZRgnIAMoBRInCgZob2xDYWwYKCADKAsyFy56OS5z",
+            "cGNvcmUucHJvdG8uSG9sQ2FsEhoKEGhvbFR5cGVEZWxldGVBbGwYKSABKAhI",
+            "CBIVCg1ob2xUeXBlRGVsZXRlGCogAygFEikKB2hvbFR5cGUYKyADKAsyGC56",
+            "OS5zcGNvcmUucHJvdG8uSG9sVHlwZRIYCg5zY2hlZERlbGV0ZUFsbBgsIAEo",
+            "CEgJEhMKC3NjaGVkRGVsZXRlGC0gAygFEiUKBXNjaGVkGC4gAygLMhYuejku",
+            "c3Bjb3JlLnByb3RvLlNjaGVkEhcKDGhvbERlbGV0ZUFsbBibASABKAhIChIS",
+            "Cglob2xEZWxldGUYnAEgAygFEiIKA2hvbBidASADKAsyFC56OS5zcGNvcmUu",
+            "cHJvdG8uSG9sQgwKCnJlcXVlc3RJZF9CEAoOY3JlZERlbGV0ZUFsbF9CGAoW",
+            "Y3JlZFRlbXBsYXRlRGVsZXRlQWxsX0IWChRkYXRhTGF5b3V0RGVsZXRlQWxs",
+            "X0IWChRkYXRhRm9ybWF0RGVsZXRlQWxsX0IPCg1kZXZEZWxldGVBbGxfQhAK",
+            "DnByaXZEZWxldGVBbGxfQhIKEGhvbENhbERlbGV0ZUFsbF9CEwoRaG9sVHlw",
+            "ZURlbGV0ZUFsbF9CEQoPc2NoZWREZWxldGVBbGxfQg8KDWhvbERlbGV0ZUFs",
+            "bF8i5QIKDERiQ2hhbmdlUmVzcBITCglyZXF1ZXN0SWQYASABKANIABITCgll",
+            "eGNlcHRpb24YAiABKAlIARIRCgljcmVkVW5pZHMYAyADKAUSGQoRY3JlZFRl",
+            "bXBsYXRlVW5pZHMYBCADKAUSFwoPZGF0YUxheW91dFVuaWRzGAUgAygFEhcK",
+            "D2RhdGFGb3JtYXRVbmlkcxgGIAMoBRIQCghkZXZVbmlkcxgHIAMoBRIRCglw",
+            "cml2VW5pZHMYDiADKAUSEwoLaG9sQ2FsVW5pZHMYDyADKAUSFAoMaG9sVHlw",
+            "ZVVuaWRzGBAgAygFEhIKCnNjaGVkVW5pZHMYESADKAUSHQoVZW5jcnlwdGlv",
+            "bktleVJlZlVuaWRzGDAgAygFEhAKCGhvbFVuaWRzGDYgAygFEhoKEmVuY3J5",
+            "cHRpb25LZXlVbmlkcxhHIAMoBUIMCgpyZXF1ZXN0SWRfQgwKCmV4Y2VwdGlv",
+            "bl8ibgoKRXZ0Q29udHJvbBI5Cg5ldnRGbG93Q29udHJvbBgBIAEoDjIfLno5",
+            "LnNwY29yZS5wcm90by5FdnRGbG93Q29udHJvbEgAEhIKCmNvbnN1bWVFdnQY",
+            "AiADKANCEQoPZXZ0Rmxvd0NvbnRyb2xfIoYBChVEZXZTdGF0ZVJlY29yZENv",
+            "bnRyb2wSTwoZZGV2U3RhdGVSZWNvcmRGbG93Q29udHJvbBgBIAEoDjIqLno5",
+            "LnNwY29yZS5wcm90by5EZXZTdGF0ZVJlY29yZEZsb3dDb250cm9sSABCHAoa",
+            "ZGV2U3RhdGVSZWNvcmRGbG93Q29udHJvbF8i1gEKDERldkFjdGlvblJlcRIT",
+            "CglyZXF1ZXN0SWQYASABKANIABI3Cg1kZXZBY3Rpb25UeXBlGAIgASgOMh4u",
+            "ejkuc3Bjb3JlLnByb3RvLkRldkFjdGlvblR5cGVIARIRCgdkZXZVbmlkGAMg",
+            "ASgFSAISOQoPZGV2QWN0aW9uUGFyYW1zGAQgASgLMiAuejkuc3Bjb3JlLnBy",
+            "b3RvLkRldkFjdGlvblBhcmFtc0IMCgpyZXF1ZXN0SWRfQhAKDmRldkFjdGlv",
+            "blR5cGVfQgoKCGRldlVuaWRfIlUKDURldkFjdGlvblJlc3ASEwoJcmVxdWVz",
+            "dElkGAEgASgDSAASEwoJZXhjZXB0aW9uGAIgASgJSAFCDAoKcmVxdWVzdElk",
+            "X0IMCgpleGNlcHRpb25fKoUBChFUZXJtaW5hdGlvblJlYXNvbhIaChZUZXJt",
+            "aW5hdGlvblJlYXNvbl9OT05FEAASKwonVGVybWluYXRpb25SZWFzb25fRVhJ",
+            "VElOR19PUl9SRVNUQVJUSU5HEAESJwojVGVybWluYXRpb25SZWFzb25fUEFT",
+            "U1dPUkRfTUlTTUFUQ0gQAip8Cg5FdnRGbG93Q29udHJvbBIjCh9FdnRGbG93",
+            "Q29udHJvbF9TVEFSVF9DT05USU5VT1VTEAASIgoeRXZ0Rmxvd0NvbnRyb2xf",
+            "U1RPUF9DT05USU5VT1VTEAESIQodRXZ0Rmxvd0NvbnRyb2xfU0VORF9PTkVf",
+            "QkFUQ0gQAiqoAQoZRGV2U3RhdGVSZWNvcmRGbG93Q29udHJvbBIuCipEZXZT",
+            "dGF0ZVJlY29yZEZsb3dDb250cm9sX1NUQVJUX0NPTlRJTlVPVVMQABItCilE",
+            "ZXZTdGF0ZVJlY29yZEZsb3dDb250cm9sX1NUT1BfQ09OVElOVU9VUxABEiwK",
+            "KERldlN0YXRlUmVjb3JkRmxvd0NvbnRyb2xfU0VORF9PTkVfQkFUQ0gQAkIC",
+            "SANiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Z9.Spcore.Proto.SpCoreProtoElementsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoEnumsReflection.Descriptor, global::Z9.Spcore.Proto.SpCoreProtoDataReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Z9.Spcore.Proto.TerminationReason), typeof(global::Z9.Spcore.Proto.EvtFlowControl), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.SpCoreMessage), global::Z9.Spcore.Proto.SpCoreMessage.Parser, new[]{ "Type", "Identification", "DbChange", "DbChangeResp", "Evt", "DevActionReq", "DevActionResp", "EvtControl", "TerminationReason" }, new[]{ "Type", "TerminationReason" }, new[]{ typeof(global::Z9.Spcore.Proto.SpCoreMessage.Types.Type) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.ProtocolCapabilities), global::Z9.Spcore.Proto.ProtocolCapabilities.Parser, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Z9.Spcore.Proto.TerminationReason), typeof(global::Z9.Spcore.Proto.EvtFlowControl), typeof(global::Z9.Spcore.Proto.DevStateRecordFlowControl), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.SpCoreMessage), global::Z9.Spcore.Proto.SpCoreMessage.Parser, new[]{ "Type", "Identification", "DbChange", "DbChangeResp", "Evt", "DevStateRecord", "DevActionReq", "DevActionResp", "EvtControl", "DevStateRecordControl", "TerminationReason" }, new[]{ "Type", "TerminationReason" }, new[]{ typeof(global::Z9.Spcore.Proto.SpCoreMessage.Types.Type) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.ProtocolCapabilities), global::Z9.Spcore.Proto.ProtocolCapabilities.Parser, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumDevAspect", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, new[]{ "MaxEnumDevMod", "MaxEnumDevUse", "MaxEnumDevActionParamsType", "MaxEnumDevActionType", "MaxEnumDevAspect", "MaxEnumEvtCode", "MaxEnumEvtSubCode", "SupportsIdentificationPassword", "SupportsIdentificationPasswordUpstream", "MaxEnumDevPlatform", "MaxEnumTerminationReason" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.Identification), global::Z9.Spcore.Proto.Identification.Parser, new[]{ "Id", "SpCoreDevMod", "SpCoreDevUse", "ProtocolVersion", "SoftwareVersion", "MaxBodyLength", "BootId", "SoftwareVersionTimestamp", "SoftwareVersionBrand", "SoftwareVersionProduct", "SerialNumber", "SoftwareVersionBranch", "ProtocolCapabilities", "Password", "EvtDevRef" }, new[]{ "Id", "SpCoreDevMod", "SpCoreDevUse", "ProtocolVersion", "SoftwareVersion", "MaxBodyLength", "BootId", "SoftwareVersionTimestamp", "SoftwareVersionBrand", "SoftwareVersionProduct", "SerialNumber", "SoftwareVersionBranch", "Password" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DbChange), global::Z9.Spcore.Proto.DbChange.Parser, new[]{ "RequestId", "CredDeleteAll", "CredDelete", "Cred", "CredTemplateDeleteAll", "CredTemplateDelete", "CredTemplate", "DataLayoutDeleteAll", "DataLayoutDelete", "DataLayout", "DataFormatDeleteAll", "DataFormatDelete", "DataFormat", "DevDeleteAll", "DevDelete", "Dev", "PrivDeleteAll", "PrivDelete", "Priv", "HolCalDeleteAll", "HolCalDelete", "HolCal", "HolTypeDeleteAll", "HolTypeDelete", "HolType", "SchedDeleteAll", "SchedDelete", "Sched", "HolDeleteAll", "HolDelete", "Hol" }, new[]{ "RequestId", "CredDeleteAll", "CredTemplateDeleteAll", "DataLayoutDeleteAll", "DataFormatDeleteAll", "DevDeleteAll", "PrivDeleteAll", "HolCalDeleteAll", "HolTypeDeleteAll", "SchedDeleteAll", "HolDeleteAll" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DbChangeResp), global::Z9.Spcore.Proto.DbChangeResp.Parser, new[]{ "RequestId", "Exception", "CredUnids", "CredTemplateUnids", "DataLayoutUnids", "DataFormatUnids", "DevUnids", "PrivUnids", "HolCalUnids", "HolTypeUnids", "SchedUnids", "EncryptionKeyRefUnids", "HolUnids", "EncryptionKeyUnids" }, new[]{ "RequestId", "Exception" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.EvtControl), global::Z9.Spcore.Proto.EvtControl.Parser, new[]{ "EvtFlowControl", "ConsumeEvt" }, new[]{ "EvtFlowControl" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevStateRecordControl), global::Z9.Spcore.Proto.DevStateRecordControl.Parser, new[]{ "DevStateRecordFlowControl" }, new[]{ "DevStateRecordFlowControl" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevActionReq), global::Z9.Spcore.Proto.DevActionReq.Parser, new[]{ "RequestId", "DevActionType", "DevUnid", "DevActionParams" }, new[]{ "RequestId", "DevActionType", "DevUnid" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Z9.Spcore.Proto.DevActionResp), global::Z9.Spcore.Proto.DevActionResp.Parser, new[]{ "RequestId", "Exception" }, new[]{ "RequestId", "Exception" }, null, null)
           }));
@@ -187,6 +200,24 @@ namespace Z9.Spcore.Proto {
     [pbr::OriginalName("EvtFlowControl_SEND_ONE_BATCH")] SendOneBatch = 2,
   }
 
+  /// <summary>
+  /// control the flow of DevStateRecord (Host->Panel)
+  /// </summary>
+  public enum DevStateRecordFlowControl {
+    /// <summary>
+    /// start sending continously (keep sending until DevStateRecordFlowControl_STOP_CONTINUOUS)
+    /// </summary>
+    [pbr::OriginalName("DevStateRecordFlowControl_START_CONTINUOUS")] StartContinuous = 0,
+    /// <summary>
+    /// stop sending continuously (opposite of DevStateRecordFlowControl_START_CONTINUOUS)
+    /// </summary>
+    [pbr::OriginalName("DevStateRecordFlowControl_STOP_CONTINUOUS")] StopContinuous = 1,
+    /// <summary>
+    /// send a single batch of DevStateRecord.  This is the simplest mechanism to avoid the host being flooded with events faster than it can process them
+    /// </summary>
+    [pbr::OriginalName("DevStateRecordFlowControl_SEND_ONE_BATCH")] SendOneBatch = 2,
+  }
+
   #endregion
 
   #region Messages
@@ -218,9 +249,11 @@ namespace Z9.Spcore.Proto {
       DbChange = other.dbChange_ != null ? other.DbChange.Clone() : null;
       DbChangeResp = other.dbChangeResp_ != null ? other.DbChangeResp.Clone() : null;
       evt_ = other.evt_.Clone();
+      devStateRecord_ = other.devStateRecord_.Clone();
       DevActionReq = other.devActionReq_ != null ? other.DevActionReq.Clone() : null;
       DevActionResp = other.devActionResp_ != null ? other.DevActionResp.Clone() : null;
       EvtControl = other.evtControl_ != null ? other.EvtControl.Clone() : null;
+      DevStateRecordControl = other.devStateRecordControl_ != null ? other.DevStateRecordControl.Clone() : null;
       switch (other.TypeCase) {
         case TypeOneofCase.Type:
           Type = other.Type;
@@ -303,6 +336,16 @@ namespace Z9.Spcore.Proto {
       get { return evt_; }
     }
 
+    /// <summary>Field number for the "devStateRecord" field.</summary>
+    public const int DevStateRecordFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Z9.Spcore.Proto.DevStateRecord> _repeated_devStateRecord_codec
+        = pb::FieldCodec.ForMessage(50, global::Z9.Spcore.Proto.DevStateRecord.Parser);
+    private readonly pbc::RepeatedField<global::Z9.Spcore.Proto.DevStateRecord> devStateRecord_ = new pbc::RepeatedField<global::Z9.Spcore.Proto.DevStateRecord>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Z9.Spcore.Proto.DevStateRecord> DevStateRecord {
+      get { return devStateRecord_; }
+    }
+
     /// <summary>Field number for the "devActionReq" field.</summary>
     public const int DevActionReqFieldNumber = 7;
     private global::Z9.Spcore.Proto.DevActionReq devActionReq_;
@@ -342,6 +385,20 @@ namespace Z9.Spcore.Proto {
       get { return evtControl_; }
       set {
         evtControl_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "devStateRecordControl" field.</summary>
+    public const int DevStateRecordControlFieldNumber = 14;
+    private global::Z9.Spcore.Proto.DevStateRecordControl devStateRecordControl_;
+    /// <summary>
+    ///optional
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DevStateRecordControl DevStateRecordControl {
+      get { return devStateRecordControl_; }
+      set {
+        devStateRecordControl_ = value;
       }
     }
 
@@ -410,9 +467,11 @@ namespace Z9.Spcore.Proto {
       if (!object.Equals(DbChange, other.DbChange)) return false;
       if (!object.Equals(DbChangeResp, other.DbChangeResp)) return false;
       if(!evt_.Equals(other.evt_)) return false;
+      if(!devStateRecord_.Equals(other.devStateRecord_)) return false;
       if (!object.Equals(DevActionReq, other.DevActionReq)) return false;
       if (!object.Equals(DevActionResp, other.DevActionResp)) return false;
       if (!object.Equals(EvtControl, other.EvtControl)) return false;
+      if (!object.Equals(DevStateRecordControl, other.DevStateRecordControl)) return false;
       if (TerminationReason != other.TerminationReason) return false;
       if (TypeCase != other.TypeCase) return false;
       if (TerminationReasonCase != other.TerminationReasonCase) return false;
@@ -427,9 +486,11 @@ namespace Z9.Spcore.Proto {
       if (dbChange_ != null) hash ^= DbChange.GetHashCode();
       if (dbChangeResp_ != null) hash ^= DbChangeResp.GetHashCode();
       hash ^= evt_.GetHashCode();
+      hash ^= devStateRecord_.GetHashCode();
       if (devActionReq_ != null) hash ^= DevActionReq.GetHashCode();
       if (devActionResp_ != null) hash ^= DevActionResp.GetHashCode();
       if (evtControl_ != null) hash ^= EvtControl.GetHashCode();
+      if (devStateRecordControl_ != null) hash ^= DevStateRecordControl.GetHashCode();
       if (terminationReasonCase_ == TerminationReasonOneofCase.TerminationReason) hash ^= TerminationReason.GetHashCode();
       hash ^= (int) typeCase_;
       hash ^= (int) terminationReasonCase_;
@@ -460,6 +521,7 @@ namespace Z9.Spcore.Proto {
         output.WriteMessage(DbChangeResp);
       }
       evt_.WriteTo(output, _repeated_evt_codec);
+      devStateRecord_.WriteTo(output, _repeated_devStateRecord_codec);
       if (devActionReq_ != null) {
         output.WriteRawTag(58);
         output.WriteMessage(DevActionReq);
@@ -471,6 +533,10 @@ namespace Z9.Spcore.Proto {
       if (evtControl_ != null) {
         output.WriteRawTag(74);
         output.WriteMessage(EvtControl);
+      }
+      if (devStateRecordControl_ != null) {
+        output.WriteRawTag(114);
+        output.WriteMessage(DevStateRecordControl);
       }
       if (terminationReasonCase_ == TerminationReasonOneofCase.TerminationReason) {
         output.WriteRawTag(168, 3);
@@ -494,6 +560,7 @@ namespace Z9.Spcore.Proto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DbChangeResp);
       }
       size += evt_.CalculateSize(_repeated_evt_codec);
+      size += devStateRecord_.CalculateSize(_repeated_devStateRecord_codec);
       if (devActionReq_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DevActionReq);
       }
@@ -502,6 +569,9 @@ namespace Z9.Spcore.Proto {
       }
       if (evtControl_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(EvtControl);
+      }
+      if (devStateRecordControl_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DevStateRecordControl);
       }
       if (terminationReasonCase_ == TerminationReasonOneofCase.TerminationReason) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) TerminationReason);
@@ -533,6 +603,7 @@ namespace Z9.Spcore.Proto {
         DbChangeResp.MergeFrom(other.DbChangeResp);
       }
       evt_.Add(other.evt_);
+      devStateRecord_.Add(other.devStateRecord_);
       if (other.devActionReq_ != null) {
         if (devActionReq_ == null) {
           devActionReq_ = new global::Z9.Spcore.Proto.DevActionReq();
@@ -550,6 +621,12 @@ namespace Z9.Spcore.Proto {
           evtControl_ = new global::Z9.Spcore.Proto.EvtControl();
         }
         EvtControl.MergeFrom(other.EvtControl);
+      }
+      if (other.devStateRecordControl_ != null) {
+        if (devStateRecordControl_ == null) {
+          devStateRecordControl_ = new global::Z9.Spcore.Proto.DevStateRecordControl();
+        }
+        DevStateRecordControl.MergeFrom(other.DevStateRecordControl);
       }
       switch (other.TypeCase) {
         case TypeOneofCase.Type:
@@ -603,6 +680,10 @@ namespace Z9.Spcore.Proto {
             evt_.AddEntriesFrom(input, _repeated_evt_codec);
             break;
           }
+          case 50: {
+            devStateRecord_.AddEntriesFrom(input, _repeated_devStateRecord_codec);
+            break;
+          }
           case 58: {
             if (devActionReq_ == null) {
               devActionReq_ = new global::Z9.Spcore.Proto.DevActionReq();
@@ -622,6 +703,13 @@ namespace Z9.Spcore.Proto {
               evtControl_ = new global::Z9.Spcore.Proto.EvtControl();
             }
             input.ReadMessage(evtControl_);
+            break;
+          }
+          case 114: {
+            if (devStateRecordControl_ == null) {
+              devStateRecordControl_ = new global::Z9.Spcore.Proto.DevStateRecordControl();
+            }
+            input.ReadMessage(devStateRecordControl_);
             break;
           }
           case 424: {
@@ -659,7 +747,10 @@ namespace Z9.Spcore.Proto {
         /// Panel->Host most commonly, can go Host->Panel for architecture where events are sent the other way 
         /// </summary>
         [pbr::OriginalName("EVT")] Evt = 5,
-        [pbr::OriginalName("RFU_6")] Rfu6 = 6,
+        /// <summary>
+        /// Panel->Host
+        /// </summary>
+        [pbr::OriginalName("DEV_STATE_RECORD")] DevStateRecord = 6,
         /// <summary>
         /// Host->Panel
         /// </summary>
@@ -687,7 +778,10 @@ namespace Z9.Spcore.Proto {
         [pbr::OriginalName("RFU_16")] Rfu16 = 16,
         [pbr::OriginalName("RFU_17")] Rfu17 = 17,
         [pbr::OriginalName("RFU_18")] Rfu18 = 18,
-        [pbr::OriginalName("RFU_19")] Rfu19 = 19,
+        /// <summary>
+        /// Host->Panel: control flow of DevStateRecord
+        /// </summary>
+        [pbr::OriginalName("DEV_STATE_RECORD_CONTROL")] DevStateRecordControl = 19,
         [pbr::OriginalName("RFU_20")] Rfu20 = 20,
         [pbr::OriginalName("RFU_21")] Rfu21 = 21,
         [pbr::OriginalName("RFU_22")] Rfu22 = 22,
@@ -787,6 +881,12 @@ namespace Z9.Spcore.Proto {
           break;
       }
 
+      switch (other.MaxEnumDevAspectCase) {
+        case MaxEnumDevAspectOneofCase.MaxEnumDevAspect:
+          MaxEnumDevAspect = other.MaxEnumDevAspect;
+          break;
+      }
+
       switch (other.MaxEnumEvtCodeCase) {
         case MaxEnumEvtCodeOneofCase.MaxEnumEvtCode:
           MaxEnumEvtCode = other.MaxEnumEvtCode;
@@ -871,6 +971,17 @@ namespace Z9.Spcore.Proto {
       set {
         maxEnumDevActionType_ = value;
         maxEnumDevActionTypeCase_ = MaxEnumDevActionTypeOneofCase.MaxEnumDevActionType;
+      }
+    }
+
+    /// <summary>Field number for the "maxEnum_DevAspect" field.</summary>
+    public const int MaxEnumDevAspectFieldNumber = 6;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int MaxEnumDevAspect {
+      get { return maxEnumDevAspectCase_ == MaxEnumDevAspectOneofCase.MaxEnumDevAspect ? (int) maxEnumDevAspect_ : 0; }
+      set {
+        maxEnumDevAspect_ = value;
+        maxEnumDevAspectCase_ = MaxEnumDevAspectOneofCase.MaxEnumDevAspect;
       }
     }
 
@@ -1012,6 +1123,24 @@ namespace Z9.Spcore.Proto {
       maxEnumDevActionType_ = null;
     }
 
+    private object maxEnumDevAspect_;
+    /// <summary>Enum of possible cases for the "maxEnum_DevAspect_" oneof.</summary>
+    public enum MaxEnumDevAspectOneofCase {
+      None = 0,
+      MaxEnumDevAspect = 6,
+    }
+    private MaxEnumDevAspectOneofCase maxEnumDevAspectCase_ = MaxEnumDevAspectOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MaxEnumDevAspectOneofCase MaxEnumDevAspectCase {
+      get { return maxEnumDevAspectCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearMaxEnumDevAspect() {
+      maxEnumDevAspectCase_ = MaxEnumDevAspectOneofCase.None;
+      maxEnumDevAspect_ = null;
+    }
+
     private object maxEnumEvtCode_;
     /// <summary>Enum of possible cases for the "maxEnum_EvtCode_" oneof.</summary>
     public enum MaxEnumEvtCodeOneofCase {
@@ -1137,6 +1266,7 @@ namespace Z9.Spcore.Proto {
       if (MaxEnumDevUse != other.MaxEnumDevUse) return false;
       if (MaxEnumDevActionParamsType != other.MaxEnumDevActionParamsType) return false;
       if (MaxEnumDevActionType != other.MaxEnumDevActionType) return false;
+      if (MaxEnumDevAspect != other.MaxEnumDevAspect) return false;
       if (MaxEnumEvtCode != other.MaxEnumEvtCode) return false;
       if (MaxEnumEvtSubCode != other.MaxEnumEvtSubCode) return false;
       if (SupportsIdentificationPassword != other.SupportsIdentificationPassword) return false;
@@ -1147,6 +1277,7 @@ namespace Z9.Spcore.Proto {
       if (MaxEnumDevUseCase != other.MaxEnumDevUseCase) return false;
       if (MaxEnumDevActionParamsTypeCase != other.MaxEnumDevActionParamsTypeCase) return false;
       if (MaxEnumDevActionTypeCase != other.MaxEnumDevActionTypeCase) return false;
+      if (MaxEnumDevAspectCase != other.MaxEnumDevAspectCase) return false;
       if (MaxEnumEvtCodeCase != other.MaxEnumEvtCodeCase) return false;
       if (MaxEnumEvtSubCodeCase != other.MaxEnumEvtSubCodeCase) return false;
       if (SupportsIdentificationPasswordCase != other.SupportsIdentificationPasswordCase) return false;
@@ -1163,6 +1294,7 @@ namespace Z9.Spcore.Proto {
       if (maxEnumDevUseCase_ == MaxEnumDevUseOneofCase.MaxEnumDevUse) hash ^= MaxEnumDevUse.GetHashCode();
       if (maxEnumDevActionParamsTypeCase_ == MaxEnumDevActionParamsTypeOneofCase.MaxEnumDevActionParamsType) hash ^= MaxEnumDevActionParamsType.GetHashCode();
       if (maxEnumDevActionTypeCase_ == MaxEnumDevActionTypeOneofCase.MaxEnumDevActionType) hash ^= MaxEnumDevActionType.GetHashCode();
+      if (maxEnumDevAspectCase_ == MaxEnumDevAspectOneofCase.MaxEnumDevAspect) hash ^= MaxEnumDevAspect.GetHashCode();
       if (maxEnumEvtCodeCase_ == MaxEnumEvtCodeOneofCase.MaxEnumEvtCode) hash ^= MaxEnumEvtCode.GetHashCode();
       if (maxEnumEvtSubCodeCase_ == MaxEnumEvtSubCodeOneofCase.MaxEnumEvtSubCode) hash ^= MaxEnumEvtSubCode.GetHashCode();
       if (supportsIdentificationPasswordCase_ == SupportsIdentificationPasswordOneofCase.SupportsIdentificationPassword) hash ^= SupportsIdentificationPassword.GetHashCode();
@@ -1173,6 +1305,7 @@ namespace Z9.Spcore.Proto {
       hash ^= (int) maxEnumDevUseCase_;
       hash ^= (int) maxEnumDevActionParamsTypeCase_;
       hash ^= (int) maxEnumDevActionTypeCase_;
+      hash ^= (int) maxEnumDevAspectCase_;
       hash ^= (int) maxEnumEvtCodeCase_;
       hash ^= (int) maxEnumEvtSubCodeCase_;
       hash ^= (int) supportsIdentificationPasswordCase_;
@@ -1204,6 +1337,10 @@ namespace Z9.Spcore.Proto {
       if (maxEnumDevActionTypeCase_ == MaxEnumDevActionTypeOneofCase.MaxEnumDevActionType) {
         output.WriteRawTag(40);
         output.WriteInt32(MaxEnumDevActionType);
+      }
+      if (maxEnumDevAspectCase_ == MaxEnumDevAspectOneofCase.MaxEnumDevAspect) {
+        output.WriteRawTag(48);
+        output.WriteInt32(MaxEnumDevAspect);
       }
       if (maxEnumEvtCodeCase_ == MaxEnumEvtCodeOneofCase.MaxEnumEvtCode) {
         output.WriteRawTag(56);
@@ -1245,6 +1382,9 @@ namespace Z9.Spcore.Proto {
       }
       if (maxEnumDevActionTypeCase_ == MaxEnumDevActionTypeOneofCase.MaxEnumDevActionType) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(MaxEnumDevActionType);
+      }
+      if (maxEnumDevAspectCase_ == MaxEnumDevAspectOneofCase.MaxEnumDevAspect) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MaxEnumDevAspect);
       }
       if (maxEnumEvtCodeCase_ == MaxEnumEvtCodeOneofCase.MaxEnumEvtCode) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(MaxEnumEvtCode);
@@ -1293,6 +1433,12 @@ namespace Z9.Spcore.Proto {
       switch (other.MaxEnumDevActionTypeCase) {
         case MaxEnumDevActionTypeOneofCase.MaxEnumDevActionType:
           MaxEnumDevActionType = other.MaxEnumDevActionType;
+          break;
+      }
+
+      switch (other.MaxEnumDevAspectCase) {
+        case MaxEnumDevAspectOneofCase.MaxEnumDevAspect:
+          MaxEnumDevAspect = other.MaxEnumDevAspect;
           break;
       }
 
@@ -1356,6 +1502,10 @@ namespace Z9.Spcore.Proto {
           }
           case 40: {
             MaxEnumDevActionType = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            MaxEnumDevAspect = input.ReadInt32();
             break;
           }
           case 56: {
@@ -4022,6 +4172,152 @@ namespace Z9.Spcore.Proto {
 
   }
 
+  public sealed partial class DevStateRecordControl : pb::IMessage<DevStateRecordControl> {
+    private static readonly pb::MessageParser<DevStateRecordControl> _parser = new pb::MessageParser<DevStateRecordControl>(() => new DevStateRecordControl());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DevStateRecordControl> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Z9.Spcore.Proto.SpCoreProtoReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecordControl() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecordControl(DevStateRecordControl other) : this() {
+      switch (other.DevStateRecordFlowControlCase) {
+        case DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl:
+          DevStateRecordFlowControl = other.DevStateRecordFlowControl;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecordControl Clone() {
+      return new DevStateRecordControl(this);
+    }
+
+    /// <summary>Field number for the "devStateRecordFlowControl" field.</summary>
+    public const int DevStateRecordFlowControlFieldNumber = 1;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Z9.Spcore.Proto.DevStateRecordFlowControl DevStateRecordFlowControl {
+      get { return devStateRecordFlowControlCase_ == DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl ? (global::Z9.Spcore.Proto.DevStateRecordFlowControl) devStateRecordFlowControl_ : 0; }
+      set {
+        devStateRecordFlowControl_ = value;
+        devStateRecordFlowControlCase_ = DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl;
+      }
+    }
+
+    private object devStateRecordFlowControl_;
+    /// <summary>Enum of possible cases for the "devStateRecordFlowControl_" oneof.</summary>
+    public enum DevStateRecordFlowControlOneofCase {
+      None = 0,
+      DevStateRecordFlowControl = 1,
+    }
+    private DevStateRecordFlowControlOneofCase devStateRecordFlowControlCase_ = DevStateRecordFlowControlOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DevStateRecordFlowControlOneofCase DevStateRecordFlowControlCase {
+      get { return devStateRecordFlowControlCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void ClearDevStateRecordFlowControl() {
+      devStateRecordFlowControlCase_ = DevStateRecordFlowControlOneofCase.None;
+      devStateRecordFlowControl_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DevStateRecordControl);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DevStateRecordControl other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DevStateRecordFlowControl != other.DevStateRecordFlowControl) return false;
+      if (DevStateRecordFlowControlCase != other.DevStateRecordFlowControlCase) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (devStateRecordFlowControlCase_ == DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl) hash ^= DevStateRecordFlowControl.GetHashCode();
+      hash ^= (int) devStateRecordFlowControlCase_;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (devStateRecordFlowControlCase_ == DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) DevStateRecordFlowControl);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (devStateRecordFlowControlCase_ == DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DevStateRecordFlowControl);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DevStateRecordControl other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.DevStateRecordFlowControlCase) {
+        case DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl:
+          DevStateRecordFlowControl = other.DevStateRecordFlowControl;
+          break;
+      }
+
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            devStateRecordFlowControl_ = input.ReadEnum();
+            devStateRecordFlowControlCase_ = DevStateRecordFlowControlOneofCase.DevStateRecordFlowControl;
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class DevActionReq : pb::IMessage<DevActionReq> {
     private static readonly pb::MessageParser<DevActionReq> _parser = new pb::MessageParser<DevActionReq>(() => new DevActionReq());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4029,7 +4325,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4324,7 +4620,7 @@ namespace Z9.Spcore.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Z9.Spcore.Proto.SpCoreProtoReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Z9.Spcore.Proto.SpCoreProtoReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
