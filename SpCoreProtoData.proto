@@ -431,6 +431,10 @@ message DevAspectState {
 	oneof commState_ { CommState commState = 16;}
 	// If true, corresponding property is stale: commState
 	oneof commStateStale_ { bool commStateStale = 17;}
+	// Tamper state of the device.
+	oneof tamperState_ { TamperState tamperState = 26;}
+	// If true, corresponding property is stale: tamperState
+	oneof tamperStateStale_ { bool tamperStateStale = 27;}
 	// Activity state of the device (generally Sensor or Actuator) - whether it is active or inactive, but also includes warning, and repeating pulse.
 	oneof activityState_ { ActivityState activityState = 42;}
 	// If true, corresponding property is stale: activityState

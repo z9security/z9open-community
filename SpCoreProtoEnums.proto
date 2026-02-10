@@ -686,6 +686,11 @@ enum DevAspect {
 	DevAspect_RESERVED44 = 44;
 	DevAspect_RESERVED45 = 45;
 }
+// Tamper state of a Dev.
+enum TamperState {
+	TamperState_NORMAL = 0; // Normal.
+	TamperState_TAMPER = 1; // Tamper.
+}
 // Possible communications types for a CredReader.
 enum CredReaderCommType {
 	CredReaderCommType_RESERVED0 = 0;
