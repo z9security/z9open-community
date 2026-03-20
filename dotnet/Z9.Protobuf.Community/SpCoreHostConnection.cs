@@ -28,6 +28,7 @@ namespace Z9.Protobuf
         private readonly string _softwareVersionProduct;
         private readonly string _password;
         private readonly int _reconnectDelayMs;
+        private const int MaxRetryDelayMs = 160000;
 
         private readonly object _writeLock = new object();
         private readonly ManualResetEvent _stopped = new ManualResetEvent(true);
@@ -35,6 +36,7 @@ namespace Z9.Protobuf
         private SpCoreMessageOutputStream _mos;
         private volatile bool _running;
         private volatile bool _online;
+        private int _currentRetryDelayMs;
 
         private string LogPrefix => $"[{_controllerId}] ";
 
@@ -93,15 +95,17 @@ namespace Z9.Protobuf
         {
             try
             {
+                _currentRetryDelayMs = _reconnectDelayMs;
                 bool isReconnectAttempt = false;
 
                 while (_running)
                 {
                     if (isReconnectAttempt)
                     {
-                        Logger.Info(LogPrefix + $"ConnectionLoop: reconnecting in {_reconnectDelayMs}ms");
-                        Thread.Sleep(_reconnectDelayMs);
+                        Logger.Info(LogPrefix + $"ConnectionLoop: reconnecting in {_currentRetryDelayMs / 1000}s");
+                        Thread.Sleep(_currentRetryDelayMs);
                         if (!_running) break;
+                        _currentRetryDelayMs = Math.Min(_currentRetryDelayMs * 2, MaxRetryDelayMs);
                     }
 
                     isReconnectAttempt = true;
@@ -317,6 +321,7 @@ namespace Z9.Protobuf
                 + (identification.IdCase == Identification.IdOneofCase.Id ? identification.Id : "")
                 + " softwareVersion=" + (identification.SoftwareVersionCase == Identification.SoftwareVersionOneofCase.SoftwareVersion ? identification.SoftwareVersion : ""));
             _online = true;
+            _currentRetryDelayMs = _reconnectDelayMs;
 
             try
             {
