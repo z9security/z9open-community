@@ -199,6 +199,7 @@ namespace Z9.Protobuf
                     ProtocolVersion = "0.1",
                     MaxBodyLength = SpCoreMessageHeader.MAX_LENGTH,
                     SpCoreDevMod = DevMod.IoControllerCommunity,
+                    SpCoreDevUse = DevUse.IoControllerSecondary,
                     ProtocolCapabilities = new ProtocolCapabilities()
                 }
             };
