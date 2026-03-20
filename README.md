@@ -43,72 +43,11 @@ The `dotnet/` folder contains a C# SDK for Z9/Open Community Profile:
 
 ### Controller-Side Connection
 
-`SpCoreHostConnection` handles the full controller-side lifecycle: TCP connection, optional TLS, identification, ping keepalive, message dispatch, and automatic reconnection with exponential backoff.
-
-```csharp
-public class MyController : SpCoreHostConnectionObserverBase
-{
-    private SpCoreHostConnection _connection;
-
-    public void Start()
-    {
-        _connection = new SpCoreHostConnection(
-            observer: this,
-            hostAddress: "host.example.com",
-            hostPort: 9723,
-            controllerId: "00:11:22:33:44:55",  // lowercase MAC address
-            softwareVersion: "1.0.0",
-            sslSettings: mySslSettings,          // optional, implements ISslSettings
-            softwareVersionProduct: "MyProduct", // optional
-            password: "secret");                 // optional
-        _connection.Start();
-    }
-
-    public override void OnOnline(SpCoreHostConnection connection, Identification hostIdentification)
-    {
-        // Called after full identification handshake completes
-    }
-
-    public override string OnDbChange(SpCoreHostConnection connection, DbChange dbChange)
-    {
-        // Process database change; return error string or null for success
-        // DbChangeResp is sent automatically
-        return null;
-    }
-}
-```
-
-Reconnection uses exponential backoff (5s initial, doubling to 160s max). The backoff resets only after successful identification — if TCP connects but TLS or identification fails, the delay continues increasing.
+`SpCoreHostConnection` provides controller-side TCP/TLS connection, identification, ping, message dispatch, and reconnection with exponential backoff (5s to 160s, resets after successful identification). Implement `ISpCoreHostConnectionObserver` (or extend `SpCoreHostConnectionObserverBase`) to receive callbacks.
 
 ### Logging
 
-The library uses [log4net](https://logging.apache.org/log4net/) internally. All classes obtain loggers via:
-
-```csharp
-private static readonly log4net.ILog Logger =
-    log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-```
-
-The library does **not** configure log4net itself — the consuming application must configure it. Without configuration, all library log output (connection lifecycle, TLS handshake, exponential backoff, message dispatch) is silently discarded.
-
-To enable logging, configure log4net in your application startup. For example, a simple file appender:
-
-```csharp
-var layout = new log4net.Layout.PatternLayout("%date %-5level %logger - %message%newline");
-layout.ActivateOptions();
-
-var appender = new log4net.Appender.FileAppender
-{
-    File = "z9open-library.log",
-    Layout = layout,
-    AppendToFile = true
-};
-appender.ActivateOptions();
-
-log4net.Config.BasicConfigurator.Configure(
-    log4net.LogManager.GetRepository(System.Reflection.Assembly.GetEntryAssembly()),
-    appender);
-```
+The library logs internally via log4net. The consuming application must configure log4net — without configuration, library log output is silently discarded.
 
 ### Publishing to NuGet
 
