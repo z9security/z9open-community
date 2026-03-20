@@ -20,6 +20,8 @@ namespace Z9.Protobuf
 
         static readonly int DefaultPort = 9730;
         static readonly int ReceiveTimeout = 20000;
+        static readonly int InitialRetryDelayMs = 5000;
+        static readonly int MaxRetryDelayMs = 160000;
 
         private readonly SpCoreControllerState _controllerState;
 
@@ -55,6 +57,7 @@ namespace Z9.Protobuf
         {
             DateTime offlineAfter = DateTime.Now.AddMilliseconds(5000);
             bool notifiedConnectTimeout = false;
+            int retryDelayMs = InitialRetryDelayMs;
             while (!_stopping)
             {
                 try
@@ -84,7 +87,9 @@ namespace Z9.Protobuf
                         }
                     }
 
-                    Thread.Sleep(1000);
+                    Logger.Info($"{_controllerState.LogPrefix}Retrying connection in {retryDelayMs / 1000}s");
+                    Thread.Sleep(retryDelayMs);
+                    retryDelayMs = Math.Min(retryDelayMs * 2, MaxRetryDelayMs);
                 }
             }
         }

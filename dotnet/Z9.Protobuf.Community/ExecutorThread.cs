@@ -27,6 +27,8 @@ namespace Z9.Protobuf
         private readonly AutoResetEvent _connectedEvent = new AutoResetEvent(false);
         private readonly AutoResetEvent _disconnectedEvent = new AutoResetEvent(false);
         private readonly int ConnectionInitTimeout = 5000;
+        private static readonly int InitialReconnectDelayMs = 5000;
+        private static readonly int MaxReconnectDelayMs = 160000;
 
         private TcpClient _client;
         private Thread _thread;
@@ -72,12 +74,15 @@ namespace Z9.Protobuf
             bool isReconnectAttempt = false;
             Exception exception = null;
             TcpClient client = null;
+            int reconnectDelayMs = InitialReconnectDelayMs;
 
             while (!_stopping)
             {
                 if (isReconnectAttempt)
                 {
-                    Thread.Sleep(ConnectionInitTimeout);
+                    Logger.Info($"{_controllerState.LogPrefix}Reconnecting in {reconnectDelayMs / 1000}s");
+                    Thread.Sleep(reconnectDelayMs);
+                    reconnectDelayMs = Math.Min(reconnectDelayMs * 2, MaxReconnectDelayMs);
                     if (_stopping)
                         break;
                 }
@@ -116,6 +121,7 @@ namespace Z9.Protobuf
                     Logger.Info($"{_controllerState.LogPrefix}Run: Connected");
 
                     isReconnectAttempt = true;
+                    reconnectDelayMs = InitialReconnectDelayMs;
 
                     exception = _controllerState.exception = null;
 
