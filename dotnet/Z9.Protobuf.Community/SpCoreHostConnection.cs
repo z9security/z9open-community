@@ -26,6 +26,7 @@ namespace Z9.Protobuf
         private readonly string _softwareVersion;
         private readonly ISslSettings _sslSettings;
         private readonly string _softwareVersionProduct;
+        private readonly string _password;
         private readonly int _reconnectDelayMs;
 
         private readonly object _writeLock = new object();
@@ -45,6 +46,7 @@ namespace Z9.Protobuf
             string controllerId, string softwareVersion,
             ISslSettings sslSettings = null,
             string softwareVersionProduct = null,
+            string password = null,
             int reconnectDelayMs = 5000)
         {
             _observer = observer ?? throw new ArgumentNullException(nameof(observer));
@@ -54,6 +56,7 @@ namespace Z9.Protobuf
             _softwareVersion = softwareVersion;
             _sslSettings = sslSettings;
             _softwareVersionProduct = softwareVersionProduct;
+            _password = password;
             _reconnectDelayMs = reconnectDelayMs;
         }
 
@@ -203,13 +206,16 @@ namespace Z9.Protobuf
             if (!string.IsNullOrEmpty(_softwareVersionProduct))
                 message.Identification.SoftwareVersionProduct = _softwareVersionProduct;
 
-            SetProtocolCapabilities(message.Identification.ProtocolCapabilities);
+            if (!string.IsNullOrEmpty(_password))
+                message.Identification.Password = _password;
+
+            SetProtocolCapabilities(message.Identification.ProtocolCapabilities, _password);
 
             Logger.Debug(LogPrefix + "SendIdentification");
             WriteMessage(message);
         }
 
-        private static void SetProtocolCapabilities(ProtocolCapabilities c)
+        private static void SetProtocolCapabilities(ProtocolCapabilities c, string password)
         {
             c.MaxEnumDevMod = Enum.GetNames(typeof(DevMod)).Length - 1;
             c.MaxEnumDevUse = Enum.GetNames(typeof(DevUse)).Length - 1;
@@ -219,8 +225,12 @@ namespace Z9.Protobuf
             c.MaxEnumEvtSubCode = Enum.GetNames(typeof(EvtSubCode)).Length - 1;
             c.MaxEnumDevPlatform = Enum.GetNames(typeof(DevPlatform)).Length - 1;
             c.MaxEnumTerminationReason = Enum.GetNames(typeof(TerminationReason)).Length - 1;
-            c.SupportsIdentificationPassword = true;
-            c.SupportsIdentificationPasswordUpstream = true;
+
+            if (!string.IsNullOrEmpty(password))
+            {
+                c.SupportsIdentificationPassword = true;
+                c.SupportsIdentificationPasswordUpstream = true;
+            }
         }
 
         private void ReadLoop(SpCoreMessageInputStream mis)
