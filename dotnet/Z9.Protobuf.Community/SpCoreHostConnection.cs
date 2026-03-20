@@ -278,13 +278,12 @@ namespace Z9.Protobuf
 
         private void HandleMessage(SpCoreMessage message)
         {
+            if (message.Type == SpCoreMessage.Types.Type.Ping) return;
+
             Logger.Debug(LogPrefix + "HandleMessage: " + message.Type);
 
             switch (message.Type)
             {
-                case SpCoreMessage.Types.Type.Ping:
-                    break;
-
                 case SpCoreMessage.Types.Type.Identification:
                     OnIdentification(message.Identification);
                     break;
