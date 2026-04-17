@@ -303,7 +303,6 @@ message Dev {
 	oneof devSubType_ { DevSubType devSubType = 31;}
 	// Device model.
 	oneof devMod_ { DevMod devMod = 32;}
-	// Communications family: network, serial, etc.
 	// Device platform.
 	oneof devPlatform_ { DevPlatform devPlatform = 35;}
 	// If devMod is EXTERNAL, a text description of the model.
