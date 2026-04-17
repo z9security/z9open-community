@@ -46,6 +46,21 @@ enum PrivType {
 	PrivType_RESERVED2 = 2;
 	PrivType_RESERVED3 = 3;
 }
+// Possible types for a CredHolderEmail.
+enum CredHolderEmailType {
+	CredHolderEmailType_HOME = 0; // Home.
+	CredHolderEmailType_RESERVED1 = 1;
+	CredHolderEmailType_RESERVED2 = 2;
+}
+// Possible types for a CredHolderPhone.
+enum CredHolderPhoneType {
+	CredHolderPhoneType_RESERVED0 = 0;
+	CredHolderPhoneType_RESERVED1 = 1;
+	CredHolderPhoneType_MOBILE = 2; // Mobile.
+	CredHolderPhoneType_RESERVED3 = 3;
+	CredHolderPhoneType_RESERVED4 = 4;
+	CredHolderPhoneType_RESERVED5 = 5;
+}
 // Model for a Dev (device).
 enum DevMod {
 	DevMod_IO_CONTROLLER_Z9_CUSTOM = 0; // IO_CONTROLLER model: z9io: Custom.
@@ -308,6 +323,14 @@ enum DevMod {
 	DevMod_RESERVED257 = 257;
 	DevMod_RESERVED258 = 258;
 	DevMod_DOOR_COMMUNITY = 259; // DOOR model: Community.
+	DevMod_RESERVED260 = 260;
+	DevMod_RESERVED261 = 261;
+	DevMod_RESERVED262 = 262;
+	DevMod_RESERVED263 = 263;
+	DevMod_RESERVED264 = 264;
+	DevMod_RESERVED265 = 265;
+	DevMod_RESERVED266 = 266;
+	DevMod_RESERVED267 = 267;
 }
 // Types for subclasses of DevModConfig.
 enum DevModConfigType {
@@ -384,6 +407,10 @@ enum DevPlatform {
 	DevPlatform_RESERVED42 = 42;
 	DevPlatform_RESERVED43 = 43;
 	DevPlatform_RESERVED44 = 44;
+	DevPlatform_RESERVED45 = 45;
+	DevPlatform_RESERVED46 = 46;
+	DevPlatform_RESERVED47 = 47;
+	DevPlatform_RESERVED48 = 48;
 }
 // Device sub-type.
 enum DevSubType {
@@ -685,6 +712,7 @@ enum DevAspect {
 	DevAspect_RESERVED43 = 43;
 	DevAspect_RESERVED44 = 44;
 	DevAspect_RESERVED45 = 45;
+	DevAspect_RESERVED46 = 46;
 }
 // Tamper state of a Dev.
 enum TamperState {
@@ -1054,6 +1082,8 @@ enum EvtCode {
 	EvtCode_RESERVED279 = 279;
 	EvtCode_RESERVED280 = 280;
 	EvtCode_RESERVED281 = 281;
+	EvtCode_RESERVED282 = 282;
+	EvtCode_RESERVED283 = 283;
 }
 // An Evt sub-code, to provide further granularity than EvtCode.
 enum EvtSubCode {

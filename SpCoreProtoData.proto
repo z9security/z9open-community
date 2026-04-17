@@ -59,6 +59,8 @@ message Cred {
 	/*optional*/ DateTimeData effective = 20;
 	// Expiration date: credential inactive after this date.
 	/*optional*/ DateTimeData expires = 21;
+	// credential holder that this credential is owned by or assigned to.
+	oneof credHolderUnid_ { int32 credHolderUnid = 22;}
 	// Credential template.
 	oneof credTemplateUnid_ { int32 credTemplateUnid = 23;}
 	// Card/PIN.
@@ -271,6 +273,85 @@ message Priv {
 	oneof extension {
 		DoorAccessPriv extDoorAccessPriv = 101;
 	}
+}
+// Credential holder. A CredHolder may have 0 or more Cred.
+message CredHolder {
+	// Version (for optimistic locking)
+	oneof version_ { int32 version = 1;}
+	// tag.
+	oneof tag_ { string tag = 6;}
+	// UUID.
+	oneof uuid_ { string uuid = 7;}
+	// Unique ID.
+	oneof unid_ { int32 unid = 11;}
+	// First name (given name).
+	oneof first_ { string first = 14;}
+	// Last name (surname/family name).
+	oneof last_ { string last = 16;}
+	// Credential holder type.
+	oneof credHolderTypeUnid_ { int32 credHolderTypeUnid = 18;}
+	// true if the credential holder is enabled, false if disabled.  Disabled implies no physical or logical access.
+	/*required*/ oneof enabled_ { bool enabled = 20;}
+	// Title: e.g. Mr., Ms., Mrs., Frau Doktor, etc.
+	oneof title_ { string title = 22;}
+	// Email addresses.
+	repeated CredHolderEmail emails = 26;
+	// Phone numbers.
+	repeated CredHolderPhone phones = 27;
+	// Custom data.
+	/*optional*/ CustomData customData = 41;
+	// Name as a single string.
+	oneof name_ { string name = 47;}
+}
+// Email address for a CredHolder, with a qualifying type: CredHolderEmailType.
+message CredHolderEmail {
+	// Unique ID.
+	oneof unid_ { int32 unid = 1;}
+	// The type of email address.
+	oneof type_ { CredHolderEmailType type = 2;}
+	// Email address.
+	oneof emailAddress_ { string emailAddress = 3;}
+}
+// Phone number for a CredHolder, with a qualifying type: CredHolderPhoneType.
+message CredHolderPhone {
+	// Unique ID.
+	oneof unid_ { int32 unid = 1;}
+	// The type of phone number.  Most commonly used: MOBILE.
+	oneof type_ { CredHolderPhoneType type = 2;}
+	// Phone number.
+	oneof phoneNumber_ { string phoneNumber = 3;}
+}
+// CredHolder type - a user-defined type used for classifying a credential holder.  A CredHolder may be associated with at most one CredHolderType.
+message CredHolderType {
+	// Version (for optimistic locking)
+	oneof version_ { int32 version = 1;}
+	// tag.
+	oneof tag_ { string tag = 6;}
+	// UUID.
+	oneof uuid_ { string uuid = 7;}
+	// Name.
+	oneof name_ { string name = 10;}
+	// Unique ID.
+	oneof unid_ { int32 unid = 12;}
+}
+// Embeddable custom (user-defined) data.
+message CustomData {
+	// Custom text 0.
+	oneof customText0_ { string customText0 = 1;}
+	// Custom text 1.
+	oneof customText1_ { string customText1 = 2;}
+	// Custom text 2.
+	oneof customText2_ { string customText2 = 3;}
+	// Custom text 3.
+	oneof customText3_ { string customText3 = 4;}
+	// Custom text 4.
+	oneof customText4_ { string customText4 = 5;}
+	// Custom text 5.
+	oneof customText5_ { string customText5 = 6;}
+	// Custom text 6.
+	oneof customText6_ { string customText6 = 7;}
+	// Custom text 7.
+	oneof customText7_ { string customText7 = 8;}
 }
 // Base class for a device - a hardware (or in some cases software, or virtual) component within the system, arranged in a physical and logical hierarchy.
 message Dev {
